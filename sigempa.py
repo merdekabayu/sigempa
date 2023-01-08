@@ -551,6 +551,7 @@ def sensor_stat():
     yest = yes.strftime('%d%m%y')
     
     fileav='static/availability_'+yest+'.png'
+    print('sampee siniiii',fileav)
     if not os.path.exists(fileav):
         if utctime >= timerange and utctime <= timerange1:
             command = 'sshpass -p "bmkg212$" scp -P22 -r sysop@172.21.95.248:availability_new.png '+fileav
