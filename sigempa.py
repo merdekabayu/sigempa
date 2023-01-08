@@ -534,6 +534,7 @@ def arrival_download():
 @app.route('/sensor/status', methods=["POST","GET"])
 def sensor_stat():
     
+    print('sampee siniiii')
     data = slinktool()
     last_data = data[0]
     today = data[1]
