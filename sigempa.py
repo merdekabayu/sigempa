@@ -25,7 +25,8 @@ app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'sigempa2023'
 app.config['MYSQL_DB'] = 'sistem_diseminasi_test'
-app.config["UPLOAD_FOLDER"] = "static/shakemap/"
+#app.config["UPLOAD_FOLDER"] = "static/shakemap/"
+app.config["CLIENT_MSEED"] = "C:\Users\LENOVO\Downloads"
 mysql = MySQL(app)
 
 @app.route('/htmltes')
@@ -643,7 +644,7 @@ def downloadwaveformbyevent():
         else:
             id = down_waveformbyevent()
             print(id)
-            return send_from_directory('fungsi/waveform/','fungsi/waveform/'+id+'.mseed', as_attachment=True, attachment_filename=id+'.mseed')
+            return send_from_directory(app.config['CLIENT_MSEED'],'fungsi/waveform/'+id+'.mseed', as_attachment=True, attachment_filename=id+'.mseed')
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
