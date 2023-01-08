@@ -21,10 +21,10 @@ import bcrypt
 
 app = Flask(__name__)
 app.secret_key = "membuatLOginFlask1"
-app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_HOST'] = '147.139.195.157'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'root'
-app.config['MYSQL_DB'] = 'sistem_diseminasi'
+app.config['MYSQL_PASSWORD'] = 'sigempa2023'
+app.config['MYSQL_DB'] = 'sistem_diseminasi_test'
 app.config["UPLOAD_FOLDER"] = "static/shakemap/"
 mysql = MySQL(app)
 
