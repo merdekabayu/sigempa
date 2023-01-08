@@ -645,7 +645,7 @@ def downloadwaveformbyevent():
             id = down_waveformbyevent()
             print(id)
             send_from_directory(app.config['CLIENT_MSEED'],'fungsi/waveform/'+id+'.mseed', as_attachment=True, attachment_filename=id+'.mseed')
-            return send_from_directory(app.config['CLIENT_MSEED'],'fungsi/waveform/'+id+'.mseed', as_attachment=True, attachment_filename=id+'.mseed')
+            return send_from_directory('/','fungsi/waveform/'+id+'.mseed', as_attachment=True, attachment_filename=id+'.mseed')
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
