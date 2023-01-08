@@ -247,7 +247,9 @@ def down_waveformbyevent():
     command = 'sshpass -p "bmkg212$" scp -P 2222 -r fungsi/download_waveformbyevent.sh sysop@36.91.152.130:vps_server/download_waveformbyevent.sh'
     os.system(command)
     os.system('sshpass -p "bmkg212$" ssh -p2222 sysop@36.91.152.130 sh vps_server/download_waveformbyevent.sh')
-    os.system('sshpass -p "bmkg212$" scp -P 2222 -r sysop@36.91.152.130:vps_server/'+id+'.mseed fungsi/waveform/'+id+'.mseed')
+    #os.system('sshpass -p "bmkg212$" scp -P 2222 -r sysop@36.91.152.130:vps_server/'+id+'.mseed fungsi/waveform/'+id+'.mseed')
+    os.system("sshpass -p 'bmkg212$' rsync -arvz -e 'ssh -p2222' --progress --delete sysop@36.91.152.130:vps_server/"+id+".mseed fungsi/waveform/"+id+".mseed")
+    #rsync -arvz -e 'ssh -p <port-number>' --progress --delete user@remote-server:/path/to/remote/folder /path/to/local/folder
 
     
     print(id)
