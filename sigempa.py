@@ -551,14 +551,15 @@ def sensor_stat():
     yest = yes.strftime('%d%m%y')
     
     fileav='static/availability_'+yest+'.png'
-    print('sampee siniiii',fileav)
+    
     if not os.path.exists(fileav):
         if utctime >= timerange and utctime <= timerange1:
-            command = 'sshpass -p "bmkg212$" scp -P22 -r sysop@172.21.95.248:availability_new.png '+fileav
+            command = 'sshpass -p "bmkg212$" scp -p 2222 -r sysop@36.91.152.130:availability_new.png '+fileav
+            print('sampee siniiii',command)
             os.system(command)
         else:
-            os.system('sshpass -p "bmkg212$" ssh -P22 sysop@172.21.95.248 sh run_availability.sh')
-            command = 'sshpass -p "bmkg212$" scp -P22 -r sysop@172.21.95.248:availability_new.png '+fileav
+            os.system('sshpass -p "bmkg212$" ssh -p 2222 sysop@36.91.152.130 sh run_availability.sh')
+            command = 'sshpass -p "bmkg212$" scp -p 2222 -r sysop@36.91.152.130:availability_new.png '+fileav
             os.system(command)
     if request.method == 'GET':
         sta = 'TNTI'
