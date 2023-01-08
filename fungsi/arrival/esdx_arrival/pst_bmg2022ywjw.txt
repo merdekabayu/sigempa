@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022ywjw
+    Preferred Origin ID    Origin/20221220190808.482618.377221
+    Preferred Magnitude ID Origin/20221220190808.482618.377221/netMag/M
+    Description
+      region name: Banda Sea
+    Creation time          2022-12-20 19:08:15
+
+Origin:
+    Public ID              Origin/20221220190808.482618.377221
+    Date                   2022-12-20
+    Time                   18:50:31.2  +/-    0.4 s
+    Latitude                -7.49 deg  +/-      4 km
+    Longitude              128.53 deg  +/-      3 km
+    Depth                     199 km   +/-   15 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-20 19:08:08
+    Residual RMS             1.04 s
+    Azimuthal gap             122 deg
+
+5 Network magnitudes:
+    mb        4.01 +/- 0.25   4            BMG
+    mB        4.58 +/- 0.22   2            BMG
+    Mw(mB)    3.78 +/- 0.40   2            BMG
+    MLv       4.33 +/- 0.09   7            BMG
+    M         4.22            7 preferred  BMG1
+
+16 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SAUI  IA    2.8 100  P       18:51:19.1   0.8 M  1.0  SAUI 
+    KTMI  IA    3.0  93  P       18:51:20.5  -0.6 M  1.0  KTMI 
+    AAFM  IA    3.9 258  P       18:51:30.5  -0.7 M  1.0  AAFM 
+    ATNI  IA    4.0 246  P       18:51:32.0  -0.5 M  1.0  ATNI 
+    ALKI  IA    4.0 260  P       18:51:31.6  -0.9 M  1.0  ALKI 
+    TNTN  IA    4.5 244  P       18:51:39.3   0.5 M  1.0  TNTN 
+    KKMI  IA    4.5  67  P       18:51:40.4   0.8 M  1.0  KKMI 
+    KTTI  IA    4.7 237  P       18:51:40.3  -1.3 M  1.0  KTTI 
+    SOEI  IA    4.8 242  P       18:51:42.7  -0.1 M  1.0  SOEI 
+    LMNI  IA    4.8 261  P       18:51:46.3   2.9 M  1.0  LMNI 
+    FAKI  IA    5.9  39  P       18:51:55.6  -1.2 M  1.0  FAKI 
+    MTN   AU    5.9 155  P       18:51:57.4   0.2 M  1.0  MTN  
+    SWI   IA    7.1  23  P       18:52:13.9   0.8 M  1.0  SWI  
+    AMPM  IA    7.3  33  P       18:52:14.7  -1.2 M  1.0  AMPM 
+    MBPI  IA    7.5  44  P       18:52:18.7   0.6 M  1.0  MBPI 
+    KNRA  AU    8.1 178  P       18:52:26.0  -0.2 M  1.0  KNRA 
+
+11 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    KTMI  IA    3.0  93  MLv     4.33 -0.00    1.40298     
+    TNTN  IA    4.5 244  MLv     4.24 -0.09   0.331907     
+    SOEI  IA    4.8 242  MLv     4.29 -0.04   0.313101     
+    FAKI  IA    5.9  39  MLv     4.36  0.03   0.193149     
+    FAKI  IA    5.9  39  mb      3.97 -0.04    39.5539 1.32
+    MTN   AU    5.9 155  MLv     4.44  0.11   0.228391     
+    MTN   AU    5.9 155  mB      4.43 -0.15    738.294     
+    MTN   AU    5.9 155  mb      4.05  0.04    16.1312 0.45
+    SWI   IA    7.1  23  mb      3.66 -0.35    16.5871 1.38
+    KNRA  AU    8.1 178  mB      4.74  0.15    952.961     
+    KNRA  AU    8.1 178  mb      4.36  0.35    39.1177 0.84
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

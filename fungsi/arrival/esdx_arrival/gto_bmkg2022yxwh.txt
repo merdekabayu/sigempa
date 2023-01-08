@@ -1,0 +1,82 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yxwh
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-21
+    Time                   14:15:27.0  +/-    0.4 s
+    Latitude                 0.59 deg  +/-      3 km
+    Longitude              121.69 deg  +/-      2 km
+    Depth                      63 km   +/-    5 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.61 s
+    Azimuthal gap             120 deg
+
+5 Network magnitudes:
+    Mjma      3.15 +/- 0.15   8            
+    ML        3.12 +/- 0.27   9            
+    MLv       3.16 +/- 0.24   9            
+    Ms(BB)    3.30 +/- 0.07   2            
+    M         3.18            9 preferred  
+
+23 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MRSI  IA    0.3 114  P       14:15:38.5  -0.2 M  1.0  MRSI 
+    MRSI  IA    0.3 114  S       14:15:48.3   0.7 M  1.0  MRSI 
+    TPCI  IA    0.6 258  P       14:15:41.2  -0.4 M  1.0  TPCI 
+    TPCI  IA    0.6 258  S       14:15:52.5  -0.3 M  1.0  TPCI 
+    SMSI  IA    0.8  60  P       14:15:42.7  -0.5 M  1.0  SMSI 
+    SMSI  IA    0.8  60  S       14:15:55.4  -0.2 M  1.0  SMSI 
+    TOLI2 IA    1.0 300  P       14:15:46.6   0.8 M  1.0  TOLI2
+    TOLI2 IA    1.0 300  S       14:16:00.1  -0.1 M  1.0  TOLI2
+    KGCM  IA    1.2  88  P       14:15:48.1   0.8 M  1.0  KGCM 
+    KGCM  IA    1.2  88  S       14:16:02.7  -0.2 M  1.0  KGCM 
+    GTOI  IA    1.2  82  P       14:15:48.0   0.3 M  1.0  GTOI 
+    GTOI  IA    1.2  82  S       14:16:03.6  -0.1 M  1.0  GTOI 
+    TGCM  IA    1.4  93  P       14:15:50.5   0.1 M  1.0  TGCM 
+    TGCM  IA    1.4  93  S       14:16:08.3  -0.1 M  1.0  TGCM 
+    APSI  IA    1.5 182  P       14:15:51.1  -0.6 M  1.0  APSI 
+    APSI  IA    1.5 182  S       14:16:10.9   0.0 M  1.0  APSI 
+    MPSI  IA    1.8 262  P       14:15:56.5   0.5 M  1.0  MPSI 
+    LUWI  IA    1.9 146  P       14:15:59.7   1.9 M  1.0  LUWI 
+    LUWI  IA    1.9 146  S       14:16:21.3  -0.6 M  1.0  LUWI 
+    BLCM  IA    2.1 251  P       14:15:59.8  -0.4 M  1.0  BLCM 
+    BLCM  IA    2.1 251  S       14:16:25.9  -0.2 M  1.0  BLCM 
+    PBCI  IA    2.4  95  P       14:16:02.3  -1.0 M  1.0  PBCI 
+    PBCI  IA    2.4  95  S       14:16:31.5  -0.2 M  1.0  PBCI 
+
+28 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MRSI  IA    0.3 114  ML      2.56 -0.56      3.153     
+    SMSI  IA    0.8  60  ML      2.97 -0.16    1.07281     
+    SMSI  IA    0.8  60  MLv     2.93 -0.23   0.997969     
+    TOLI2 IA    1.0 300  ML      3.06 -0.07   0.941067     
+    TOLI2 IA    1.0 300  MLv     3.18  0.02    1.24275     
+    TOLI2 IA    1.0 300  Mjma    3.02 -0.13   0.685158     
+    GTOI  IA    1.2  82  ML      3.11 -0.02   0.881594     
+    GTOI  IA    1.2  82  MLv     3.07 -0.09   0.815532     
+    GTOI  IA    1.2  82  Mjma    2.97 -0.18   0.488942     
+    TGCM  IA    1.4  93  ML      3.53  0.40     1.7945     
+    TGCM  IA    1.4  93  MLv     3.36  0.20    1.23932     
+    TGCM  IA    1.4  93  Mjma    3.11 -0.04   0.522332     
+    APSI  IA    1.5 182  MLv     2.64 -0.52   0.200583     
+    APSI  IA    1.5 182  Mjma    3.02 -0.14    0.36536     
+    MPSI  IA    1.8 262  ML      3.45  0.33   0.887554     
+    MPSI  IA    1.8 262  MLv     3.56  0.40    1.13738     
+    MPSI  IA    1.8 262  Mjma    3.24  0.08   0.438583     
+    LUWI  IA    1.9 146  ML      3.12 -0.00   0.340498     
+    LUWI  IA    1.9 146  MLv     3.25  0.08   0.454046     
+    LUWI  IA    1.9 146  Mjma    3.20  0.04   0.347991     
+    BLCM  IA    2.1 251  ML      3.33  0.21   0.449111     
+    BLCM  IA    2.1 251  MLv     3.33  0.17   0.447204     
+    BLCM  IA    2.1 251  Mjma    3.29  0.13    0.37231     
+    BLCM  IA    2.1 251  Ms(BB)  3.25 -0.05   1.60005e-06 0.52
+    PBCI  IA    2.4  95  ML      2.93 -0.19   0.131692     
+    PBCI  IA    2.4  95  MLv     3.07 -0.09   0.183741     
+    PBCI  IA    2.4  95  Mjma    3.41  0.25    0.41093     
+    PBCI  IA    2.4  95  Ms(BB)  3.35  0.05   1.68815e-06 0.14
+
+stageofgorontalo
+</p></body></html>

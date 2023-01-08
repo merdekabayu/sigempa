@@ -1,0 +1,47 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zmxq
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-29
+    Time                   19:58:11.3  +/-    0.9 s
+    Latitude                 0.25 deg  +/-      5 km
+    Longitude              122.05 deg  +/-      6 km
+    Depth                     171 km   +/-    6 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.60 s
+    Azimuthal gap             233 deg
+
+2 Network magnitudes:
+    MLv       3.53 +/- 0.18   7            
+    M         3.53            7 preferred  
+
+14 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SMSI  IA    0.8  24  P       19:58:36.6  -0.8 M  1.0  SMSI 
+    SMSI  IA    0.8  24  S       19:58:56.4  -1.2 M  1.0  SMSI 
+    KGCM  IA    0.9  64  P       19:58:38.1   0.4 M  1.0  KGCM 
+    KGCM  IA    0.9  64  S       19:58:59.5   1.2 M  1.0  KGCM 
+    GTOI  IA    1.0  58  P       19:58:38.2   0.1 M  1.0  GTOI 
+    GTOI  IA    1.0  58  S       19:58:59.5   0.6 M  1.0  GTOI 
+    TGCM  IA    1.1  76  P       19:58:38.8   0.0 M  1.0  TGCM 
+    TGCM  IA    1.1  76  S       19:59:00.3   0.2 M  1.0  TGCM 
+    LUWI  IA    1.5 151  P       19:58:42.8   0.3 M  1.0  LUWI 
+    LUWI  IA    1.5 151  S       19:59:06.5  -0.4 M  1.0  LUWI 
+    KMSI  IA    2.0  81  P       19:58:28.6 -18.8 MX 0.0  KMSI 
+    PBCI  IA    2.0  86  P       19:58:48.0   0.1 M  1.0  PBCI 
+    PBCI  IA    2.0  86  S       19:59:15.8  -0.7 M  1.0  PBCI 
+    TBMCM IA    2.6  80  P       19:58:54.8   0.2 M  1.0  TBMCM
+
+5 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    GTOI  IA    1.0  58  MLv     3.36 -0.17    2.08639     
+    TGCM  IA    1.1  76  MLv     3.64  0.11    3.52927     
+    LUWI  IA    1.5 151  MLv     3.34 -0.19    1.04093     
+    PBCI  IA    2.0  86  MLv     3.67  0.14    1.14726     
+    TBMCM IA    2.6  80  MLv     3.65  0.12   0.512581     
+
+stageofgorontalo
+</p></body></html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022ybfg
+    Preferred Origin ID    Origin/20221209044035.814364.135106
+    Preferred Magnitude ID Magnitude/20221209044039.671286.135113
+    Description
+      region name: Seram, Indonesia
+    Creation time          2022-12-09 04:40:41
+
+Origin:
+    Public ID              Origin/20221209044035.814364.135106
+    Date                   2022-12-09
+    Time                   04:39:04.7  +/-    1.2 s
+    Latitude                -3.09 deg  +/-      9 km
+    Longitude              128.08 deg  +/-     19 km
+    Depth                      21 km   +/-   26 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-09 04:40:35
+    Residual RMS             0.21 s
+    Azimuthal gap             188 deg
+
+3 Network magnitudes:
+    MLv       2.34 +/- 0.00   1 preferred  BMG
+    M        -0.58            1            BMG1
+    Mjma     -6.42 +/- 0.00   1            BMG1
+
+8 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    NSBMM IA    0.1  89  P       04:39:10.1  -0.2 M  1.0  NSBMM
+    NSBMM IA    0.1  89  S       04:39:14.6   0.2 M  1.0  NSBMM
+    KRAI  IA    0.4 126  P       04:39:14.4   0.2 M  1.0  KRAI 
+    KRAI  IA    0.4 126  S       04:39:20.8  -0.4 M  1.0  KRAI 
+    TAMI  IA    0.6 177  P       04:39:17.1  -0.0 M  1.0  TAMI 
+    AAII  IA    0.6 169  P       04:39:17.7   0.2 M  1.0  AAII 
+    AAI   IA    0.6 169  P       04:39:17.6   0.1 M  1.0  AAI  
+    NLAI  IA    1.0 261  P       04:39:23.0  -0.2 M  1.0  NLAI 
+
+2 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    NSBMM IA    0.1  89  MLv     2.34  0.00    4.66828     
+    AAI   IA    0.6 169  Mjma   -6.42  0.00   6.30225e-10     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

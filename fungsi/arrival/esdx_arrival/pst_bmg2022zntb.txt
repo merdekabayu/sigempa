@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022zntb
+    Preferred Origin ID    Origin/20221230065120.349531.442321
+    Preferred Magnitude ID Origin/20221230065120.349531.442321/netMag/M
+    Description
+      region name: Southwest of Sumatra, Indonesia
+    Creation time          2022-12-30 06:49:21
+
+Origin:
+    Public ID              Origin/20221230065120.349531.442321
+    Date                   2022-12-30
+    Time                   06:47:46.2  +/-    1.2 s
+    Latitude                -0.22 deg  +/-      4 km
+    Longitude               97.22 deg  +/-      5 km
+    Depth                      39 km   +/-   11 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-30 06:51:20
+    Residual RMS             0.66 s
+    Azimuthal gap             214 deg
+
+3 Network magnitudes:
+    MLv       4.69 +/- 0.16  13            BMG
+    Mjma      4.90 +/- 0.15  12            BMG1
+    M         4.76           13 preferred  BMG1
+
+38 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TDNI  IA    1.0  37  P       06:48:03.7   0.1 M  1.0  TDNI 
+    TDNI  IA    1.0  37  S       06:48:17.2   0.2 M  1.0  TDNI 
+    PBSI  IA    1.1  81  P       06:48:04.5  -0.3 M  1.0  PBSI 
+    PBSI  IA    1.1  81  S       06:48:18.4  -0.6 M  1.0  PBSI 
+    SNBI  IA    1.2  10  P       06:48:06.3  -0.1 M  1.0  SNBI 
+    SNBI  IA    1.2  10  S       06:48:21.9  -0.2 M  1.0  SNBI 
+    GSI   IA    1.6  13  P       06:48:11.5   0.1 M  1.0  GSI  
+    TNSR  IA    1.7   8  P       06:48:13.5   0.2 M  1.0  TNSR 
+    TNSR  IA    1.7   8  S       06:48:35.3   0.5 M  1.0  TNSR 
+    SBSM  IA    2.2  79  P       06:48:19.8  -0.4 M  1.0  SBSM 
+    LTSM  IA    2.4  45  P       06:48:22.9  -0.6 M  1.0  LTSM 
+    MTSI  IA    2.6  24  P       06:48:25.4   0.0 M  1.0  MTSI 
+    SASI  IA    2.7  83  P       06:48:26.8  -0.1 M  1.0  SASI 
+    SBSI  IA    2.7  54  P       06:48:27.4  -0.2 M  1.0  SBSI 
+    SNSI  IA    2.8 341  P       06:48:28.6   0.7 M  1.0  SNSI 
+    SNSI  IA    2.8 341  S       06:49:00.5  -1.4 M  1.0  SNSI 
+    KASAI IA    2.8  13  P       06:48:28.6   0.5 M  1.0  KASAI
+    TASI  IA    2.9  92  P       06:48:32.1   2.7 M  1.0  TASI 
+    PTSM  IA    3.0  41  P       06:48:30.8   0.2 M  1.0  PTSM 
+    SASN  IA    3.0  15  P       06:48:30.3  -0.5 M  1.0  SASN 
+    TRIYO IA    3.0 128  P       06:48:30.1  -1.0 M  1.0  TRIYO
+    PLSM  IA    3.0  54  P       06:48:31.2   0.1 M  1.0  PLSM 
+    SDSM  IA    3.1  20  P       06:48:33.4   0.2 M  1.0  SDSM 
+    RSSM  IA    3.2  29  P       06:48:35.0   0.9 M  1.0  RSSM 
+    LDSI  IA    3.2  17  P       06:48:33.9  -0.4 M  1.0  LDSI 
+    KLSM  IA    3.3   2  P       06:48:35.4   0.2 M  1.0  KLSM 
+    RRHRI IA    3.3  76  P       06:48:34.6  -0.8 M  1.0  RRHRI
+    PDSI  IA    3.3 102  P       06:48:34.9  -0.7 M  1.0  PDSI 
+    PSI   IA    3.4  30  P       06:48:36.1  -0.1 M  1.0  PSI  
+    PLSI  IA    3.4  82  P       06:48:36.5   0.2 M  1.0  PLSI 
+    KUSI  IA    3.4   3  P       06:48:36.9   0.2 M  1.0  KUSI 
+    LKSM  IA    3.4  83  P       06:48:36.9   0.1 M  1.0  LKSM 
+    BPSM  IA    3.5 106  P       06:48:37.6  -0.6 M  1.0  BPSM 
+    TKSM  IA    3.5  18  P       06:48:37.8  -0.5 M  1.0  TKSM 
+    KCSI  IA    3.8   8  P       06:48:42.0   0.3 A  1.0  KCSI 
+    SSSM  IA    4.2 108  P       06:48:48.6   0.4 M  1.0  SSSM 
+    SDSI  IA    4.3 100  P       06:48:49.2   0.5 M  1.0  SDSI 
+    SKSM  IA    4.5 113  P       06:48:51.9   0.5 AX 0.0  SKSM 
+
+23 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    PBSI  IA    1.1  81  MLv     4.73  0.04    42.9517     
+    SNSI  IA    2.8 341  MLv     4.57 -0.12    3.37707     
+    SNSI  IA    2.8 341  Mjma    5.04  0.14    13.3425     
+    KASAI IA    2.8  13  MLv     4.68 -0.02    4.24776     
+    KASAI IA    2.8  13  Mjma    5.10  0.20    15.1873     
+    PTSM  IA    3.0  41  MLv     4.82  0.13     4.7332     
+    PTSM  IA    3.0  41  Mjma    4.86 -0.03    7.96014     
+    SASN  IA    3.0  15  MLv     4.73  0.04    3.77036     
+    SASN  IA    3.0  15  Mjma    4.86 -0.04    7.85836     
+    TRIYO IA    3.0 128  MLv     4.64 -0.06    2.96351     
+    TRIYO IA    3.0 128  Mjma    5.09  0.20    13.2374     
+    LDSI  IA    3.2  17  MLv     4.49 -0.20    1.53958     
+    LDSI  IA    3.2  17  Mjma    4.73 -0.17    4.96945     
+    RRHRI IA    3.3  76  MLv     4.83  0.14    3.09072     
+    RRHRI IA    3.3  76  Mjma    4.88 -0.02    6.83852     
+    PDSI  IA    3.3 102  MLv     4.57 -0.12    1.68837     
+    PDSI  IA    3.3 102  Mjma    4.83 -0.07    6.04796     
+    BPSM  IA    3.5 106  MLv     5.11  0.42    4.58534     
+    BPSM  IA    3.5 106  Mjma    4.77 -0.13    4.71344     
+    TKSM  IA    3.5  18  MLv     4.75  0.06    1.92075     
+    KCSI  IA    3.8   8  MLv     4.52 -0.18   0.934424     
+    KCSI  IA    3.8   8  Mjma    4.77 -0.12    4.25476     
+    SDSI  IA    4.3 100  MLv     4.59 -0.10   0.839674     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

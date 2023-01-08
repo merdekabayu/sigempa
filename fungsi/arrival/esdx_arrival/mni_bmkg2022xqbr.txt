@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2022xqbr
+    Description
+      region name: Celebes Sea
+Origin:
+    Date                   2022-12-03
+    Time                   02:19:33.6  +/-    0.7 s
+    Latitude                 3.92 deg  +/-      8 km
+    Longitude              122.44 deg  +/-      5 km
+    Depth                     465 km   +/-   10 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             3.02 s
+    Azimuthal gap             233 deg
+
+5 Network magnitudes:
+    MLv       4.47 +/- 0.37  13            
+    M         4.39           13 preferred  
+    mb        4.23 +/- 0.19   5            
+    mB        5.41 +/- 0.70   2            
+    Mw(mB)    4.85 +/- 0.70   2            
+
+22 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SMSI  IA    2.9 181  P       02:20:42.8   1.6 M  1.0  SMSI 
+    PSSI  IA    3.2 112  P       02:20:36.5  -6.7 M  1.0  PSSI 
+    TOLI2 IA    3.2 211  P       02:20:45.7   2.0 M  1.0  TOLI2
+    MRSI  IA    3.5 188  P       02:20:46.0   0.6 M  1.0  MRSI 
+    TBMCM IA    3.8 146  P       02:20:49.2   0.6 M  1.0  TBMCM
+    TBMCM IA    3.8 146  S       02:21:48.2  -0.9 M  1.0  TBMCM
+    PBCI  IA    3.9 155  P       02:20:47.9  -0.9 M  1.0  PBCI 
+    PBCI  IA    3.9 155  S       02:21:49.2  -0.3 M  1.0  PBCI 
+    MGAI  IA    4.2  89  P       02:20:53.1   1.1 M  1.0  MGAI 
+    MGAI  IA    4.2  89  S       02:21:57.8   2.7 M  1.0  MGAI 
+    MPSI  IA    4.4 216  P       02:20:53.5   0.1 M  1.0  MPSI 
+    MPSI  IA    4.4 216  S       02:21:57.0  -0.6 M  1.0  MPSI 
+    BGCI  IA    4.9 169  P       02:21:04.6   6.7 M  1.0  BGCI 
+    BGCI  IA    4.9 169  S       02:21:57.9  -7.9 MX 0.0  BGCI 
+    LUWI  IA    4.9 176  P       02:20:54.7  -3.9 M  1.0  LUWI 
+    SDCI  IA    5.1 211  P       02:20:59.0  -1.5 M  1.0  SDCI 
+    JHMI  IA    5.8 119  P       02:22:08.3  61.5 AX 0.0  JHMI 
+    TNTI  IA    5.8 122  P       02:22:23.6  76.2 AX 0.0  TNTI 
+    MTAI  IA    6.1 106  P       02:21:08.7  -1.1 M  1.0  MTAI 
+    PMMI  IA    6.1 125  P       02:21:08.4  -1.6 M  1.0  PMMI 
+    WHMI  IA    6.4 116  P       02:21:09.2  -3.4 M  1.0  WHMI 
+    WBMI  IA    6.5 123  P       02:21:19.7   5.7 M  1.0  WBMI 
+
+16 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    PSSI  IA    3.2 112  MLv     3.86 -0.61    0.38457     
+    MRSI  IA    3.5 188  MLv     4.33 -0.14   0.809471     
+    TBMCM IA    3.8 146  MLv     4.53  0.06   0.936111     
+    PBCI  IA    3.9 155  MLv     3.91 -0.56   0.218361     
+    MGAI  IA    4.2  89  MLv     4.74  0.27    1.20496     
+    MPSI  IA    4.4 216  MLv     4.23 -0.24   0.344836     
+    LUWI  IA    4.9 176  MLv     4.59  0.12   0.573103     
+    SDCI  IA    5.1 211  MLv     4.61  0.14   0.536256     
+    MTAI  IA    6.1 106  mB      5.90  0.50    26149.7     
+    MTAI  IA    6.1 106  mb      4.34  0.12    48.7893 0.59
+    PMMI  IA    6.1 125  MLv     5.00  0.53   0.745958     
+    PMMI  IA    6.1 125  mb      4.09 -0.14    20.6036 0.45
+    WHMI  IA    6.4 116  MLv     4.63  0.16   0.274477     
+    WBMI  IA    6.5 123  MLv     4.76  0.29   0.347442     
+    WBMI  IA    6.5 123  mB      4.91 -0.50    2509.36     
+    WBMI  IA    6.5 123  mb      4.20 -0.03    35.1459 0.62
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

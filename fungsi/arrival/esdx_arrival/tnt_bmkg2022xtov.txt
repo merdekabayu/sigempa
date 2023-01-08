@@ -1,0 +1,45 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xtov
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-12-05
+    Time                   00:23:37.4  +/-    0.9 s
+    Latitude                 1.48 deg  +/-      8 km
+    Longitude              127.30 deg  +/-      7 km
+    Depth                     139 km   +/-    9 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.41 s
+    Azimuthal gap             148 deg
+
+2 Network magnitudes:
+    MLv       3.13 +/- 0.70   6            
+    M         3.13            6 preferred  
+
+11 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    IHMI  IA    0.3  84  P       00:23:56.8  -0.5 M  1.0  IHMI 
+    JHMI  IA    0.4 156  P       00:23:58.5   0.3 M  1.0  JHMI 
+    JHMI  IA    0.4 156  S       00:24:14.2  -0.2 M  1.0  JHMI 
+    TNTI  IA    0.7 175  P       00:23:59.6  -0.0 M  1.0  TNTI 
+    WHMI  IA    0.9 115  P       00:24:01.7   1.0 M  1.0  WHMI 
+    WHMI  IA    0.9 115  S       00:24:18.7  -0.0 M  1.0  WHMI 
+    MTAI  IA    1.2  54  P       00:24:02.8  -0.3 M  1.0  MTAI 
+    PSSI  IA    2.3 303  P       00:24:29.3  14.1 MX 0.0  PSSI 
+    TMSI  IA    2.4 266  P       00:24:16.9   0.3 M  1.0  TMSI 
+    PBCI  IA    3.4 252  P       00:24:29.8  -0.2 M  1.0  PBCI 
+    SANI  IA    3.7 201  P       00:24:33.7  -0.3 M  1.0  SANI 
+
+6 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    IHMI  IA    0.3  84  MLv     2.54 -0.59    3.46508     
+    JHMI  IA    0.4 156  MLv     2.70 -0.43     1.5737     
+    WHMI  IA    0.9 115  MLv     2.85 -0.28   0.693096     
+    MTAI  IA    1.2  54  MLv     2.62 -0.50   0.284198     
+    PBCI  IA    3.4 252  MLv     4.12  0.99   0.502656     
+    SANI  IA    3.7 201  MLv     3.93  0.80   0.244386     
+
+stageofternate
+</p></body></html>

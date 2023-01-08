@@ -1,0 +1,60 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yjup
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-12-13
+    Time                   21:28:55.9  +/-    0.5 s
+    Latitude                 0.91 deg  +/-      3 km
+    Longitude              128.40 deg  +/-      3 km
+    Depth                       6 km   +/-    5 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.55 s
+    Azimuthal gap             127 deg
+
+5 Network magnitudes:
+    Mjma      2.97 +/- 0.34   7            
+    ML        2.52 +/- 0.27   7            
+    MLv       2.56 +/- 0.23   7            
+    Ms(BB)    3.26 +/- 0.00   1            
+    M         2.78            7 preferred  
+
+13 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    WHMI  IA    0.3 302  P       21:29:02.8   0.1 M  1.0  WHMI 
+    WHMI  IA    0.3 302  S       21:29:07.9   0.3 M  1.0  WHMI 
+    WBMI  IA    0.8 223  P       21:29:10.3  -0.9 M  1.0  WBMI 
+    JHMI  IA    0.9 280  P       21:29:15.2   1.3 M  1.0  JHMI 
+    JHMI  IA    0.9 280  S       21:29:26.8  -0.2 M  1.0  JHMI 
+    IHMI  IA    1.0 305  P       21:29:15.2  -0.4 M  1.0  IHMI 
+    IHMI  IA    1.0 305  S       21:29:29.5  -0.4 M  1.0  IHMI 
+    TNTI  IA    1.0 262  P       21:29:16.3   0.6 M  1.0  TNTI 
+    TNTI  IA    1.0 262  S       21:29:30.0  -0.3 M  1.0  TNTI 
+    PMMI  IA    1.1 241  P       21:29:16.6  -0.4 M  1.0  PMMI 
+    MTAI  IA    1.3 355  P       21:29:19.3  -0.2 M  1.0  MTAI 
+    LBMI  IA    1.8 210  P       21:29:27.9   0.7 M  1.0  LBMI 
+    SWI   IA    3.4 122  P       21:29:48.9  -0.1 M  1.0  SWI  
+
+16 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    WBMI  IA    0.8 223  ML      2.53  0.01   0.394036     
+    WBMI  IA    0.8 223  MLv     2.51 -0.05   0.381043     
+    WBMI  IA    0.8 223  Mjma    2.79 -0.19   0.665366     
+    TNTI  IA    1.0 262  ML      2.37 -0.15   0.197699     
+    TNTI  IA    1.0 262  MLv     2.32 -0.25   0.173236     
+    TNTI  IA    1.0 262  Mjma    2.63 -0.34   0.284561     
+    PMMI  IA    1.1 241  ML      2.45 -0.07   0.212081     
+    PMMI  IA    1.1 241  MLv     2.61  0.05   0.308558     
+    PMMI  IA    1.1 241  Mjma    3.24  0.27    1.02216     
+    MTAI  IA    1.3 355  ML      2.67  0.15   0.284064     
+    MTAI  IA    1.3 355  MLv     2.59  0.03   0.238071     
+    MTAI  IA    1.3 355  Mjma    2.94 -0.03   0.398152     
+    LBMI  IA    1.8 210  ML      2.54  0.02   0.111149     
+    LBMI  IA    1.8 210  MLv     2.71  0.15   0.164715     
+    LBMI  IA    1.8 210  Mjma    3.27  0.30   0.480904     
+    SWI   IA    3.4 122  Ms(BB)  3.26  0.00   7.69419e-07 0.12
+
+stageofternate
+</p></body></html>

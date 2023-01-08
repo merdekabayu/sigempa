@@ -1,0 +1,161 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yerz
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-12-11
+    Time                   02:28:44.0  +/-    0.5 s
+    Latitude                 1.56 deg  +/-      2 km
+    Longitude              128.23 deg  +/-      3 km
+    Depth                       5 km   +/-    2 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.22 s
+    Azimuthal gap             224 deg
+
+12 Network magnitudes:
+    mBc       6.51 +/- 0.29   6            
+    Mw(mBc)   5.83 +/- 0.40   6            
+    mb        5.46 +/- 0.29   7            
+    mB        5.31 +/- 0.28   6            
+    Mw(mB)    4.72 +/- 0.40   6            
+    Mjma      4.93 +/- 0.29  13            
+    ML        4.96 +/- 0.23  16            
+    MLv       5.13 +/- 0.18  16            
+    Ms(BB)    4.48 +/- 0.22  12            
+    Mwp       5.00 +/- 0.00   1            
+    Mw(Mwp)   4.71 +/- 0.40   1            
+    M         5.22           16 preferred  
+
+48 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    IHMI  IA    0.7 266  P       02:28:57.9   0.8 M  1.0  IHMI 
+    IHMI  IA    0.7 266  S       02:29:07.1   0.4 M  1.0  IHMI 
+    JHMI  IA    0.9 238  P       02:29:00.7  -0.4 M  1.0  JHMI 
+    JHMI  IA    0.9 238  S       02:29:13.9   0.4 M  1.0  JHMI 
+    TNTI  IA    1.2 228  P       02:29:04.5  -1.3 M  1.0  TNTI 
+    TNTI  IA    1.2 228  S       02:29:21.8   0.0 M  1.0  TNTI 
+    WBMI  IA    1.3 196  P       02:29:07.3  -0.1 M  1.0  WBMI 
+    WBMI  IA    1.3 196  S       02:29:24.5  -0.2 M  1.0  WBMI 
+    PMMI  IA    1.4 214  P       02:29:09.5  -0.5 M  1.0  PMMI 
+    PMMI  IA    1.4 214  S       02:29:29.2  -0.3 M  1.0  PMMI 
+    LBMI  IA    2.3 198  P       02:29:21.9  -0.7 M  1.0  LBMI 
+    LBMI  IA    2.3 198  S       02:29:51.9  -0.4 M  1.0  LBMI 
+    MGAI  IA    2.9 327  P       02:29:30.1  -0.5 M  1.0  MGAI 
+    MGAI  IA    2.9 327  S       02:30:05.7  -1.1 M  1.0  MGAI 
+    OBMI  IA    2.9 191  P       02:29:30.1  -1.3 M  1.0  OBMI 
+    OBMI  IA    2.9 191  S       02:30:12.7   4.6 M  1.0  OBMI 
+    PSSI  IA    3.1 293  P       02:29:33.1   0.2 M  1.0  PSSI 
+    PSSI  IA    3.1 293  S       02:30:12.9   2.0 M  1.0  PSSI 
+    TMSI  IA    3.3 265  P       02:29:35.7  -0.8 M  1.0  TMSI 
+    TMSI  IA    3.3 265  S       02:30:17.2  -0.1 M  1.0  TMSI 
+    TBMCM IA    3.7 257  P       02:29:41.5  -0.9 M  1.0  TBMCM
+    TBMCM IA    3.7 257  S       02:30:27.7   0.0 M  1.0  TBMCM
+    SANI  IA    4.2 212  P       02:29:49.0  -0.2 M  1.0  SANI 
+    SANI  IA    4.2 212  S       02:30:39.4  -0.5 M  1.0  SANI 
+    KMSI  IA    4.4 257  P       02:29:51.9   1.0 M  1.0  KMSI 
+    KMSI  IA    4.4 257  S       02:30:44.1   0.9 M  1.0  KMSI 
+    TGCM  IA    5.3 259  P       02:30:03.8   0.6 M  1.0  TGCM 
+    TGCM  IA    5.3 259  S       02:31:05.1  -0.2 M  1.0  TGCM 
+    GTOI  IA    5.4 262  P       02:30:05.2  -0.2 M  1.0  GTOI 
+    GTOI  IA    5.4 262  S       02:31:09.3  -0.0 M  1.0  GTOI 
+    KGCM  IA    5.5 260  P       02:30:10.6   4.6 M  1.0  KGCM 
+    KGCM  IA    5.5 260  S       02:31:10.0  -0.2 M  1.0  KGCM 
+    SMSI  IA    5.9 265  P       02:30:11.8  -0.2 M  1.0  SMSI 
+    SMSI  IA    5.9 265  S       02:31:21.1   0.1 M  1.0  SMSI 
+    LUWI  IA    6.0 245  P       02:30:13.7  -0.3 M  1.0  LUWI 
+    LUWI  IA    6.0 245  S       02:31:24.4  -0.3 M  1.0  LUWI 
+    MRSI  IA    6.4 260  P       02:30:20.1   1.4 M  1.0  MRSI 
+    MRSI  IA    6.4 260  S       02:31:32.2  -0.9 M  1.0  MRSI 
+    BBCI  IA    6.8 267  P       02:30:19.6  -4.9 MX 0.0  BBCI 
+    APSI  IA    7.0 250  P       02:30:26.8  -0.8 M  1.0  APSI 
+    APSI  IA    7.0 250  S       02:31:48.5  -0.5 M  1.0  APSI 
+    TPCI  IA    7.2 261  S       02:31:53.4  -0.2 M  1.0  TPCI 
+    TOLI2 IA    7.5 267  P       02:30:34.2   0.6 M  1.0  TOLI2
+    TOLI2 IA    7.5 267  S       02:31:59.9   0.2 M  1.0  TOLI2
+    POCI  IA    8.1 249  S       02:32:16.1  -0.2 M  1.0  POCI 
+    SRSI  IA    8.4 241  P       02:30:44.7  -1.8 M  1.0  SRSI 
+    SRSI  IA    8.4 241  S       02:32:21.1  -1.8 M  1.0  SRSI 
+    MPSI  IA    8.4 262  P       02:30:52.3   5.6 MX 0.0  MPSI 
+
+75 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    JHMI  IA    0.9 238  ML      5.20  0.24    161.723     
+    JHMI  IA    0.9 238  MLv     5.24  0.12    176.962     
+    JHMI  IA    0.9 238  Mjma    5.30  0.38    175.668     
+    TNTI  IA    1.2 228  ML      4.89 -0.07    55.0773     
+    TNTI  IA    1.2 228  Mjma    4.69 -0.24    26.4675     
+    WBMI  IA    1.3 196  ML      5.21  0.25    101.017     
+    WBMI  IA    1.3 196  MLv     5.22  0.10    103.994     
+    WBMI  IA    1.3 196  Mjma    5.39  0.47    115.956     
+    PMMI  IA    1.4 214  ML      4.93 -0.03    42.6221     
+    PMMI  IA    1.4 214  MLv     5.05 -0.08    55.7831     
+    PMMI  IA    1.4 214  Mjma    5.20  0.27    60.1669     
+    LBMI  IA    2.3 198  ML      5.16  0.19     23.395     
+    LBMI  IA    2.3 198  MLv     5.36  0.24    37.4996     
+    MGAI  IA    2.9 327  ML      4.98  0.02    7.38422     
+    MGAI  IA    2.9 327  MLv     5.06 -0.07    8.88131     
+    MGAI  IA    2.9 327  Mjma    5.23  0.30    19.2508     
+    MGAI  IA    2.9 327  Ms(BB)  4.72  0.24   2.82307e-05 2.30
+    OBMI  IA    2.9 191  ML      4.64 -0.32    3.13143     
+    OBMI  IA    2.9 191  MLv     4.92 -0.20    6.02113     
+    OBMI  IA    2.9 191  Mjma    4.81 -0.11    7.07893     
+    OBMI  IA    2.9 191  Ms(BB)  4.46 -0.02   1.50417e-05 1.03
+    PSSI  IA    3.1 293  ML      4.88 -0.08    4.84881     
+    PSSI  IA    3.1 293  MLv     5.04 -0.09    6.91139     
+    PSSI  IA    3.1 293  Mjma    4.81 -0.12    6.59031     
+    PSSI  IA    3.1 293  Ms(BB)  4.53  0.06   1.68482e-05 1.03
+    TMSI  IA    3.3 265  ML      5.11  0.15    5.92302     
+    TMSI  IA    3.3 265  MLv     5.11 -0.01    5.95805     
+    TMSI  IA    3.3 265  Mjma    4.96  0.03    8.16027     
+    TMSI  IA    3.3 265  Ms(BB)  4.61  0.13   1.74709e-05 0.89
+    TBMCM IA    3.7 257  ML      4.97  0.00    2.70806     
+    TBMCM IA    3.7 257  MLv     5.22  0.10    4.88361     
+    TBMCM IA    3.7 257  Mjma    4.58 -0.35     2.7687     
+    TBMCM IA    3.7 257  Ms(BB)  4.61  0.13   1.44959e-05 0.56
+    TGCM  IA    5.3 259  ML      5.15  0.19    1.74431     
+    TGCM  IA    5.3 259  MLv     5.22  0.10    2.04535     
+    TGCM  IA    5.3 259  Mjma    4.58 -0.35     1.5218     
+    TGCM  IA    5.3 259  Ms(BB)  4.46 -0.02   5.78277e-06 0.46
+    TGCM  IA    5.3 259  mBc     6.72  0.22    75541.1     
+    TGCM  IA    5.3 259  mb      5.76  0.29    573.057 0.61
+    GTOI  IA    5.4 262  ML      4.55 -0.42   0.390778     
+    GTOI  IA    5.4 262  MLv     5.04 -0.09    1.22017     
+    GTOI  IA    5.4 262  Mjma    4.56 -0.37    1.39222     
+    GTOI  IA    5.4 262  Ms(BB)  4.24 -0.24   3.27939e-06 0.08
+    GTOI  IA    5.4 262  mB      5.38  0.07    3279.39     
+    GTOI  IA    5.4 262  mBc     6.28 -0.22      26170     
+    GTOI  IA    5.4 262  mb      5.56  0.10     381.46 0.67
+    KGCM  IA    5.5 260  Mjma    5.12  0.19    4.99474     
+    SMSI  IA    5.9 265  ML      4.47 -0.49    0.25106     
+    SMSI  IA    5.9 265  MLv     4.75 -0.37   0.479532     
+    SMSI  IA    5.9 265  Mwp     5.00  0.00       1514     
+    SMSI  IA    5.9 265  mB      4.98 -0.33    1134.47     
+    SMSI  IA    5.9 265  mBc     6.30 -0.21    23694.8     
+    SMSI  IA    5.9 265  mb      5.21 -0.25    143.909 0.64
+    LUWI  IA    6.0 245  ML      5.10  0.14   0.985362     
+    LUWI  IA    6.0 245  MLv     5.38  0.25    1.85756     
+    LUWI  IA    6.0 245  Mjma    4.84 -0.09    2.18922     
+    LUWI  IA    6.0 245  Ms(BB)  4.47 -0.01   4.64122e-06 0.08
+    LUWI  IA    6.0 245  mB      5.60  0.30    4631.68     
+    LUWI  IA    6.0 245  mb      5.63  0.17    560.899 0.98
+    MRSI  IA    6.4 260  ML      4.79 -0.17   0.392843     
+    MRSI  IA    6.4 260  MLv     5.04 -0.09   0.700265     
+    MRSI  IA    6.4 260  Ms(BB)  4.20 -0.27   2.32099e-06 0.53
+    MRSI  IA    6.4 260  mB      5.33  0.02    2320.99     
+    MRSI  IA    6.4 260  mBc     6.64  0.13    46913.1     
+    MRSI  IA    6.4 260  mb      5.36 -0.10    163.943 0.57
+    APSI  IA    7.0 250  ML      5.26  0.30   0.794318     
+    APSI  IA    7.0 250  MLv     5.49  0.36    1.35969     
+    APSI  IA    7.0 250  Ms(BB)  4.48 -0.00   3.71534e-06 0.99
+    APSI  IA    7.0 250  mB      5.58  0.28    3715.34     
+    APSI  IA    7.0 250  mBc     6.91  0.41      78946     
+    APSI  IA    7.0 250  mb      5.73  0.27    402.133 0.67
+    TOLI2 IA    7.5 267  MLv     4.85 -0.28   0.241763     
+    SRSI  IA    8.4 241  mB      4.97 -0.34    727.651     
+    SRSI  IA    8.4 241  mBc     6.18 -0.32    11912.7     
+    SRSI  IA    8.4 241  mb      4.97 -0.50    59.2706 0.71
+
+stageofgorontalo
+</p></body></html>

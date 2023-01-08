@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022ynzh
+    Preferred Origin ID    Origin/20221216043105.104707.158961
+    Preferred Magnitude ID Origin/20221216043105.104707.158961/netMag/M
+    Description
+      region name: Halmahera, Indonesia
+    Creation time          2022-12-16 04:27:15
+
+Origin:
+    Public ID              Origin/20221216043105.104707.158961
+    Date                   2022-12-16
+    Time                   04:24:45.6  +/-    0.6 s
+    Latitude                 2.26 deg  +/-      5 km
+    Longitude              129.32 deg  +/-      4 km
+    Depth                      10 km   (fixed)
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-16 04:31:05
+    Residual RMS             0.81 s
+    Azimuthal gap             200 deg
+
+6 Network magnitudes:
+    mb        4.91 +/- 0.20  16            BMG
+    mB        4.96 +/- 0.17   6            BMG
+    Mw(mB)    4.27 +/- 0.40   6            BMG
+    MLv       4.70 +/- 0.20  15            BMG
+    Mjma      4.42 +/- 0.15  13            BMG1
+    M         4.58           16 preferred  BMG1
+
+49 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MTAI  IA    1.0 267  P       04:25:03.8  -1.7 M  1.0  MTAI 
+    WHMI  IA    1.7 226  P       04:25:13.0  -1.6 M  1.0  WHMI 
+    IHMI  IA    1.9 247  P       04:25:18.4   0.1 M  1.0  IHMI 
+    JHMI  IA    2.2 238  P       04:25:21.6  -0.4 M  1.0  JHMI 
+    WBMI  IA    2.4 217  P       04:25:24.2  -0.7 M  1.0  WBMI 
+    TNTI  IA    2.4 233  P       04:25:25.1  -0.6 M  1.0  TNTI 
+    PMMI  IA    2.7 226  P       04:25:28.5  -0.2 M  1.0  PMMI 
+    MGAI  IA    3.2 303  P       04:25:35.8   0.2 M  1.0  MGAI 
+    LBMI  IA    3.4 212  P       04:25:38.7  -0.1 M  1.0  LBMI 
+    SWI   IA    3.7 148  P       04:25:41.1  -1.1 M  1.0  SWI  
+    PSSI  IA    3.9 277  P       04:25:46.6   0.4 M  1.0  PSSI 
+    SGSI  IA    4.0 291  P       04:25:47.8   0.2 M  1.0  SGSI 
+    TMSI  IA    4.5 258  P       04:25:54.3   0.5 M  1.0  TMSI 
+    TSPI  IA    4.6 143  P       04:25:55.6  -0.0 M  1.0  TSPI 
+    TBMCM IA    5.0 252  P       04:26:00.6   0.2 M  1.0  TBMCM
+    SANI  IA    5.4 218  P       04:26:06.7   0.2 A  1.0  SANI 
+    TMTMM IA    5.5 178  P       04:26:08.7   0.8 M  1.0  TMTMM
+    MSAI  IA    5.6 184  P       04:26:10.1   1.4 M  1.0  MSAI 
+    PBCI  IA    5.6 251  P       04:26:09.0  -0.1 M  1.0  PBCI 
+    KRAI  IA    5.6 190  P       04:26:09.9   0.7 M  1.0  KRAI 
+    WSTMM IA    5.7 173  P       04:26:11.1   0.6 M  1.0  WSTMM
+    NLAI  IA    5.9 202  P       04:26:13.1   0.0 M  1.0  NLAI 
+    FAKI  IA    5.9 150  P       04:26:12.6  -0.8 M  1.0  FAKI 
+    GTOI  IA    6.6 257  P       04:26:22.8  -0.2 M  1.0  GTOI 
+    BBLSI IA    7.0 236  P       04:26:26.7  -1.2 A  1.0  BBLSI
+    SMSI  IA    7.1 260  P       04:26:28.7  -0.5 M  1.0  SMSI 
+    MRSI  IA    7.6 257  P       04:26:37.0   0.7 A  1.0  MRSI 
+    UTUSI IA    7.9 250  P       04:26:44.0   3.0 AX 0.0  UTUSI
+    APSI  IA    8.3 248  P       04:26:47.2   1.2 A  1.0  APSI 
+    TPCI  IA    8.4 258  P       04:24:54.3 -113.3 AX 0.0  TPCI 
+    TOLI2 IA    8.6 263  P       04:26:50.1  -0.3 A  1.0  TOLI2
+    BUMSI IA    9.0 242  P       04:26:55.4  -0.7 A  1.0  BUMSI
+    ERPI  IA    9.4 131  P       04:26:43.5 -17.1 AX 0.0  ERPI 
+    MPSI  IA    9.6 259  P       04:27:05.9   1.7 A  1.0  MPSI 
+    SRSI  IA    9.7 241  P       04:27:03.7  -1.5 A  1.0  SRSI 
+    BLCM  IA    9.9 256  P       04:27:11.7   3.3 AX 0.0  BLCM 
+    DOCM  IA   10.0 253  P       04:27:09.7   0.1 A  1.0  DOCM 
+    WKCM  IA   10.0 233  P       04:27:10.3   0.3 A  1.0  WKCM 
+    RDCM  IA   10.4 250  P       04:27:17.7   2.9 AX 0.0  RDCM 
+    TTSI  IA   10.9 241  P       04:27:20.6  -0.7 A  1.0  TTSI 
+    MMCI  IA   11.2 243  P       04:27:25.6  -0.6 A  1.0  MMCI 
+    PPCM  IA   11.3 238  P       04:27:28.0   0.9 A  1.0  PPCM 
+    BNSI  IA   11.3 234  P       04:27:28.5   0.7 A  1.0  BNSI 
+    SPSI  IA   11.4 237  P       04:27:28.9   0.6 A  1.0  SPSI 
+    LSCM  IA   11.5 235  P       04:27:31.3   1.5 A  1.0  LSCM 
+    TTPSI IA   11.9 234  P       04:27:36.9   1.9 AX 0.0  TTPSI
+    TSNI  IA   15.5 225  P       04:24:20.6 -244.0 AX 0.0  TSNI 
+    RSNI  IA   16.2 227  P       04:24:10.4 -262.9 AX 0.0  RSNI 
+    BTJI  IA   22.2 245  P       04:25:29.5 -252.8 AX 0.0  BTJI 
+
+50 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MTAI  IA    1.0 267  MLv     4.29 -0.41     16.193     
+    WHMI  IA    1.7 226  MLv     4.82  0.12    24.5979     
+    IHMI  IA    1.9 247  MLv     4.97  0.27    25.5441     
+    MGAI  IA    3.2 303  MLv     4.67 -0.03    2.53829     
+    LBMI  IA    3.4 212  MLv     4.75  0.05    2.24178     
+    SWI   IA    3.7 148  MLv     4.70 -0.00    1.51557     
+    TSPI  IA    4.6 143  MLv     4.69 -0.01   0.846098     
+    TMTMM IA    5.5 178  MLv     4.47 -0.23   0.305657     
+    TMTMM IA    5.5 178  mB      4.93 -0.03     1115.8     
+    TMTMM IA    5.5 178  mb      4.92  0.01    89.0935 0.71
+    WSTMM IA    5.7 173  MLv     4.44 -0.26   0.252573     
+    WSTMM IA    5.7 173  mB      4.76 -0.20    724.793     
+    WSTMM IA    5.7 173  mb      4.84 -0.07    60.6176 0.61
+    FAKI  IA    5.9 150  MLv     4.50 -0.20   0.258496     
+    GTOI  IA    6.6 257  MLv     4.85  0.14   0.390421     
+    GTOI  IA    6.6 257  mB      4.96  0.00    964.621     
+    GTOI  IA    6.6 257  mb      5.10  0.20    102.283 0.66
+    BBLSI IA    7.0 236  MLv     4.93  0.22   0.378799     
+    BBLSI IA    7.0 236  Mjma    4.21 -0.21   0.398432     
+    BBLSI IA    7.0 236  mb      5.18  0.27     118.32 0.68
+    SMSI  IA    7.1 260  MLv     4.59 -0.11   0.167939     
+    SMSI  IA    7.1 260  mb      4.79 -0.12    52.3679 0.76
+    MRSI  IA    7.6 257  MLv     5.01  0.31    0.32738     
+    MRSI  IA    7.6 257  Mjma    4.33 -0.08   0.460115     
+    MRSI  IA    7.6 257  mB      5.08  0.12    1092.84     
+    MRSI  IA    7.6 257  mb      4.93  0.02    87.1325 0.98
+    APSI  IA    8.3 248  Mjma    4.62  0.20   0.753861     
+    APSI  IA    8.3 248  mB      5.22  0.26    1345.26     
+    APSI  IA    8.3 248  mb      5.21  0.30    131.255 0.88
+    TOLI2 IA    8.6 263  MLv     4.82  0.12   0.115969     
+    TOLI2 IA    8.6 263  Mjma    4.12 -0.30   0.224643     
+    TOLI2 IA    8.6 263  mb      4.67 -0.24    34.2523 0.84
+    BUMSI IA    9.0 242  Mjma    4.44  0.02   0.431848     
+    MPSI  IA    9.6 259  Mjma    4.38 -0.03   0.342395     
+    MPSI  IA    9.6 259  mb      4.63 -0.27    33.4815 1.04
+    SRSI  IA    9.7 241  Mjma    4.28 -0.14   0.265625     
+    SRSI  IA    9.7 241  mB      4.81 -0.15    411.643     
+    SRSI  IA    9.7 241  mb      4.66 -0.25    36.4086 1.09
+    DOCM  IA   10.0 253  Mjma    4.41 -0.01   0.340487     
+    DOCM  IA   10.0 253  mb      4.99  0.08    68.8648 1.00
+    WKCM  IA   10.0 233  Mjma    4.49  0.07    0.40082     
+    TTSI  IA   10.9 241  Mjma    4.58  0.16   0.436276     
+    TTSI  IA   10.9 241  mb      4.97  0.07     59.352 0.96
+    MMCI  IA   11.2 243  Mjma    4.39 -0.03   0.262498     
+    MMCI  IA   11.2 243  mb      4.45 -0.46     16.943 0.94
+    BNSI  IA   11.3 234  mb      4.93  0.02    51.7564 0.94
+    SPSI  IA   11.4 237  Mjma    4.64  0.22   0.463206     
+    SPSI  IA   11.4 237  mb      5.15  0.24    64.9908 0.71
+    LSCM  IA   11.5 235  Mjma    4.54  0.12   0.359288     
+    LSCM  IA   11.5 235  mb      5.03  0.13    56.1267 0.81
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022xlmx
+    Preferred Origin ID    Origin/20221130142345.319653.493322
+    Preferred Magnitude ID Origin/20221130142345.319653.493322/netMag/M
+    Description
+      region name: Halmahera, Indonesia
+    Creation time          2022-11-30 14:23:05
+
+Origin:
+    Public ID              Origin/20221130142345.319653.493322
+    Date                   2022-11-30
+    Time                   14:20:39.0  +/-    0.5 s
+    Latitude                 1.58 deg  +/-      2 km
+    Longitude              127.27 deg  +/-      3 km
+    Depth                     141 km   +/-    6 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-11-30 14:23:45
+    Residual RMS             1.45 s
+    Azimuthal gap              72 deg
+
+3 Network magnitudes:
+    mb        4.18 +/- 0.17   2            BMG
+    MLv       3.03 +/- 0.33   5            BMG
+    M         3.41            5 preferred  BMG1
+
+30 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    IHMI  IA    0.3 103  P       14:20:59.1  -0.4 M  1.0  IHMI 
+    TNTI  IA    0.8 173  P       14:21:02.2   0.2 M  1.0  TNTI 
+    WHMI  IA    1.0 120  P       14:21:03.4   0.5 M  1.0  WHMI 
+    MTAI  IA    1.2  58  P       14:21:04.1  -0.6 M  1.0  MTAI 
+    MTAI  IA    1.2  58  S       14:21:25.5   0.7 M  1.0  MTAI 
+    PMMI  IA    1.2 173  P       14:21:06.2   1.2 M  1.0  PMMI 
+    PSSI  IA    2.2 302  P       14:21:15.8  -0.1 M  1.0  PSSI 
+    PSSI  IA    2.2 302  S       14:21:44.4  -0.4 M  1.0  PSSI 
+    LBMI  IA    2.2 174  P       14:21:16.7   0.4 M  1.0  LBMI 
+    LBMI  IA    2.2 174  S       14:21:47.2   1.9 M  1.0  LBMI 
+    TMSI  IA    2.4 263  P       14:21:18.9   0.9 M  1.0  TMSI 
+    TMSI  IA    2.4 263  S       14:21:50.1   1.7 M  1.0  TMSI 
+    MGAI  IA    2.5 346  P       14:21:18.9  -0.7 M  1.0  MGAI 
+    MGAI  IA    2.5 346  S       14:21:48.9  -2.4 M  1.0  MGAI 
+    TBMCM IA    2.8 252  P       14:21:24.1   0.4 M  1.0  TBMCM
+    TBMCM IA    2.8 252  S       14:21:57.9  -0.7 M  1.0  TBMCM
+    PBCI  IA    3.4 250  P       14:21:32.3   0.5 M  1.0  PBCI 
+    PBCI  IA    3.4 250  S       14:22:12.9  -0.2 M  1.0  PBCI 
+    SANI  IA    3.8 200  P       14:21:36.3  -0.4 M  1.0  SANI 
+    SANI  IA    3.8 200  S       14:22:16.1  -6.0 M  1.0  SANI 
+    TGCM  IA    4.3 256  P       14:21:45.0   1.7 M  1.0  TGCM 
+    GTOI  IA    4.5 260  P       14:21:45.7   0.4 M  1.0  GTOI 
+    NLAI  IA    4.8 182  P       14:21:49.5   0.0 M  1.0  NLAI 
+    BBLSI IA    4.9 230  P       14:21:50.4  -0.9 M  1.0  BBLSI
+    SMSI  IA    4.9 263  P       14:21:51.4  -0.1 M  1.0  SMSI 
+    LUWI  IA    5.2 240  P       14:21:55.0   0.1 M  1.0  LUWI 
+    MRSI  IA    5.4 258  P       14:22:00.1   1.9 M  1.0  MRSI 
+    APSI  IA    6.1 246  P       14:22:08.1   0.6 M  1.0  APSI 
+    TOLI2 IA    6.5 266  P       14:22:11.8  -0.7 M  1.0  TOLI2
+    RKCM  IA    7.2 232  P       14:22:22.9   0.5 M  1.0  RKCM 
+
+5 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    WHMI  IA    1.0 120  MLv     3.04  0.01   0.964544     
+    MTAI  IA    1.2  58  MLv     3.01 -0.02   0.712963     
+    LBMI  IA    2.2 174  MLv     3.04  0.01    0.20124     
+    MRSI  IA    5.4 258  mb      4.30  0.12    21.9713 0.51
+    APSI  IA    6.1 246  mb      4.06 -0.12    15.0526 0.64
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

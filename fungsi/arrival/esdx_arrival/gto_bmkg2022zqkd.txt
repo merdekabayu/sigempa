@@ -1,0 +1,46 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zqkd
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-31
+    Time                   17:41:55.2  +/-    1.0 s
+    Latitude                 0.63 deg  +/-      5 km
+    Longitude              122.23 deg  +/-      4 km
+    Depth                      93 km   +/-    7 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.90 s
+    Azimuthal gap             138 deg
+
+2 Network magnitudes:
+    MLv       2.09 +/- 0.52   7            
+    M         2.09            7 preferred  
+
+13 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MRSI  IA    0.3 243  P       17:42:10.0  -0.5 M  1.0  MRSI 
+    MRSI  IA    0.3 243  S       17:42:21.1  -1.1 M  1.0  MRSI 
+    SMSI  IA    0.4  21  P       17:42:10.9   0.0 M  1.0  SMSI 
+    SMSI  IA    0.4  21  S       17:42:23.2   0.2 M  1.0  SMSI 
+    KGCM  IA    0.6  89  P       17:42:12.4  -0.2 M  1.0  KGCM 
+    GTOI  IA    0.7  78  P       17:42:13.3   0.5 M  1.0  GTOI 
+    GTOI  IA    0.7  78  S       17:42:27.3   1.0 M  1.0  GTOI 
+    TGCM  IA    0.9  97  P       17:42:14.3   0.2 M  1.0  TGCM 
+    TGCM  IA    0.9  97  S       17:42:29.6   0.8 M  1.0  TGCM 
+    LUWI  IA    1.7 162  P       17:42:24.6   0.3 M  1.0  LUWI 
+    LUWI  IA    1.7 162  S       17:42:47.7   0.7 M  1.0  LUWI 
+    PBCI  IA    1.8  98  P       17:42:25.9   0.6 M  1.0  PBCI 
+    PBCI  IA    1.8  98  S       17:42:46.3  -2.4 M  1.0  PBCI 
+
+5 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    SMSI  IA    0.4  21  MLv     1.37 -0.72   0.0991269     
+    GTOI  IA    0.7  78  MLv     1.81 -0.27   0.0893914     
+    TGCM  IA    0.9  97  MLv     2.16  0.07   0.153119     
+    LUWI  IA    1.7 162  MLv     2.46  0.37   0.096248     
+    PBCI  IA    1.8  98  MLv     2.64  0.56   0.134532     
+
+stageofgorontalo
+</p></body></html>

@@ -1,0 +1,41 @@
+<html><body><p>Event:
+    Public ID              bmkg2023accs
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2023-01-02
+    Time                   03:38:38.5  +/-    1.1 s
+    Latitude                 0.25 deg  +/-     13 km
+    Longitude              121.49 deg  +/-      5 km
+    Depth                     166 km   +/-    9 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.42 s
+    Azimuthal gap             240 deg
+
+2 Network magnitudes:
+    MLv       2.12 +/- 0.26   5            
+    M         2.12            5 preferred  
+
+10 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MRSI  IA    0.5  64  P       03:39:02.8   0.0 M  1.0  MRSI 
+    MRSI  IA    0.5  64  S       03:39:21.5  -0.2 M  1.0  MRSI 
+    TOLI2 IA    1.1 320  P       03:39:06.1   0.2 M  1.0  TOLI2
+    TOLI2 IA    1.1 320  S       03:39:27.4   0.1 M  1.0  TOLI2
+    SMSI  IA    1.1  50  P       03:39:05.6  -0.5 M  1.0  SMSI 
+    SMSI  IA    1.1  50  S       03:39:27.2  -0.5 M  1.0  SMSI 
+    GTOI  IA    1.5  70  P       03:39:09.7   0.5 M  1.0  GTOI 
+    GTOI  IA    1.5  70  S       03:39:34.1   0.9 M  1.0  GTOI 
+    TGCM  IA    1.6  81  P       03:39:10.2  -0.4 M  1.0  TGCM 
+    TGCM  IA    1.6  81  S       03:39:35.6  -0.1 M  1.0  TGCM 
+
+3 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MRSI  IA    0.5  64  MLv     1.96 -0.15   0.188763     
+    SMSI  IA    1.1  50  MLv     2.10 -0.01   0.0929814     
+    GTOI  IA    1.5  70  MLv     2.21  0.09   0.0779923     
+
+stageofgorontalo
+</p></body></html>

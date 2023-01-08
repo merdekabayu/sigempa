@@ -1,0 +1,1152 @@
+{% extends 'base.html' %}
+{% block judul %} Filter Infografis{% endblock %}
+{% block subjudul %} Statistik Gempabumi Periode {{date[0]}} s/d {{date[1]}} {% endblock %}
+{% block menuopen_ig %} menu-open {% endblock %}
+{% block mainnav_ig %} active {% endblock %}
+{% block nav_filterig%} active {% endblock %}
+
+{% block content %} 
+  
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-left">
+            <li class="breadcrumb-item"><a href="/">SI-GEMPA</a></li>
+            <li class="breadcrumb-item active">Database</li>
+            <li class="breadcrumb-item active">Infografis Filter</li>
+            
+          </ol>
+        </div>
+        <div class="col-sm-6">
+          
+        </div>
+      </div>
+    </div><!-- /.container-fluid -->
+  </section>
+
+  <!-- Main content -->
+  <section class="content">
+    <div class="container-fluid">
+      
+      <div class="row">
+        <div class="card col-12">
+          <div class="card-header">
+            <h3 class="card-title">Filter Parameter</h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse" >
+                  <i class="fa fa-chevron-down pull-right"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+          </div>
+          
+          <div class="card-body">
+            <form action="filteredig" method="POST">
+              <div class="row">
+                <div class="col-4">
+                  <div class="row">
+                    <label class="col-12" style="text-align: center;">Waktu</label>
+                  </div>
+                  <div class="row">
+                    <div class="input-group date pl-0" style="width: 210px;" id="datefilter" data-target-input="nearest">
+                        <input value="{{date.0}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date1" data-target="#datefilter"/>
+                        <div class="input-group-append" data-target="#datefilter" data-toggle="datetimepicker" >
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div>
+                    </div>
+                    <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
+                    <div class="input-group date pl-0" style="width: 210px;" id="datefilter1" data-target-input="nearest">
+                      <input value="{{date.1}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date2" data-target="#datefilter1"/>
+                      <div class="input-group-append" data-target="#datefilter1" data-toggle="datetimepicker" >
+                          <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 float-right">
+                      <label for="Input"></label>
+                      <div class="btn-group w-100">
+                        <button type="submit" class="btn btn-success col start">
+                          <i class="fas fa-search"></i>
+                          <span>Filter</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-lg-8 float-right">
+                      <label for="Input"></label>
+                      <div class="custom-control custom-checkbox">
+                        {% if date.10 == 0 %}
+                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" name="felt" value="felt">
+                        {% else %}
+                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" name="felt" value="felt" checked>
+                        {% endif %}
+                        <label for="customCheckbox1" class="custom-control-label">Hanya Gempabumi Dirasakan</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="row">
+                    <label class="col-12" style="text-align: center;">Kedalaman</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group row">
+                        <div class="col-sm-5">
+                          <input style="text-align: center;" class="form-control" id="Input" placeholder="Min" name="depth1" value="{{date.2}}">
+                        </div>
+                        <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
+                        <div class="col-sm-5">
+                          <input style="text-align: center;" class="form-control" id="Input" placeholder="Max" name="depth2" value="{{date.3}}">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="row">
+                    <label class="col-12" style="text-align: center;">Magnitudo</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group row">
+                        <div class="col-sm-5">
+                          <input style="text-align: center;" class="form-control" id="Input" placeholder="Min" name="mag1" value="{{date.4}}">
+                        </div>
+                        <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
+                        <div class="col-sm-5">
+                          <input style="text-align: center;" class="form-control" id="Input" placeholder="Max" name="mag2" value="{{date.5}}">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  
+
+                <div class="col-4">
+                  <div class="row">
+                    <label class="col-12" style="text-align: center;">Koordinat</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                      <input style="text-align: center;" class="form-control" id="Input" placeholder="Lat" name="lat1" value="{{date.6}}"/>
+                    </div>
+                    <div class="col-sm-4"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <input style="text-align: center;" class="form-control" id="Input" placeholder="Long" name="long1" value="{{date.8}}" />
+                    </div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                      <input style="text-align: center;" class="form-control" id="Input" placeholder="Long" name="long2" value="{{date.9}}" />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                      <input style="text-align: center;" class="form-control" id="Input" placeholder="Lat" name="lat2" value="{{date.7}}"/>
+                    </div>
+                    <div class="col-sm-4"></div>
+                  </div>
+                </div>
+                  
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="info-box">
+            <span class="info-box-icon bg-info elevation-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-activity" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"/>
+              </svg></span>
+
+            <div class="info-box-content">
+              <span class="info-box-text"><h5><strong>Jumlah Gempabumi</strong></h5></span>
+              <span class="info-box-text">
+                <h5>{{jml_gempa}}</h5>
+              </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="info-box mb-3">
+            <span class="info-box-icon bg-danger elevation-1">
+              <img width="90%" src="{{ url_for('static', filename='images/dirasakan.png') }}"  >
+            </span>
+
+            <div class="info-box-content">
+              <span class="info-box-text"><h5><strong>Gempabumi Dirasakan</strong></h5></span>
+              <span class="info-box-text">
+                <h5>{{jml_drskn}}</h5>
+              </span>
+            </div>
+            <!-- /.info-box-content -->
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+
+        <!-- fix for small devices only -->
+        <div class="clearfix hidden-md-up"></div>
+
+        <div class="col-12 col-sm-6 col-md-3">
+          
+        </div>
+        <!-- /.col -->
+        <div class="col-12 col-sm-6 col-md-1"></div>
+        <div class="col-12 col-sm-6 col-md-2 float-right">
+          <div class="info-box mb-3">
+            
+
+            <div class="info-box-content">
+              <span class="info-box-text"><h5>Download<br>CSV</h5></span>
+              
+            </div>
+            <a href="/export/dbfilter!{{date.0}}@{{date.1}}@{{date.2}}@{{date.3}}@{{date.4}}@{{date.5}}@{{date.6}}@{{date.7}}@{{date.8}}@{{date.9}}@{{date.10}}" type="submit" class="btn btn-navbar info-box-icon bg-warning elevation-1 ml-2"><i class="fas fa-file-download"></i>
+            </a>
+          </div>
+          <!-- /.info-box -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+      <div class="row">
+        
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Peta Seismisitas</h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-7 align-items-start">
+                  <div id="map" style="width: 500px; height: 400px;"></div>
+                </div>
+                <div class="col-md-5 align-items-start">
+                  <img style="margin-left: 0px; width: 95%; border-radius: 100px;"src="{{ url_for('static', filename='seismisitas_mingguan.jpg') }}" class="img-fluid rounded " />
+                </div>
+              </div>
+            </div>
+            <!-- /.card-body -->
+            
+          </div>
+          <!-- /.card -->
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="card-title">Histogram Gempabumi</h3>
+                  <div class="card-tools">
+                    
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                    <button type="button" class="btn btn-tool" data-card-widget="remove">
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="position-relative">
+                        <canvas id="sales-chart" height="255"></canvas>
+                        <canvas hidden id="salesChart" height="180" style="height: 180px;"></canvas>
+                      </div>
+                      
+                    </div>
+                    
+                  </div>
+                  <!-- /.row -->
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="card-title">Sebaran Magnitudo</h3>
+                  <div class="card-tools">
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                    <button type="button" class="btn btn-tool" data-card-widget="remove">
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="position-relative">
+                        <canvas class="chart" id="line-chart" style="min-height: 255px; height: 200px; max-height: 250px; max-width: 100%;"></canvas>
+                      </div>
+                      
+                    </div>
+                    
+                  </div>
+                  <!-- /.row -->
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Berdasarkan Wilayah</h3>
+
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+              <div class="">
+                <canvas id="sales-chart1" height="250"></canvas>
+              </div>
+            </div>
+            <!-- /.card-body -->
+            <!-- /.card-footer -->
+          </div>
+          <!-- /.card -->
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Statistik Magnitudo</h3>
+
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+              
+              <div class="row">
+                <div class="col-md-8 float-right">
+                  <div class="chart-responsive">
+                    <canvas id="pieChart1" height="150"></canvas>
+                  </div>
+                    <!-- ./chart-responsive -->
+                </div>
+                <div class="col-md-4 ">
+                  <ul class="chart-legend clearfix ml-1">
+                    <li><i class="far fa-circle text-success"></i> M < 3</li>
+                    <li><i class="far fa-circle text-warning"></i> 3 < M < 5</li>
+                    <li><i class="far fa-circle text-danger"></i> M > 5</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <!-- /.card-body -->
+            <!-- /.card-footer -->
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Statistik Kedalaman</h3>
+
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+              
+              <div class="row">
+                <div class="col-md-8 float-right">
+                  <div class="chart-responsive ">
+                    <canvas id="pieChart" height="150"></canvas>
+                  </div>
+                    <!-- ./chart-responsive -->
+                </div>
+                <div class="col-md-4">
+                  <ul class="chart-legend clearfix">
+                    <li><i class="far fa-circle text-danger"></i> < 60 Km</li>
+                    <li><i class="far fa-circle text-warning"></i> 60 - 300 Km</li>
+                    <li><i class="far fa-circle text-success"></i> > 300 Km</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <!-- /.card-body -->
+            <!-- /.card-footer -->
+          </div>
+          <!-- /.card -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title"><label>Histogram Gempabumi</label></h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" onclick="copy('histo')" title="Copy Data">
+                  <i class="fas fa-copy"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+              <div class="col-12">
+                <table class="table table-bordered table-striped">
+                  <thead>
+                  <tr>
+                    <!-- /.<th style="width: 10px;">No</th>-->
+                    <th style="width: 100px;">Tanggal</th>
+                    <th style="width: 100px;">Jumlah</th>
+                  </tr>
+                  </thead>
+                  <tbody id="histo">
+                    {% for par in hist_tab %}
+                    <tr>
+                      <!-- /.<td>1</td>-->
+                      <td>{{par.0}}</td>
+                      <td>{{par.1}}</td>
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <!-- /.card-body -->
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title"><label>Wilayah</label></h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" onclick="copy('wilayah')" title="Copy Data">
+                  <i class="fas fa-copy"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+              <div class="col-12">
+                  <table id="example3" class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                      <!-- /.<th style="width: 10px;">No</th>-->
+                      <th style="min-width: 100px;">Wilayah</th>
+                      <th style="width: 40px;">Jumlah</th>
+                    </tr>
+                    </thead>
+                    <tbody id="wilayah">
+                      <tr>
+                        <!-- /.<td>1</td>-->
+                        <td>LAUT MALUKU</td>
+                        <td>{{wilayah.0}}</td>
+                      </tr>
+                      <tr>
+                        <!-- /.<td>1</td>-->
+                        <td>HALMAHERA BAG. UTARA</td>
+                        <td>{{wilayah.1}}</td>
+                      </tr>
+                      <tr>
+                        <!-- /.<td>1</td>-->
+                        <td>HALMAHERA BAG. TIMUR</td>
+                        <td>{{wilayah.2}}</td>
+                      </tr>
+                      <tr>
+                        <!-- /.<td>1</td>-->
+                        <td>HALMAHERA BAG. BARAT</td>
+                        <td>{{wilayah.3}}</td>
+                      </tr>
+                      <tr>
+                        <!-- /.<td>1</td>-->
+                        <td>HALMAHERA BAG. SELATAN</td>
+                        <td>{{wilayah.4}}</td>
+                      </tr>
+                      <tr>
+                        <!-- /.<td>1</td>-->
+                        <td>KEP. SULA & TALIABU</td>
+                        <td>{{wilayah.5}}</td>
+                      </tr>
+                      <tr>
+                        <!-- /.<td>1</td>-->
+                        <td>SULAWESI</td>
+                        <td>{{wilayah.6}}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+            </div>
+            <!-- /.card-body -->
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title"><label>Statistik Magnitudo</label></h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" onclick="copy('magnitudo')" title="Copy Data">
+                  <i class="fas fa-copy"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+              <div class="col-12">
+                  <table class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                      <!-- /.<th style="width: 10px;">No</th>-->
+                      <th style="width: 100px;">Magnitudo</th>
+                      <th style="width: 100px;">Jumlah</th>
+                    </tr>
+                    </thead>
+                    <tbody id="magnitudo">
+                      <tr>
+                        <!-- /.<td>1</td>-->
+                        <td>M < 3</td>
+                        <td>{{mag.0}}</td>
+                      </tr>
+                      <tr>
+                        <!-- /.<td>1</td>-->
+                        <td>3 < M < 5</td>
+                        <td>{{mag.1}}</td>
+                      </tr>
+                      <tr>
+                        <!-- /.<td>1</td>-->
+                        <td>M < 3</td>
+                        <td>{{mag.2}}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+            </div>
+            <!-- /.card-body -->
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title"><label>Statistik Kedalaman</label></h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" onclick="copy('kedalaman')" title="Copy Data">
+                  <i class="fas fa-copy"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+              <div class="col-12">
+                  <table id="example3" class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                      <!-- /.<th style="width: 10px;">No</th>-->
+                      <th style="width: 100px;">Kedalaman</th>
+                      <th style="width: 100px;">Jumlah</th>
+                    </tr>
+                    </thead>
+                    <tbody id="kedalaman">
+                      <tr>
+                        <!-- /.<td>1</td>-->
+                        <td>< 60 Km</td>
+                        <td>{{depth.0}}</td>
+                      </tr>
+                      <tr>
+                        <!-- /.<td>1</td>-->
+                        <td>60 - 300 Km</td>
+                        <td>{{depth.1}}</td>
+                      </tr>
+                      <tr>
+                        <!-- /.<td>1</td>-->
+                        <td>> 300 Km</td>
+                        <td>{{depth.2}}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </div>
+            </div>
+            <!-- /.card-body -->
+          </div>
+        </div>
+        
+      </div>
+          <!-- /.card -->
+      
+        
+        <!-- /.col -->
+      
+      <!-- /.row -->
+
+      <!-- Main row -->
+      
+    </div><!--/. container-fluid -->
+  </section>
+  <!-- /.content -->
+</div>
+  <!-- /.content-wrapper -->
+{% endblock %}
+
+{% block mapseismisitas %} 
+
+<script>
+  var icon_epic_d3 = L.icon({iconUrl: '{{ url_for('static', filename='images/dangkal.png') }}', iconSize: [8,8]});
+  var icon_epic_d35 = L.icon({iconUrl: '{{ url_for('static', filename='images/menengah.png') }}', iconSize: [8,8]});
+  var icon_epic_d5 = L.icon({iconUrl: '{{ url_for('static', filename='images/dalam.png') }}', iconSize: [8,8]});
+  
+
+  var map = L.map('map').setView([1,126.5], 6);
+  
+  var icon_epic_last = L.icon({iconUrl: '{{ url_for('static', filename='gempa.png') }}', iconSize: [40,40]});
+  
+  {% for eq in data %}
+  var lat = {{eq.3}}
+  var long = {{eq.4}}
+  {% if eq.5 <= 60 %}
+  L.marker([lat,long], {icon: icon_epic_d3}).addTo(map);
+  {% elif eq.5 <= 300 %}
+  L.marker([lat,long], {icon: icon_epic_d35}).addTo(map);
+  {% elif eq.5 > 300 %}
+  L.marker([lat,long], {icon: icon_epic_d5}).addTo(map);
+  {% else %}
+  L.marker([lat,long], {icon: icon_epic_d5}).addTo(map);
+  {% endif %}
+  {% endfor %}
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '&copy; <a href="https://www.bmkg.go.id">Badan Meteorologi Klimatologi dan Geofisika</a>'
+  }).addTo(map);
+</script>
+
+{% endblock %}
+
+{% block javascript %} 
+<script>
+  // Sales graph chart
+  var salesGraphChartCanvas = $('#line-chart').get(0).getContext('2d')
+  // $('#revenue-chart').get(0).getContext('2d');
+
+  var salesGraphChartData = {
+    labels: [
+    {% for date in hist_mag[0] %}
+      '{{date}}',
+      {% endfor %}],
+    datasets: [
+      {
+        label: 'Mag',
+        fill: false,
+        borderWidth: 0.1,
+        lineTension: 0,
+        spanGaps: true,
+        borderColor: '#efefef',
+        pointRadius: 4,
+        pointHoverRadius: 7,
+        pointColor: '#efefef',
+        pointBackgroundColor: '#efefef',
+        data: [{% for mag in hist_mag[1] %}
+              {{mag}},
+              {% endfor %}]
+      }
+    ]
+  }
+
+  var salesGraphChartOptions = {
+    maintainAspectRatio: false,
+    responsive: true,
+    legend: {
+      display: false
+    },
+    scales: {
+      xAxes: [{
+        ticks: {
+          fontColor: '#efefef'
+        },
+        gridLines: {
+          display: false,
+          color: '#efefef',
+          drawBorder: false
+        }
+      }],
+      yAxes: [{
+        ticks: {
+          stepSize: 0.5,
+          fontColor: '#efefef'
+        },
+        gridLines: {
+          display: true,
+          color: '#efefef',
+          drawBorder: false
+        }
+      }]
+    }
+  }
+
+  // This will get the first returned node in the jQuery collection.
+  // eslint-disable-next-line no-unused-vars
+  var salesGraphChart = new Chart(salesGraphChartCanvas, { // lgtm[js/unused-local-variable]
+    type: 'line',
+    data: salesGraphChartData,
+    options: salesGraphChartOptions
+  })
+  
+</script>
+
+
+
+<script>
+  $(function () {
+  'use strict'
+
+  /* ChartJS
+   * -------
+   * Here we will create a few charts using ChartJS
+   */
+
+  //-----------------------
+  // - MONTHLY SALES CHART -
+  //-----------------------
+
+  // Get context with jQuery - using jQuery's .get() method.
+  var salesChartCanvas = $('#salesChart').get(0).getContext('2d')
+
+  var salesChartData = {
+    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    datasets: [
+      {
+        label: 'Digital Goods',
+        backgroundColor: 'rgba(60,141,188,0.9)',
+        borderColor: 'rgba(60,141,188,0.8)',
+        pointRadius: false,
+        pointColor: '#3b8bba',
+        pointStrokeColor: 'rgba(60,141,188,1)',
+        pointHighlightFill: '#fff',
+        pointHighlightStroke: 'rgba(60,141,188,1)',
+        data: [28, 48, 40, 19, 86, 27, 90]
+      },
+      {
+        label: 'Electronics',
+        backgroundColor: 'rgba(210, 214, 222, 1)',
+        borderColor: 'rgba(210, 214, 222, 1)',
+        pointRadius: false,
+        pointColor: 'rgba(210, 214, 222, 1)',
+        pointStrokeColor: '#c1c7d1',
+        pointHighlightFill: '#fff',
+        pointHighlightStroke: 'rgba(220,220,220,1)',
+        data: [65, 59, 80, 81, 56, 55, 40]
+      }
+    ]
+  }
+
+  var salesChartOptions = {
+    maintainAspectRatio: false,
+    responsive: true,
+    legend: {
+      display: false
+    },
+    scales: {
+      xAxes: [{
+        gridLines: {
+          display: false
+        }
+      }],
+      yAxes: [{
+        gridLines: {
+          display: false
+        }
+      }]
+    }
+  }
+
+  // This will get the first returned node in the jQuery collection.
+  // eslint-disable-next-line no-unused-vars
+  var salesChart = new Chart(salesChartCanvas, {
+    type: 'line',
+    data: salesChartData,
+    options: salesChartOptions
+  }
+  )
+
+  //---------------------------
+  // - END MONTHLY SALES CHART -
+  //---------------------------
+
+
+  //-------------
+  // - HISTOGRAM CHART -
+  //-------------
+  
+  var ticksStyle = {
+    fontColor: '#FFFFFF',
+    fontStyle: 'bold'
+  }
+
+  var mode = 'index'
+  var intersect = true
+
+  var $visitorsChart = $('#visitors-chart')
+  // eslint-disable-next-line no-unused-vars
+  var visitorsChart = new Chart($visitorsChart, {
+    data: {
+      labels: ['18th', '20th', '22nd', '24th', '26th', '28th', '30th'],
+      datasets: [{
+        type: 'line',
+        data: [7, 2, 2, 3, 5, 3, 1],
+        backgroundColor: 'solid',
+        borderColor: '#007bff',
+        pointBorderColor: '#007bff',
+        pointBackgroundColor: '#007bff',
+        fill: false
+        // pointHoverBackgroundColor: '#007bff',
+        // pointHoverBorderColor    : '#007bff'
+      }]
+    },
+    options: {
+      maintainAspectRatio: false,
+      tooltips: {
+        mode: mode,
+        intersect: intersect
+      },
+      hover: {
+        mode: mode,
+        intersect: intersect
+      },
+      legend: {
+        display: false
+      },
+      scales: {
+        yAxes: [{
+          // display: true,
+          gridLines: {
+            display: true,
+            lineWidth: '4px',
+            color: 'rgba(0, 0, 0, .2)',
+            zeroLineColor: 'transparent'
+          },
+          ticks: $.extend({
+            beginAtZero: true
+          }, ticksStyle)
+        }],
+        xAxes: [{
+          display: true,
+          gridLines: {
+            display: false
+          },
+          ticks: ticksStyle
+        }]
+      }
+    }
+  })
+  var $salesChart1 = $('#sales-chart1')
+  var $salesChart = $('#sales-chart')
+  // eslint-disable-next-line no-unused-vars
+  
+  var salesChart = new Chart($salesChart1, {
+    type: 'horizontalBar',
+    data: {
+      labels: ['LAUT MALUKU', 'HALMAHERA BAG. UTARA', 'HALMAHERA BAG. TIMUR', 'HALMAHERA BAG. BARAT', 'HALMAHERA BAG. SELATAN', 'KEP. SULA & TALIABU', 'SULAWESI'],
+      datasets: [
+        {
+          backgroundColor: '#007bff',
+          borderColor: '#007bff',
+          data: {{wilayah}}
+        }
+      ]
+    },
+    options: {
+      animation: {
+        onComplete: function () {
+            var chartInstance = this.chart,
+                ctx = chartInstance.ctx;
+                ctx.textAlign = 'left';
+                ctx.fillStyle = "rgba(255,255,255, 1)";
+                ctx.textBaseline = 'top';
+
+                // Loop through each data in the datasets
+
+                this.data.datasets.forEach(function (dataset, i) {
+                    var meta = chartInstance.controller.getDatasetMeta(i);
+                    meta.data.forEach(function (bar, index) {
+                        var data = dataset.data[index];
+                        ctx.fillText(data, bar._model.x+5, bar._model.y - 5);
+
+                    });
+                });
+            }
+      },
+      maintainAspectRatio: false,
+      tooltips: {
+        mode: mode,
+        intersect: intersect
+      },
+      hover: {
+        mode: mode,
+        intersect: intersect
+      },
+      legend: {
+        display: false
+      },
+      scales: {
+        yAxes: [{
+          // display: false,
+          gridLines: {
+            display: true,
+            lineWidth: '4px',
+            color: 'rgba(0, 0, 0, .2)',
+            zeroLineColor: 'transparent'
+          },
+          ticks: $.extend({
+            beginAtZero: true,
+
+            
+          }, ticksStyle)
+        }],
+        xAxes: [{
+          afterDataLimits(scale) {
+          scale.max += 1
+          },
+          display: true,
+          gridLines: {
+            display: false
+          },
+          ticks: $.extend({
+            beginAtZero: true,
+          }, ticksStyle,
+          
+          )
+        }]
+      }
+      
+    }
+  })
+
+  var salesChart = new Chart($salesChart, {
+    type: 'bar',
+    data: {
+      
+      labels: [
+      {% for date in hist_harian[0] %}
+      '{{date}}',
+      {% endfor %}],
+      
+      datasets: [
+        {
+          backgroundColor: '#00a65a',
+          borderColor: '##00a65a',
+          data: {{hist_harian[1]}}
+        }
+      ]
+    },
+    options: {
+      animation: {
+        onComplete: function () {
+            var chartInstance = this.chart,
+                ctx = chartInstance.ctx;
+                ctx.textAlign = 'center';
+                ctx.fillStyle = "rgba(255,255,255, 1)";
+                ctx.textBaseline = 'bottom';
+
+                // Loop through each data in the datasets
+
+                this.data.datasets.forEach(function (dataset, i) {
+                    var meta = chartInstance.controller.getDatasetMeta(i);
+                    meta.data.forEach(function (bar, index) {
+                        var data = dataset.data[index];
+                        ctx.fillText(data, bar._model.x, bar._model.y - 5);
+
+                    });
+                });
+            }
+        },
+      
+      maintainAspectRatio: false,
+      tooltips: {
+        mode: mode,
+        intersect: intersect
+      },
+      hover: {
+        mode: mode,
+        intersect: intersect
+      },
+      legend: {
+        display: false
+      },
+      scales: {
+        
+        yAxes: [{
+          // display: false,
+          afterDataLimits(scale) {
+          scale.max += 1
+          },
+          display: true,
+          gridLines: {
+            display: true,
+            lineWidth: '4px',
+            color: 'rgba(0, 0, 0, .2)',
+            zeroLineColor: 'transparent'
+          },
+          ticks: $.extend({
+            beginAtZero: true,
+
+          }, ticksStyle)
+        }],
+        xAxes: [{
+          display: true,
+          gridLines: {
+            display: false,
+          },
+          ticks: $.extend({
+            beginAtZero: true
+          }, ticksStyle)
+        }]
+      }
+    }
+  })
+
+
+
+
+
+  //-------------
+  // - PIE CHART -
+  //-------------
+  // Get context with jQuery - using jQuery's .get() method.
+  var pieChartCanvas = $('#pieChart').get(0).getContext('2d')
+  var pieData = {
+    labels: [
+      '< 60 Km',
+      '60 - 300 Km',
+      '> 300 Km'
+    ],
+    datasets: [
+      {
+        data: {{depth}},
+        backgroundColor: ['#f56954', '#f39c12','#00a65a']
+      }
+    ]
+  }
+  var pieOptions = {
+    legend: {
+      display: false
+    }
+  }
+  // Create pie or douhnut chart
+  // You can switch between pie and douhnut using the method below.
+  // eslint-disable-next-line no-unused-vars
+  var pieChart = new Chart(pieChartCanvas, {
+    type: 'doughnut',
+    data: pieData,
+    options: pieOptions
+  })
+
+  //-----------------
+  // - END PIE CHART -
+  //-----------------
+
+  //-------------
+  // - PIE CHART -
+  //-------------
+  // Get context with jQuery - using jQuery's .get() method.
+  var pieChartCanvas = $('#pieChart1').get(0).getContext('2d')
+  var pieData = {
+    labels: [
+      'M < 3',
+      '3 < M < 5',
+      'M > 5'
+    ],
+    datasets: [
+      {
+        data: {{mag}},
+        backgroundColor: ['#00a65a','#f39c12','#f56954']
+      }
+    ]
+  }
+  var pieOptions = {
+    legend: {
+      display: false
+    }
+  }
+  // Create pie or douhnut chart
+  // You can switch between pie and douhnut using the method below.
+  // eslint-disable-next-line no-unused-vars
+  var pieChart = new Chart(pieChartCanvas, {
+    type: 'doughnut',
+    data: pieData,
+    options: pieOptions
+  })
+
+  //-----------------
+  // - END PIE CHART -
+  //-----------------
+  
+  })
+</script>
+{% endblock %}
+
+
+

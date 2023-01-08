@@ -1,0 +1,51 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zipe
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-27
+    Time                   11:09:05.8  +/-    0.5 s
+    Latitude                 0.56 deg  +/-      4 km
+    Longitude              122.11 deg  +/-      2 km
+    Depth                       3 km   +/-    4 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.68 s
+    Azimuthal gap             173 deg
+
+4 Network magnitudes:
+    Mjma      2.53 +/- 0.24   5            
+    ML        2.36 +/- 0.53   5            
+    MLv       2.33 +/- 0.58   5            
+    M         2.39            5 preferred  
+
+12 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SMSI  IA    0.5  31  P       11:09:15.6  -0.0 M  1.0  SMSI 
+    SMSI  IA    0.5  31  S       11:09:22.2  -0.2 M  1.0  SMSI 
+    KGCM  IA    0.7  84  P       11:09:21.2   0.9 M  1.0  KGCM 
+    KGCM  IA    0.7  84  S       11:09:30.5   0.1 M  1.0  KGCM 
+    GTOI  IA    0.8  75  P       11:09:19.3  -1.7 M  1.0  GTOI 
+    GTOI  IA    0.8  75  S       11:09:29.3  -2.4 MX 0.0  GTOI 
+    BBCI  IA    0.9 312  P       11:09:20.2  -3.0 MX 0.0  BBCI 
+    BBCI  IA    0.9 312  S       11:09:35.9   0.5 M  1.0  BBCI 
+    TGCM  IA    1.0  92  P       11:09:24.7   0.3 M  1.0  TGCM 
+    TGCM  IA    1.0  92  S       11:09:37.9   0.3 M  1.0  TGCM 
+    TPCI  IA    1.0 265  P       11:09:25.6   0.4 M  1.0  TPCI 
+    TPCI  IA    1.0 265  S       11:09:38.5  -0.6 M  1.0  TPCI 
+
+9 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    GTOI  IA    0.8  75  ML      1.99 -0.37   0.113652     
+    GTOI  IA    0.8  75  MLv     2.01 -0.32   0.118411     
+    GTOI  IA    0.8  75  Mjma    2.46 -0.07   0.308989     
+    TGCM  IA    1.0  92  ML      2.45  0.09   0.258568     
+    TGCM  IA    1.0  92  MLv     2.07 -0.26   0.106969     
+    TGCM  IA    1.0  92  Mjma    2.54  0.00   0.258689     
+    TPCI  IA    1.0 265  ML      2.72  0.36   0.451153     
+    TPCI  IA    1.0 265  MLv     2.89  0.56   0.674232     
+    TPCI  IA    1.0 265  Mjma    2.66  0.13   0.318201     
+
+stageofgorontalo
+</p></body></html>

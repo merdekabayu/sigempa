@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022xqxj
+    Preferred Origin ID    Origin/20221203134158.411595.151565
+    Preferred Magnitude ID Origin/20221203134158.411595.151565/netMag/M
+    Description
+      region name: Sulawesi, Indonesia
+    Creation time          2022-12-03 13:42:03
+
+Origin:
+    Public ID              Origin/20221203134158.411595.151565
+    Date                   2022-12-03
+    Time                   13:18:45.9  +/-    1.0 s
+    Latitude                -2.46 deg  +/-     10 km
+    Longitude              121.08 deg  +/-      3 km
+    Depth                      10 km   (fixed)
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-03 13:41:58
+    Residual RMS             0.18 s
+    Azimuthal gap             221 deg
+
+2 Network magnitudes:
+    MLv       1.87 +/- 0.54   2            BMG
+    M         1.87            2 preferred  BMG1
+
+7 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MTCM  IA    0.1 194  P       13:18:49.6  -0.1 M  1.0  MTCM 
+    LSSN  IA    0.2 173  P       13:18:50.6   0.2 M  1.0  LSSN 
+    SRSI  IA    0.2 250  P       13:18:51.1  -0.3 M  1.0  SRSI 
+    TLCM  IA    0.3 260  P       13:18:53.0   0.2 M  1.0  TLCM 
+    TOCM  IA    0.4 120  P       13:18:54.2   0.0 M  1.0  TOCM 
+    TOCM  IA    0.4 120  S       13:19:00.1  -0.1 M  1.0  TOCM 
+    RKCM  IA    0.7 134  P       13:18:59.7   0.1 M  1.0  RKCM 
+
+2 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    LSSN  IA    0.2 173  MLv     2.25  0.38    3.22539     
+    SRSI  IA    0.2 250  MLv     1.49 -0.38   0.381286     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

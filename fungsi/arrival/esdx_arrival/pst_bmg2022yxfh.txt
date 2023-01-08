@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022yxfh
+    Preferred Origin ID    Origin/20221221054519.266345.392313
+    Preferred Magnitude ID Origin/20221221054519.266345.392313/netMag/M
+    Description
+      region name: Southern Sumatra, Indonesia
+    Creation time          2022-12-21 05:43:51
+
+Origin:
+    Public ID              Origin/20221221054519.266345.392313
+    Date                   2022-12-21
+    Time                   05:39:53.1  +/-    0.5 s
+    Latitude                -4.82 deg  +/-      4 km
+    Longitude              103.07 deg  +/-      3 km
+    Depth                      34 km   +/-    4 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-21 05:45:19
+    Residual RMS             0.84 s
+    Azimuthal gap             207 deg
+
+3 Network magnitudes:
+    MLv       3.63 +/- 0.48   4            BMG
+    Mjma      3.44 +/- 0.31   4            BMG1
+    M         3.57            4 preferred  BMG1
+
+30 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MKSM  IA    0.4  45  P       05:40:03.6  -0.2 M  1.0  MKSM 
+    MKSM  IA    0.4  45  S       05:40:12.5   0.7 M  1.0  MKSM 
+    MNAI  IA    0.5 347  P       05:40:04.2  -0.3 M  1.0  MNAI 
+    MNAI  IA    0.5 347  S       05:40:12.6  -0.5 M  1.0  MNAI 
+    MTSM  IA    0.6  52  P       05:40:05.2  -0.3 M  1.0  MTSM 
+    MTSM  IA    0.6  52  S       05:40:14.9   0.0 M  1.0  MTSM 
+    LESM  IA    0.7 102  P       05:40:05.8  -1.0 M  1.0  LESM 
+    LESM  IA    0.7 102  S       05:40:15.9  -1.2 M  1.0  LESM 
+    PKSI  IA    0.8  14  P       05:40:08.4  -0.1 M  1.0  PKSI 
+    PKSI  IA    0.8  14  S       05:40:20.4   0.3 M  1.0  PKSI 
+    UTSM  IA    0.8 335  P       05:40:10.1   1.5 M  1.0  UTSM 
+    UTSM  IA    0.8 335  S       05:40:21.4   1.1 M  1.0  UTSM 
+    LHSM  IA    0.8  38  P       05:40:09.3   0.6 M  1.0  LHSM 
+    BOSM  IA    1.0  92  P       05:40:10.2  -0.2 M  1.0  BOSM 
+    BOSM  IA    1.0  92  S       05:40:23.8   0.3 M  1.0  BOSM 
+    LWLI  IA    1.0 101  P       05:40:10.7  -0.4 M  1.0  LWLI 
+    LWLI  IA    1.0 101  S       05:40:22.8  -1.8 M  1.0  LWLI 
+    ULSM  IA    1.1 346  P       05:40:11.9  -0.2 M  1.0  ULSM 
+    MDSI  IA    1.2  73  P       05:40:13.3   0.2 M  1.0  MDSI 
+    MDSI  IA    1.2  73  S       05:40:28.7   0.3 M  1.0  MDSI 
+    SUSM  IA    1.2  99  P       05:40:14.8   0.6 M  1.0  SUSM 
+    SUSM  IA    1.2  99  S       05:40:30.7   0.3 M  1.0  SUSM 
+    KSI   IA    1.3 338  P       05:40:14.6   0.2 M  1.0  KSI  
+    KSI   IA    1.3 338  S       05:40:31.2   0.4 M  1.0  KSI  
+    ABSM  IA    1.6 330  P       05:40:18.4  -0.8 M  1.0  ABSM 
+    ABSM  IA    1.6 330  S       05:40:36.9  -2.4 M  1.0  ABSM 
+    KLSI  IA    1.7  85  P       05:40:20.3   0.2 M  1.0  KLSI 
+    BLSM  IA    1.7 351  P       05:40:21.1   0.7 M  1.0  BLSM 
+    LLSM  IA    1.9 114  P       05:40:23.9   0.6 M  1.0  LLSM 
+    PSSM  IA    1.9 123  P       05:40:25.1   1.5 M  1.0  PSSM 
+
+8 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MNAI  IA    0.5 347  MLv     4.41  0.78    60.9482     
+    MNAI  IA    0.5 347  Mjma    3.93  0.49    22.1462     
+    MDSI  IA    1.2  73  MLv     3.09 -0.54    0.88907     
+    MDSI  IA    1.2  73  Mjma    3.07 -0.37   0.647475     
+    SUSM  IA    1.2  99  MLv     3.65  0.02    2.88764     
+    SUSM  IA    1.2  99  Mjma    3.42 -0.02    1.28742     
+    BLSM  IA    1.7 351  MLv     3.50 -0.14    1.12035     
+    BLSM  IA    1.7 351  Mjma    3.41 -0.04   0.726292     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

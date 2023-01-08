@@ -1,0 +1,56 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zqhz
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-31
+    Time                   16:36:28.9  +/-    0.3 s
+    Latitude                 1.13 deg  +/-      3 km
+    Longitude              123.35 deg  +/-      1 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.97 s
+    Azimuthal gap             177 deg
+
+2 Network magnitudes:
+    MLv       3.65 +/- 0.27   8            
+    M         3.65            8 preferred  
+
+20 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TGCM  IA    0.7 204  P       16:36:42.6   0.3 M  1.0  TGCM 
+    TGCM  IA    0.7 204  S       16:36:50.9  -1.0 M  1.0  TGCM 
+    KGCM  IA    0.7 225  P       16:36:43.4   0.6 M  1.0  KGCM 
+    KGCM  IA    0.7 225  S       16:36:52.9   0.1 M  1.0  KGCM 
+    KMSI  IA    0.8 131  P       16:36:45.6   0.3 M  1.0  KMSI 
+    KMSI  IA    0.8 131  S       16:36:57.6   0.3 M  1.0  KMSI 
+    SMSI  IA    1.0 262  P       16:36:48.0   0.2 M  1.0  SMSI 
+    SMSI  IA    1.0 262  S       16:37:01.3  -0.4 M  1.0  SMSI 
+    PBCI  IA    1.0 137  P       16:36:48.3  -0.0 M  1.0  PBCI 
+    PBCI  IA    1.0 137  S       16:37:00.8  -1.7 M  1.0  PBCI 
+    TBMCM IA    1.3 109  P       16:36:53.4   0.6 M  1.0  TBMCM
+    TBMCM IA    1.3 109  S       16:37:10.5  -0.1 M  1.0  TBMCM
+    MNI   IA    1.5  78  P       16:36:56.9   1.0 M  1.0  MNI  
+    MNI   IA    1.5  78  S       16:37:14.2  -2.1 M  1.0  MNI  
+    MRSI  IA    1.5 245  P       16:36:56.5   0.2 M  1.0  MRSI 
+    MRSI  IA    1.5 245  S       16:37:16.0  -0.9 M  1.0  MRSI 
+    TMSI  IA    1.6  84  P       16:36:57.6   0.8 M  1.0  TMSI 
+    TMSI  IA    1.6  84  S       16:37:18.5   0.5 M  1.0  TMSI 
+    BGCI  IA    2.0 179  P       16:37:01.7  -1.1 M  1.0  BGCI 
+    BGCI  IA    2.0 179  S       16:37:31.1   2.3 M  1.0  BGCI 
+
+8 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TGCM  IA    0.7 204  MLv     3.82  0.17    8.94033     
+    SMSI  IA    1.0 262  MLv     3.36 -0.29    2.04061     
+    PBCI  IA    1.0 137  MLv     3.47 -0.19    2.49829     
+    TBMCM IA    1.3 109  MLv     3.59 -0.06     2.2998     
+    MNI   IA    1.5  78  MLv     3.76  0.11    2.59909     
+    MRSI  IA    1.5 245  MLv     3.82  0.16    2.86408     
+    TMSI  IA    1.6  84  MLv     3.28 -0.37   0.795768     
+    BGCI  IA    2.0 179  MLv     4.16  0.51    3.47446     
+
+stageofternate
+</p></body></html>

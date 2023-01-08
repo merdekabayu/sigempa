@@ -1,0 +1,100 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yloo
+    Description
+      region name: Talaud Islands, Indonesia
+Origin:
+    Date                   2022-12-14
+    Time                   20:42:51.9  +/-    0.7 s
+    Latitude                 4.48 deg  +/-      4 km
+    Longitude              126.90 deg  +/-      3 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.87 s
+    Azimuthal gap             288 deg
+
+5 Network magnitudes:
+    Mjma      4.25 +/- 0.19  10            
+    ML        4.51 +/- 0.14  10            
+    MLv       4.58 +/- 0.14  10            
+    Ms(BB)    4.03 +/- 0.18   9            
+    M         4.39           10 preferred  
+
+30 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MGAI  IA    0.5 206  P       20:43:00.6  -2.1 M  1.0  MGAI 
+    MGAI  IA    0.5 206  S       20:43:08.4  -2.1 M  1.0  MGAI 
+    PSSI  IA    2.3 221  P       20:43:28.5  -1.2 M  1.0  PSSI 
+    PSSI  IA    2.3 221  S       20:43:59.3   0.5 M  1.0  PSSI 
+    MTAI  IA    2.7 149  P       20:43:33.3  -1.4 M  1.0  MTAI 
+    MTAI  IA    2.7 149  S       20:44:07.8  -0.1 M  1.0  MTAI 
+    IHMI  IA    3.0 167  P       20:43:40.9   1.0 M  1.0  IHMI 
+    IHMI  IA    3.0 167  S       20:44:17.4   0.2 M  1.0  IHMI 
+    JHMI  IA    3.4 170  P       20:43:44.4  -1.0 M  1.0  JHMI 
+    JHMI  IA    3.4 170  S       20:44:27.3   0.3 M  1.0  JHMI 
+    WHMI  IA    3.6 160  P       20:43:47.2  -0.5 M  1.0  WHMI 
+    WHMI  IA    3.6 160  S       20:44:31.3   0.1 M  1.0  WHMI 
+    MNI   IA    3.6 214  P       20:43:49.1   0.6 M  1.0  MNI  
+    MNI   IA    3.6 214  S       20:44:33.1   0.5 M  1.0  MNI  
+    TNTI  IA    3.7 173  P       20:43:50.6   1.2 M  1.0  TNTI 
+    TNTI  IA    3.7 173  S       20:44:34.5   0.3 M  1.0  TNTI 
+    TMSI  IA    3.7 212  P       20:43:49.1  -0.5 M  1.0  TMSI 
+    TMSI  IA    3.7 212  S       20:44:35.0   0.5 M  1.0  TMSI 
+    PMMI  IA    4.1 173  P       20:43:54.5  -0.3 M  1.0  PMMI 
+    PMMI  IA    4.1 173  S       20:44:44.3   0.3 M  1.0  PMMI 
+    WBMI  IA    4.2 167  P       20:43:57.1   0.7 M  1.0  WBMI 
+    WBMI  IA    4.2 167  S       20:44:47.1   0.2 M  1.0  WBMI 
+    TBMCM IA    4.4 212  P       20:43:59.3   0.5 M  1.0  TBMCM
+    KMSI  IA    4.9 217  P       20:44:05.6   0.6 M  1.0  KMSI 
+    KMSI  IA    4.9 217  S       20:45:02.8   0.5 M  1.0  KMSI 
+    PBCI  IA    5.0 215  P       20:44:07.2   0.6 M  1.0  PBCI 
+    PBCI  IA    5.0 215  S       20:45:05.7   0.5 M  1.0  PBCI 
+    BGCI  IA    6.4 213  P       20:44:26.4   0.5 MX 0.0  BGCI 
+    SANI  IA    6.5 188  P       20:44:27.1  -1.3 MX 0.0  SANI 
+    LUWI  IA    6.9 217  P       20:44:33.3   0.6 MX 0.0  LUWI 
+
+39 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MGAI  IA    0.5 206  ML      4.77  0.26    104.362     
+    MGAI  IA    0.5 206  MLv     4.80  0.22    111.525     
+    PSSI  IA    2.3 221  ML      4.44 -0.06    4.67807     
+    PSSI  IA    2.3 221  MLv     4.50 -0.08    5.36957     
+    PSSI  IA    2.3 221  Mjma    4.51  0.26    5.47125     
+    PSSI  IA    2.3 221  Ms(BB)  4.25  0.22   1.41164e-05 0.52
+    MTAI  IA    2.7 149  ML      4.21 -0.30    1.69007     
+    MTAI  IA    2.7 149  MLv     4.24 -0.34      1.818     
+    MTAI  IA    2.7 149  Mjma    4.00 -0.25    1.30895     
+    MTAI  IA    2.7 149  Ms(BB)  3.94 -0.09   5.38301e-06 0.53
+    IHMI  IA    3.0 167  Mjma    4.51  0.25    3.31028     
+    JHMI  IA    3.4 170  ML      4.61  0.10     1.5578     
+    JHMI  IA    3.4 170  MLv     4.62  0.04    1.60973     
+    JHMI  IA    3.4 170  Mjma    4.42  0.17    2.21299     
+    JHMI  IA    3.4 170  Ms(BB)  4.12  0.09   5.29314e-06 0.78
+    WHMI  IA    3.6 160  ML      4.50 -0.00   0.995618     
+    WHMI  IA    3.6 160  MLv     4.70  0.12     1.5885     
+    WHMI  IA    3.6 160  Mjma    4.25 -0.00    1.35838     
+    WHMI  IA    3.6 160  Ms(BB)  4.01 -0.02   3.82952e-06 0.90
+    TNTI  IA    3.7 173  ML      4.54  0.03    1.01109     
+    TNTI  IA    3.7 173  MLv     4.49 -0.09    0.90527     
+    TNTI  IA    3.7 173  Mjma    3.91 -0.34    0.59357     
+    TNTI  IA    3.7 173  Ms(BB)  3.82 -0.21   2.32538e-06 0.12
+    PMMI  IA    4.1 173  ML      4.44 -0.07   0.639671     
+    PMMI  IA    4.1 173  MLv     4.63  0.04   0.980448     
+    PMMI  IA    4.1 173  Mjma    4.28  0.03    1.15407     
+    PMMI  IA    4.1 173  Ms(BB)  4.08  0.05   3.59044e-06 0.19
+    WBMI  IA    4.2 167  ML      4.45 -0.06   0.606884     
+    WBMI  IA    4.2 167  MLv     4.49 -0.09    0.66869     
+    WBMI  IA    4.2 167  Mjma    4.33  0.07    1.22567     
+    WBMI  IA    4.2 167  Ms(BB)  3.84 -0.19   1.98129e-06 2.01
+    TBMCM IA    4.4 212  ML      4.71  0.20    1.00593     
+    TBMCM IA    4.4 212  MLv     4.77  0.19    1.16072     
+    TBMCM IA    4.4 212  Mjma    4.15 -0.10   0.775986     
+    TBMCM IA    4.4 212  Ms(BB)  4.40  0.37   6.72023e-06 0.03
+    PBCI  IA    5.0 215  ML      4.38 -0.13   0.341185     
+    PBCI  IA    5.0 215  MLv     4.52 -0.06   0.470788     
+    PBCI  IA    5.0 215  Mjma    4.12 -0.13    0.58378     
+    PBCI  IA    5.0 215  Ms(BB)  3.87 -0.16   1.62994e-06 0.35
+
+stageofternate
+</p></body></html>

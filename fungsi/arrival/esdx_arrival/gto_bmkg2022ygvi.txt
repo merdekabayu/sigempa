@@ -1,0 +1,46 @@
+<html><body><p>Event:
+    Public ID              bmkg2022ygvi
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-12
+    Time                   06:27:37.1  +/-    0.8 s
+    Latitude                 0.41 deg  +/-     18 km
+    Longitude              121.76 deg  +/-      4 km
+    Depth                     161 km   +/-    8 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.32 s
+    Azimuthal gap             177 deg
+
+2 Network magnitudes:
+    MLv       2.31 +/- 0.33   7            
+    M         2.31            7 preferred  
+
+13 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MRSI  IA    0.2  71  P       06:27:59.2  -0.1 M  1.0  MRSI 
+    MRSI  IA    0.2  71  S       06:28:16.4  -0.2 M  1.0  MRSI 
+    SMSI  IA    0.8  47  P       06:28:01.7  -0.5 M  1.0  SMSI 
+    SMSI  IA    0.8  47  S       06:28:22.0   0.2 M  1.0  SMSI 
+    GTOI  IA    1.2  73  P       06:28:04.8   0.3 M  1.0  GTOI 
+    GTOI  IA    1.2  73  S       06:28:27.3   1.5 MX 0.0  GTOI 
+    TOLI2 IA    1.2 305  P       06:28:05.0   0.3 M  1.0  TOLI2
+    TOLI2 IA    1.2 305  S       06:28:26.0  -0.2 M  1.0  TOLI2
+    TGCM  IA    1.3  85  P       06:28:05.8  -0.1 M  1.0  TGCM 
+    TGCM  IA    1.3  85  S       06:28:29.1   0.6 M  1.0  TGCM 
+    MPSI  IA    1.9 268  P       06:28:11.5   0.2 M  1.0  MPSI 
+    PBCI  IA    2.3  91  P       06:28:16.2  -0.0 M  1.0  PBCI 
+    PBCI  IA    2.3  91  S       06:28:46.5  -0.4 M  1.0  PBCI 
+
+5 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    SMSI  IA    0.8  47  MLv     1.99 -0.31   0.106787     
+    GTOI  IA    1.2  73  MLv     2.16 -0.15   0.103159     
+    TOLI2 IA    1.2 305  MLv     2.18 -0.13   0.102972     
+    MPSI  IA    1.9 268  MLv     2.58  0.27   0.111519     
+    PBCI  IA    2.3  91  MLv     2.68  0.37   0.0812484     
+
+stageofgorontalo
+</p></body></html>

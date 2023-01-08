@@ -1,0 +1,46 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yihz
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-13
+    Time                   01:58:27.3  +/-    0.6 s
+    Latitude                -0.19 deg  +/-      2 km
+    Longitude              122.94 deg  +/-      5 km
+    Depth                      24 km   +/-    9 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.94 s
+    Azimuthal gap             129 deg
+
+2 Network magnitudes:
+    MLv       2.83 +/- 0.22   7            
+    M         2.83            7 preferred  
+
+13 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TGCM  IA    0.7  11  P       01:58:41.8   0.2 M  1.0  TGCM 
+    TGCM  IA    0.7  11  S       01:58:53.2   0.9 M  1.0  TGCM 
+    LUWI  IA    0.9 192  P       01:58:43.5  -0.2 M  1.0  LUWI 
+    LUWI  IA    0.9 192  S       01:58:56.0  -0.1 M  1.0  LUWI 
+    GTOI  IA    0.9 356  P       01:58:44.9  -0.1 M  1.0  GTOI 
+    GTOI  IA    0.9 356  S       01:58:58.7   0.6 M  1.0  GTOI 
+    MRSI  IA    1.2 303  P       01:58:47.3  -1.2 M  1.0  MRSI 
+    MRSI  IA    1.2 303  S       01:59:03.1  -1.5 M  1.0  MRSI 
+    PBCI  IA    1.2  63  P       01:58:48.6  -0.4 M  1.0  PBCI 
+    SMSI  IA    1.3 334  P       01:58:49.9  -0.1 M  1.0  SMSI 
+    SMSI  IA    1.3 334  S       01:59:07.7   0.5 M  1.0  SMSI 
+    APSI  IA    1.5 241  P       01:58:51.5  -0.9 M  1.0  APSI 
+    APSI  IA    1.5 241  S       01:59:14.0   2.3 M  1.0  APSI 
+
+5 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TGCM  IA    0.7  11  MLv     2.90  0.07    1.00036     
+    MRSI  IA    1.2 303  MLv     2.72 -0.11   0.355388     
+    PBCI  IA    1.2  63  MLv     2.60 -0.22   0.261142     
+    SMSI  IA    1.3 334  MLv     2.79 -0.04   0.362459     
+    APSI  IA    1.5 241  MLv     3.07  0.24   0.557202     
+
+stageofgorontalo
+</p></body></html>

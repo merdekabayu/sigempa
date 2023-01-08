@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2022zqoo
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-31
+    Time                   19:55:14.0  +/-    0.0 s
+    Latitude                 2.58 deg  +/-      8 km
+    Longitude              127.18 deg  +/-      4 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.95 s
+    Azimuthal gap             129 deg
+
+5 Network magnitudes:
+    MLv       3.93 +/- 0.19  13            
+    mB        4.70 +/- 0.03   2            
+    Mw(mB)    3.92 +/- 0.40   2            
+    mb        4.46 +/- 0.49   2            
+    M         4.11           13 preferred  
+
+19 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MTAI  IA    1.2 109  P       19:55:36.5   1.0 M  1.0  MTAI 
+    MGAI  IA    1.5 340  P       19:55:40.9   0.2 M  1.0  MGAI 
+    JHMI  IA    1.5 169  P       19:55:38.6  -2.4 M  1.0  JHMI 
+    PSSI  IA    1.8 275  P       19:55:43.5  -1.2 M  1.0  PSSI 
+    TNTI  IA    1.8 174  P       19:55:45.1  -0.1 M  1.0  TNTI 
+    SGSI  IA    2.0 304  P       19:55:47.6   0.0 M  1.0  SGSI 
+    WBMI  IA    2.3 163  P       19:55:52.6   0.1 M  1.0  WBMI 
+    TMSI  IA    2.6 240  P       19:55:55.6  -0.4 M  1.0  TMSI 
+    MNI   IA    2.6 244  P       19:55:54.2  -1.9 M  1.0  MNI  
+    GHMI  IA    3.0 167  P       19:56:02.5   0.8 M  1.0  GHMI 
+    TBMCM IA    3.2 234  P       19:56:04.6   0.4 M  1.0  TBMCM
+    LBMI  IA    3.2 174  P       19:56:05.6   1.0 M  1.0  LBMI 
+    KMSI  IA    3.8 238  P       19:56:12.8   0.6 M  1.0  KMSI 
+    PBCI  IA    3.8 235  P       19:56:13.5   0.5 M  1.0  PBCI 
+    OBMI  IA    4.0 173  P       19:56:24.7  10.3 AX 0.0  OBMI 
+    TGCM  IA    4.6 243  P       19:56:23.4  -0.1 M  1.0  TGCM 
+    MRSI  IA    5.6 248  P       19:56:38.6   0.7 M  1.0  MRSI 
+    LUWI  IA    5.7 231  P       19:56:47.7   9.0 AX 0.0  LUWI 
+    MPSI  IA    7.6 253  P       19:57:05.7   0.7 M  1.0  MPSI 
+
+17 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MTAI  IA    1.2 109  MLv     3.85 -0.08    5.12948     
+    JHMI  IA    1.5 169  MLv     3.83 -0.10    3.01142     
+    PSSI  IA    1.8 275  MLv     3.84 -0.09    2.23948     
+    TNTI  IA    1.8 174  MLv     3.47 -0.46   0.907431     
+    SGSI  IA    2.0 304  MLv     4.16  0.23    3.58833     
+    WBMI  IA    2.3 163  MLv     3.87 -0.06     1.1542     
+    TMSI  IA    2.6 240  MLv     4.04  0.11     1.2584     
+    GHMI  IA    3.0 167  MLv     3.75 -0.18   0.367751     
+    TBMCM IA    3.2 234  MLv     4.07  0.14   0.627714     
+    LBMI  IA    3.2 174  MLv     4.12  0.19   0.663306     
+    PBCI  IA    3.8 235  MLv     4.00  0.07   0.275957     
+    TGCM  IA    4.6 243  MLv     3.91 -0.02   0.143745     
+    MRSI  IA    5.6 248  mB      4.71  0.02    666.114     
+    MRSI  IA    5.6 248  mb      4.81  0.35    51.9787 0.54
+    MPSI  IA    7.6 253  MLv     4.15  0.22   0.0442034     
+    MPSI  IA    7.6 253  mB      4.68 -0.02    432.974     
+    MPSI  IA    7.6 253  mb      4.11 -0.35    11.2684 0.83
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

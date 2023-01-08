@@ -1,0 +1,47 @@
+<html><body><p>Event:
+    Public ID              bmkg2022ybgf
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-09
+    Time                   05:07:50.9  +/-    0.7 s
+    Latitude                 1.03 deg  +/-      4 km
+    Longitude              124.21 deg  +/-      3 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.04 s
+    Azimuthal gap             184 deg
+
+4 Network magnitudes:
+    Mjma      2.42 +/- 0.96   5            
+    ML        2.34 +/- 0.91   5            
+    MLv       2.61 +/- 0.80   5            
+    M         2.49            5 preferred  
+
+8 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TBMCM IA    0.5 130  P       05:08:00.2  -1.0 M  1.0  TBMCM
+    TBMCM IA    0.5 130  S       05:08:10.1   1.3 M  1.0  TBMCM
+    KMSI  IA    0.5 207  P       05:08:00.3  -1.1 M  1.0  KMSI 
+    KMSI  IA    0.5 207  S       05:08:08.4  -0.8 M  1.0  KMSI 
+    PBCI  IA    0.7 195  P       05:08:04.4   0.2 M  1.0  PBCI 
+    PBCI  IA    0.7 195  S       05:08:14.2   0.2 M  1.0  PBCI 
+    TMSI  IA    0.8  70  P       05:08:05.2  -0.7 M  1.0  TMSI 
+    TGCM  IA    1.2 246  P       05:08:15.5   1.8 M  1.0  TGCM 
+
+9 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TBMCM IA    0.5 130  ML      2.34  0.00   0.464216     
+    TBMCM IA    0.5 130  MLv     2.70  0.09    1.04854     
+    TBMCM IA    0.5 130  Mjma    2.43  0.01   0.642892     
+    PBCI  IA    0.7 195  ML      2.14 -0.20   0.184229     
+    PBCI  IA    0.7 195  MLv     2.54 -0.07   0.461957     
+    PBCI  IA    0.7 195  Mjma    2.39 -0.03   0.346893     
+    TMSI  IA    0.8  70  ML      2.90  0.56   0.944976     
+    TMSI  IA    0.8  70  MLv     3.10  0.49    1.50953     
+    TMSI  IA    0.8  70  Mjma    2.99  0.56    1.10724     
+
+stageofternate
+</p></body></html>

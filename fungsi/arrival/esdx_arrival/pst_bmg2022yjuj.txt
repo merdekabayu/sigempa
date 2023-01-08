@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022yjuj
+    Preferred Origin ID    Origin/20221213212506.920113.93173
+    Preferred Magnitude ID Origin/20221213212506.920113.93173/netMag/M
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+    Creation time          2022-12-13 21:24:44
+
+Origin:
+    Public ID              Origin/20221213212506.920113.93173
+    Date                   2022-12-13
+    Time                   21:22:25.8  +/-    0.6 s
+    Latitude                 0.34 deg  +/-      3 km
+    Longitude              119.61 deg  +/-      4 km
+    Depth                      10 km   (fixed)
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-13 21:25:06
+    Residual RMS             1.04 s
+    Azimuthal gap             236 deg
+
+3 Network magnitudes:
+    MLv       3.83 +/- 0.24   7            BMG
+    Mjma      3.59 +/- 0.17   3            BMG1
+    M         3.75            7 preferred  BMG1
+
+22 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MPSI  IA    0.3  91  P       21:22:31.4  -1.1 M  1.0  MPSI 
+    MPSI  IA    0.3  91  S       21:22:35.6  -1.9 M  1.0  MPSI 
+    BGCM  IA    0.5 145  P       21:22:35.8   0.0 M  1.0  BGCM 
+    BGCM  IA    0.5 145  S       21:22:43.9   0.9 M  1.0  BGCM 
+    SDCI  IA    0.8 169  P       21:22:42.8   0.5 M  1.0  SDCI 
+    DOCM  IA    1.0 172  P       21:22:45.3  -0.0 M  1.0  DOCM 
+    DOCM  IA    1.0 172  S       21:22:59.7   0.2 M  1.0  DOCM 
+    PICM  IA    1.1 155  P       21:22:47.1  -0.2 M  1.0  PICM 
+    BDCM  IA    1.2 181  P       21:22:47.5  -0.6 M  1.0  BDCM 
+    PCI   IA    1.3 170  P       21:22:48.6  -0.3 M  1.0  PCI  
+    TPCI  IA    1.5  85  P       21:22:52.1  -0.3 M  1.0  TPCI 
+    PMCI  IA    1.5 190  P       21:22:51.9  -1.0 M  1.0  PMCI 
+    RDCM  IA    1.6 182  P       21:22:53.4  -0.9 M  1.0  RDCM 
+    LUCM  IA    1.9 158  P       21:22:59.5   1.4 M  1.0  LUCM 
+    BBCI  IA    2.0  66  P       21:22:59.9   0.2 M  1.0  BBCI 
+    POCI  IA    2.0 149  P       21:23:00.9   0.7 M  1.0  POCI 
+    LOCM  IA    2.1 164  P       21:23:00.5  -0.0 M  1.0  LOCM 
+    KRSI  IA    2.2 185  P       21:23:00.8  -1.0 M  1.0  KRSI 
+    MRSI  IA    2.3  87  P       21:23:06.3   2.0 M  1.0  MRSI 
+    UTUSI IA    2.4 109  P       21:23:03.2  -1.7 M  1.0  UTUSI
+    APSI  IA    2.4 121  P       21:23:06.6   1.5 M  1.0  APSI 
+    SMSI  IA    2.8  77  P       21:23:12.8   1.7 M  1.0  SMSI 
+
+8 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    BGCM  IA    0.5 145  MLv     4.01  0.18     24.818     
+    BGCM  IA    0.5 145  Mjma    3.75  0.16    14.7744     
+    DOCM  IA    1.0 172  Mjma    3.42 -0.17    1.81227     
+    RDCM  IA    1.6 182  MLv     3.58 -0.26    1.47318     
+    RDCM  IA    1.6 182  Mjma    3.59  0.00    1.19892     
+    LUCM  IA    1.9 158  MLv     3.99  0.15    2.70062     
+    BBCI  IA    2.0  66  MLv     4.02  0.19    2.58788     
+    UTUSI IA    2.4 109  MLv     3.59 -0.25   0.584615     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

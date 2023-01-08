@@ -1,0 +1,93 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xupj
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-12-05
+    Time                   13:48:25.1  +/-    0.5 s
+    Latitude                 1.78 deg  +/-      2 km
+    Longitude              128.49 deg  +/-      4 km
+    Depth                      14 km   +/-    3 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.47 s
+    Azimuthal gap             161 deg
+
+5 Network magnitudes:
+    Mjma      3.57 +/- 0.17  13            
+    ML        3.52 +/- 0.23  13            
+    MLv       3.58 +/- 0.16  13            
+    Ms(BB)    3.49 +/- 0.08   6            
+    M         3.55           13 preferred  
+
+23 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MTAI  IA    0.5 332  P       13:48:35.9   0.7 M  1.0  MTAI 
+    MTAI  IA    0.5 332  S       13:48:42.1  -0.5 M  1.0  MTAI 
+    WHMI  IA    0.8 207  P       13:48:41.0   0.5 M  1.0  WHMI 
+    WHMI  IA    0.8 207  S       13:48:51.0  -0.8 M  1.0  WHMI 
+    IHMI  IA    1.0 254  P       13:48:43.9   0.2 M  1.0  IHMI 
+    JHMI  IA    1.2 235  P       13:48:47.9   0.4 M  1.0  JHMI 
+    JHMI  IA    1.2 235  S       13:49:03.5  -0.6 M  1.0  JHMI 
+    TNTI  IA    1.5 228  P       13:48:52.0   0.5 M  1.0  TNTI 
+    TNTI  IA    1.5 228  S       13:49:11.2  -0.2 M  1.0  TNTI 
+    WBMI  IA    1.6 203  P       13:48:52.6   0.3 M  1.0  WBMI 
+    WBMI  IA    1.6 203  S       13:49:13.0   0.1 M  1.0  WBMI 
+    PMMI  IA    1.8 217  P       13:48:55.5   0.3 M  1.0  PMMI 
+    PMMI  IA    1.8 217  S       13:49:18.5   0.3 M  1.0  PMMI 
+    LBMI  IA    2.6 202  P       13:49:07.3   0.5 M  1.0  LBMI 
+    LBMI  IA    2.6 202  S       13:49:39.4   0.3 M  1.0  LBMI 
+    MGAI  IA    2.9 321  P       13:49:10.5   0.1 M  1.0  MGAI 
+    OBMI  IA    3.2 195  P       13:49:14.3  -0.9 M  1.0  OBMI 
+    PSSI  IA    3.2 287  P       13:49:14.9  -0.4 M  1.0  PSSI 
+    PSSI  IA    3.2 287  S       13:49:54.2  -0.2 M  1.0  PSSI 
+    TMSI  IA    3.6 262  P       13:49:20.4  -0.1 M  1.0  TMSI 
+    SWI   IA    3.8 134  P       13:49:22.8  -0.7 M  1.0  SWI  
+    TBMCM IA    4.0 255  P       13:49:26.3  -0.3 M  1.0  TBMCM
+    PBCI  IA    4.7 253  P       13:49:35.6   0.5 M  1.0  PBCI 
+
+39 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MTAI  IA    0.5 332  MLv     3.72  0.14    13.4536     
+    MTAI  IA    0.5 332  Mjma    3.22 -0.35    4.39355     
+    WHMI  IA    0.8 207  MLv     3.23 -0.35    1.95373     
+    IHMI  IA    1.0 254  ML      3.77  0.25    5.40196     
+    IHMI  IA    1.0 254  MLv     3.64  0.06    3.95753     
+    IHMI  IA    1.0 254  Mjma    3.47 -0.10    2.18758     
+    JHMI  IA    1.2 235  ML      3.66  0.13     2.9754     
+    JHMI  IA    1.2 235  MLv     3.55 -0.03    2.32135     
+    JHMI  IA    1.2 235  Mjma    3.46 -0.11    1.42052     
+    TNTI  IA    1.5 228  ML      3.21 -0.32     0.7347     
+    WBMI  IA    1.6 203  ML      3.59  0.06    1.63566     
+    WBMI  IA    1.6 203  MLv     3.47 -0.10    1.26127     
+    WBMI  IA    1.6 203  Mjma    3.63  0.06    1.38669     
+    PMMI  IA    1.8 217  ML      3.14 -0.38   0.455981     
+    PMMI  IA    1.8 217  MLv     3.50 -0.08    1.03203     
+    PMMI  IA    1.8 217  Mjma    3.54 -0.03    0.91292     
+    LBMI  IA    2.6 202  ML      3.64  0.12   0.486792     
+    LBMI  IA    2.6 202  MLv     3.59  0.01   0.432779     
+    LBMI  IA    2.6 202  Mjma    3.66  0.08   0.606814     
+    LBMI  IA    2.6 202  Ms(BB)  3.50  0.01   2.02258e-06 0.14
+    MGAI  IA    2.9 321  ML      3.45 -0.07   0.227656     
+    MGAI  IA    2.9 321  MLv     3.77  0.19   0.472417     
+    MGAI  IA    2.9 321  Ms(BB)  3.55  0.05   1.92523e-06 1.92
+    OBMI  IA    3.2 195  Mjma    3.58  0.01   0.350144     
+    PSSI  IA    3.2 287  ML      3.50 -0.03   0.159533     
+    PSSI  IA    3.2 287  MLv     3.58  0.01   0.195944     
+    PSSI  IA    3.2 287  Mjma    3.56 -0.01   0.342818     
+    PSSI  IA    3.2 287  Ms(BB)  3.62  0.12   1.86071e-06 0.10
+    TMSI  IA    3.6 262  ML      3.68  0.15   0.150138     
+    TMSI  IA    3.6 262  MLv     3.71  0.13   0.161419     
+    TMSI  IA    3.6 262  Mjma    3.69  0.12   0.377648     
+    TMSI  IA    3.6 262  Ms(BB)  3.40 -0.09   9.53375e-07 0.17
+    SWI   IA    3.8 134  ML      3.79  0.27   0.171888     
+    SWI   IA    3.8 134  MLv     3.62  0.04   0.116134     
+    SWI   IA    3.8 134  Mjma    3.83  0.26   0.467871     
+    SWI   IA    3.8 134  Ms(BB)  3.43 -0.07   9.04434e-07 0.10
+    PBCI  IA    4.7 253  ML      3.34 -0.18   0.0378508     
+    PBCI  IA    4.7 253  Mjma    3.68  0.10   0.233672     
+    PBCI  IA    4.7 253  Ms(BB)  3.47 -0.02   7.27651e-07 0.69
+
+stageofternate
+</p></body></html>

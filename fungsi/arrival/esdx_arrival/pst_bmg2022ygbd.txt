@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022ygbd
+    Preferred Origin ID    Origin/20221211201919.589564.303716
+    Preferred Magnitude ID Origin/20221211201919.589564.303716/netMag/M
+    Description
+      region name: Sulawesi, Indonesia
+    Creation time          2022-12-11 20:19:24
+
+Origin:
+    Public ID              Origin/20221211201919.589564.303716
+    Date                   2022-12-11
+    Time                   20:15:33.5  +/-    0.4 s
+    Latitude                -2.07 deg  +/-      3 km
+    Longitude              122.62 deg  +/-      3 km
+    Depth                      10 km   (fixed)
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-11 20:19:19
+    Residual RMS             1.30 s
+    Azimuthal gap             133 deg
+
+3 Network magnitudes:
+    MLv       3.24 +/- 0.27   9            BMG
+    M         3.26            9 preferred  BMG1
+    Mjma      3.31 +/- 0.29   8            BMG1
+
+22 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    BHCM  IA    0.9 214  P       20:15:50.8   0.3 M  1.0  BHCM 
+    BBLSI IA    1.0  65  P       20:15:53.0   0.5 M  1.0  BBLSI
+    LUWI  IA    1.0   8  P       20:15:52.5  -0.6 M  1.0  LUWI 
+    LKUCM IA    1.3 198  P       20:15:54.6  -2.2 M  1.0  LKUCM
+    BUMSI IA    1.3 274  P       20:15:55.0  -2.0 M  1.0  BUMSI
+    TOCM  IA    1.3 245  P       20:15:59.1   1.2 M  1.0  TOCM 
+    RKCM  IA    1.4 230  P       20:15:58.7   0.6 M  1.0  RKCM 
+    BGCI  IA    1.4  33  P       20:15:59.9   1.2 M  1.0  BGCI 
+    APSI  IA    1.5 320  P       20:15:58.3  -1.8 M  1.0  APSI 
+    MTCM  IA    1.6 252  P       20:16:02.1  -0.2 M  1.0  MTCM 
+    UTUSI IA    1.8 335  P       20:16:02.9  -1.6 M  1.0  UTUSI
+    SRSI  IA    1.8 255  P       20:16:02.1  -2.5 M  1.0  SRSI 
+    TLCM  IA    1.9 256  P       20:16:05.6  -0.0 M  1.0  TLCM 
+    POCI  IA    2.1 288  P       20:16:08.9   0.6 M  1.0  POCI 
+    LUCM  IA    2.4 285  P       20:16:14.3   1.7 M  1.0  LUCM 
+    MSCM  IA    2.4 259  P       20:16:14.4   1.7 M  1.0  MSCM 
+    LOCM  IA    2.5 280  P       20:16:16.0   2.1 M  1.0  LOCM 
+    TTSI  IA    3.0 251  P       20:16:21.7   1.0 M  1.0  TTSI 
+    PCI   IA    3.0 292  P       20:16:22.1   0.8 M  1.0  PCI  
+    RDCM  IA    3.2 284  P       20:16:23.1  -0.3 M  1.0  RDCM 
+    MMCI  IA    3.4 255  P       20:16:25.9  -0.4 M  1.0  MMCI 
+    SPSI  IA    3.4 236  P       20:16:26.8  -0.1 M  1.0  SPSI 
+
+17 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    BBLSI IA    1.0  65  MLv     3.34  0.10    1.93698     
+    BBLSI IA    1.0  65  Mjma    3.03 -0.28   0.764465     
+    LKUCM IA    1.3 198  MLv     2.90 -0.34   0.484564     
+    BUMSI IA    1.3 274  Mjma    3.76  0.45    2.59509     
+    APSI  IA    1.5 320  MLv     3.22 -0.03   0.754086     
+    APSI  IA    1.5 320  Mjma    3.16 -0.15   0.501165     
+    UTUSI IA    1.8 335  MLv     2.96 -0.28   0.288517     
+    UTUSI IA    1.8 335  Mjma    3.20 -0.10   0.410462     
+    SRSI  IA    1.8 255  Mjma    2.84 -0.46   0.177646     
+    LUCM  IA    2.4 285  MLv     3.81  0.57   0.961151     
+    TTSI  IA    3.0 251  MLv     3.28  0.04    0.13591     
+    TTSI  IA    3.0 251  Mjma    3.49  0.18   0.335787     
+    RDCM  IA    3.2 284  MLv     3.55  0.31   0.194955     
+    RDCM  IA    3.2 284  Mjma    3.57  0.26   0.355423     
+    MMCI  IA    3.4 255  MLv     2.99 -0.26   0.0406861     
+    MMCI  IA    3.4 255  Mjma    3.41  0.11   0.223925     
+    SPSI  IA    3.4 236  MLv     3.22 -0.02   0.0656472     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

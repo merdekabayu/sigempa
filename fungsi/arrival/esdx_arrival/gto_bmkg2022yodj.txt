@@ -1,0 +1,80 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yodj
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-16
+    Time                   06:27:21.0  +/-    0.4 s
+    Latitude                -0.01 deg  +/-      3 km
+    Longitude              123.97 deg  +/-      3 km
+    Depth                      22 km   +/-    3 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.72 s
+    Azimuthal gap             172 deg
+
+5 Network magnitudes:
+    Mjma      3.52 +/- 0.34   9            
+    ML        3.81 +/- 0.37   9            
+    MLv       3.77 +/- 0.35   9            
+    Ms(BB)    4.01 +/- 0.13   2            
+    M         3.78            9 preferred  
+
+20 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    PBCI  IA    0.4  11  P       06:27:29.7  -0.8 M  1.0  PBCI 
+    PBCI  IA    0.4  11  S       06:27:38.6   1.0 M  1.0  PBCI 
+    KMSI  IA    0.6   1  P       06:27:32.9  -0.3 M  1.0  KMSI 
+    KMSI  IA    0.6   1  S       06:27:41.7  -0.6 M  1.0  KMSI 
+    TBMCM IA    0.9  41  P       06:27:40.6   1.9 M  1.0  TBMCM
+    TGCM  IA    1.0 300  P       06:27:38.9  -1.0 M  1.0  TGCM 
+    TGCM  IA    1.0 300  S       06:27:53.6  -0.4 M  1.0  TGCM 
+    BGCI  IA    1.0 213  P       06:27:39.4  -0.7 M  1.0  BGCI 
+    BGCI  IA    1.0 213  S       06:27:54.1  -0.2 M  1.0  BGCI 
+    KGCM  IA    1.3 300  P       06:27:44.5   1.0 M  1.0  KGCM 
+    GTOI  IA    1.3 305  P       06:27:44.1  -0.2 M  1.0  GTOI 
+    GTOI  IA    1.3 305  S       06:28:01.7  -0.2 M  1.0  GTOI 
+    TMSI  IA    1.6  37  P       06:27:47.8  -0.3 M  1.0  TMSI 
+    TMSI  IA    1.6  37  S       06:28:07.9  -0.9 M  1.0  TMSI 
+    SMSI  IA    1.9 302  P       06:27:52.3   0.5 M  1.0  SMSI 
+    SMSI  IA    1.9 302  S       06:28:15.6   0.0 M  1.0  SMSI 
+    MRSI  IA    2.1 283  P       06:27:55.3   0.7 M  1.0  MRSI 
+    MRSI  IA    2.1 283  S       06:28:20.7   0.1 M  1.0  MRSI 
+    APSI  IA    2.5 249  P       06:28:00.3   0.1 M  1.0  APSI 
+    APSI  IA    2.5 249  S       06:28:30.9   0.3 M  1.0  APSI 
+
+29 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    PBCI  IA    0.4  11  ML      2.94 -0.88    3.46886     
+    PBCI  IA    0.4  11  MLv     2.98 -0.79    3.86216     
+    PBCI  IA    0.4  11  Mjma    2.73 -0.79     1.8893     
+    TBMCM IA    0.9  41  ML      4.13  0.31      12.52     
+    TBMCM IA    0.9  41  MLv     4.06  0.29    10.8498     
+    TBMCM IA    0.9  41  Mjma    3.76  0.24    4.44905     
+    TGCM  IA    1.0 300  ML      3.68 -0.13    4.07287     
+    TGCM  IA    1.0 300  MLv     3.59 -0.18    3.32248     
+    TGCM  IA    1.0 300  Mjma    3.36 -0.16    1.54584     
+    KGCM  IA    1.3 300  ML      4.12  0.31    8.11586     
+    KGCM  IA    1.3 300  MLv     3.98  0.21    5.83895     
+    KGCM  IA    1.3 300  Mjma    3.75  0.24    2.59757     
+    GTOI  IA    1.3 305  ML      3.59 -0.23    2.20668     
+    GTOI  IA    1.3 305  MLv     3.41 -0.36    1.47818     
+    GTOI  IA    1.3 305  Mjma    3.21 -0.31    0.69781     
+    TMSI  IA    1.6  37  ML      4.17  0.36    5.92094     
+    TMSI  IA    1.6  37  MLv     3.96  0.19     3.6885     
+    TMSI  IA    1.6  37  Mjma    3.83  0.32    2.10591     
+    SMSI  IA    1.9 302  ML      3.53 -0.28   0.963544     
+    SMSI  IA    1.9 302  MLv     3.66 -0.11    1.30731     
+    SMSI  IA    1.9 302  Mjma    3.38 -0.14   0.567949     
+    MRSI  IA    2.1 283  ML      3.90  0.09    1.76879     
+    MRSI  IA    2.1 283  MLv     3.96  0.19    2.00117     
+    MRSI  IA    2.1 283  Mjma    3.59  0.07      0.779     
+    MRSI  IA    2.1 283  Ms(BB)  3.91 -0.09   7.65198e-06 0.29
+    APSI  IA    2.5 249  ML      4.07  0.26    1.55675     
+    APSI  IA    2.5 249  MLv     4.19  0.42    2.04593     
+    APSI  IA    2.5 249  Mjma    3.87  0.36     1.0992     
+    APSI  IA    2.5 249  Ms(BB)  4.10  0.09   8.76617e-06 0.34
+
+stageofgorontalo
+</p></body></html>

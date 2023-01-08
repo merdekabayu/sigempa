@@ -1,0 +1,89 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zqgi
+    Description
+      region name: Talaud Islands, Indonesia
+Origin:
+    Date                   2022-12-31
+    Time                   15:45:51.6  +/-    0.5 s
+    Latitude                 4.91 deg  +/-      3 km
+    Longitude              125.30 deg  +/-      3 km
+    Depth                     277 km   +/-    5 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.91 s
+    Azimuthal gap             150 deg
+
+5 Network magnitudes:
+    mb        4.74 +/- 0.26   6            
+    mB        4.86 +/- 0.30   5            
+    Mw(mB)    4.13 +/- 0.40   5            
+    MLv       4.47 +/- 0.33  16            
+    M         4.46           16 preferred  
+
+35 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MGAI  IA    1.6 123  P       15:46:34.0   0.4 M  1.0  MGAI 
+    MGAI  IA    1.6 123  S       15:47:06.9  -0.3 M  1.0  MGAI 
+    DAV   IU    2.2   7  P       15:46:37.2  -0.6 M  1.0  DAV  
+    DAV   IU    2.2   7  S       15:47:15.1   0.3 M  1.0  DAV  
+    PSSI  IA    2.2 177  P       15:46:37.6  -0.3 M  1.0  PSSI 
+    PSSI  IA    2.2 177  S       15:47:13.5  -1.4 M  1.0  PSSI 
+    MNI   IA    3.5 188  P       15:46:51.2   0.2 M  1.0  MNI  
+    TMSI  IA    3.6 186  P       15:46:52.7   0.2 M  1.0  TMSI 
+    MTAI  IA    4.0 132  P       15:46:57.8   1.0 M  1.0  MTAI 
+    MTAI  IA    4.0 132  S       15:47:49.3  -0.0 M  1.0  MTAI 
+    IHMI  IA    4.1 146  P       15:46:57.8   0.4 M  1.0  IHMI 
+    IHMI  IA    4.1 146  S       15:47:49.7  -0.6 M  1.0  IHMI 
+    TBMCM IA    4.2 190  P       15:46:59.5   0.1 M  1.0  TBMCM
+    TBMCM IA    4.2 190  S       15:47:55.1   1.2 M  1.0  TBMCM
+    JHMI  IA    4.4 150  P       15:47:00.8  -0.3 M  1.0  JHMI 
+    JHMI  IA    4.4 150  S       15:47:55.9  -1.1 M  1.0  JHMI 
+    KMSI  IA    4.5 197  P       15:47:04.2   1.6 M  1.0  KMSI 
+    TNTI  IA    4.6 153  P       15:47:04.0   0.4 M  1.0  TNTI 
+    TNTI  IA    4.6 153  S       15:48:02.6   0.9 M  1.0  TNTI 
+    PBCI  IA    4.7 196  P       15:47:04.9   0.4 M  1.0  PBCI 
+    PBCI  IA    4.7 196  S       15:48:04.5   1.2 M  1.0  PBCI 
+    WHMI  IA    4.7 143  P       15:47:05.8   0.6 M  1.0  WHMI 
+    SMSI  IA    4.9 217  P       15:47:06.2  -0.7 M  1.0  SMSI 
+    TGCM  IA    4.9 207  P       15:47:07.1  -0.1 M  1.0  TGCM 
+    KGCM  IA    4.9 210  P       15:47:07.1  -0.0 M  1.0  KGCM 
+    PMMI  IA    5.0 155  S       15:48:10.6   0.9 M  1.0  PMMI 
+    WBMI  IA    5.2 150  P       15:47:12.2   1.3 M  1.0  WBMI 
+    WBMI  IA    5.2 150  S       15:48:15.5   0.6 M  1.0  WBMI 
+    GHMI  IA    5.8 154  P       15:47:18.5   0.2 M  1.0  GHMI 
+    LBMI  IA    5.9 158  P       15:47:19.9   0.3 M  1.0  LBMI 
+    LBMI  IA    5.9 158  S       15:48:29.0  -1.8 M  1.0  LBMI 
+    BGCI  IA    6.1 198  P       15:47:19.2  -2.0 M  1.0  BGCI 
+    LUWI  IA    6.4 203  P       15:47:25.8   0.1 M  1.0  LUWI 
+    OBMI  IA    6.6 159  P       15:47:27.8  -0.5 M  1.0  OBMI 
+    SANI  IA    7.0 174  P       15:47:29.6  -2.5 M  1.0  SANI 
+
+23 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MGAI  IA    1.6 123  MLv     3.83 -0.64    2.64063     
+    DAV   IU    2.2   7  MLv     3.89 -0.59    1.51462     
+    MNI   IA    3.5 188  MLv     4.59  0.12    1.40361     
+    TMSI  IA    3.6 186  MLv     4.38 -0.10   0.734945     
+    MTAI  IA    4.0 132  MLv     4.47 -0.00   0.738831     
+    TBMCM IA    4.2 190  MLv     4.56  0.09   0.792928     
+    TNTI  IA    4.6 153  MLv     4.58  0.11   0.671483     
+    PBCI  IA    4.7 196  MLv     4.41 -0.07   0.428902     
+    WHMI  IA    4.7 143  MLv     4.72  0.25   0.855154     
+    SMSI  IA    4.9 217  MLv     4.03 -0.44   0.161109     
+    TGCM  IA    4.9 207  MLv     4.07 -0.41   0.173092     
+    WBMI  IA    5.2 150  MLv     4.76  0.28   0.702495     
+    WBMI  IA    5.2 150  mb      4.86  0.11    164.082 0.72
+    GHMI  IA    5.8 154  MLv     4.62  0.15    0.36024     
+    GHMI  IA    5.8 154  mB      4.69 -0.17    1397.09     
+    GHMI  IA    5.8 154  mb      4.64 -0.10    92.7108 0.64
+    LBMI  IA    5.9 158  MLv     5.18  0.70    1.20856     
+    LBMI  IA    5.9 158  mB      5.06  0.20    3300.11     
+    BGCI  IA    6.1 198  mb      5.01  0.26    154.973 0.47
+    LUWI  IA    6.4 203  MLv     4.70  0.23   0.303619     
+    OBMI  IA    6.6 159  MLv     4.83  0.35   0.359118     
+    OBMI  IA    6.6 159  mB      4.68 -0.18    1209.41     
+    OBMI  IA    6.6 159  mb      4.48 -0.26    63.6263 0.72
+
+stageofternate
+</p></body></html>

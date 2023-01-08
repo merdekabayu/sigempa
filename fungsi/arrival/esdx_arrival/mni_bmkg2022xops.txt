@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2022xops
+    Description
+      region name: Mindanao, Philippines
+Origin:
+    Date                   2022-12-02
+    Time                   07:09:25.3  +/-    0.7 s
+    Latitude                 6.00 deg  +/-      4 km
+    Longitude              126.43 deg  +/-      5 km
+    Depth                     121 km   +/-    7 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.75 s
+    Azimuthal gap             192 deg
+
+5 Network magnitudes:
+    MLv       4.32 +/- 0.27   8            
+    mB        4.95 +/- 0.28   2            
+    Mw(mB)    4.26 +/- 0.40   2            
+    mb        4.48 +/- 0.12   5            
+    M         4.38            8 preferred  
+
+22 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    DAV   IU    1.4 322  P       07:09:50.6  -0.9 M  1.0  DAV  
+    DAV   IU    1.4 322  S       07:10:11.9  -0.3 M  1.0  DAV  
+    MGAI  IA    2.0 173  P       07:10:00.4   1.5 M  1.0  MGAI 
+    MGAI  IA    2.0 173  S       07:10:26.1   0.6 M  1.0  MGAI 
+    PSSI  IA    3.4 198  P       07:10:17.5   0.6 M  1.0  PSSI 
+    PSSI  IA    3.4 198  S       07:10:57.3  -1.1 M  1.0  PSSI 
+    MTAI  IA    4.2 154  P       07:10:27.6   0.2 M  1.0  MTAI 
+    MTAI  IA    4.2 154  S       07:11:16.1  -1.5 M  1.0  MTAI 
+    IHMI  IA    4.6 166  P       07:10:05.0 -27.6 MX 0.0  IHMI 
+    TMSI  IA    4.9 198  P       07:10:37.4   0.7 M  1.0  TMSI 
+    TBMCM IA    5.6 199  P       07:10:47.7   2.3 M  1.0  TBMCM
+    PBCI  IA    6.1 203  P       07:10:50.4  -1.7 M  1.0  PBCI 
+    TGCM  IA    6.4 212  P       07:10:58.1   1.7 M  1.0  TGCM 
+    SMSI  IA    6.4 219  P       07:10:57.3   0.5 M  1.0  SMSI 
+    MRSI  IA    7.1 219  P       07:11:07.1   1.4 M  1.0  MRSI 
+    MRSI  IA    7.1 219  S       07:12:24.0  -3.7 M  1.0  MRSI 
+    LUWI  IA    7.9 208  P       07:11:21.9   5.4 MX 0.0  LUWI 
+    LUWI  IA    7.9 208  S       07:12:50.0   2.8 M  1.0  LUWI 
+    SANI  IA    8.0 183  P       07:11:15.0  -3.1 M  1.0  SANI 
+    SANI  IA    8.0 183  S       07:12:37.9 -12.1 MX 0.0  SANI 
+    KDI   IA   10.6 201  P       07:12:17.0  24.5 AX 0.0  KDI  
+    MMCI  IA   11.4 219  P       07:12:08.7   6.1 AX 0.0  MMCI 
+
+13 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    DAV   IU    1.4 322  MLv     3.91 -0.41    4.53764     
+    PSSI  IA    3.4 198  MLv     4.37  0.05   0.957213     
+    MTAI  IA    4.2 154  MLv     3.95 -0.37     0.1997     
+    TMSI  IA    4.9 198  MLv     4.46  0.14   0.430546     
+    TBMCM IA    5.6 199  mb      4.45 -0.03    42.0427 0.72
+    PBCI  IA    6.1 203  MLv     4.30 -0.03   0.151237     
+    PBCI  IA    6.1 203  mb      4.41 -0.07    41.7033 0.82
+    TGCM  IA    6.4 212  MLv     4.68  0.36   0.306693     
+    TGCM  IA    6.4 212  mB      4.76 -0.20    966.008     
+    SMSI  IA    6.4 219  MLv     4.28 -0.04   0.119835     
+    MRSI  IA    7.1 219  MLv     4.62  0.30   0.177786     
+    MRSI  IA    7.1 219  mb      4.55  0.06    34.8455 0.53
+    SANI  IA    8.0 183  mB      5.15  0.20    1907.35     
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

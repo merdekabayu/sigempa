@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022yjby
+    Preferred Origin ID    Origin/20221213121007.814623.68694
+    Preferred Magnitude ID Origin/20221213121007.814623.68694/netMag/M
+    Description
+      region name: Timor Region
+    Creation time          2022-12-13 12:10:14
+
+Origin:
+    Public ID              Origin/20221213121007.814623.68694
+    Date                   2022-12-13
+    Time                   12:03:30.8  +/-    0.7 s
+    Latitude                -9.12 deg  +/-      4 km
+    Longitude              124.06 deg  +/-      3 km
+    Depth                      67 km   +/-    9 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-13 12:10:07
+    Residual RMS             0.99 s
+    Azimuthal gap             116 deg
+
+3 Network magnitudes:
+    MLv       2.96 +/- 0.11   3            BMG
+    M         2.98            3 preferred  BMG1
+    Mjma      3.01 +/- 0.26   3            BMG1
+
+15 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SOEI  IA    0.7 162  P       12:03:46.1  -0.1 M  1.0  SOEI 
+    SOEI  IA    0.7 162  S       12:03:59.3   1.2 M  1.0  SOEI 
+    PAFM  IA    0.7   5  P       12:03:45.8  -1.0 M  1.0  PAFM 
+    ATNI  IA    0.8  88  P       12:03:46.9  -0.5 M  1.0  ATNI 
+    ATNI  IA    0.8  88  S       12:03:59.2  -0.9 M  1.0  ATNI 
+    WLFM  IA    0.8 314  P       12:03:46.9  -0.8 M  1.0  WLFM 
+    WLFM  IA    0.8 314  S       12:03:58.9  -1.8 M  1.0  WLFM 
+    LMNI  IA    0.9 339  P       12:03:50.6   1.9 M  1.0  LMNI 
+    LMNI  IA    0.9 339  S       12:04:03.9   1.6 M  1.0  LMNI 
+    KTTI  IA    1.0 152  P       12:03:49.1  -0.1 M  1.0  KTTI 
+    IBTI  IA    1.1 312  P       12:03:50.1   0.1 M  1.0  IBTI 
+    IBTI  IA    1.1 312  S       12:04:05.4   0.6 M  1.0  IBTI 
+    ALKI  IA    1.1  28  P       12:03:50.6   0.2 M  1.0  ALKI 
+    EDFI  IA    2.4 279  P       12:04:07.7   0.2 M  1.0  EDFI 
+    EDFI  IA    2.4 279  S       12:04:35.3  -0.7 M  1.0  EDFI 
+
+6 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    SOEI  IA    0.7 162  MLv     3.00  0.04    1.33545     
+    SOEI  IA    0.7 162  Mjma    2.74 -0.27    0.78824     
+    ALKI  IA    1.1  28  MLv     3.04  0.08   0.845972     
+    ALKI  IA    1.1  28  Mjma    3.06  0.04   0.686706     
+    EDFI  IA    2.4 279  MLv     2.84 -0.12   0.105323     
+    EDFI  IA    2.4 279  Mjma    3.25  0.23    0.28081     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

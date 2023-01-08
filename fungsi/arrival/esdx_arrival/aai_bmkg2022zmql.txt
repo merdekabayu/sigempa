@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {	font-size: 24px;
+	font-weight: bold;
+}
+.style2 {	font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR AMBON </span></td>
+</tr>
+<tr>
+<td> </td>
+<td valign="top"> </td>
+</tr>
+<tr>
+<td><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top" width="48%"><img src="area_ambon.jpg"/></td>
+<td valign="top" width="52%"><pre>Event:
+    Public ID              bmkg2022zmql
+    Description
+      region name: Seram, Indonesia
+Origin:
+    Date                   2022-12-29
+    Time                   16:20:39.7  +/-    0.7 s
+    Latitude                -3.45 deg  +/-      8 km
+    Longitude              129.01 deg  +/-      4 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.61 s
+    Azimuthal gap             179 deg
+
+4 Network magnitudes:
+    Mjma      2.46 +/- 0.44   2            
+    ML        2.61 +/- 0.41   2            
+    MLv       2.58 +/- 0.43   2 preferred  
+    M         2.56            2            
+
+5 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MSAI  IA    0.1 321  P       16:20:43.2  -0.5 M  1.0  MSAI 
+    TMTMM IA    0.5  74  P       16:20:50.9   0.0 M  1.0  TMTMM
+    KRAI  IA    0.6 282  P       16:20:51.7  -0.6 M  1.0  KRAI 
+    AAII  IA    0.8 254  P       16:20:56.1  -0.1 M  1.0  AAII 
+    NSBMM IA    0.9 294  P       16:20:57.8   1.1 M  1.0  NSBMM
+
+6 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TMTMM IA    0.5  74  ML      2.32 -0.29   0.331887     
+    TMTMM IA    0.5  74  MLv     2.28 -0.30   0.300343     
+    TMTMM IA    0.5  74  Mjma    2.15 -0.31   0.289878     
+    NSBMM IA    0.9 294  ML      2.90  0.29   0.821597     
+    NSBMM IA    0.9 294  MLv     2.88  0.30   0.787282     
+    NSBMM IA    0.9 294  Mjma    2.78  0.31   0.532631     
+
+Regional10Ambon
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

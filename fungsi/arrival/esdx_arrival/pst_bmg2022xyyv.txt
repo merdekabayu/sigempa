@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022xyyv
+    Preferred Origin ID    Origin/20221207231442.10074.570235
+    Preferred Magnitude ID Origin/20221207231442.10074.570235/netMag/M
+    Description
+      region name: Flores Region, Indonesia
+    Creation time          2022-12-07 23:14:45
+
+Origin:
+    Public ID              Origin/20221207231442.10074.570235
+    Date                   2022-12-07
+    Time                   23:07:54.4  +/-    0.9 s
+    Latitude                -8.64 deg  +/-      8 km
+    Longitude              119.36 deg  +/-      3 km
+    Depth                      88 km   +/-   11 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-07 23:14:42
+    Residual RMS             0.28 s
+    Azimuthal gap             145 deg
+
+2 Network magnitudes:
+    MLv       2.75 +/- 0.23   5            BMG
+    M         2.75            5 preferred  BMG1
+
+11 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    OMBFM IA    0.5  96  P       23:08:10.4   0.4 M  1.0  OMBFM
+    WBNI  IA    0.6 307  P       23:08:10.2  -0.5 M  1.0  WBNI 
+    WBNI  IA    0.6 307  S       23:08:23.1  -0.1 M  1.0  WBNI 
+    DBNFM IA    0.8 286  P       23:08:12.6   0.2 M  1.0  DBNFM
+    WBSI  IA    1.0 178  P       23:08:14.0   0.1 M  1.0  WBSI 
+    USTI  IA    1.1 157  P       23:08:14.9  -0.2 M  1.0  USTI 
+    ESNI  IA    1.4 264  P       23:08:18.9   0.3 M  1.0  ESNI 
+    PLAI  IA    1.6 263  P       23:08:20.6  -0.4 M  1.0  PLAI 
+    PLAI  IA    1.6 263  S       23:08:42.0   0.3 M  1.0  PLAI 
+    BASI  IA    2.0 143  P       23:08:26.1  -0.2 M  1.0  BASI 
+    EDFI  IA    2.3  93  P       23:08:30.8   0.1 M  1.0  EDFI 
+
+3 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    WBNI  IA    0.6 307  MLv     2.63 -0.12   0.662548     
+    BASI  IA    2.0 143  MLv     2.95  0.20   0.221633     
+    EDFI  IA    2.3  93  MLv     2.69 -0.06   0.0798179     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

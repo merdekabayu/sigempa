@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022yiwv
+    Preferred Origin ID    Origin/20221213093308.058766.391446
+    Preferred Magnitude ID Origin/20221213093308.058766.391446/netMag/M
+    Description
+      region name: Java, Indonesia
+    Creation time          2022-12-13 09:30:05
+
+Origin:
+    Public ID              Origin/20221213093308.058766.391446
+    Date                   2022-12-13
+    Time                   09:28:50.1  +/-    0.4 s
+    Latitude                -8.08 deg  +/-      3 km
+    Longitude              107.91 deg  +/-      1 km
+    Depth                      30 km   +/-    4 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-13 09:33:08
+    Residual RMS             0.81 s
+    Azimuthal gap             208 deg
+
+3 Network magnitudes:
+    MLv       4.00 +/- 0.19  15            BMG
+    Mjma      3.90 +/- 0.18  14            BMG1
+    M         3.97           15 preferred  BMG1
+
+56 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    CMJI  IA    0.6  61  P       09:29:03.0   0.2 M  1.0  CMJI 
+    CMJI  IA    0.6  61  S       09:29:11.6  -0.7 M  1.0  CMJI 
+    BBJI  IA    0.7 337  P       09:29:03.2  -0.4 M  1.0  BBJI 
+    BBJI  IA    0.7 337  S       09:29:12.0  -1.6 M  1.0  BBJI 
+    CIJI  IA    0.8  20  P       09:29:05.8   0.5 M  1.0  CIJI 
+    CIJI  IA    0.8  20  S       09:29:17.2   0.4 M  1.0  CIJI 
+    BBJN  IA    0.9  41  P       09:29:07.4   0.3 M  1.0  BBJN 
+    BBJN  IA    0.9  41  S       09:29:20.2   0.4 M  1.0  BBJN 
+    BKJI  IA    0.9  41  P       09:29:07.2   0.1 M  1.0  BKJI 
+    BKJI  IA    0.9  41  S       09:29:20.0   0.2 M  1.0  BKJI 
+    ACBM  IA    1.1 348  P       09:29:09.5   0.7 M  1.0  ACBM 
+    PBJI  IA    1.1 336  P       09:29:09.4   0.4 M  1.0  PBJI 
+    PBJI  IA    1.1 336  S       09:29:23.5   0.3 M  1.0  PBJI 
+    CNJI  IA    1.1 315  P       09:29:08.8  -0.3 M  1.0  CNJI 
+    CNJI  IA    1.1 315  S       09:29:22.4  -1.2 M  1.0  CNJI 
+    KPJI  IA    1.3  54  P       09:29:11.6   0.1 M  1.0  KPJI 
+    CBJM  IA    1.3 334  P       09:29:12.0   0.3 M  1.0  CBJM 
+    CBJM  IA    1.3 334  S       09:29:28.7   0.4 M  1.0  CBJM 
+    LEM   IA    1.3 347  P       09:29:13.7   1.8 M  1.0  LEM  
+    CCJM  IA    1.3 324  P       09:29:12.2  -0.0 M  1.0  CCJM 
+    CCJM  IA    1.3 324  S       09:29:28.4  -0.8 M  1.0  CCJM 
+    SCJI  IA    1.3  72  P       09:29:11.7  -0.6 M  1.0  SCJI 
+    SCJM  IA    1.4 331  P       09:29:14.4   0.7 M  1.0  SCJM 
+    SCJM  IA    1.4 331  S       09:29:32.2   0.3 M  1.0  SCJM 
+    ACJM  IA    1.4  29  P       09:29:14.9   0.7 M  1.0  ACJM 
+    JTJM  IA    1.5 313  P       09:29:14.9  -0.1 M  1.0  JTJM 
+    JTJM  IA    1.5 313  S       09:29:33.3  -1.0 M  1.0  JTJM 
+    SSJM  IA    1.5 321  P       09:29:15.6   0.4 M  1.0  SSJM 
+    SSJM  IA    1.5 321  S       09:29:34.6  -0.1 M  1.0  SSJM 
+    CSJI  IA    1.6 298  P       09:29:15.5  -0.5 M  1.0  CSJI 
+    CSJI  IA    1.6 298  S       09:29:33.9  -2.2 M  1.0  CSJI 
+    BUJI  IA    1.6  78  P       09:29:16.0   0.0 M  1.0  BUJI 
+    BUJI  IA    1.6  78  S       09:29:35.0  -1.1 M  1.0  BUJI 
+    CIJM  IA    1.6  10  P       09:29:16.8   0.4 M  1.0  CIJM 
+    WSJM  IA    1.6 313  P       09:29:16.7   0.1 M  1.0  WSJM 
+    JPJI  IA    1.6 342  P       09:29:17.4   0.8 M  1.0  JPJI 
+    JPJI  IA    1.6 342  S       09:29:38.1   0.8 M  1.0  JPJI 
+    CTJI  IA    1.6  50  P       09:29:18.0   0.8 M  1.0  CTJI 
+    CBJI  IA    1.7 325  P       09:29:18.7   1.2 M  1.0  CBJI 
+    SKJI  IA    1.7 308  P       09:29:18.7   0.7 M  1.0  SKJI 
+    SKJI  IA    1.7 308  S       09:29:39.3  -0.7 M  1.0  SKJI 
+    PSJM  IA    1.7 309  P       09:29:19.5   1.0 M  1.0  PSJM 
+    PSJM  IA    1.7 309  S       09:29:40.4  -0.3 M  1.0  PSJM 
+    MBJI  IA    1.8  70  P       09:29:19.0  -0.5 M  1.0  MBJI 
+    MBJI  IA    1.8  70  S       09:29:40.5  -2.1 M  1.0  MBJI 
+    PKJI  IA    1.9  61  P       09:29:20.1  -0.4 M  1.0  PKJI 
+    PKJI  IA    1.9  61  S       09:29:44.2  -0.1 M  1.0  PKJI 
+    GBJI  IA    2.3  61  P       09:29:27.0   0.3 M  1.0  GBJI 
+    GBJI  IA    2.3  61  S       09:29:54.3  -1.4 M  1.0  GBJI 
+    YOGI  IA    2.4  84  P       09:29:27.8   0.5 M  1.0  YOGI 
+    GTJI  IA    2.4  68  P       09:29:29.9   1.9 M  1.0  GTJI 
+    SYJI  IA    2.5  84  P       09:29:29.0  -0.7 M  1.0  SYJI 
+    UGM   IA    2.6  87  P       09:29:29.7  -0.5 M  1.0  UGM  
+    GKJM  IA    2.7  85  P       09:29:31.1  -0.2 M  1.0  GKJM 
+    SMRI  IA    2.7  68  P       09:29:32.8   0.9 M  1.0  SMRI 
+    PRJI  IA    2.9  90  P       09:29:34.0   0.2 M  1.0  PRJI 
+
+29 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    CMJI  IA    0.6  61  MLv     4.06  0.05    16.5956     
+    CMJI  IA    0.6  61  Mjma    3.64 -0.26    7.41308     
+    BBJN  IA    0.9  41  Mjma    4.15  0.25    11.0609     
+    ACBM  IA    1.1 348  MLv     3.99 -0.01    7.81083     
+    ACBM  IA    1.1 348  Mjma    3.72 -0.18    3.35553     
+    CNJI  IA    1.1 315  MLv     4.12  0.12    10.3002     
+    CNJI  IA    1.1 315  Mjma    3.89 -0.01    4.74279     
+    KPJI  IA    1.3  54  MLv     3.69 -0.32     3.0871     
+    KPJI  IA    1.3  54  Mjma    3.62 -0.28    1.99866     
+    SCJM  IA    1.4 331  MLv     3.80 -0.20    3.31389     
+    SCJM  IA    1.4 331  Mjma    3.93  0.03    3.34788     
+    ACJM  IA    1.4  29  MLv     4.28  0.27    9.33464     
+    JTJM  IA    1.5 313  MLv     4.24  0.24    8.11204     
+    JTJM  IA    1.5 313  Mjma    4.02  0.12    3.66212     
+    SSJM  IA    1.5 321  Mjma    4.03  0.13    3.71652     
+    CSJI  IA    1.6 298  MLv     3.84 -0.16     2.9407     
+    CSJI  IA    1.6 298  Mjma    3.91  0.01      2.668     
+    CIJM  IA    1.6  10  MLv     4.12  0.12    5.32929     
+    CIJM  IA    1.6  10  Mjma    3.88 -0.01    2.41306     
+    WSJM  IA    1.6 313  MLv     4.25  0.24    7.08466     
+    WSJM  IA    1.6 313  Mjma    4.11  0.21    4.01277     
+    PSJM  IA    1.7 309  MLv     4.17  0.17    4.98084     
+    PSJM  IA    1.7 309  Mjma    4.05  0.15    3.06443     
+    MBJI  IA    1.8  70  MLv     3.69 -0.31    1.52416     
+    MBJI  IA    1.8  70  Mjma    3.62 -0.28    1.04463     
+    YOGI  IA    2.4  84  MLv     3.96 -0.04    1.38579     
+    YOGI  IA    2.4  84  Mjma    4.00  0.11    1.60342     
+    SYJI  IA    2.5  84  MLv     3.90 -0.10   0.973238     
+    UGM   IA    2.6  87  MLv     3.93 -0.08   0.973456     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

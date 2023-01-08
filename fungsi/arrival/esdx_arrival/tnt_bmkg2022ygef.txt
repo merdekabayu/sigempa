@@ -1,0 +1,39 @@
+<html><body><p>Event:
+    Public ID              bmkg2022ygef
+    Description
+      region name: Southern Molucca Sea
+Origin:
+    Date                   2022-12-11
+    Time                   21:48:44.1  +/-    0.6 s
+    Latitude                -0.83 deg  +/-      4 km
+    Longitude              126.99 deg  +/-      6 km
+    Depth                      34 km   +/-   14 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.31 s
+    Azimuthal gap             154 deg
+
+2 Network magnitudes:
+    MLv       3.26 +/- 0.74   4            
+    M         3.26            4 preferred  
+
+7 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    LBMI  IA    0.5  70  P       21:48:56.5   0.2 M  1.0  LBMI 
+    LBMI  IA    0.5  70  S       21:49:05.3  -0.3 M  1.0  LBMI 
+    OBMI  IA    0.8 128  P       21:49:00.2   0.4 M  1.0  OBMI 
+    OBMI  IA    0.8 128  S       21:49:11.6  -0.2 M  1.0  OBMI 
+    SANI  IA    1.6 220  P       21:49:10.1   0.4 M  1.0  SANI 
+    SANI  IA    1.6 220  S       21:49:29.1  -0.4 M  1.0  SANI 
+    IHMI  IA    2.4  14  P       21:49:20.9  -0.1 M  1.0  IHMI 
+
+4 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    LBMI  IA    0.5  70  MLv     2.90 -0.36    1.23521     
+    OBMI  IA    0.8 128  MLv     3.17 -0.09    1.60183     
+    SANI  IA    1.6 220  MLv     2.85 -0.41    0.29978     
+    IHMI  IA    2.4  14  MLv     4.58  1.32    5.56874     
+
+stageofternate
+</p></body></html>

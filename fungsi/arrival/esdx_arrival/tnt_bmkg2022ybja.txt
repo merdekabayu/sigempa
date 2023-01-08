@@ -1,0 +1,88 @@
+<html><body><p>Event:
+    Public ID              bmkg2022ybja
+    Description
+      region name: Mindanao, Philippines
+Origin:
+    Date                   2022-12-09
+    Time                   06:34:28.7  +/-    3.2 s
+    Latitude                 6.93 deg  +/-     26 km
+    Longitude              126.04 deg  +/-      8 km
+    Depth                     183 km   +/-   29 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.51 s
+    Azimuthal gap             227 deg
+
+9 Network magnitudes:
+    mBc       6.45 +/- 0.29  10            
+    Mw(mBc)   5.76 +/- 0.40  10            
+    mb        5.15 +/- 0.21  13            
+    mB        5.39 +/- 0.18  10            
+    Mw(mB)    4.83 +/- 0.40  10            
+    MLv       3.22 +/- 0.00   1            
+    Mwp       5.35 +/- 0.28   4            
+    Mw(Mwp)   5.10 +/- 0.40   4            
+    M         4.81           13 preferred  
+
+17 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    DAV   IU    0.5 287  P       06:34:55.2   0.6 M  1.0  DAV  
+    PSSI  IA    4.2 189  P       06:35:30.6  -2.0 M  1.0  PSSI 
+    MTAI  IA    5.2 155  P       06:35:42.2  -3.1 M  1.0  MTAI 
+    IHMI  IA    5.6 164  P       06:35:49.8  -0.6 M  1.0  IHMI 
+    TMSI  IA    5.7 191  P       06:35:52.1   0.2 M  1.0  TMSI 
+    JHMI  IA    6.0 166  P       06:35:56.3   0.8 M  1.0  JHMI 
+    WHMI  IA    6.2 160  P       06:35:58.0  -0.0 M  1.0  WHMI 
+    TNTI  IA    6.3 168  P       06:36:01.3   2.2 M  1.0  TNTI 
+    TBMCM IA    6.4 193  P       06:36:01.3   1.1 M  1.0  TBMCM
+    KMSI  IA    6.7 198  P       06:36:04.5   0.4 M  1.0  KMSI 
+    PMMI  IA    6.7 168  P       06:36:05.4   1.1 M  1.0  PMMI 
+    WBMI  IA    6.8 164  P       06:36:06.7   0.5 M  1.0  WBMI 
+    PBCI  IA    6.8 197  P       06:36:06.3   0.1 M  1.0  PBCI 
+    SMSI  IA    7.0 212  P       06:36:05.0  -3.1 M  1.0  SMSI 
+    LBMI  IA    7.7 169  P       06:36:17.2  -0.3 M  1.0  LBMI 
+    OBMI  IA    8.4 169  P       06:36:27.1   0.2 M  1.0  OBMI 
+    SANI  IA    9.0 180  P       06:36:31.5  -2.5 M  1.0  SANI 
+
+36 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    DAV   IU    0.5 287  MLv     3.22  0.00    4.04142     
+    MTAI  IA    5.2 155  Mwp     5.12 -0.23    4979.61     
+    MTAI  IA    5.2 155  mB      5.39 -0.01    6047.21     
+    MTAI  IA    5.2 155  mBc     6.13 -0.32    33317.1     
+    IHMI  IA    5.6 164  mB      5.69  0.30    11960.5     
+    IHMI  IA    5.6 164  mBc     7.01  0.56     247601     
+    TMSI  IA    5.7 191  Mwp     5.53  0.18    18714.7     
+    TMSI  IA    5.7 191  mB      5.35 -0.04    5480.87     
+    TMSI  IA    5.7 191  mBc     6.90  0.45     191522     
+    TMSI  IA    5.7 191  mb      5.23  0.08    444.045 0.94
+    JHMI  IA    6.0 166  mb      5.32  0.16    562.884 0.99
+    WHMI  IA    6.2 160  mB      5.21 -0.19    3781.71     
+    WHMI  IA    6.2 160  mBc     6.47  0.02    68777.6     
+    WHMI  IA    6.2 160  mb      5.27  0.12    472.159 0.93
+    TNTI  IA    6.3 168  Mwp     5.13 -0.23    4177.31     
+    TNTI  IA    6.3 168  mB      5.01 -0.39     2352.4     
+    TNTI  IA    6.3 168  mBc     6.30 -0.15    45919.5     
+    TNTI  IA    6.3 168  mb      4.75 -0.41     176.18 1.18
+    TBMCM IA    6.4 193  Mwp     5.67  0.32    27392.7     
+    TBMCM IA    6.4 193  mB      5.47  0.08    6841.03     
+    TBMCM IA    6.4 193  mBc     6.48  0.03    68645.5     
+    TBMCM IA    6.4 193  mb      5.13 -0.02    344.224 0.96
+    PMMI  IA    6.7 168  mB      5.37 -0.02    5222.46     
+    PMMI  IA    6.7 168  mBc     6.53  0.08      74499     
+    PMMI  IA    6.7 168  mb      5.27  0.11    464.313 0.98
+    WBMI  IA    6.8 164  mB      5.54  0.15    7652.81     
+    WBMI  IA    6.8 164  mBc     6.47  0.02    64962.6     
+    WBMI  IA    6.8 164  mb      5.13 -0.03    293.342 0.87
+    PBCI  IA    6.8 197  mb      4.84 -0.31     194.73 1.11
+    SMSI  IA    7.0 212  mB      5.26 -0.13    3936.31     
+    SMSI  IA    7.0 212  mBc     5.90 -0.55    17173.2     
+    LBMI  IA    7.7 169  mB      5.60  0.21    7218.12     
+    LBMI  IA    7.7 169  mBc     6.32 -0.13    38067.5     
+    LBMI  IA    7.7 169  mb      5.32  0.16    367.995 0.85
+    OBMI  IA    8.4 169  mb      5.36  0.21    357.303 0.89
+    SANI  IA    9.0 180  mb      5.11 -0.04    176.129 0.86
+
+stageofternate
+</p></body></html>

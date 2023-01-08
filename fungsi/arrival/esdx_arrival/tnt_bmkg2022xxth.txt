@@ -1,0 +1,59 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xxth
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-07
+    Time                   07:12:12.1  +/-    0.8 s
+    Latitude                -0.43 deg  +/-      3 km
+    Longitude              123.53 deg  +/-      3 km
+    Depth                      69 km   +/-    9 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.86 s
+    Azimuthal gap             154 deg
+
+4 Network magnitudes:
+    Mjma      3.01 +/- 0.32   7            
+    ML        3.05 +/- 0.28   7            
+    MLv       3.14 +/- 0.27   7            
+    M         3.09            7 preferred  
+
+14 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    BGCI  IA    0.5 197  P       07:12:26.6   0.5 M  1.0  BGCI 
+    BGCI  IA    0.5 197  S       07:12:36.4  -0.3 M  1.0  BGCI 
+    PBCI  IA    1.0  32  P       07:12:30.5   0.2 M  1.0  PBCI 
+    PBCI  IA    1.0  32  S       07:12:45.4   1.2 M  1.0  PBCI 
+    LUWI  IA    1.0 231  P       07:12:30.3   0.0 M  1.0  LUWI 
+    LUWI  IA    1.0 231  S       07:12:43.4  -0.9 M  1.0  LUWI 
+    TGCM  IA    1.0 335  P       07:12:31.4   0.2 M  1.0  TGCM 
+    TGCM  IA    1.0 335  S       07:12:45.7  -0.1 M  1.0  TGCM 
+    KGCM  IA    1.3 328  P       07:12:35.3   1.3 M  1.0  KGCM 
+    KGCM  IA    1.3 328  S       07:12:51.4   0.5 M  1.0  KGCM 
+    TBMCM IA    1.6  43  P       07:12:38.6   0.7 M  1.0  TBMCM
+    TBMCM IA    1.6  43  S       07:12:55.9  -1.9 M  1.0  TBMCM
+    SMSI  IA    1.8 321  P       07:12:40.8  -0.7 M  1.0  SMSI 
+    SMSI  IA    1.8 321  S       07:13:03.3  -1.0 M  1.0  SMSI 
+
+15 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    BGCI  IA    0.5 197  ML      2.95 -0.10    2.21586     
+    BGCI  IA    0.5 197  MLv     2.97 -0.17    2.33453     
+    BGCI  IA    0.5 197  Mjma    2.66 -0.35    1.20289     
+    PBCI  IA    1.0  32  ML      2.97 -0.08   0.861846     
+    PBCI  IA    1.0  32  MLv     3.21  0.07    1.49594     
+    PBCI  IA    1.0  32  Mjma    2.90 -0.11   0.597063     
+    LUWI  IA    1.0 231  ML      2.87 -0.18   0.673447     
+    LUWI  IA    1.0 231  MLv     2.98 -0.16   0.882214     
+    LUWI  IA    1.0 231  Mjma    2.96 -0.05   0.678752     
+    TGCM  IA    1.0 335  ML      2.89 -0.16   0.639812     
+    KGCM  IA    1.3 328  MLv     3.55  0.41    2.24402     
+    TBMCM IA    1.6  43  ML      3.53  0.48    1.44351     
+    TBMCM IA    1.6  43  Mjma    3.50  0.50    1.04494     
+    SMSI  IA    1.8 321  MLv     2.98 -0.17   0.287349     
+    SMSI  IA    1.8 321  Mjma    3.00 -0.00   0.250599     
+
+stageofternate
+</p></body></html>

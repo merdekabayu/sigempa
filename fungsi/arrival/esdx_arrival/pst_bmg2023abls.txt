@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2023abls
+    Preferred Origin ID    Origin/20230101190843.685886.145538
+    Preferred Magnitude ID Origin/20230101190843.685886.145538/netMag/M
+    Description
+      region name: Halmahera, Indonesia
+    Creation time          2023-01-01 19:08:49
+
+Origin:
+    Public ID              Origin/20230101190843.685886.145538
+    Date                   2023-01-01
+    Time                   19:03:03.8  +/-    0.9 s
+    Latitude                 2.23 deg  +/-      6 km
+    Longitude              128.30 deg  +/-      6 km
+    Depth                     154 km   +/-   11 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2023-01-01 19:08:43
+    Residual RMS             0.35 s
+    Azimuthal gap             179 deg
+
+2 Network magnitudes:
+    MLv       3.55 +/- 0.52   6            BMG
+    M         3.55            6 preferred  BMG1
+
+13 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MTAI  IA    0.0 215  P       19:03:24.2  -0.4 M  1.0  MTAI 
+    JHMI  IA    1.4 216  P       19:03:33.1   0.1 M  1.0  JHMI 
+    TNTI  IA    1.7 213  P       19:03:36.2  -0.1 M  1.0  TNTI 
+    MGAI  IA    2.4 317  P       19:03:44.4   0.4 M  1.0  MGAI 
+    GHMI  IA    2.6 189  P       19:03:47.0   0.5 M  1.0  GHMI 
+    PSSI  IA    2.9 280  P       19:03:50.3  -0.2 M  1.0  PSSI 
+    LBMI  IA    3.0 196  P       19:03:51.2   0.3 M  1.0  LBMI 
+    SGSI  IA    3.1 298  P       19:03:53.0   0.1 M  1.0  SGSI 
+    TMSI  IA    3.5 255  P       19:03:57.9   0.2 M  1.0  TMSI 
+    MNI   IA    3.5 257  P       19:03:58.3  -0.0 M  1.0  MNI  
+    OBMI  IA    3.6 190  P       19:03:59.3   0.2 M  1.0  OBMI 
+    TBMCM IA    4.0 248  P       19:04:03.5  -0.8 M  1.0  TBMCM
+    SWI   IA    4.3 136  P       19:04:07.3  -0.4 M  1.0  SWI  
+
+4 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TNTI  IA    1.7 213  MLv     2.95 -0.61   0.304396     
+    MGAI  IA    2.4 317  MLv     3.91  0.36    1.17766     
+    GHMI  IA    2.6 189  MLv     3.92  0.37   0.916051     
+    LBMI  IA    3.0 196  MLv     3.61  0.06   0.285683     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

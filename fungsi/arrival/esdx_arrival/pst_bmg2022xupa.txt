@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022xupa
+    Preferred Origin ID    Origin/20221205134041.464195.335498
+    Preferred Magnitude ID Origin/20221205134041.464195.335498/netMag/M
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+    Creation time          2022-12-05 13:40:47
+
+Origin:
+    Public ID              Origin/20221205134041.464195.335498
+    Date                   2022-12-05
+    Time                   13:38:09.6  +/-    0.8 s
+    Latitude                 0.27 deg  +/-      4 km
+    Longitude              122.32 deg  +/-      4 km
+    Depth                     147 km   +/-    6 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-05 13:40:41
+    Residual RMS             0.65 s
+    Azimuthal gap              66 deg
+
+2 Network magnitudes:
+    MLv       2.95 +/- 0.22   6            BMG
+    M         2.95            6 preferred  BMG1
+
+18 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MRSI  IA    0.4 298  P       13:38:30.9  -0.4 M  1.0  MRSI 
+    MRSI  IA    0.4 298  S       13:38:47.4  -1.1 M  1.0  MRSI 
+    KGCM  IA    0.6  56  P       13:38:33.2   0.7 M  1.0  KGCM 
+    KGCM  IA    0.6  56  S       13:38:52.2   1.7 M  1.0  KGCM 
+    SMSI  IA    0.7   4  P       13:38:32.4  -0.5 M  1.0  SMSI 
+    SMSI  IA    0.7   4  S       13:38:50.4  -0.7 M  1.0  SMSI 
+    GTOI  IA    0.7  49  P       13:38:33.1   0.1 M  1.0  GTOI 
+    GTOI  IA    0.7  49  S       13:38:51.0  -0.3 M  1.0  GTOI 
+    TGCM  IA    0.8  72  P       13:38:33.1  -0.2 M  1.0  TGCM 
+    TGCM  IA    0.8  72  S       13:38:51.6  -0.3 M  1.0  TGCM 
+    UTUSI IA    0.8 213  P       13:38:34.0   0.5 M  1.0  UTUSI
+    UTUSI IA    0.8 213  S       13:38:52.5   0.3 M  1.0  UTUSI
+    TPCI  IA    1.2 279  P       13:38:37.3   0.5 M  1.0  TPCI 
+    TPCI  IA    1.2 279  S       13:38:58.5   0.5 M  1.0  TPCI 
+    APSI  IA    1.4 210  P       13:38:38.1   0.0 M  1.0  APSI 
+    APSI  IA    1.4 210  S       13:39:00.1  -0.0 M  1.0  APSI 
+    PBCI  IA    1.7  86  P       13:38:42.1   0.1 M  1.0  PBCI 
+    BBLSI IA    2.2 148  P       13:38:47.1  -0.9 M  1.0  BBLSI
+
+6 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    SMSI  IA    0.7   4  MLv     2.72 -0.23   0.667017     
+    GTOI  IA    0.7  49  MLv     3.05  0.10    1.37746     
+    UTUSI IA    0.8 213  MLv     2.76 -0.19   0.619569     
+    TPCI  IA    1.2 279  MLv     3.27  0.33    1.21874     
+    APSI  IA    1.4 210  MLv     2.81 -0.13   0.361684     
+    PBCI  IA    1.7  86  MLv     3.07  0.12    0.40803     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

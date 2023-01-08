@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SI-GEMPA | Login</title>
+
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/logo-only.png') }}">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/fontawesome-free/css/all.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='dist/css/adminlte.min.css') }}">
+  <!-- icheck bootstrap -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/icheck-bootstrap/icheck-bootstrap.min.css') }}">
+  <style>
+    .alert-custom{
+      background-color:#ff7878;
+      color:#fff;
+    }
+  </style>
+</head>
+<body class="hold-transition login-page">
+<div class="login-box">
+  <!-- /.login-logo -->
+  <div class="card card-outline card-primary">
+    <div class="card-header text-center">
+        <a href="../../index2.html" class="h3">
+            <img src="{{ url_for('static', filename='images/logo-only.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="width: 20%;">
+        </a>
+    </div>
+    <div class="card-body">
+      
+      <h5 class="login-box-msg"><b>SI-GEMPA V2.0</b> </h5>
+      
+      {%for category, message in get_flashed_messages(with_categories=True)%}
+      
+      <div class="alert alert-custom alert-dismissible fade show" role="alert">
+        <b>{{message}}</b>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      {%endfor%}
+      <form action="/login" method="POST">
+        <div class="input-group mb-3">
+          <input type="username" name="username" class="form-control" placeholder="User">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" name="password" class="form-control" placeholder="Password">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- /.col -->
+          <div class="col-4"></div>
+          <div class="col-4">
+            <button type="submit" class="btn btn-primary btn-block ">Log In</button>
+          </div>
+          <div class="col-4"></div>
+          <!-- /.col -->
+          <div class="col-12">
+            <p></p>
+          </div>
+        </div>
+      </form>
+
+      
+    </div>
+    <!-- /.card-body -->
+    <div class="card-footer text-right bg-success mt-0 mb-0 pt-1 pb-0 pr-2">
+      <p style="margin-bottom: 8px; margin-right: 0px;" class="text-white-50">
+        <b>SI-GEMPA</b> V2.0 | Copyright &copy; 2023
+      </p>
+
+      
+    </div>
+  </div>
+  <!-- /.card -->
+</div>
+<!-- /.login-box -->
+
+<!-- jQuery -->
+<script src="{{ url_for('static', filename='plugins/jquery/jquery.min.js') }}"></script>
+<!-- Bootstrap -->
+<script src="{{ url_for('static', filename='plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<!-- AdminLTE App -->
+<script src="{{ url_for('static', filename='dist/js/adminlte.js') }}"></script>
+</body>
+</html>

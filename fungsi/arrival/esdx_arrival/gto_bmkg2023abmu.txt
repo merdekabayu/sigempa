@@ -1,0 +1,61 @@
+<html><body><p>Event:
+    Public ID              bmkg2023abmu
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2023-01-01
+    Time                   19:36:11.1  +/-    0.6 s
+    Latitude                -0.21 deg  +/-      2 km
+    Longitude              123.13 deg  +/-      2 km
+    Depth                      30 km   +/-    5 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.61 s
+    Azimuthal gap             146 deg
+
+4 Network magnitudes:
+    Mjma      2.81 +/- 0.16   7            
+    ML        2.84 +/- 0.19   7            
+    MLv       2.86 +/- 0.16   7            
+    M         2.84            7 preferred  
+
+16 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TGCM  IA    0.7 356  P       19:36:25.2  -0.4 M  1.0  TGCM 
+    TGCM  IA    0.7 356  S       19:36:36.0  -0.5 M  1.0  TGCM 
+    KGCM  IA    0.9 342  P       19:36:27.8   0.1 M  1.0  KGCM 
+    KGCM  IA    0.9 342  S       19:36:41.8   1.5 M  1.0  KGCM 
+    LUWI  IA    0.9 204  P       19:36:27.8  -0.0 M  1.0  LUWI 
+    LUWI  IA    0.9 204  S       19:36:41.4   1.0 M  1.0  LUWI 
+    GTOI  IA    1.0 345  P       19:36:28.5  -0.7 M  1.0  GTOI 
+    GTOI  IA    1.0 345  S       19:36:43.3   0.4 M  1.0  GTOI 
+    MRSI  IA    1.4 300  P       19:36:33.5  -0.8 M  1.0  MRSI 
+    MRSI  IA    1.4 300  S       19:36:51.9  -0.1 M  1.0  MRSI 
+    SMSI  IA    1.4 327  P       19:36:34.6  -0.3 M  1.0  SMSI 
+    SMSI  IA    1.4 327  S       19:36:53.6   0.4 M  1.0  SMSI 
+    TBMCM IA    1.7  58  P       19:36:38.7  -0.4 M  1.0  TBMCM
+    TBMCM IA    1.7  58  S       19:37:01.1   0.5 M  1.0  TBMCM
+    TMSI  IA    2.3  50  S       19:37:15.5  -0.3 M  1.0  TMSI 
+    POCI  IA    2.8 244  S       19:37:25.6  -0.5 M  1.0  POCI 
+
+15 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TGCM  IA    0.7 356  ML      3.07  0.22    1.43476     
+    TGCM  IA    0.7 356  MLv     3.09  0.23     1.5116     
+    TGCM  IA    0.7 356  Mjma    2.63 -0.18   0.514566     
+    KGCM  IA    0.9 342  ML      3.01  0.17    1.03417     
+    KGCM  IA    0.9 342  MLv     2.85 -0.01   0.710079     
+    KGCM  IA    0.9 342  Mjma    3.02  0.22   0.896797     
+    LUWI  IA    0.9 204  ML      2.69 -0.16   0.482614     
+    LUWI  IA    0.9 204  MLv     2.77 -0.09    0.58004     
+    LUWI  IA    0.9 204  Mjma    2.72 -0.08   0.445868     
+    MRSI  IA    1.4 300  ML      2.73 -0.12   0.289736     
+    MRSI  IA    1.4 300  MLv     2.77 -0.09   0.316982     
+    MRSI  IA    1.4 300  Mjma    2.81  0.01   0.263204     
+    SMSI  IA    1.4 327  ML      2.71 -0.13   0.261769     
+    SMSI  IA    1.4 327  MLv     2.82 -0.04   0.336987     
+    SMSI  IA    1.4 327  Mjma    2.83  0.03   0.259929     
+
+stageofgorontalo
+</p></body></html>

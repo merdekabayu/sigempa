@@ -1,0 +1,80 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xqhr
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-03
+    Time                   05:22:33.3  +/-    0.3 s
+    Latitude                 1.66 deg  +/-      2 km
+    Longitude              126.52 deg  +/-      1 km
+    Depth                       3 km   +/-    3 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.94 s
+    Azimuthal gap              69 deg
+
+5 Network magnitudes:
+    mb        3.95 +/- 0.00   1            
+    mB        5.02 +/- 0.00   1            
+    Mw(mB)    4.34 +/- 0.40   1            
+    MLv       3.75 +/- 0.18  15            
+    M         3.82           15 preferred  
+
+32 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    IHMI  IA    1.0  98  P       05:22:52.7  -0.6 M  1.0  IHMI 
+    IHMI  IA    1.0  98  S       05:23:07.6  -0.0 M  1.0  IHMI 
+    JHMI  IA    1.1 121  P       05:22:54.5   0.1 M  1.0  JHMI 
+    JHMI  IA    1.1 121  S       05:23:11.0   1.3 M  1.0  JHMI 
+    TNTI  IA    1.2 136  P       05:22:55.9  -0.2 M  1.0  TNTI 
+    TNTI  IA    1.2 136  S       05:23:13.0   0.2 M  1.0  TNTI 
+    PSSI  IA    1.5 314  P       05:23:01.2   0.1 M  1.0  PSSI 
+    PSSI  IA    1.5 314  S       05:23:21.1  -0.7 M  1.0  PSSI 
+    PMMI  IA    1.6 145  P       05:23:01.4   0.0 M  1.0  PMMI 
+    PMMI  IA    1.6 145  S       05:23:21.7  -0.7 M  1.0  PMMI 
+    TMSI  IA    1.6 257  P       05:23:03.2   0.8 M  1.0  TMSI 
+    TMSI  IA    1.6 257  S       05:23:23.8  -0.6 M  1.0  TMSI 
+    MNI   IA    1.7 263  P       05:23:02.0  -1.3 M  1.0  MNI  
+    MNI   IA    1.7 263  S       05:23:26.6   0.7 M  1.0  MNI  
+    WHMI  IA    1.7 110  P       05:23:03.2  -0.5 M  1.0  WHMI 
+    WHMI  IA    1.7 110  S       05:23:27.1   0.6 M  1.0  WHMI 
+    MTAI  IA    1.8  73  P       05:23:05.0  -0.5 M  1.0  MTAI 
+    MTAI  IA    1.8  73  S       05:23:28.5  -1.3 M  1.0  MTAI 
+    WBMI  IA    1.9 134  P       05:23:06.2  -0.1 M  1.0  WBMI 
+    WBMI  IA    1.9 134  S       05:23:30.7  -0.5 M  1.0  WBMI 
+    TBMCM IA    2.1 244  P       05:23:09.9  -0.1 M  1.0  TBMCM
+    TBMCM IA    2.1 244  S       05:23:37.0  -0.9 M  1.0  TBMCM
+    MGAI  IA    2.3   4  P       05:23:13.3   0.7 M  1.0  MGAI 
+    LBMI  IA    2.5 157  P       05:23:15.7   1.1 M  1.0  LBMI 
+    LBMI  IA    2.5 157  S       05:23:44.6  -1.8 M  1.0  LBMI 
+    PBCI  IA    2.8 243  P       05:23:19.3   0.5 M  1.0  PBCI 
+    PBCI  IA    2.8 243  S       05:23:52.3  -1.5 M  1.0  PBCI 
+    TGCM  IA    3.6 252  P       05:23:31.1   0.8 M  1.0  TGCM 
+    SANI  IA    3.7 188  P       05:23:31.1  -0.6 M  1.0  SANI 
+    KGCM  IA    3.8 255  P       05:23:34.1   1.3 M  1.0  KGCM 
+    SMSI  IA    4.2 261  P       05:23:39.2   0.9 M  1.0  SMSI 
+    KRAI  IA    5.3 159  P       05:23:56.0   2.8 M  1.0  KRAI 
+
+17 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    IHMI  IA    1.0  98  MLv     3.88  0.12    6.25509     
+    JHMI  IA    1.1 121  MLv     3.86  0.10    5.42024     
+    TNTI  IA    1.2 136  MLv     3.48 -0.27    1.99557     
+    PSSI  IA    1.5 314  MLv     3.98  0.23    4.18724     
+    PMMI  IA    1.6 145  MLv     3.54 -0.22    1.46265     
+    MNI   IA    1.7 263  MLv     4.01  0.25    3.68064     
+    MTAI  IA    1.8  73  MLv     3.48 -0.28    0.90298     
+    WBMI  IA    1.9 134  MLv     3.66 -0.10    1.27437     
+    TBMCM IA    2.1 244  MLv     3.80  0.05    1.28006     
+    MGAI  IA    2.3   4  MLv     3.66 -0.10   0.707233     
+    LBMI  IA    2.5 157  MLv     3.83  0.07     0.8621     
+    PBCI  IA    2.8 243  MLv     3.69 -0.06    0.44028     
+    TGCM  IA    3.6 252  MLv     3.90  0.14   0.246175     
+    SANI  IA    3.7 188  MLv     3.55 -0.21   0.101772     
+    KRAI  IA    5.3 159  MLv     4.02  0.27   0.124124     
+    KRAI  IA    5.3 159  mB      5.02  0.00    1449.37     
+    KRAI  IA    5.3 159  mb      3.95  0.00    6.21022 0.43
+
+stageofternate
+</p></body></html>

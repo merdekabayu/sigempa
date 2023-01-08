@@ -1,0 +1,63 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xupa
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-05
+    Time                   13:38:12.2  +/-    0.5 s
+    Latitude                 0.25 deg  +/-      3 km
+    Longitude              122.35 deg  +/-      2 km
+    Depth                     121 km   +/-    5 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.31 s
+    Azimuthal gap              74 deg
+
+2 Network magnitudes:
+    MLv       3.10 +/- 0.26  11            
+    M         3.10           11 preferred  
+
+26 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MRSI  IA    0.5 298  P       13:38:31.0  -0.3 M  1.0  MRSI 
+    MRSI  IA    0.5 298  S       13:38:46.2   0.1 M  1.0  MRSI 
+    KGCM  IA    0.6  53  P       13:38:31.7  -0.6 M  1.0  KGCM 
+    KGCM  IA    0.6  53  S       13:38:47.7  -0.1 M  1.0  KGCM 
+    GTOI  IA    0.7  46  P       13:38:33.2   0.4 M  1.0  GTOI 
+    GTOI  IA    0.7  46  S       13:38:49.0   0.3 M  1.0  GTOI 
+    SMSI  IA    0.7   1  P       13:38:32.5  -0.3 M  1.0  SMSI 
+    SMSI  IA    0.7   1  S       13:38:48.7  -0.1 M  1.0  SMSI 
+    TGCM  IA    0.8  70  P       13:38:33.3   0.2 M  1.0  TGCM 
+    TGCM  IA    0.8  70  S       13:38:49.1  -0.1 M  1.0  TGCM 
+    TPCI  IA    1.3 280  P       13:38:37.6   0.3 M  1.0  TPCI 
+    TPCI  IA    1.3 280  S       13:38:56.8   0.1 M  1.0  TPCI 
+    BBCI  IA    1.3 315  P       13:38:37.8   0.4 M  1.0  BBCI 
+    BBCI  IA    1.3 315  S       13:38:57.0   0.0 M  1.0  BBCI 
+    APSI  IA    1.4 211  P       13:38:38.4   0.2 M  1.0  APSI 
+    APSI  IA    1.4 211  S       13:38:58.3  -0.1 M  1.0  APSI 
+    BGCI  IA    1.5 137  P       13:38:40.4   0.1 M  1.0  BGCI 
+    BGCI  IA    1.5 137  S       13:39:02.1   0.1 M  1.0  BGCI 
+    KMSI  IA    1.7  79  P       13:38:41.0  -0.8 M  1.0  KMSI 
+    KMSI  IA    1.7  79  S       13:39:04.8   0.1 M  1.0  KMSI 
+    PBCI  IA    1.7  86  P       13:38:42.2   0.1 M  1.0  PBCI 
+    PBCI  IA    1.7  86  S       13:39:05.3  -0.1 M  1.0  PBCI 
+    TBMCM IA    2.3  78  P       13:38:49.5   0.1 M  1.0  TBMCM
+    TBMCM IA    2.3  78  S       13:39:18.5   0.1 M  1.0  TBMCM
+    MPSI  IA    2.5 272  P       13:38:52.1   0.5 M  1.0  MPSI 
+    MPSI  IA    2.5 272  S       13:39:21.5  -0.7 M  1.0  MPSI 
+
+9 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MRSI  IA    0.5 298  MLv     2.76 -0.34    1.45633     
+    GTOI  IA    0.7  46  MLv     3.04 -0.05    1.37738     
+    TGCM  IA    0.8  70  MLv     3.11  0.01    1.51296     
+    TPCI  IA    1.3 280  MLv     3.29  0.19    1.21951     
+    BBCI  IA    1.3 315  MLv     3.44  0.34    1.67343     
+    APSI  IA    1.4 211  MLv     2.81 -0.28   0.361684     
+    PBCI  IA    1.7  86  MLv     3.05 -0.04    0.40803     
+    TBMCM IA    2.3  78  MLv     3.38  0.29   0.410704     
+    MPSI  IA    2.5 272  MLv     2.92 -0.17   0.115018     
+
+stageofgorontalo
+</p></body></html>

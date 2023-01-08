@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2022xkws
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-11-30
+    Time                   06:09:21.3  +/-    1.6 s
+    Latitude                 2.52 deg  +/-      6 km
+    Longitude              128.96 deg  +/-      6 km
+    Depth                      10 km   +/-   10 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.90 s
+    Azimuthal gap             203 deg
+
+2 Network magnitudes:
+    MLv       3.96 +/- 0.25   9            
+    M         3.96            9 preferred  
+
+12 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MTAI  IA    0.8 245  P       06:09:34.1  -1.1 M  1.0  MTAI 
+    MTAI  IA    0.8 245  S       06:09:47.3   1.1 M  1.0  MTAI 
+    WHMI  IA    1.6 210  P       06:09:48.6  -0.9 M  1.0  WHMI 
+    IHMI  IA    1.7 234  P       06:09:49.0  -1.8 M  1.0  IHMI 
+    JHMI  IA    2.1 226  P       06:09:55.8  -0.1 M  1.0  JHMI 
+    TNTI  IA    2.4 223  P       06:09:59.8  -0.2 M  1.0  TNTI 
+    PMMI  IA    2.6 216  P       06:10:05.0   1.2 M  1.0  PMMI 
+    MGAI  IA    2.7 303  P       06:10:05.5   0.4 M  1.0  MGAI 
+    LBMI  IA    3.5 205  P       06:10:16.3   1.2 M  1.0  LBMI 
+    PSSI  IA    3.6 274  P       06:10:16.8   0.3 M  1.0  PSSI 
+    SWI   IA    4.1 146  P       06:10:23.8   0.2 M  1.0  SWI  
+    TMSI  IA    4.2 253  P       06:10:25.1  -0.4 M  1.0  TMSI 
+
+9 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MTAI  IA    0.8 245  MLv     3.59 -0.38    4.65356     
+    WHMI  IA    1.6 210  MLv     3.78 -0.18    2.29849     
+    IHMI  IA    1.7 234  MLv     4.13  0.17    4.67966     
+    JHMI  IA    2.1 226  MLv     4.34  0.38    4.99222     
+    PMMI  IA    2.6 216  MLv     3.79 -0.18   0.660995     
+    MGAI  IA    2.7 303  MLv     3.85 -0.12   0.681294     
+    LBMI  IA    3.5 205  MLv     4.13  0.16   0.498632     
+    PSSI  IA    3.6 274  MLv     4.30  0.33   0.662609     
+    SWI   IA    4.1 146  MLv     3.78 -0.19    0.14296     
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

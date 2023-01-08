@@ -1,0 +1,95 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xqos
+    Description
+      region name: Talaud Islands, Indonesia
+Origin:
+    Date                   2022-12-03
+    Time                   08:55:38.7  +/-    0.3 s
+    Latitude                 3.05 deg  +/-      3 km
+    Longitude              126.45 deg  +/-      3 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.78 s
+    Azimuthal gap             131 deg
+
+10 Network magnitudes:
+    mBc       6.14 +/- 0.00   1            
+    Mw(mBc)   5.38 +/- 0.40   1            
+    mb        4.31 +/- 0.15   2            
+    mB        4.87 +/- 0.00   1            
+    Mw(mB)    4.16 +/- 0.40   1            
+    Mjma      3.75 +/- 0.19  11            
+    ML        3.98 +/- 0.25  12            
+    MLv       4.05 +/- 0.21  12            
+    Ms(BB)    3.65 +/- 0.37   9            
+    M         4.41           12 preferred  
+
+17 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MGAI  IA    1.0  13  P       08:55:57.3  -0.2 M  1.0  MGAI 
+    MGAI  IA    1.0  13  S       08:56:11.4   0.2 M  1.0  MGAI 
+    PSSI  IA    1.1 253  P       08:55:57.8  -1.4 M  1.0  PSSI 
+    PSSI  IA    1.1 253  S       08:56:14.2  -0.0 M  1.0  PSSI 
+    IHMI  IA    1.9 144  P       08:56:10.7  -0.4 M  1.0  IHMI 
+    JHMI  IA    2.2 152  P       08:56:15.8   0.3 M  1.0  JHMI 
+    TMSI  IA    2.3 221  P       08:56:18.1   1.1 M  1.0  TMSI 
+    TNTI  IA    2.4 158  P       08:56:18.2  -0.5 M  1.0  TNTI 
+    PMMI  IA    2.8 160  P       08:56:25.0   1.0 M  1.0  PMMI 
+    TBMCM IA    3.0 219  P       08:56:25.1  -0.9 M  1.0  TBMCM
+    KMSI  IA    3.5 225  P       08:56:33.4   0.4 M  1.0  KMSI 
+    PBCI  IA    3.6 222  P       08:56:35.2   0.9 M  1.0  PBCI 
+    TGCM  IA    4.2 233  P       08:56:44.0   1.1 M  1.0  TGCM 
+    GTOI  IA    4.2 238  P       08:56:43.8   0.4 M  1.0  GTOI 
+    SMSI  IA    4.6 243  P       08:56:47.4  -0.5 M  1.0  SMSI 
+    SANI  IA    5.1 185  P       08:56:53.7  -1.4 M  1.0  SANI 
+    TOLI2 IA    6.0 251  P       08:57:07.4  -0.0 M  1.0  TOLI2
+
+42 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MGAI  IA    1.0  13  ML      3.80 -0.18    5.68864     
+    MGAI  IA    1.0  13  MLv     3.90 -0.15    7.09776     
+    MGAI  IA    1.0  13  Mjma    3.76  0.01    4.21254     
+    PSSI  IA    1.1 253  ML      4.05  0.07    8.71283     
+    PSSI  IA    1.1 253  MLv     4.12  0.07     10.369     
+    PSSI  IA    1.1 253  Mjma    3.95  0.19    5.40726     
+    IHMI  IA    1.9 144  ML      4.24  0.26    4.80952     
+    IHMI  IA    1.9 144  MLv     4.10  0.06    3.54665     
+    IHMI  IA    1.9 144  Mjma    3.89  0.14    1.82826     
+    JHMI  IA    2.2 152  ML      3.87 -0.11    1.35678     
+    JHMI  IA    2.2 152  MLv     4.02 -0.02    1.94633     
+    JHMI  IA    2.2 152  Mjma    3.72 -0.03   0.941262     
+    JHMI  IA    2.2 152  Ms(BB)  4.22  0.57   1.37505e-05 0.10
+    TNTI  IA    2.4 158  Ms(BB)  3.27 -0.38   1.31607e-06 0.08
+    PMMI  IA    2.8 160  Ms(BB)  3.53 -0.12   1.88566e-06 0.38
+    TBMCM IA    3.0 219  Ms(BB)  4.25  0.60   9.0917e-06 0.47
+    PBCI  IA    3.6 222  ML      4.29  0.31   0.615871     
+    PBCI  IA    3.6 222  MLv     4.32  0.28   0.673932     
+    PBCI  IA    3.6 222  Mjma    3.96  0.21   0.712052     
+    PBCI  IA    3.6 222  Ms(BB)  3.80  0.15   2.35343e-06 0.31
+    TGCM  IA    4.2 233  ML      4.16  0.18   0.322453     
+    TGCM  IA    4.2 233  MLv     4.15  0.10   0.310292     
+    TGCM  IA    4.2 233  Mjma    3.64 -0.11   0.258869     
+    TGCM  IA    4.2 233  Ms(BB)  3.57 -0.08   1.07224e-06 0.38
+    GTOI  IA    4.2 238  ML      3.75 -0.23   0.121675     
+    GTOI  IA    4.2 238  MLv     3.96 -0.09   0.197535     
+    GTOI  IA    4.2 238  Mjma    3.59 -0.17    0.22589     
+    GTOI  IA    4.2 238  Ms(BB)  3.37 -0.27   6.76699e-07 0.28
+    SMSI  IA    4.6 243  ML      3.57 -0.41   0.0672824     
+    SMSI  IA    4.6 243  MLv     3.71 -0.34   0.0922827     
+    SMSI  IA    4.6 243  Mjma    3.51 -0.25   0.164635     
+    SMSI  IA    4.6 243  Ms(BB)  3.13 -0.51   3.43464e-07 0.33
+    SANI  IA    5.1 185  ML      3.92 -0.05   0.110642     
+    SANI  IA    5.1 185  MLv     4.02 -0.02   0.138803     
+    SANI  IA    5.1 185  Mjma    3.79  0.03   0.258565     
+    SANI  IA    5.1 185  Ms(BB)  3.72  0.07   1.09991e-06 0.15
+    SANI  IA    5.1 185  mB      4.87  0.00    1099.91     
+    SANI  IA    5.1 185  mBc     6.14  0.00    20260.8     
+    SANI  IA    5.1 185  mb      4.42  0.11    20.6713 0.47
+    TOLI2 IA    6.0 251  ML      4.11  0.14   0.103956     
+    TOLI2 IA    6.0 251  MLv     4.19  0.14   0.122682     
+    TOLI2 IA    6.0 251  mb      4.21 -0.11    15.0234 0.69
+
+stageofgorontalo
+</p></body></html>

@@ -1,0 +1,90 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yccx
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-09
+    Time                   16:36:10.5  +/-    0.2 s
+    Latitude                 0.70 deg  +/-      2 km
+    Longitude              126.25 deg  +/-      1 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.48 s
+    Azimuthal gap              54 deg
+
+5 Network magnitudes:
+    mb        4.27 +/- 0.00   1            
+    mB        6.28 +/- 0.00   1            
+    Mw(mB)    5.99 +/- 0.40   1            
+    MLv       4.35 +/- 0.22  18            
+    M         4.32           18 preferred  
+
+41 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TNTI  IA    1.1  87  P       16:36:31.5   0.0 M  1.0  TNTI 
+    TNTI  IA    1.1  87  S       16:36:46.9   0.1 M  1.0  TNTI 
+    PMMI  IA    1.2 106  P       16:36:33.8   0.9 M  1.0  PMMI 
+    JHMI  IA    1.3  73  P       16:36:33.7  -0.3 M  1.0  JHMI 
+    JHMI  IA    1.3  73  S       16:36:52.6   1.3 M  1.0  JHMI 
+    TMSI  IA    1.4 294  P       16:36:35.7  -0.6 M  1.0  TMSI 
+    TMSI  IA    1.4 294  S       16:36:54.1  -1.7 M  1.0  TMSI 
+    IHMI  IA    1.5  59  P       16:36:36.2  -1.4 M  1.0  IHMI 
+    IHMI  IA    1.5  59  S       16:36:54.2  -3.8 M  1.0  IHMI 
+    TBMCM IA    1.7 270  P       16:36:38.8  -0.6 M  1.0  TBMCM
+    TBMCM IA    1.7 270  S       16:36:58.5  -2.9 M  1.0  TBMCM
+    WBMI  IA    1.7 103  P       16:36:39.6   0.1 M  1.0  WBMI 
+    WBMI  IA    1.7 103  Pn      16:36:41.2   1.5 M  1.0  WBMI 
+    WBMI  IA    1.7 103  S       16:37:02.5   1.0 M  1.0  WBMI 
+    LBMI  IA    1.8 137  P       16:36:42.0   0.1 M  1.0  LBMI 
+    LBMI  IA    1.8 137  S       16:37:04.6  -1.3 M  1.0  LBMI 
+    PSSI  IA    2.2 337  P       16:36:46.9   0.0 M  1.0  PSSI 
+    PSSI  IA    2.2 337  Pn      16:36:47.1   0.1 M  1.0  PSSI 
+    PSSI  IA    2.2 337  S       16:37:14.4  -0.5 M  1.0  PSSI 
+    PBCI  IA    2.2 262  P       16:36:46.5  -1.0 M  1.0  PBCI 
+    PBCI  IA    2.2 262  S       16:37:16.0  -0.1 M  1.0  PBCI 
+    KMSI  IA    2.3 267  P       16:36:48.1  -0.1 A  1.0  KMSI 
+    KMSI  IA    2.3 267  Pn      16:36:48.4   0.2 M  1.0  KMSI 
+    KMSI  IA    2.3 267  S       16:37:17.5   0.4 M  1.0  KMSI 
+    OBMI  IA    2.5 146  P       16:36:53.2   2.4 M  1.0  OBMI 
+    SANI  IA    2.7 185  P       16:36:53.9  -0.7 A  1.0  SANI 
+    SANI  IA    2.7 185  Pn      16:36:53.9  -0.7 M  1.0  SANI 
+    SANI  IA    2.7 185  S       16:37:25.3  -3.6 M  1.0  SANI 
+    TGCM  IA    3.2 267  P       16:37:02.7   2.1 M  1.0  TGCM 
+    MGAI  IA    3.3   7  P       16:37:03.1   0.8 M  1.0  MGAI 
+    GTOI  IA    3.4 271  P       16:37:04.3   0.9 M  1.0  GTOI 
+    KGCM  IA    3.4 269  P       16:37:06.6   3.0 M  1.0  KGCM 
+    LUWI  IA    3.9 243  P       16:37:11.3   0.9 M  1.0  LUWI 
+    SMSI  IA    3.9 274  P       16:37:09.4  -1.1 M  1.0  SMSI 
+    MRSI  IA    4.3 267  P       16:37:17.6   1.4 M  1.0  MRSI 
+    BBCI  IA    4.8 275  P       16:37:18.1  -5.2 AX 0.0  BBCI 
+    APSI  IA    4.9 251  P       16:37:24.8   0.9 M  1.0  APSI 
+    TPCI  IA    5.2 267  P       16:37:30.2   2.4 M  1.0  TPCI 
+    TOLI2 IA    5.5 274  P       16:37:45.4  13.1 AX 0.0  TOLI2
+    SRSI  IA    6.3 239  P       16:37:42.8  -0.1 M  1.0  SRSI 
+    PICM  IA    6.3 257  P       16:37:49.4   5.6 AX 0.0  PICM 
+
+18 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TNTI  IA    1.1  87  MLv     4.11 -0.23    9.78178     
+    PMMI  IA    1.2 106  MLv     4.36  0.02    15.4791     
+    TMSI  IA    1.4 294  MLv     4.43  0.09    13.4591     
+    IHMI  IA    1.5  59  MLv     4.59  0.24    17.1396     
+    TBMCM IA    1.7 270  MLv     4.61  0.26    15.4363     
+    WBMI  IA    1.7 103  MLv     4.39  0.04    9.27946     
+    LBMI  IA    1.8 137  MLv     4.41  0.07    7.82833     
+    PSSI  IA    2.2 337  MLv     4.20 -0.14    3.03142     
+    PBCI  IA    2.2 262  MLv     4.01 -0.34    1.85675     
+    OBMI  IA    2.5 146  MLv     4.00 -0.35    1.31944     
+    TGCM  IA    3.2 267  MLv     4.65  0.31    2.45153     
+    MGAI  IA    3.3   7  MLv     4.20 -0.15   0.702755     
+    GTOI  IA    3.4 271  MLv     4.40  0.05    1.05432     
+    LUWI  IA    3.9 243  MLv     4.66  0.31    1.22365     
+    SMSI  IA    3.9 274  MLv     4.28 -0.07   0.505157     
+    MRSI  IA    4.3 267  MLv     4.26 -0.09   0.381448     
+    TPCI  IA    5.2 267  mB      6.28  0.00    27773.4     
+    SRSI  IA    6.3 239  mb      4.27  0.00    18.8625 0.78
+
+stageofgorontalo
+</p></body></html>

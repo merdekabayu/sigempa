@@ -1,0 +1,49 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zfbc
+    Description
+      region name: Southern Molucca Sea
+Origin:
+    Date                   2022-12-25
+    Time                   12:37:15.3  +/-    0.7 s
+    Latitude                -0.02 deg  +/-      4 km
+    Longitude              124.32 deg  +/-      3 km
+    Depth                      25 km   +/-    4 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.53 s
+    Azimuthal gap             212 deg
+
+2 Network magnitudes:
+    MLv       2.46 +/- 0.33   6            
+    M         2.46            6 preferred  
+
+15 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    PBCI  IA    0.5 325  P       12:37:26.1  -0.3 M  1.0  PBCI 
+    PBCI  IA    0.5 325  S       12:37:35.0   0.3 M  1.0  PBCI 
+    KMSI  IA    0.7 330  P       12:37:28.4  -0.7 M  1.0  KMSI 
+    KMSI  IA    0.7 330  S       12:37:39.7   0.3 M  1.0  KMSI 
+    TBMCM IA    0.8  20  P       12:37:30.1  -0.4 M  1.0  TBMCM
+    TBMCM IA    0.8  20  S       12:37:42.7   0.9 M  1.0  TBMCM
+    TGCM  IA    1.4 293  P       12:37:38.3  -0.2 M  1.0  TGCM 
+    TGCM  IA    1.4 293  S       12:37:56.6   0.4 M  1.0  TGCM 
+    TMSI  IA    1.4  25  P       12:37:39.8   0.1 M  1.0  TMSI 
+    GTOI  IA    1.6 298  P       12:37:42.2  -0.4 M  1.0  GTOI 
+    GTOI  IA    1.6 298  S       12:38:03.0  -0.5 M  1.0  GTOI 
+    LUWI  IA    1.8 237  P       12:37:44.7  -0.7 M  1.0  LUWI 
+    LUWI  IA    1.8 237  S       12:38:09.8   1.2 M  1.0  LUWI 
+    SMSI  IA    2.2 297  P       12:37:50.3   0.2 M  1.0  SMSI 
+    SMSI  IA    2.2 297  S       12:38:16.9  -0.2 M  1.0  SMSI 
+
+6 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    PBCI  IA    0.5 325  MLv     1.99 -0.47   0.211931     
+    TBMCM IA    0.8  20  MLv     2.70  0.25   0.582276     
+    TGCM  IA    1.4 293  MLv     2.36 -0.09    0.12914     
+    GTOI  IA    1.6 298  MLv     2.22 -0.23   0.0638717     
+    LUWI  IA    1.8 237  MLv     2.88  0.42   0.222365     
+    SMSI  IA    2.2 297  MLv     2.58  0.13   0.0723402     
+
+stageofgorontalo
+</p></body></html>

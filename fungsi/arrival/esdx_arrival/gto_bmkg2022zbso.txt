@@ -1,0 +1,45 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zbso
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-23
+    Time                   16:54:33.2  +/-    0.7 s
+    Latitude                 0.63 deg  +/-      5 km
+    Longitude              121.59 deg  +/-      3 km
+    Depth                      74 km   +/-    8 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.75 s
+    Azimuthal gap              82 deg
+
+2 Network magnitudes:
+    MLv       3.28 +/- 0.26   7            
+    M         3.28            7 preferred  
+
+12 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MRSI  IA    0.4 114  P       16:54:45.7  -1.2 M  1.0  MRSI 
+    TPCI  IA    0.5 252  P       16:54:47.8  -0.2 M  1.0  TPCI 
+    TPCI  IA    0.5 252  S       16:54:59.6   0.2 M  1.0  TPCI 
+    BBCI  IA    0.5 343  P       16:54:47.8  -0.4 M  1.0  BBCI 
+    BBCI  IA    0.5 343  S       16:55:00.0   0.3 M  1.0  BBCI 
+    SMSI  IA    0.8  65  P       16:54:49.2  -1.4 M  1.0  SMSI 
+    TOLI2 IA    0.9 300  P       16:54:51.1  -0.3 M  1.0  TOLI2
+    TOLI2 IA    0.9 300  S       16:55:05.9   0.5 M  1.0  TOLI2
+    KGCM  IA    1.3  90  P       16:54:55.6   0.4 M  1.0  KGCM 
+    KGCM  IA    1.3  90  S       16:55:13.5   1.3 M  1.0  KGCM 
+    APSI  IA    1.5 178  P       16:54:58.8  -0.0 M  1.0  APSI 
+    MPSI  IA    1.7 260  P       16:55:02.1   0.9 M  1.0  MPSI 
+
+5 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    SMSI  IA    0.8  65  MLv     3.04 -0.24    1.17342     
+    TOLI2 IA    0.9 300  MLv     3.06 -0.21    1.10054     
+    KGCM  IA    1.3  90  MLv     3.64  0.36    2.72885     
+    APSI  IA    1.5 178  MLv     3.30  0.02   0.881359     
+    MPSI  IA    1.7 260  MLv     3.36  0.08   0.797084     
+
+stageofgorontalo
+</p></body></html>

@@ -1,0 +1,47 @@
+<html><body><p>Event:
+    Public ID              bmkg2023aabm
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2023-01-01
+    Time                   00:45:26.3  +/-    0.7 s
+    Latitude                -0.10 deg  +/-      3 km
+    Longitude              123.75 deg  +/-      3 km
+    Depth                     107 km   +/-    7 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.84 s
+    Azimuthal gap              95 deg
+
+2 Network magnitudes:
+    MLv       2.74 +/- 0.24   7            
+    M         2.74            7 preferred  
+
+14 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    PBCI  IA    0.6  31  P       00:45:44.9   0.4 M  1.0  PBCI 
+    PBCI  IA    0.6  31  S       00:45:58.1  -0.4 M  1.0  PBCI 
+    TGCM  IA    0.9 312  P       00:45:46.1  -0.6 M  1.0  TGCM 
+    TGCM  IA    0.9 312  S       00:46:01.5  -0.9 M  1.0  TGCM 
+    TBMCM IA    1.2  46  P       00:45:50.8   1.6 M  1.0  TBMCM
+    TBMCM IA    1.2  46  S       00:46:07.6   0.8 M  1.0  TBMCM
+    GTOI  IA    1.2 314  P       00:45:49.9   0.1 M  1.0  GTOI 
+    GTOI  IA    1.2 314  S       00:46:07.5  -0.6 M  1.0  GTOI 
+    LUWI  IA    1.4 226  P       00:45:52.0   0.7 M  1.0  LUWI 
+    LUWI  IA    1.4 226  S       00:46:11.9   1.1 M  1.0  LUWI 
+    SMSI  IA    1.8 308  P       00:45:55.3  -0.9 M  1.0  SMSI 
+    SMSI  IA    1.8 308  S       00:46:19.4   0.1 M  1.0  SMSI 
+    SANI  IA    3.0 131  P       00:46:11.9   0.1 M  1.0  SANI 
+    SANI  IA    3.0 131  S       00:46:45.8  -1.5 M  1.0  SANI 
+
+5 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    PBCI  IA    0.6  31  MLv     2.62 -0.11   0.648004     
+    TBMCM IA    1.2  46  MLv     2.94  0.20   0.615931     
+    GTOI  IA    1.2 314  MLv     2.54 -0.20   0.227793     
+    SMSI  IA    1.8 308  MLv     2.54 -0.20   0.115873     
+    SANI  IA    3.0 131  MLv     3.04  0.30   0.0776932     
+
+stageofgorontalo
+</p></body></html>

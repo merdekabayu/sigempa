@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022yvfm
+    Preferred Origin ID    Origin/20221220033120.926098.349564
+    Preferred Magnitude ID Origin/20221220033120.926098.349564/netMag/M
+    Description
+      region name: Sumbawa Region, Indonesia
+    Creation time          2022-12-20 03:31:06
+
+Origin:
+    Public ID              Origin/20221220033120.926098.349564
+    Date                   2022-12-20
+    Time                   03:29:35.1  +/-    0.4 s
+    Latitude                -8.22 deg  +/-      4 km
+    Longitude              118.05 deg  +/-      2 km
+    Depth                      18 km   +/-    4 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-20 03:31:20
+    Residual RMS             0.80 s
+    Azimuthal gap             123 deg
+
+3 Network magnitudes:
+    MLv       3.35 +/- 0.26   6            BMG
+    Mjma      3.05 +/- 0.19   4            BMG1
+    M         3.25            6 preferred  BMG1
+
+17 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    PDLI  IA    0.2 303  P       03:29:41.8   0.4 M  1.0  PDLI 
+    TSNI  IA    0.5 158  P       03:29:46.4  -0.2 M  1.0  TSNI 
+    ESNI  IA    0.6 188  P       03:29:46.9  -0.3 M  1.0  ESNI 
+    DBNFM IA    0.6 111  P       03:29:47.3   0.1 M  1.0  DBNFM
+    PLAI  IA    0.7 204  P       03:29:48.1  -0.5 M  1.0  PLAI 
+    WBNI  IA    0.9  96  P       03:29:52.1   0.3 M  1.0  WBNI 
+    RSNI  IA    0.9 220  P       03:29:51.2  -0.7 M  1.0  RSNI 
+    USFM  IA    0.9 258  P       03:29:52.3  -0.4 M  1.0  USFM 
+    LBNFM IA    1.0 112  P       03:29:55.0   0.7 M  1.0  LBNFM
+    TWSI  IA    1.3 246  P       03:29:57.5  -0.3 M  1.0  TWSI 
+    JSBFM IA    1.4 242  P       03:29:59.8   0.3 M  1.0  JSBFM
+    WLTFM IA    1.5 259  P       03:30:02.7   1.3 M  1.0  WLTFM
+    LTNI  IA    1.6 250  P       03:30:04.5   1.4 M  1.0  LTNI 
+    OMBFM IA    1.8 105  P       03:30:06.6   1.1 M  1.0  OMBFM
+    NKBI  IA    2.5 258  P       03:30:15.1  -0.6 M  1.0  NKBI 
+    PSJCM IA    2.8  66  P       03:30:17.3  -1.8 M  1.0  PSJCM
+    SRBI  IA    2.8 272  P       03:30:18.5  -0.8 M  1.0  SRBI 
+
+8 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TSNI  IA    0.5 158  MLv     3.52  0.17    5.37923     
+    TSNI  IA    0.5 158  Mjma    2.97 -0.09    1.94781     
+    ESNI  IA    0.6 188  MLv     3.03 -0.32    1.63893     
+    ESNI  IA    0.6 188  Mjma    3.01 -0.04     1.9203     
+    PLAI  IA    0.7 204  Mjma    2.96 -0.09    1.31966     
+    WBNI  IA    0.9  96  MLv     3.28 -0.07    2.02692     
+    RSNI  IA    0.9 220  MLv     3.59  0.24    3.98598     
+    TWSI  IA    1.3 246  Mjma    3.40  0.35    1.18815     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

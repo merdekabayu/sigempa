@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022yzmc
+    Preferred Origin ID    Origin/20221222112552.237539.64956
+    Preferred Magnitude ID Origin/20221222112552.237539.64956/netMag/M
+    Description
+      region name: Timor Region
+    Creation time          2022-12-22 11:24:09
+
+Origin:
+    Public ID              Origin/20221222112552.237539.64956
+    Date                   2022-12-22
+    Time                   11:22:26.6  +/-    0.3 s
+    Latitude                -8.92 deg  +/-      2 km
+    Longitude              124.32 deg  +/-      2 km
+    Depth                      42 km   +/-    8 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-22 11:25:52
+    Residual RMS             0.82 s
+    Azimuthal gap              58 deg
+
+6 Network magnitudes:
+    mb        4.73 +/- 0.32   5            BMG
+    mB        5.26 +/- 0.10   2            BMG
+    Mw(mB)    4.65 +/- 0.40   2            BMG
+    MLv       4.07 +/- 0.37   6            BMG
+    Mjma      3.99 +/- 0.42   3            BMG1
+    M         4.21            6 preferred  BMG1
+
+41 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TNTN  IA    0.6 165  P       11:22:39.5   0.2 M  1.0  TNTN 
+    ATNI  IA    0.6 107  P       11:22:39.1  -0.3 M  1.0  ATNI 
+    ATNI  IA    0.6 107  S       11:22:49.1   0.0 M  1.0  ATNI 
+    PAFM  IA    0.6 340  P       11:22:39.4  -0.1 M  1.0  PAFM 
+    ANAN  IA    0.7  15  P       11:22:41.1  -0.2 M  1.0  ANAN 
+    ANAN  IA    0.7  15  S       11:22:52.6   0.2 M  1.0  ANAN 
+    AAFM  IA    0.8  32  P       11:22:40.6  -1.0 M  1.0  AAFM 
+    ALKI  IA    0.8  19  P       11:22:42.4   0.2 M  1.0  ALKI 
+    ALKI  IA    0.8  19  S       11:22:55.0   0.9 M  1.0  ALKI 
+    WLFM  IA    0.9 294  P       11:22:43.6  -0.1 M  1.0  WLFM 
+    WLFM  IA    0.9 294  S       11:22:56.6  -0.0 M  1.0  WLFM 
+    ALTI  IA    1.0  52  P       11:22:44.1  -0.3 M  1.0  ALTI 
+    ALTI  IA    1.0  52  S       11:22:57.3  -0.5 M  1.0  ALTI 
+    KTTI  IA    1.1 169  P       11:22:45.2  -0.4 M  1.0  KTTI 
+    LRTI  IA    1.5 296  P       11:22:50.6   0.1 M  1.0  LRTI 
+    WFTFM IA    1.6 284  P       11:22:53.0  -0.1 M  1.0  WFTFM
+    MMRI  IA    2.1 278  P       11:22:59.4   0.3 M  1.0  MMRI 
+    MMRI  IA    2.1 278  S       11:23:24.9   0.6 M  1.0  MMRI 
+    RONI  IA    2.2 214  P       11:23:02.4   1.6 M  1.0  RONI 
+    WEFM  IA    2.6 277  P       11:23:06.7   0.6 M  1.0  WEFM 
+    WEFM  IA    2.6 277  S       11:23:36.1  -1.0 M  1.0  WEFM 
+    EDFI  IA    2.6 274  P       11:23:06.3  -0.0 M  1.0  EDFI 
+    EDFI  IA    2.6 274  S       11:23:35.5  -1.9 M  1.0  EDFI 
+    SBNI  IA    2.9 237  P       11:23:09.5  -0.8 M  1.0  SBNI 
+    RNFM  IA    3.3 278  P       11:23:24.0   8.2 MX 0.0  RNFM 
+    BNTI  IA    3.3 272  P       11:23:20.1   4.1 MX 0.0  BNTI 
+    WWCI  IA    3.7 348  P       11:23:21.8   0.3 M  1.0  WWCI 
+    BBSI  IA    3.8 333  P       11:23:21.7  -1.4 M  1.0  BBSI 
+    BASI  IA    3.9 250  P       11:23:24.7   0.4 M  1.0  BASI 
+    KMBFM IA    4.0 275  P       11:23:27.0   1.8 M  1.0  KMBFM
+    WSI   IA    4.0 259  P       11:23:25.8  -0.3 M  1.0  WSI  
+    PSJCM IA    4.1 296  P       11:23:27.7   0.8 M  1.0  PSJCM
+    OMBFM IA    4.5 273  P       11:23:33.2   1.5 M  1.0  OMBFM
+    BSSI  IA    4.7 306  P       11:23:35.8   0.7 M  1.0  BSSI 
+    WBSI  IA    4.9 261  P       11:23:36.3  -1.8 M  1.0  WBSI 
+    WBNI  IA    5.4 276  P       11:23:45.2   0.7 M  1.0  WBNI 
+    BKSI  IA    5.5 310  P       11:23:46.6   0.7 M  1.0  BKSI 
+    DBNFM IA    5.7 275  P       11:23:47.3  -1.4 M  1.0  DBNFM
+    TSNI  IA    6.0 271  P       11:23:52.9  -0.1 M  1.0  TSNI 
+    ESNI  IA    6.3 271  P       11:23:57.1   0.2 M  1.0  ESNI 
+    PLAI  IA    6.5 270  P       11:23:59.2  -0.2 M  1.0  PLAI 
+
+12 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TNTN  IA    0.6 165  MLv     4.08  0.01    18.5021     
+    TNTN  IA    0.6 165  Mjma    3.51 -0.48    6.42663     
+    ANAN  IA    0.7  15  Mjma    4.29  0.30    23.9277     
+    ALKI  IA    0.8  19  MLv     4.55  0.48    39.0345     
+    ALKI  IA    0.8  19  Mjma    4.17  0.18    14.8015     
+    LRTI  IA    1.5 296  MLv     3.86 -0.20    3.57695     
+    SBNI  IA    2.9 237  MLv     3.77 -0.30   0.452698     
+    WBNI  IA    5.4 276  mB      5.33  0.07    3110.21     
+    BKSI  IA    5.5 310  mb      4.37 -0.36    21.4366 0.56
+    TSNI  IA    6.0 271  mB      5.18 -0.07    1836.52     
+    ESNI  IA    6.3 271  mb      4.95  0.22    51.6415 0.44
+    PLAI  IA    6.5 270  mb      4.90  0.17    65.2602 0.63
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

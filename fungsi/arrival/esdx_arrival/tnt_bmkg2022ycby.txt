@@ -1,0 +1,60 @@
+<html><body><p>Event:
+    Public ID              bmkg2022ycby
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-09
+    Time                   16:06:19.2  +/-    0.2 s
+    Latitude                 0.89 deg  +/-      3 km
+    Longitude              125.55 deg  +/-      2 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.89 s
+    Azimuthal gap             103 deg
+
+2 Network magnitudes:
+    MLv       3.41 +/- 0.40  12            
+    M         3.41           12 preferred  
+
+20 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TMSI  IA    0.7 303  P       16:06:34.5   0.7 M  1.0  TMSI 
+    TMSI  IA    0.7 303  S       16:06:44.4  -0.1 M  1.0  TMSI 
+    MNI   IA    0.9 308  P       16:06:37.0   0.5 M  1.0  MNI  
+    MNI   IA    0.9 308  S       16:06:49.1   0.0 M  1.0  MNI  
+    TBMCM IA    1.0 259  P       16:06:37.3  -0.7 M  1.0  TBMCM
+    TBMCM IA    1.0 259  S       16:06:49.9  -1.6 M  1.0  TBMCM
+    PBCI  IA    1.6 251  P       16:06:46.2  -0.9 M  1.0  PBCI 
+    KMSI  IA    1.6 259  P       16:06:47.1  -0.2 M  1.0  KMSI 
+    TNTI  IA    1.8  94  P       16:06:49.5  -1.0 M  1.0  TNTI 
+    PSSI  IA    1.8 355  P       16:06:49.7  -1.0 M  1.0  PSSI 
+    PMMI  IA    1.9 105  P       16:06:51.5  -0.6 M  1.0  PMMI 
+    JHMI  IA    1.9  84  P       16:06:52.9   0.7 M  1.0  JHMI 
+    IHMI  IA    2.1  73  P       16:06:55.6   1.2 M  1.0  IHMI 
+    WBMI  IA    2.4 103  P       16:06:57.9  -0.5 M  1.0  WBMI 
+    LBMI  IA    2.5 128  P       16:06:58.9  -0.7 M  1.0  LBMI 
+    TGCM  IA    2.5 261  P       16:07:00.4   0.5 M  1.0  TGCM 
+    KGCM  IA    2.7 265  P       16:07:03.6   0.8 M  1.0  KGCM 
+    BGCI  IA    2.8 231  P       16:07:05.6   1.7 M  1.0  BGCI 
+    SMSI  IA    3.2 272  P       16:07:09.1  -0.3 M  1.0  SMSI 
+    LUWI  IA    3.4 235  P       16:07:13.6   1.6 M  1.0  LUWI 
+
+12 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TBMCM IA    1.0 259  MLv     4.04  0.63    9.92471     
+    PBCI  IA    1.6 251  MLv     3.47  0.06    1.20884     
+    PSSI  IA    1.8 355  MLv     3.04 -0.37   0.323444     
+    PMMI  IA    1.9 105  MLv     3.06 -0.35    0.30146     
+    JHMI  IA    1.9  84  MLv     3.10 -0.31    0.33265     
+    IHMI  IA    2.1  73  MLv     3.27 -0.13   0.405356     
+    WBMI  IA    2.4 103  MLv     3.05 -0.35   0.168206     
+    LBMI  IA    2.5 128  MLv     2.99 -0.42   0.129765     
+    TGCM  IA    2.5 261  MLv     3.68  0.28   0.622123     
+    KGCM  IA    2.7 265  MLv     3.90  0.49   0.786248     
+    SMSI  IA    3.2 272  MLv     3.28 -0.12    0.10317     
+    LUWI  IA    3.4 235  MLv     4.00  0.59    0.41325     
+
+stageofternate
+</p></body></html>

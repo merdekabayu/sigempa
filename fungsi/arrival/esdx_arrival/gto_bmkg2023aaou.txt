@@ -1,0 +1,51 @@
+<html><body><p>Event:
+    Public ID              bmkg2023aaou
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2023-01-01
+    Time                   07:28:12.4  +/-    0.3 s
+    Latitude                -0.27 deg  +/-      2 km
+    Longitude              122.99 deg  +/-      2 km
+    Depth                      12 km   +/-    4 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.72 s
+    Azimuthal gap              88 deg
+
+2 Network magnitudes:
+    MLv       2.57 +/- 0.25   6            
+    M         2.57            6 preferred  
+
+17 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    BGCI  IA    0.7 147  P       07:28:26.7  -0.2 M  1.0  BGCI 
+    TGCM  IA    0.8   6  P       07:28:27.8  -0.2 M  1.0  TGCM 
+    TGCM  IA    0.8   6  S       07:28:40.5   1.1 M  1.0  TGCM 
+    LUWI  IA    0.8 196  P       07:28:27.9  -0.1 M  1.0  LUWI 
+    LUWI  IA    0.8 196  S       07:28:39.2  -0.2 M  1.0  LUWI 
+    GTOI  IA    1.0 353  P       07:28:31.2  -0.9 M  1.0  GTOI 
+    GTOI  IA    1.0 353  S       07:28:46.8   0.3 M  1.0  GTOI 
+    PBCI  IA    1.2  58  P       07:28:34.6  -0.4 M  1.0  PBCI 
+    PBCI  IA    1.2  58  S       07:28:52.5   0.7 M  1.0  PBCI 
+    SMSI  IA    1.4 333  P       07:28:36.9  -0.6 M  1.0  SMSI 
+    SMSI  IA    1.4 333  S       07:28:56.0  -0.2 M  1.0  SMSI 
+    APSI  IA    1.5 245  P       07:28:38.2  -0.5 M  1.0  APSI 
+    APSI  IA    1.5 245  S       07:29:00.6   2.1 M  1.0  APSI 
+    TBMCM IA    1.9  59  P       07:28:44.3  -0.0 M  1.0  TBMCM
+    TBMCM IA    1.9  59  S       07:29:08.8   0.1 M  1.0  TBMCM
+    TOLI2 IA    2.6 302  P       07:28:53.9  -0.5 M  1.0  TOLI2
+    TOLI2 IA    2.6 302  S       07:29:26.1  -0.7 M  1.0  TOLI2
+
+6 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TGCM  IA    0.8   6  MLv     2.42 -0.14   0.301529     
+    LUWI  IA    0.8 196  MLv     2.96  0.39    1.03661     
+    GTOI  IA    1.0 353  MLv     2.27 -0.30   0.155586     
+    SMSI  IA    1.4 333  MLv     2.42 -0.15   0.136013     
+    APSI  IA    1.5 245  MLv     2.75  0.18   0.262512     
+    TOLI2 IA    2.6 302  MLv     2.58  0.02   0.0432877     
+
+stageofgorontalo
+</p></body></html>

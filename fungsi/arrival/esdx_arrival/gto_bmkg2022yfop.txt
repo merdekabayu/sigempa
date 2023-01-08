@@ -1,0 +1,48 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yfop
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-12-11
+    Time                   13:55:44.5  +/-    1.1 s
+    Latitude                 2.18 deg  +/-      7 km
+    Longitude              129.29 deg  +/-      8 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.42 s
+    Azimuthal gap             324 deg
+
+2 Network magnitudes:
+    MLv       4.11 +/- 0.17   6            
+    M         4.11            6 preferred  
+
+16 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    IHMI  IA    1.9 249  P       13:56:16.2  -0.1 M  1.0  IHMI 
+    JHMI  IA    2.1 239  P       13:56:20.0   0.1 M  1.0  JHMI 
+    JHMI  IA    2.1 239  S       13:56:47.0  -0.1 M  1.0  JHMI 
+    WBMI  IA    2.3 218  P       13:56:22.2  -0.5 M  1.0  WBMI 
+    WBMI  IA    2.3 218  S       13:56:52.2   0.1 M  1.0  WBMI 
+    TNTI  IA    2.4 234  P       13:56:24.4   0.9 M  1.0  TNTI 
+    TNTI  IA    2.4 234  S       13:56:53.5  -0.1 M  1.0  TNTI 
+    PMMI  IA    2.6 226  P       13:56:26.7   0.2 M  1.0  PMMI 
+    PMMI  IA    2.6 226  S       13:56:58.6  -0.4 M  1.0  PMMI 
+    LBMI  IA    3.3 213  P       13:56:35.9  -0.7 M  1.0  LBMI 
+    LBMI  IA    3.3 213  S       13:57:17.6   0.5 M  1.0  LBMI 
+    PSSI  IA    3.9 278  P       13:56:43.3  -1.5 MX 0.0  PSSI 
+    KMSI  IA    5.5 253  P       13:57:04.1  -3.0 MX 0.0  KMSI 
+    PBCI  IA    5.5 251  P       13:57:02.4  -4.7 MX 0.0  PBCI 
+    TGCM  IA    6.4 255  P       13:57:02.2 -17.1 MX 0.0  TGCM 
+    GTOI  IA    6.6 258  P       13:57:05.8 -15.4 MX 0.0  GTOI 
+
+4 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    JHMI  IA    2.1 239  MLv     4.15  0.04    2.97526     
+    WBMI  IA    2.3 218  MLv     4.15  0.04    2.32208     
+    PMMI  IA    2.6 226  MLv     4.11  0.00    1.49238     
+    LBMI  IA    3.3 213  MLv     4.10 -0.01   0.564453     
+
+stageofgorontalo
+</p></body></html>

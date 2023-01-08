@@ -1,0 +1,81 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zogi
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-30
+    Time                   13:29:29.3  +/-    0.3 s
+    Latitude                 0.15 deg  +/-      2 km
+    Longitude              124.60 deg  +/-      1 km
+    Depth                      37 km   +/-    5 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.00 s
+    Azimuthal gap              88 deg
+
+5 Network magnitudes:
+    mb        4.17 +/- 0.00   1            
+    mB        5.14 +/- 0.00   1            
+    Mw(mB)    4.50 +/- 0.40   1            
+    MLv       3.58 +/- 0.25  14            
+    M         3.77           14 preferred  
+
+34 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TBMCM IA    0.6 359  P       13:29:41.3  -0.6 M  1.0  TBMCM
+    TBMCM IA    0.6 359  S       13:29:52.7   1.3 M  1.0  TBMCM
+    PBCI  IA    0.6 293  P       13:29:41.6  -0.9 M  1.0  PBCI 
+    PBCI  IA    0.6 293  S       13:29:52.4  -0.0 M  1.0  PBCI 
+    KMSI  IA    0.8 304  P       13:29:44.2   0.1 M  1.0  KMSI 
+    KMSI  IA    0.8 304  S       13:29:55.4   0.0 M  1.0  KMSI 
+    TMSI  IA    1.2  16  P       13:29:50.9   1.3 M  1.0  TMSI 
+    TMSI  IA    1.2  16  S       13:30:06.0   1.0 M  1.0  TMSI 
+    MNI   IA    1.3  10  P       13:29:52.6   1.3 M  1.0  MNI  
+    MNI   IA    1.3  10  S       13:30:08.7   0.6 M  1.0  MNI  
+    TGCM  IA    1.6 284  P       13:29:54.5  -0.3 M  1.0  TGCM 
+    TGCM  IA    1.6 284  S       13:30:13.6  -0.9 M  1.0  TGCM 
+    KGCM  IA    1.8 286  P       13:29:56.4  -1.9 M  1.0  KGCM 
+    KGCM  IA    1.8 286  S       13:30:20.0  -0.7 M  1.0  KGCM 
+    LUWI  IA    2.2 237  P       13:30:03.9   0.7 M  1.0  LUWI 
+    LUWI  IA    2.2 237  S       13:30:30.5   0.9 M  1.0  LUWI 
+    SMSI  IA    2.4 291  P       13:30:05.3  -0.8 M  1.0  SMSI 
+    SMSI  IA    2.4 291  S       13:30:33.4  -1.4 M  1.0  SMSI 
+    SANI  IA    2.6 148  P       13:30:09.3   0.6 M  1.0  SANI 
+    SANI  IA    2.6 148  S       13:30:38.2  -1.4 M  1.0  SANI 
+    PSSI  IA    2.7  17  P       13:30:08.2  -2.1 M  1.0  PSSI 
+    PSSI  IA    2.7  17  S       13:30:42.9   0.6 M  1.0  PSSI 
+    LBMI  IA    3.0 105  P       13:30:12.7  -1.8 M  1.0  LBMI 
+    LBMI  IA    3.0 105  S       13:30:49.6  -0.3 M  1.0  LBMI 
+    APSI  IA    3.1 250  P       13:30:16.4   0.1 M  1.0  APSI 
+    APSI  IA    3.1 250  S       13:30:53.4   0.2 M  1.0  APSI 
+    WMCM  IA    3.8 232  P       13:30:27.1   1.7 M  1.0  WMCM 
+    WMCM  IA    3.8 232  S       13:31:11.5   2.0 M  1.0  WMCM 
+    TOLI2 IA    3.9 284  P       13:30:27.5   0.1 M  1.0  TOLI2
+    TOLI2 IA    3.9 284  S       13:31:13.0  -0.1 M  1.0  TOLI2
+    NLAI  IA    4.2 143  P       13:30:31.2   0.4 M  1.0  NLAI 
+    NLAI  IA    4.2 143  S       13:31:19.2  -0.0 M  1.0  NLAI 
+    MPSI  IA    4.7 272  P       13:30:37.9  -0.1 M  1.0  MPSI 
+    KRAI  IA    5.1 132  P       13:30:43.9   0.3 M  1.0  KRAI 
+
+16 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TBMCM IA    0.6 359  MLv     3.72  0.15    8.03855     
+    PBCI  IA    0.6 293  MLv     3.69  0.12    7.15257     
+    MNI   IA    1.3  10  MLv     3.22 -0.36   0.960116     
+    TGCM  IA    1.6 284  MLv     4.04  0.46    4.63768     
+    KGCM  IA    1.8 286  MLv     3.69  0.12    1.51596     
+    LUWI  IA    2.2 237  MLv     3.65  0.07   0.857774     
+    SMSI  IA    2.4 291  MLv     3.29 -0.29   0.287035     
+    SANI  IA    2.6 148  MLv     3.50 -0.08   0.358233     
+    PSSI  IA    2.7  17  MLv     3.40 -0.18    0.24561     
+    LBMI  IA    3.0 105  MLv     3.60  0.02   0.269173     
+    APSI  IA    3.1 250  MLv     3.70  0.13   0.289162     
+    TOLI2 IA    3.9 284  MLv     3.21 -0.37   0.0418917     
+    MPSI  IA    4.7 272  MLv     3.40 -0.17   0.0421133     
+    KRAI  IA    5.1 132  MLv     3.98  0.40   0.124258     
+    KRAI  IA    5.1 132  mB      5.14  0.00    2135.83     
+    KRAI  IA    5.1 132  mb      4.17  0.00    18.7289 0.71
+
+stageofternate
+</p></body></html>

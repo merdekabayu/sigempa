@@ -1,0 +1,73 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xayk
+    Description
+      region name: Talaud Islands, Indonesia
+Origin:
+    Date                   2022-11-24
+    Time                   19:39:03.8  +/-    0.5 s
+    Latitude                 2.74 deg  +/-      5 km
+    Longitude              125.74 deg  +/-      3 km
+    Depth                      88 km   +/-    7 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.87 s
+    Azimuthal gap             128 deg
+
+5 Network magnitudes:
+    mb        4.52 +/- 0.21   2            
+    mB        5.09 +/- 0.45   3            
+    Mw(mB)    4.43 +/- 0.45   3            
+    MLv       4.04 +/- 0.23  15            
+    M         4.21           15 preferred  
+
+22 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    PSSI  IA    0.3 269  P       19:39:17.9  -0.7 M  1.0  PSSI 
+    PSSI  IA    0.3 269  S       19:39:29.5  -0.5 M  1.0  PSSI 
+    MGAI  IA    1.6  36  P       19:39:31.1   0.8 M  1.0  MGAI 
+    MNI   IA    1.6 215  P       19:39:31.4   0.9 M  1.0  MNI  
+    TMSI  IA    1.7 210  P       19:39:32.0   0.5 M  1.0  TMSI 
+    IHMI  IA    2.2 124  P       19:39:38.9   0.5 M  1.0  IHMI 
+    TBMCM IA    2.3 210  P       19:39:40.7   0.5 M  1.0  TBMCM
+    JHMI  IA    2.4 134  P       19:39:41.3   0.1 M  1.0  JHMI 
+    TNTI  IA    2.5 140  P       19:39:43.0  -0.2 M  1.0  TNTI 
+    MTAI  IA    2.6 102  P       19:39:43.3  -0.4 M  1.0  MTAI 
+    KMSI  IA    2.8 219  P       19:39:48.2   1.9 M  1.0  KMSI 
+    PMMI  IA    2.9 145  P       19:39:48.2   0.4 M  1.0  PMMI 
+    PBCI  IA    2.9 216  P       19:39:49.2   1.3 M  1.0  PBCI 
+    WHMI  IA    2.9 125  P       19:39:48.5   0.5 M  1.0  WHMI 
+    WBMI  IA    3.2 138  P       19:39:52.3   0.3 M  1.0  WBMI 
+    LBMI  IA    3.8 152  P       19:39:59.9  -0.1 M  1.0  LBMI 
+    SMSI  IA    3.8 243  P       19:39:59.1  -1.0 M  1.0  SMSI 
+    MRSI  IA    4.4 239  P       19:40:08.8   0.2 M  1.0  MRSI 
+    OBMI  IA    4.5 155  P       19:40:08.4  -0.9 M  1.0  OBMI 
+    TOLI2 IA    5.2 252  P       19:40:18.0  -1.4 M  1.0  TOLI2
+    NLAI  IA    6.1 167  P       19:40:29.6  -1.7 M  1.0  NLAI 
+    TAMI  IA    6.8 160  P       19:40:40.0  -1.0 M  1.0  TAMI 
+
+20 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MGAI  IA    1.6  36  MLv     3.82 -0.22    2.80536     
+    MNI   IA    1.6 215  MLv     3.88 -0.15    3.19842     
+    TMSI  IA    1.7 210  MLv     3.98 -0.06    3.58886     
+    TBMCM IA    2.3 210  MLv     4.08  0.04    1.90859     
+    JHMI  IA    2.4 134  MLv     4.20  0.16    2.30428     
+    TNTI  IA    2.5 140  MLv     4.05  0.01    1.33942     
+    MTAI  IA    2.6 102  MLv     3.96 -0.08    1.04217     
+    PMMI  IA    2.9 145  MLv     4.18  0.14    1.17034     
+    PBCI  IA    2.9 216  MLv     3.77 -0.27   0.451755     
+    WHMI  IA    2.9 125  MLv     4.04  0.00   0.844107     
+    LBMI  IA    3.8 152  MLv     4.58  0.54    1.06693     
+    SMSI  IA    3.8 243  MLv     3.46 -0.58   0.0809352     
+    MRSI  IA    4.4 239  MLv     4.03 -0.01   0.210121     
+    OBMI  IA    4.5 155  MLv     4.32  0.28   0.392882     
+    TOLI2 IA    5.2 252  MLv     4.21  0.17   0.201501     
+    TOLI2 IA    5.2 252  mB      4.61 -0.48    683.467     
+    TOLI2 IA    5.2 252  mb      4.66  0.15    71.8841 0.80
+    NLAI  IA    6.1 167  mB      5.15  0.06    2097.72     
+    NLAI  IA    6.1 167  mb      4.37 -0.15    30.5655 0.76
+    TAMI  IA    6.8 160  mB      5.51  0.42     4752.6     
+
+stageofternate
+</p></body></html>

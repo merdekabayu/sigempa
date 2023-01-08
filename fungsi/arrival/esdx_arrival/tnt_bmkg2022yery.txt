@@ -1,0 +1,139 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yery
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-12-11
+    Time                   02:28:43.8  +/-    0.4 s
+    Latitude                 1.55 deg  +/-      2 km
+    Longitude              128.24 deg  +/-      2 km
+    Depth                       7 km   +/-    3 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.64 s
+    Azimuthal gap             106 deg
+
+7 Network magnitudes:
+    mb        5.42 +/- 0.23  19            
+    mB        5.47 +/- 0.26  15            
+    Mw(mB)    4.93 +/- 0.40  15            
+    MLv       5.17 +/- 0.24  27            
+    Mwp       4.82 +/- 0.00   1            
+    Mw(Mwp)   4.40 +/- 0.40   1            
+    M         5.05           27 preferred  
+
+44 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    WHMI  IA    0.5 194  P       02:28:54.1   0.6 M  1.0  WHMI 
+    MTAI  IA    0.6   3  P       02:28:56.3  -0.4 M  1.0  MTAI 
+    IHMI  IA    0.7 267  P       02:28:57.7   0.3 M  1.0  IHMI 
+    JHMI  IA    0.9 239  P       02:29:00.6  -0.5 M  1.0  JHMI 
+    TNTI  IA    1.2 229  P       02:29:04.4  -1.1 M  1.0  TNTI 
+    WBMI  IA    1.3 197  P       02:29:07.4   0.5 M  1.0  WBMI 
+    PMMI  IA    1.4 215  P       02:29:09.2  -0.3 M  1.0  PMMI 
+    LBMI  IA    2.3 199  P       02:29:21.9  -0.1 M  1.0  LBMI 
+    MGAI  IA    2.9 327  P       02:29:31.0   0.6 M  1.0  MGAI 
+    OBMI  IA    2.9 192  P       02:29:30.1  -0.6 M  1.0  OBMI 
+    PSSI  IA    3.1 293  P       02:29:33.0   0.2 M  1.0  PSSI 
+    TMSI  IA    3.3 266  P       02:29:35.7  -0.5 M  1.0  TMSI 
+    MNI   IA    3.4 268  P       02:29:37.6   0.3 M  1.0  MNI  
+    TBMCM IA    3.7 257  P       02:29:41.5  -0.5 M  1.0  TBMCM
+    SANI  IA    4.2 212  P       02:29:47.4  -1.2 M  1.0  SANI 
+    PBCI  IA    4.4 255  P       02:29:50.0  -0.4 M  1.0  PBCI 
+    KMSI  IA    4.4 257  P       02:29:50.9   0.3 M  1.0  KMSI 
+    TSPI  IA    4.9 128  P       02:29:57.5  -0.1 M  1.0  TSPI 
+    NLAI  IA    4.9 194  P       02:29:58.3   0.5 M  1.0  NLAI 
+    TAMI  IA    5.2 181  P       02:30:03.5   1.6 M  1.0  TAMI 
+    TGCM  IA    5.3 259  P       02:30:03.8   0.9 M  1.0  TGCM 
+    BGCI  IA    5.4 244  P       02:30:05.6   0.6 M  1.0  BGCI 
+    KGCM  IA    5.5 261  P       02:30:06.2   0.6 M  1.0  KGCM 
+    SMSI  IA    5.9 265  P       02:30:11.9   0.2 M  1.0  SMSI 
+    FAKI  IA    6.0 138  P       02:30:12.5  -0.4 M  1.0  FAKI 
+    LUWI  IA    6.0 245  P       02:30:13.9   0.3 M  1.0  LUWI 
+    DAV   IU    6.1 334  P       02:30:14.6   0.2 M  1.0  DAV  
+    BNDI  IA    6.3 165  P       02:30:17.3   0.8 M  1.0  BNDI 
+    MRSI  IA    6.4 261  P       02:30:18.2  -0.2 M  1.0  MRSI 
+    APSI  IA    7.0 250  P       02:30:26.3  -0.9 M  1.0  APSI 
+    TPCI  IA    7.2 262  P       02:30:29.8  -0.1 M  1.0  TPCI 
+    TOLI2 IA    7.5 267  P       02:30:33.6   0.4 M  1.0  TOLI2
+    WMCM  IA    7.6 241  P       02:30:35.2   0.2 M  1.0  WMCM 
+    LKUCM IA    7.7 231  P       02:30:35.6  -0.7 M  1.0  LKUCM
+    KDI   IA    7.8 226  P       02:30:38.7   0.3 M  1.0  KDI  
+    POCI  IA    8.1 249  P       02:30:42.8   0.4 M  1.0  POCI 
+    MPSI  IA    8.4 262  P       02:30:45.4  -1.0 M  1.0  MPSI 
+    SDCI  IA    8.7 257  P       02:30:51.5   1.2 M  1.0  SDCI 
+    PCI   IA    8.8 254  P       02:30:51.2   0.3 M  1.0  PCI  
+    SAUI  GE    9.9 162  P       02:31:07.9   0.7 M  1.0  SAUI 
+    MMRI  GE   11.8 211  P       02:31:31.4  -0.6 M  1.0  MMRI 
+    GENI  GE   12.6 109  P       02:31:42.9  -0.9 M  1.0  GENI 
+    JAGI  GE   17.2 234  P       02:32:44.3  -0.7 M  1.0  JAGI 
+    BBJI  GE   22.4 246  P       02:33:42.2  -1.0 M  1.0  BBJI 
+
+62 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    WHMI  IA    0.5 194  MLv     5.08 -0.10    285.149     
+    MTAI  IA    0.6   3  MLv     5.05 -0.12    154.646     
+    JHMI  IA    0.9 239  MLv     5.24  0.07    176.961     
+    WBMI  IA    1.3 197  MLv     5.22  0.04    103.994     
+    PMMI  IA    1.4 215  MLv     5.04 -0.13    55.7831     
+    LBMI  IA    2.3 199  MLv     5.36  0.18    37.4996     
+    MGAI  IA    2.9 327  MLv     5.07 -0.10    8.88245     
+    OBMI  IA    2.9 192  MLv     4.92 -0.26    6.02113     
+    PSSI  IA    3.1 293  MLv     5.05 -0.13    6.91172     
+    TMSI  IA    3.3 266  MLv     5.12 -0.05    5.95802     
+    MNI   IA    3.4 268  MLv     5.18  0.01    6.14726     
+    TBMCM IA    3.7 257  MLv     5.23  0.05    4.88364     
+    PBCI  IA    4.4 255  MLv     5.04 -0.13    2.23829     
+    TSPI  IA    4.9 128  MLv     4.77 -0.40   0.890331     
+    NLAI  IA    4.9 194  MLv     4.96 -0.21    1.34786     
+    TAMI  IA    5.2 181  MLv     4.91 -0.27    1.00356     
+    TAMI  IA    5.2 181  mB      5.29 -0.18    2804.58     
+    TAMI  IA    5.2 181  mb      5.31 -0.11    343.267 1.01
+    TGCM  IA    5.3 259  MLv     5.23  0.05    2.04535     
+    TGCM  IA    5.3 259  mB      5.61  0.14    5782.77     
+    TGCM  IA    5.3 259  mb      5.76  0.34    573.057 0.61
+    BGCI  IA    5.4 244  MLv     5.52  0.34    3.62284     
+    BGCI  IA    5.4 244  mB      5.99  0.51    13135.1     
+    KGCM  IA    5.5 261  MLv     5.68  0.51    5.22338     
+    SMSI  IA    5.9 265  Mwp     4.82  0.00    1546.46     
+    SMSI  IA    5.9 265  mb      5.21 -0.21    143.908 0.64
+    FAKI  IA    6.0 138  MLv     4.83 -0.35   0.528725     
+    FAKI  IA    6.0 138  mB      5.08 -0.40    1389.19     
+    LUWI  IA    6.0 245  MLv     5.38  0.21    1.85756     
+    LUWI  IA    6.0 245  mB      5.60  0.13    4630.09     
+    LUWI  IA    6.0 245  mb      5.63  0.21    560.899 0.98
+    DAV   IU    6.1 334  MLv     5.69  0.52     3.6286     
+    DAV   IU    6.1 334  mB      5.70  0.23    5701.46     
+    DAV   IU    6.1 334  mb      5.68  0.26    504.508 0.81
+    BNDI  IA    6.3 165  MLv     5.31  0.14     1.3761     
+    BNDI  IA    6.3 165  mB      5.61  0.14    4550.62     
+    BNDI  IA    6.3 165  mb      5.44  0.02    408.667 1.17
+    MRSI  IA    6.4 261  MLv     5.03 -0.14   0.683301     
+    MRSI  IA    6.4 261  mB      5.28 -0.19    2077.44     
+    MRSI  IA    6.4 261  mb      5.40 -0.01    215.117 0.68
+    APSI  IA    7.0 250  MLv     5.49  0.32    1.35999     
+    APSI  IA    7.0 250  mB      5.58  0.11    3712.08     
+    APSI  IA    7.0 250  mb      5.73  0.31    402.158 0.67
+    TPCI  IA    7.2 262  mb      5.54  0.12    309.389 0.82
+    TOLI2 IA    7.5 267  MLv     4.85 -0.32   0.240559     
+    WMCM  IA    7.6 241  mb      5.76  0.34    405.636 0.68
+    KDI   IA    7.8 226  MLv     5.48  0.31   0.825986     
+    KDI   IA    7.8 226  mb      5.45  0.03    240.546 0.85
+    POCI  IA    8.1 249  mB      5.44 -0.03    2322.25     
+    POCI  IA    8.1 249  mb      5.36 -0.06    176.547 0.81
+    MPSI  IA    8.4 262  mB      5.01 -0.46    811.826     
+    SDCI  IA    8.7 257  mB      5.78  0.31    4457.38     
+    SDCI  IA    8.7 257  mb      5.37 -0.05    132.656 0.66
+    PCI   IA    8.8 254  mb      5.40 -0.01    90.6921 0.42
+    SAUI  GE    9.9 162  mb      5.41 -0.01    137.885 0.75
+    MMRI  GE   11.8 211  mB      5.50  0.03     1794.5     
+    MMRI  GE   11.8 211  mb      4.98 -0.44    59.7512 0.96
+    GENI  GE   12.6 109  mb      5.05 -0.37     99.068 1.35
+    JAGI  GE   17.2 234  mB      5.57  0.10    2702.08     
+    JAGI  GE   17.2 234  mb      5.39 -0.03    253.021 1.24
+    BBJI  GE   22.4 246  mB      5.05 -0.42    689.825     
+    BBJI  GE   22.4 246  mb      5.07 -0.35    65.9887 0.80
+
+stageofternate
+</p></body></html>

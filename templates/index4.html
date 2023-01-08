@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdminLTE 3 | Collapsed Sidebar</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/fontawesome-free/css/all.min.css') }}">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='dist/css/adminlte.min.css') }}">
+  <!-- DataTables -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/datatables-responsive/css/responsive.bootstrap4.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/datatables-buttons/css/buttons.bootstrap4.min.css') }}">
+  
+  <!-- daterange picker -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/daterangepicker/daterangepicker.css') }}">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') }}">
+
+  <!-- Mapping -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/fontawesome-free/css/all.min.css') }}">
+  <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css') }}">
+  <!-- Toastr -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/toastr/toastr.min.css') }}">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='dist/css/adminlte.min.css') }}">
+  
+  
+</head>
+
+
+<body class="hold-transition dark-mode sidebar-mini sidebar-collapse">
+<!-- Site wrapper -->
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-dark">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index3.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Navbar Search -->
+      <li class="nav-item">
+        <a class="nav-link" data-widget="navbar-search" href="#" role="button">
+          <i class="fas fa-search"></i>
+        </a>
+        <div class="navbar-search-block">
+          <form class="form-inline">
+            <div class="input-group input-group-sm">
+              <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+              <div class="input-group-append">
+                <button class="btn btn-navbar" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </li>
+
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-comments"></i>
+          <span class="badge badge-danger navbar-badge">3</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <a href="#" class="dropdown-item">  
+            <!-- Message Start -->
+            <div class="media">
+              <img src="../../dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Brad Diesel
+                  <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">Call me whenever you can...</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="../../dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  John Pierce
+                  <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">I got your message bro</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="../../dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Nora Silvester
+                  <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">The subject goes here</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+        </div>
+      </li>
+      <!-- Notifications Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-bell"></i>
+          <span class="badge badge-warning navbar-badge">15</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header">15 Notifications</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-envelope mr-2"></i> 4 new messages
+            <span class="float-right text-muted text-sm">3 mins</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i> 8 friend requests
+            <span class="float-right text-muted text-sm">12 hours</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-file mr-2"></i> 3 new reports
+            <span class="float-right text-muted text-sm">2 days</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+          <i class="fas fa-th-large"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="../../index3.html" class="brand-link">
+      <img src="{{ url_for('static', filename='dist/img/AdminLTELogo.png') }}" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">AdminLTE 3</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="{{ url_for('static', filename='dist/img/user2-160x160.jpg') }}" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Alexander Pierce</a>
+        </div>
+      </div>
+
+      <!-- SidebarSearch Form -->
+      <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Dashboard
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../../index.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Dashboard v1</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../index2.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Dashboard v2</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../../index3.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Dashboard v3</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="../widgets.html" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Widgets
+                <span class="right badge badge-danger">New</span>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-copy"></i>
+              <p>
+                Layout Options
+                <i class="fas fa-angle-left right"></i>
+                <span class="badge badge-info right">6</span>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../layout/top-nav.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Top Navigation</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../layout/fixed-footer.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Fixed Footer</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../layout/collapsed-sidebar.html" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Collapsed Sidebar</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                Charts
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../charts/chartjs.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>ChartJS</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../charts/flot.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Flot</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../charts/inline.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Inline</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../charts/uplot.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>uPlot</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-tree"></i>
+              <p>
+                UI Elements
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../UI/general.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>General</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../UI/icons.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Icons</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../UI/buttons.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Buttons</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-edit"></i>
+              <p>
+                Forms
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../forms/general.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>General Elements</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/advanced.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Advanced Elements</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/editors.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Editors</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../forms/validation.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Validation</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-table"></i>
+              <p>
+                Tables
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../tables/simple.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Simple Tables</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../tables/data.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>DataTables</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../tables/jsgrid.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>jsGrid</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h5>Collapsed Sidebar</h5>
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Layout</a></li>
+              <li class="breadcrumb-item active">Collapsed Sidebar</li>
+            </ol>
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Input</h3>
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                    <i class="fas fa-minus"></i>
+                  </button>
+                  <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                    <i class="fas fa-times"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="card-body">
+                <div id="actions" class="col-12">
+                  <div class="row">
+                    <div class="col-4">
+                      <div class="fileupload-process w-100">
+                        <form action="/inputotomatis" method="POST">
+                          <div class="form-group row">
+                            <label for="input" class="col-sm-4 col-form-label">Pilih Parameter :</label>
+                            <div class="col-sm-5">
+                              <select class="form-control" name="par_otomatis">
+                                <option>TERNATE</option>
+                                <option>MANADO</option>
+                                <option>GORONTALO</option>
+                                <option>PUSAT</option>
+                                <option>AMBON</option>
+                                <option>TNT-ESDX</option>
+                              </select>
+                            </div>
+                            <div class="col-3">
+                              <div class="btn-group float-center w-100">
+                                <button type="submit" class="btn btn-success">
+                                  <i class="fas fa-plus"></i>
+                                  <span>
+                                    <strong>Input</strong>
+                                  </span>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="form-group row">
+                            <label for="inputEmail3" class="col-sm-4 col-form-label">Custom Map :</label>
+                            <div class="col-sm-5">
+                              <select class="form-control" name="opsi_map">
+                                <option>Regional</option>
+                                <option>Lokal</option>
+                                <option>Lokal - 1</option>
+                              </select>
+                            </div>
+                            <div class="col-3">
+                              <div class="btn-group float-center w-100">
+                                <button type="submit" class="btn btn-primary start">
+                                  <i class="fas fa-map"></i>
+                                  <span>Map</span>
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                        <div class="form-group row">
+                          <div class="col-sm-12">
+                            <div class="form-group">
+                              <br>
+                              <label>Teks Infogempa :</label>
+                              <textarea class="form-control" rows="3" id="infogempa" placeholder="" disabled>{% print(infogb[0]) %}</textarea>
+                            </div>
+                          </div>
+                          <div class="col-8"></div>
+                          <div class="col-4">
+                            <div class="btn-group float-center w-100">
+                              <button type="submit" onclick="copy()" class="btn btn-primary start swalDefaultSuccess">
+                                <i class="fas fa-copy"></i>
+                                <span>Copy Text</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        {% if submit %}
+                          <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <strong>INPUT SUCCESS !!</strong>
+                            <br>Silahkan salin gambar dan teks parameter! <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                        {% endif %}
+                        
+                      </div>
+                    </div>
+                    <div class="col-sm-4 align-items-start">
+                      <img style="margin-left: 25px; width: 85%;"src="{{ url_for('static', filename='peta_diseminasi.png') }}" class="img-fluid rounded " />
+                    </div>
+                    <div class="col-sm-3 ">
+                      <div id="map" style="width: 400px; height: 400px;"></div>
+                        <!--<div class="row" data-aos="zoom-in">
+                                <div class="map container-fluid mb-4" style="margin-bottom: 100px;" id="map" data-aos="fade-up">
+                                </div>
+                            </div>-->
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              
+              <!-- /.card-body -->
+            </div>
+            <!-- Default box -->
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Input Manual</h3>
+                  <div class="card-tools">
+                    <button type="button" class="btn btn-tool" href="#collapse-collapsed"  data-toggle="collapse" title="Collapse" >
+                      <i class="fa fa-chevron-down pull-right"></i>
+                    </button>
+                    <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+              </div>
+              
+              <div id="collapse-collapsed" class="collapse" aria-labelledby="heading-collapsed">
+                  <div class="card-body">
+                    <div class="col-4">
+                      <form action="/inputmanual" method="POST">
+                          <div class="col-lg-12">
+                            <div class="form-group row">
+                              <label for="input" class="col-sm-4 col-form-label">Parameter :</label>
+                              <div class="col-sm-8">
+                                <select class="form-control" name="parameter">
+                                  <option>TERNATE</option>
+                                  <option>MANADO</option>
+                                  <option>GORONTALO</option>
+                                  <option>PUSAT</option>
+                                  <option>AMBON</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="form-group row">
+                              <label for="input" class="col-sm-4 col-form-label">Id Event :</label>
+                              <div class="col-sm-8">
+                                <input class="form-control" id="Input" placeholder="id" name="id">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="form-group row">
+                              <label class="col-sm-4">Date :</label>
+                                <div class="input-group date col-sm-8" id="reservationdate" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="ot_date" data-target="#reservationdate"/>
+                                    <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker" >
+                                        <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="bootstrap-timepicker">
+                              <div class="form-group row">
+                                <label class="col-sm-4">Time picker :</label>
+            
+                                <div class="input-group date col-sm-8" id="timepicker" data-target-input="nearest">
+                                  <input type="text" class="form-control datetimepicker-input" placeholder="hh:mm:ss" name="ot_time" data-target="#timepicker"/>
+                                  <div class="input-group-append " data-target="#timepicker" data-toggle="datetimepicker" >
+                                      <div class="input-group-text"><i class="far fa-clock"></i></div>
+                                  </div>
+                                </div>
+                                <!-- /.input group -->
+                              </div>
+                              <!-- /.form group -->
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="form-group row">
+                              <label class="col-sm-4" for="Input">Latitude :</label>
+                              <div class="col-sm-8">
+                                <input class="form-control" id="Input" placeholder="Lat" name="lat" />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="form-group row">
+                              <label class="col-sm-4" for="Input">Longitude :</label>
+                              <div class="col-sm-8">
+                                <input class="form-control" id="Input" placeholder="Long" name="long">
+                              </div>                              
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="form-group row">
+                              <label class="col-sm-4" for="Input">Depth :</label>
+                              <div class="col-sm-8">
+                                <input class="form-control" id="Input" placeholder="Depth" name="depth">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="form-group row">
+                              <label class="col-sm-4" for="Input">Magnitude :</label>
+                              <div class="col-sm-8">
+                                <input class="form-control" id="Input" placeholder="Mag" name="mag">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="form-group row">
+                              <label class="col-sm-4" for="Input">Information :</label>
+                              <div class="col-sm-8">
+                                <input class="form-control" id="Input" placeholder="-" value="-" name="info">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="form-group row">
+                              <label class="col-sm-4" for="Input">Map Type :</label>
+                              <div class="col-sm-8">
+                                <select class="form-control" name="opsi_map">
+                                  <option>Regional</option>
+                                  <option>Lokal</option>
+                                  <option>Lokal - 1</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-8 float-right">
+                            <label for="Input"></label>
+                            <div class="btn-group w-100">
+                              <button type="submit" class="btn btn-success col start">
+                                <i class="fas fa-plus"></i>
+                                <span>Add</span>
+                              </button>
+                              <span class="btn btn-primary col fileinput-button">
+                                <i class="fas fa-map"></i>
+                                <span>Map</span>
+                              </span>
+                            </div>
+                          </div>
+                      </form>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            
+            <!-- /.card -->
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">DataTable with default features</h3>
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <table id="example1" class="table table-bordered table-striped">
+                  <thead>
+                  <tr>
+                    <!-- /.<th style="width: 10px;">No</th>-->
+                    <th>Tanggal</th>
+                    <th>Jam</th>
+                    <th>Lintang</th>
+                    <th>Bujur</th>
+                    <th>Kedalaman</th>
+                    <th>Magnitudo</th>
+                    <th>Keterangan</th>
+                    <th>Informasi</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                    {% for par in data %}
+                    <tr>
+                      <!-- /.<td>1</td>-->
+                      <td>{{par.1}}</td>
+                      <td>{{par.2}}</td>
+                      <td>{{par.3}}</td>
+                      <td>{{par.4}}</td>
+                      <td>{{par.5}}</td>
+                      <td>{{par.6}}</td>
+                      <td>{{par.7}}</td>
+                      <td>{{par.8}}</td>
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <footer class="main-footer">
+    <div class="float-right d-none d-sm-block">
+      <b>Version</b> 3.2.0
+    </div>
+    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="{{ url_for('static', filename='plugins/jquery/jquery.min.js') }}"></script>
+<!-- Bootstrap 4 -->
+<script src="{{ url_for('static', filename='plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<!-- Toastr -->
+<script src="{{ url_for('static', filename='plugins/toastr/toastr.min.js') }}"></script>
+<!-- DataTables  & Plugins -->
+<script src="{{ url_for('static', filename='plugins/datatables/jquery.dataTables.min.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/datatables-bs4/js/dataTables.bootstrap4.min.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/datatables-responsive/js/dataTables.responsive.min.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/datatables-responsive/js/responsive.bootstrap4.min.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/datatables-buttons/js/dataTables.buttons.min.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/datatables-buttons/js/buttons.bootstrap4.min.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/jszip/jszip.min.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/pdfmake/pdfmake.min.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/pdfmake/vfs_fonts.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/datatables-buttons/js/buttons.html5.min.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/datatables-buttons/js/buttons.print.min.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/datatables-buttons/js/buttons.colVis.min.js') }}"></script>
+<!-- date-range-picker -->
+<script src="{{ url_for('static', filename='plugins/daterangepicker/daterangepicker.js') }}"></script>
+<!-- AdminLTE App -->
+<script src="{{ url_for('static', filename='dist/js/adminlte.min.js') }}"></script>
+
+<script>
+  $(document).ready(function() {
+      window.setTimeout(function() {
+          $(".alert").fadeTo(500, 0).slideUp(500, function(){
+              $(this).remove();
+          });
+      }, 2000);
+  });    
+</script>
+
+<script>
+  $(function () {
+    $("#example1").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false,
+      "responsive": true,
+    });    
+  });
+  
+</script>
+
+
+
+<script>
+  function copy() {
+  // Get the text field
+  var copyText = document.getElementById("infogempa");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+} 
+</script>
+
+
+<!-- Select2 -->
+<script src="{{ url_for('static', filename='plugins/select2/js/select2.full.min.js') }}"></script>
+<!-- InputMask -->
+<script src="{{ url_for('static', filename='plugins/moment/moment.min.js') }}"></script>
+<script src="{{ url_for('static', filename='plugins/inputmask/jquery.inputmask.min.js') }}"></script>
+<!-- date-range-picker -->
+<script src="{{ url_for('static', filename='plugins/daterangepicker/daterangepicker.js') }}"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="{{ url_for('static', filename='plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  var map = L.map('map').setView([1.26,126.55], 7);
+  var icon_epic_last = L.icon({iconUrl: '{{ url_for('static', filename='gempa.png') }}', iconSize: [40,40]});
+  var icon_epic = L.icon({iconUrl: 'http://inatews.bmkg.go.id/generate_peta/images/new/circle-red-10.png', iconSize: [15,15]});
+  L.marker([1.26,126.55], {icon: icon_epic_last}).addTo(map);
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '&copy; <a href="https://www.bmkg.go.id">Badan Meteorologi Klimatologi dan Geofisika</a>'
+  }).addTo(map);
+</script>
+
+<script>
+  $(function () {
+    //Initialize Select2 Elements
+    $('.select2').select2()
+
+    //Initialize Select2 Elements
+    $('.select2bs4').select2({
+      theme: 'bootstrap4'
+    })
+
+    //Datemask dd/mm/yyyy
+    $('#datemask').inputmask('dd/mm/yyyy', { 'placeholder': 'dd/mm/yyyy' })
+    //Datemask2 mm/dd/yyyy
+    $('#datemask2').inputmask('mm/dd/yyyy', { 'placeholder': 'mm/dd/yyyy' })
+    //Money Euro
+    $('[data-mask]').inputmask()
+
+    //Date picker
+    $('#reservationdate').datetimepicker({
+        format: 'YYYY-MM-DD'
+    });
+
+    //Date and time picker
+    $('#reservationdatetime').datetimepicker({ icons: { time: 'far fa-clock' } });
+
+    //Date range picker
+    $('#reservation').daterangepicker()
+    //Date range picker with time picker
+    $('#reservationtime').daterangepicker({
+      timePicker: true,
+      timePickerIncrement: 30,
+      locale: {
+        format: 'MM/DD/YYYY hh:mm A'
+      }
+    })
+    //Date range as a button
+    $('#daterange-btn').daterangepicker(
+      {
+        ranges   : {
+          'Today'       : [moment(), moment()],
+          'Yesterday'   : [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+          'Last 7 Days' : [moment().subtract(6, 'days'), moment()],
+          'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+          'This Month'  : [moment().startOf('month'), moment().endOf('month')],
+          'Last Month'  : [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+        },
+        startDate: moment().subtract(29, 'days'),
+        endDate  : moment()
+      },
+      function (start, end) {
+        $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'))
+      }
+    )
+
+    //Timepicker
+    $('#timepicker').datetimepicker({
+      format: 'HH:mm:ss'
+    })
+
+    //Bootstrap Duallistbox
+    $('.duallistbox').bootstrapDualListbox()
+
+    //Colorpicker
+    $('.my-colorpicker1').colorpicker()
+    //color picker with addon
+    $('.my-colorpicker2').colorpicker()
+
+    $('.my-colorpicker2').on('colorpickerChange', function(event) {
+      $('.my-colorpicker2 .fa-square').css('color', event.color.toString());
+    })
+
+    $("input[data-bootstrap-switch]").each(function(){
+      $(this).bootstrapSwitch('state', $(this).prop('checked'));
+    })
+
+  })
+  // BS-Stepper Init
+  document.addEventListener('DOMContentLoaded', function () {
+    window.stepper = new Stepper(document.querySelector('.bs-stepper'))
+  })
+
+  // DropzoneJS Demo Code Start
+  Dropzone.autoDiscover = false
+
+  // Get the template HTML and remove it from the doumenthe template HTML and remove it from the doument
+  var previewNode = document.querySelector("#template")
+  previewNode.id = ""
+  var previewTemplate = previewNode.parentNode.innerHTML
+  previewNode.parentNode.removeChild(previewNode)
+
+  var myDropzone = new Dropzone(document.body, { // Make the whole body a dropzone
+    url: "/target-url", // Set the url
+    thumbnailWidth: 80,
+    thumbnailHeight: 80,
+    parallelUploads: 20,
+    previewTemplate: previewTemplate,
+    autoQueue: false, // Make sure the files aren't queued until manually added
+    previewsContainer: "#previews", // Define the container to display the previews
+    clickable: ".fileinput-button" // Define the element that should be used as click trigger to select files.
+  })
+
+  myDropzone.on("addedfile", function(file) {
+    // Hookup the start button
+    file.previewElement.querySelector(".start").onclick = function() { myDropzone.enqueueFile(file) }
+  })
+
+  // Update the total progress bar
+  myDropzone.on("totaluploadprogress", function(progress) {
+    document.querySelector("#total-progress .progress-bar").style.width = progress + "%"
+  })
+
+  myDropzone.on("sending", function(file) {
+    // Show the total progress bar when upload starts
+    document.querySelector("#total-progress").style.opacity = "1"
+    // And disable the start button
+    file.previewElement.querySelector(".start").setAttribute("disabled", "disabled")
+  })
+
+  // Hide the total progress bar when nothing's uploading anymore
+  myDropzone.on("queuecomplete", function(progress) {
+    document.querySelector("#total-progress").style.opacity = "0"
+  })
+
+  // Setup the buttons for all transfers
+  // The "add files" button doesn't need to be setup because the config
+  // `clickable` has already been specified.
+  document.querySelector("#actions .start").onclick = function() {
+    myDropzone.enqueueFiles(myDropzone.getFilesWithStatus(Dropzone.ADDED))
+  }
+  document.querySelector("#actions .cancel").onclick = function() {
+    myDropzone.removeAllFiles(true)
+  }
+  // DropzoneJS Demo Code End
+</script>
+
+<script src="{{ url_for('static', filename='plugins/sweetalert2/sweetalert2.min.js') }}"></script>
+<!-- Toastr -->
+<script src="{{ url_for('static', filename='plugins/toastr/toastr.min.js') }}"></script>
+<!-- AdminLTE App -->
+<script src="{{ url_for('static', filename='dist/js/adminlte.min.js') }}"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../../dist/js/demo.js') }}"></script>
+<!-- Page specific script -->
+<script>
+  $(function() {
+    var Toast = Swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 3000
+    });
+
+    $('.swalDefaultSuccess').click(function() {
+      Toast.fire({
+        icon: 'success',
+        title: 'Parameter berhasil di-copy !!'
+      })
+    });
+    $('.swalDefaultInfo').click(function() {
+      Toast.fire({
+        icon: 'info',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.swalDefaultError').click(function() {
+      Toast.fire({
+        icon: 'error',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.swalDefaultWarning').click(function() {
+      Toast.fire({
+        icon: 'warning',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.swalDefaultQuestion').click(function() {
+      Toast.fire({
+        icon: 'question',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+
+    $('.toastrDefaultSuccess').click(function() {
+      toastr.success('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+    });
+    $('.toastrDefaultInfo').click(function() {
+      toastr.info('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+    });
+    $('.toastrDefaultError').click(function() {
+      toastr.error('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+    });
+    $('.toastrDefaultWarning').click(function() {
+      toastr.warning('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+    });
+
+    $('.toastsDefaultDefault').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultTopLeft').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        position: 'topLeft',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultBottomRight').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        position: 'bottomRight',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultBottomLeft').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        position: 'bottomLeft',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultAutohide').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        autohide: true,
+        delay: 750,
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultNotFixed').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        fixed: false,
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultFull').click(function() {
+      $(document).Toasts('create', {
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        icon: 'fas fa-envelope fa-lg',
+      })
+    });
+    $('.toastsDefaultFullImage').click(function() {
+      $(document).Toasts('create', {
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        image: '../../dist/img/user3-128x128.jpg',
+        imageAlt: 'User Picture',
+      })
+    });
+    $('.toastsDefaultSuccess').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-success',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultInfo').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-info',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultWarning').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-warning',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultDanger').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-danger',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultMaroon').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-maroon',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2022zqgi
+    Description
+      region name: Talaud Islands, Indonesia
+Origin:
+    Date                   2022-12-31
+    Time                   15:45:52.1  +/-    1.0 s
+    Latitude                 4.91 deg  +/-      7 km
+    Longitude              125.23 deg  +/-      5 km
+    Depth                     271 km   +/-   12 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.70 s
+    Azimuthal gap             152 deg
+
+5 Network magnitudes:
+    MLv       4.32 +/- 0.35  15            
+    mB        4.85 +/- 0.30   5            
+    Mw(mB)    4.13 +/- 0.40   5            
+    mb        4.59 +/- 0.27   6            
+    M         4.34           15 preferred  
+
+19 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SGSI  IA    1.2 166  P       15:46:30.8  -0.2 M  1.0  SGSI 
+    MGAI  IA    1.7 122  P       15:46:33.9  -0.1 M  1.0  MGAI 
+    PSSI  IA    2.2 175  P       15:46:37.6  -0.4 M  1.0  PSSI 
+    DAV   IU    2.2   9  P       15:46:37.9  -0.1 M  1.0  DAV  
+    MNI   IA    3.5 187  P       15:46:51.2   0.3 M  1.0  MNI  
+    TMSI  IA    3.6 185  P       15:46:52.5  -0.0 M  1.0  TMSI 
+    MTAI  IA    4.1 131  P       15:46:58.1   0.5 M  1.0  MTAI 
+    TBMCM IA    4.2 189  P       15:46:59.5   0.1 M  1.0  TBMCM
+    KMSI  IA    4.5 196  P       15:47:03.1   0.5 M  1.0  KMSI 
+    PBCI  IA    4.7 195  P       15:47:04.6   0.1 M  1.0  PBCI 
+    SMSI  IA    4.8 216  P       15:47:06.2  -0.5 M  1.0  SMSI 
+    TGCM  IA    4.9 206  P       15:47:07.2   0.1 M  1.0  TGCM 
+    WBMI  IA    5.2 150  P       15:47:12.2   0.6 M  1.0  WBMI 
+    MRSI  IA    5.5 217  P       15:47:15.0   0.4 M  1.0  MRSI 
+    GHMI  IA    5.9 153  P       15:47:18.2  -0.8 M  1.0  GHMI 
+    LBMI  IA    6.0 158  P       15:47:21.3   1.1 M  1.0  LBMI 
+    LUWI  IA    6.4 203  P       15:47:26.2   0.5 M  1.0  LUWI 
+    OBMI  IA    6.7 159  P       15:47:29.3   0.4 M  1.0  OBMI 
+    SANI  IA    7.0 174  P       15:47:30.2  -2.4 M  1.0  SANI 
+
+22 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MGAI  IA    1.7 122  MLv     3.86 -0.46    2.64063     
+    PSSI  IA    2.2 175  MLv     3.70 -0.62   0.998589     
+    DAV   IU    2.2   9  MLv     3.89 -0.43    1.51479     
+    MNI   IA    3.5 187  MLv     4.57  0.25    1.40362     
+    TMSI  IA    3.6 185  MLv     4.37  0.04   0.735052     
+    MTAI  IA    4.1 131  MLv     4.48  0.16   0.738831     
+    TBMCM IA    4.2 189  MLv     4.55  0.23   0.792928     
+    PBCI  IA    4.7 195  MLv     4.40  0.07   0.429193     
+    SMSI  IA    4.8 216  MLv     4.02 -0.31   0.161109     
+    TGCM  IA    4.9 206  MLv     4.05 -0.27   0.172975     
+    WBMI  IA    5.2 150  MLv     4.76  0.44   0.702495     
+    WBMI  IA    5.2 150  mb      4.86  0.27    164.082 0.72
+    MRSI  IA    5.5 217  MLv     4.02 -0.30   0.110796     
+    GHMI  IA    5.9 153  MLv     4.62  0.30    0.36024     
+    GHMI  IA    5.9 153  mB      4.69 -0.16    1397.09     
+    GHMI  IA    5.9 153  mb      4.64  0.06    92.7106 0.64
+    LBMI  IA    6.0 158  mB      5.06  0.21    3294.15     
+    LUWI  IA    6.4 203  MLv     4.68  0.36   0.303452     
+    LUWI  IA    6.4 203  mb      4.35 -0.24    81.1353 1.18
+    OBMI  IA    6.7 159  MLv     4.82  0.50   0.357758     
+    OBMI  IA    6.7 159  mB      4.67 -0.18       1199     
+    OBMI  IA    6.7 159  mb      4.48 -0.11     63.312 0.72
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

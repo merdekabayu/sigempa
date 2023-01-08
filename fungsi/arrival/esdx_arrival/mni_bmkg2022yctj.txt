@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2022yctj
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-10
+    Time                   00:55:33.0  +/-    0.8 s
+    Latitude                 1.08 deg  +/-      3 km
+    Longitude              125.86 deg  +/-      1 km
+    Depth                      31 km   +/-   11 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.10 s
+    Azimuthal gap              81 deg
+
+2 Network magnitudes:
+    MLv       3.64 +/- 0.37  13            
+    M         3.64           13 preferred  
+
+25 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TMSI  IA    1.0 283  P       00:55:50.2  -0.0 M  1.0  TMSI 
+    TMSI  IA    1.0 283  S       00:56:03.4   0.3 M  1.0  TMSI 
+    MNI   IA    1.1 290  P       00:55:52.6   0.7 M  1.0  MNI  
+    MNI   IA    1.1 290  S       00:56:06.7   0.5 M  1.0  MNI  
+    TBMCM IA    1.3 254  P       00:55:54.4  -0.9 M  1.0  TBMCM
+    TBMCM IA    1.3 254  S       00:56:10.8  -1.6 M  1.0  TBMCM
+    TNTI  IA    1.5 101  P       00:55:57.5  -0.8 M  1.0  TNTI 
+    TNTI  IA    1.5 101  S       00:56:18.1   0.1 M  1.0  TNTI 
+    JHMI  IA    1.6  90  P       00:56:01.1   1.6 M  1.0  JHMI 
+    PMMI  IA    1.7 114  P       00:56:00.4  -0.3 M  1.0  PMMI 
+    PMMI  IA    1.7 114  S       00:56:22.2  -0.2 M  1.0  PMMI 
+    PSSI  IA    1.7 345  P       00:56:00.0  -0.7 M  1.0  PSSI 
+    PSSI  IA    1.7 345  S       00:56:21.0  -1.5 M  1.0  PSSI 
+    KMSI  IA    1.9 255  P       00:56:04.7   0.6 M  1.0  KMSI 
+    KMSI  IA    1.9 255  S       00:56:29.5   0.9 M  1.0  KMSI 
+    PBCI  IA    1.9 249  P       00:56:03.7  -0.4 M  1.0  PBCI 
+    PBCI  IA    1.9 249  S       00:56:27.3  -1.4 M  1.0  PBCI 
+    WBMI  IA    2.1 110  P       00:56:08.2   1.4 M  1.0  WBMI 
+    WBMI  IA    2.1 110  S       00:56:33.7   0.1 M  1.0  WBMI 
+    MTAI  IA    2.7  65  P       00:56:13.8  -0.1 M  1.0  MTAI 
+    TGCM  IA    2.8 259  P       00:56:18.0   1.7 M  1.0  TGCM 
+    SANI  IA    3.1 178  P       00:56:18.3  -1.8 M  1.0  SANI 
+    SMSI  IA    3.5 269  P       00:56:26.1   0.7 M  1.0  SMSI 
+    LUWI  IA    3.7 236  P       00:56:31.2   2.5 M  1.0  LUWI 
+    NLAI  IA    4.5 164  P       00:56:37.4  -1.2 M  1.0  NLAI 
+
+11 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TMSI  IA    1.0 283  MLv     4.16  0.52    13.2843     
+    TBMCM IA    1.3 254  MLv     4.09  0.45    7.12656     
+    JHMI  IA    1.6  90  MLv     3.76  0.12      2.295     
+    PMMI  IA    1.7 114  MLv     3.28 -0.36   0.677407     
+    PSSI  IA    1.7 345  MLv     3.43 -0.21   0.952982     
+    WBMI  IA    2.1 110  MLv     3.47 -0.17   0.606144     
+    MTAI  IA    2.7  65  MLv     3.13 -0.51   0.140675     
+    TGCM  IA    2.8 259  MLv     4.03  0.39   0.894659     
+    SANI  IA    3.1 178  MLv     3.24 -0.40   0.102679     
+    SMSI  IA    3.5 269  MLv     3.63 -0.01   0.154662     
+    NLAI  IA    4.5 164  MLv     3.80  0.16   0.121665     
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

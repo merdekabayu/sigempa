@@ -1,0 +1,103 @@
+{% extends 'base.html' %}
+{% block judul %} Download Waveform{% endblock %}
+{% block subjudul %} Download Waveform{% endblock %}
+{% block menuopen_sensor %} menu-open {% endblock %}
+{% block mainnav_sensor %} active {% endblock %}
+{% block nav_sensordownload%} active {% endblock %}
+
+{% block content %} 
+  
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-left">
+            <li class="breadcrumb-item"><a href="/">SI-GEMPA</a></li>
+            <li class="breadcrumb-item active">Download All Waveform</li>
+            
+          </ol>
+        </div>
+        <div class="col-sm-6">
+          
+        </div>
+      </div>
+    </div><!-- /.container-fluid -->
+  </section>
+
+  <!-- Main content -->
+  <section class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="card col-12">
+          <div class="card-header">
+            <h3 class="card-title">Download Waveform Data</h3>
+            <div class="card-tools">
+              <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                <i class="fas fa-minus"></i>
+              </button>
+              <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                <i class="fas fa-times"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card-body">
+            <form action="downloadwaveform" method="POST">
+              <div class="row">
+                <div class="col-4">
+                  <div class="row">
+                    <label class="col-12" style="text-align: center;">Waktu (UTC)</label>
+                  </div>
+                  <div class="row">
+                    <div class="input-group date pl-0" style="width: 210px;" id="waveformdate" data-target-input="nearest">
+                        <input value="{{date.0}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date1" data-target="#waveformdate"/>
+                        <div class="input-group-append" data-target="#waveformdate" data-toggle="datetimepicker" >
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div>
+                    </div>
+                    <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
+                    <div class="input-group date pl-0" style="width: 210px;" id="waveformdate1" data-target-input="nearest">
+                      <input value="{{date.1}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date2" data-target="#waveformdate1"/>
+                      <div class="input-group-append" data-target="#waveformdate1" data-toggle="datetimepicker" >
+                          <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 float-right">
+                      <label for="Input"></label>
+                      <div class="btn-group w-100">
+                        <button type="submit" class="btn btn-success col start">
+                          <i class="fas fa-download"></i>
+                          <span>Download</span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 float-right">
+                      <label for="Input"></label>
+                      <label for="Input"></label>
+                      <p class="mt-1">Format (*.mseed)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      
+      
+      
+      
+    </div><!--/. container-fluid -->
+  </section>
+  <!-- /.content -->
+</div>
+  <!-- /.content-wrapper -->
+{% endblock %}
+
+
+
+

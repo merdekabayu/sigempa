@@ -1,0 +1,294 @@
+{% extends 'base.html' %}
+{% block judul %} Download Waveform{% endblock %}
+{% block subjudul %} Download Waveform by Event {% endblock %}
+{% block menuopen_sensor %} menu-open {% endblock %}
+{% block mainnav_sensor %} active {% endblock %}
+{% block nav_waveformbyevent%} active {% endblock %}
+
+{% block content %} 
+  
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-left">
+              <li class="breadcrumb-item"><a href="/">SI-GEMPA</a></li>
+              <li class="breadcrumb-item active">Download Waveform by Event</li>
+              
+            </ol>
+          </div>
+          <div class="col-sm-6">
+            
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            
+            <!-- /.card -->
+            
+
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Tabel Gempabumi</h3>
+                
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <form action="{{ url_for('waveformbyevent') }}" method="POST">
+                  <div class="col-lg-4">
+                    <div class="form-group row">
+                      <div class="input-group col-sm-7">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="far fa-calendar-alt"></i>
+                          </span>
+                        </div>
+                        <input type="text" class="form-control float-right" id="reservation1" name="datefilter">
+                      </div>
+                      <div class="col-3">
+                        <div class="btn-group float-center">
+                          <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-filter"></i>
+                            <span>
+                              <strong>Filter</strong>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+                <table id="example11" class="table table-bordered table-striped">
+                  <thead>
+                  <tr>
+                    <!-- /.<th style="width: 10px;">No</th>-->
+                    <th style="width: 100px;">Tanggal (UTC)</th>
+                    <th style="width: 80px;">Jam (UTC)</th>
+                    <th style="width: 80px;">Lintang</th>
+                    <th style="width: 80px;">Bujur</th>
+                    <th style="width: 80px;">Kedalaman</th>
+                    <th style="width: 80px;">Magnitudo</th>
+                    <th style="width: 300px;">Keterangan</th>
+                    <th>Informasi</th>
+                    <th style="width: 140px;">Aksi</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                    {% for par in data %}
+                    <tr>
+                      <!-- /.<td>1</td>-->
+                      <td>{{par.1}}</td>
+                      <td>{{par.2}}</td>
+                      <td>{{par.3}}</td>
+                      <td>{{par.4}}</td>
+                      <td>{{par.5}}</td>
+                      <td>{{par.6}}</td>
+                      <td>{{par.7}}</td>
+                      <td>{{par.8}}</td>
+                      <td style="align-items: center;">
+                        <a href="#!" class="btn btn-primary start" role="button" data-toggle="modal" data-target="#modaledit{{par.0}}" aria-pressed="true"> 
+                          <i class="fas fa-download"></i>
+                          Download
+                        </a>
+                      </td>
+                      
+
+                      <div class="modal fade" id="modaledit{{par.0}}">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <label class="modal-title">Download Waveform&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Event : {{par.1}} {{par.2}}</label>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <form action="{{ url_for('downloadwaveformbyevent') }}" method="POST">
+                              <div class="modal-body">
+
+                                <div class="col-12">
+                                  <div class="row">
+                                    <label class="col-12 text-center" >------------------ Time Window ------------------</label>
+                                  </div>
+                                </div>
+                                <div class="col-lg-12">
+                                  <div class="form-group row">
+                                    <label class="col-3" for="Input">Start Time :</label>
+                                    <div class="input-group col-3">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text">OT -</div>
+                                      </div>
+                                      <input type="text" value="3" class="form-control" name="otmin">
+                                      <input type="hidden" class="form-control" id="Input" value="{{par.0}}" name="id" />
+                                      <input type="hidden" class="form-control" id="Input" value="{{par.1}}" name="date" />
+                                      <input type="hidden" class="form-control" id="Input" value="{{par.2}}" name="time" />
+                                      <input type="hidden" class="form-control" id="Input" value="{{par.9}}" name="dataarrival" />
+                                    </div>
+                                    *minutes
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                  <div class="form-group row">
+                                    <label class="col-3" for="Input">End Time :</label>
+                                    <div class="input-group col-3">
+                                      <div class="input-group-prepend">
+                                        <div class="input-group-text">OT +</div>
+                                      </div>
+                                      <input type="text" value="10" class="form-control" name="otplus">
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                                <div class="col-12">
+                                  <div class="row">
+                                    <label class="col-12 text-center" >------------------ Station Select ------------------</label>
+                                  </div>
+                                </div>
+                                <div class="col-lg-12">
+                                  <div class="form-group row">
+                                    {%if par.10 == 1%}
+                                    <label class="col-4" for="Input">Arrival Time Data</label>
+                                    <div class="col-7">
+                                      <input class="form-check-input ml-1" type="checkbox" name="arrivalcheck" value="arrivalcheck" id="defaultCheck1">
+                                    </div>
+                                    {%endif%}
+
+                                    <label class="col-4" for="Input">Station List</label>
+                                    <div class="col-7 ml-1">
+                                      <textarea class="form-control" rows="3" name="fromstalist" value="" placeholder="ex : TNTI,JHMI,IHMI,WHMI,MNI | * for all station"></textarea>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                
+                              </div>
+                              <div class="modal-footer justify-content-between">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary"><i class="fas fa-download"></i>
+                                  Download</button>
+                                
+                              </div>
+                            </form>
+                          </div>
+                          <!-- /.modal-content -->
+                        </div>
+                        <!-- /.modal-dialog -->
+                      </div>
+                      <!-- /.modal -->
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+{% endblock %}
+
+{% block skriptabel %} 
+<script>
+  //Disinir
+  {% for par in data %}
+  $(document).on('click', '#retrievemap{{par.0}}', function(){
+    $.ajax({
+        url: "{{ url_for ('mapdetail', var=par.0) }}",
+        type: "GET",
+        success: function(response) {
+            $("#detailmap").attr('src', '/static/map-detail/' + response);
+        },
+        error: function(xhr) {
+          //Do Something to handle error
+       }
+       });
+       $.ajax({
+        url: "{{ url_for ('detailshake', var=par.0) }}",
+        type: "GET",
+        success: function(response) {
+            $("#detailshake").attr('src', '/static/shakemap/' + response);
+        },
+        error: function(xhr) {
+          //Do Something to handle error
+       }
+       });
+       $.ajax({
+        url: "{{ url_for ('teksparameter', var=par.0) }}",
+        type: "GET",
+        success: function(response) {
+            $("#infogempa").val(response);
+        },
+        error: function(xhr) {
+          //Do Something to handle error
+       }
+       });
+       $.ajax({
+        url: "{{ url_for ('teksnarasi', var=par.0) }}",
+        type: "GET",
+        success: function(response) {
+            $("#narasi").val(response);
+        },
+        error: function(xhr) {
+          $("#narasi").val('-');
+          //Do Something to handle error
+       }
+       });
+  });
+  
+  {% endfor %}
+</script>
+
+
+
+
+<script>
+  $(document).ready(function() {
+      window.setTimeout(function() {
+          $(".alert").fadeTo(500, 0).slideUp(500, function(){
+              $(this).remove();
+          });
+      }, 2000);
+  });    
+</script>
+
+
+
+
+<script>
+  function copy() {
+  // Get the text field
+  var copyText = document.getElementById("infogempa");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+} 
+</script>
+
+
+
+{% endblock %}

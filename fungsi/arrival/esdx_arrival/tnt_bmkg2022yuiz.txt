@@ -1,0 +1,44 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yuiz
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-19
+    Time                   16:07:10.9  +/-    0.7 s
+    Latitude                 0.37 deg  +/-      5 km
+    Longitude              125.27 deg  +/-      3 km
+    Depth                      11 km   +/-    5 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.58 s
+    Azimuthal gap             108 deg
+
+2 Network magnitudes:
+    MLv       2.71 +/- 0.54   7            
+    M         2.71            7 preferred  
+
+11 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TBMCM IA    0.8 297  P       16:07:25.7  -0.2 M  1.0  TBMCM
+    TBMCM IA    0.8 297  S       16:07:37.2   0.4 M  1.0  TBMCM
+    PBCI  IA    1.2 271  P       16:07:32.9  -0.4 M  1.0  PBCI 
+    PBCI  IA    1.2 271  S       16:07:49.8  -0.3 M  1.0  PBCI 
+    KMSI  IA    1.3 279  P       16:07:34.8   0.3 M  1.0  KMSI 
+    KMSI  IA    1.3 279  S       16:07:52.2   0.0 M  1.0  KMSI 
+    TGCM  IA    2.2 274  P       16:07:46.6  -0.7 M  1.0  TGCM 
+    TGCM  IA    2.2 274  S       16:08:15.4   0.1 M  1.0  TGCM 
+    PSSI  IA    2.4   3  P       16:07:50.5   1.0 M  1.0  PSSI 
+    SANI  IA    2.5 163  P       16:07:52.4   0.8 M  1.0  SANI 
+    IHMI  IA    2.6  64  P       16:07:51.2  -1.0 M  1.0  IHMI 
+
+5 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TBMCM IA    0.8 297  MLv     2.76  0.05   0.692015     
+    PBCI  IA    1.2 271  MLv     2.39 -0.32   0.162726     
+    TGCM  IA    2.2 274  MLv     2.59 -0.12   0.0748718     
+    PSSI  IA    2.4   3  MLv     3.23  0.52   0.258179     
+    SANI  IA    2.5 163  MLv     2.66 -0.05   0.057772     
+
+stageofternate
+</p></body></html>

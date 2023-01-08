@@ -1,0 +1,50 @@
+<html><body><p>Event:
+    Public ID              bmkg2022ycnd
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-09
+    Time                   21:46:11.3  +/-    0.5 s
+    Latitude                 0.28 deg  +/-      4 km
+    Longitude              124.54 deg  +/-      3 km
+    Depth                      15 km   +/-    5 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.75 s
+    Azimuthal gap              77 deg
+
+2 Network magnitudes:
+    MLv       3.38 +/- 0.26  11            
+    M         3.38           11 preferred  
+
+13 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TBMCM IA    0.4   6  P       21:46:21.8   0.7 M  1.0  TBMCM
+    PBCI  IA    0.5 282  P       21:46:21.6  -0.8 M  1.0  PBCI 
+    KMSI  IA    0.6 298  P       21:46:24.5   0.1 M  1.0  KMSI 
+    TMSI  IA    1.1  21  P       21:46:31.0  -0.6 M  1.0  TMSI 
+    MNI   IA    1.2  14  P       21:46:34.1   0.8 M  1.0  MNI  
+    TGCM  IA    1.5 279  P       21:46:36.8  -0.5 M  1.0  TGCM 
+    BGCI  IA    1.6 225  P       21:46:40.3   1.0 M  1.0  BGCI 
+    KGCM  IA    1.7 282  P       21:46:40.6  -0.3 M  1.0  KGCM 
+    LUWI  IA    2.2 234  P       21:46:48.0   0.6 M  1.0  LUWI 
+    SMSI  IA    2.3 288  P       21:46:49.1   0.5 M  1.0  SMSI 
+    PSSI  IA    2.6  19  P       21:46:51.8  -1.0 M  1.0  PSSI 
+    SANI  IA    2.7 148  P       21:46:53.4  -1.3 M  1.0  SANI 
+    PMMI  IA    2.9  88  P       21:46:57.5   0.8 M  1.0  PMMI 
+
+9 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TBMCM IA    0.4   6  MLv     3.15 -0.22    4.25137     
+    PBCI  IA    0.5 282  MLv     3.26 -0.12    3.39646     
+    TGCM  IA    1.5 279  MLv     3.29 -0.09   0.916142     
+    KGCM  IA    1.7 282  MLv     3.79  0.41    2.10741     
+    LUWI  IA    2.2 234  MLv     3.74  0.36    1.03758     
+    SMSI  IA    2.3 288  MLv     3.35 -0.03   0.378085     
+    PSSI  IA    2.6  19  MLv     3.16 -0.22   0.163744     
+    SANI  IA    2.7 148  MLv     3.33 -0.05   0.205007     
+    PMMI  IA    2.9  88  MLv     3.31 -0.07    0.16221     
+
+stageofternate
+</p></body></html>

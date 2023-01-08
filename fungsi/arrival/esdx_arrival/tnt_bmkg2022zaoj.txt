@@ -1,0 +1,81 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zaoj
+    Description
+      region name: Talaud Islands, Indonesia
+Origin:
+    Date                   2022-12-23
+    Time                   01:39:19.6  +/-    0.4 s
+    Latitude                 4.36 deg  +/-      2 km
+    Longitude              125.83 deg  +/-      3 km
+    Depth                      79 km   +/-    8 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.96 s
+    Azimuthal gap             129 deg
+
+5 Network magnitudes:
+    MLv       4.85 +/- 0.19  13 preferred  
+    mB        5.46 +/- 0.43   3            
+    Mw(mB)    4.92 +/- 0.43   3            
+    mb        5.22 +/- 0.70   4            
+    M         4.97           13            
+
+30 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MGAI  IA    0.9 113  P       01:39:38.5   0.7 M  1.0  MGAI 
+    MGAI  IA    0.9 113  S       01:39:53.2   1.3 M  1.0  MGAI 
+    PSSI  IA    1.7 195  P       01:39:47.6   0.4 M  1.0  PSSI 
+    PSSI  IA    1.7 195  S       01:40:06.8  -1.8 M  1.0  PSSI 
+    DAV   IU    2.7 355  P       01:39:58.8  -2.1 M  1.0  DAV  
+    DAV   IU    2.7 355  S       01:40:32.6  -0.5 M  1.0  DAV  
+    MNI   IA    3.1 199  P       01:40:06.0   0.2 M  1.0  MNI  
+    TMSI  IA    3.2 196  P       01:40:08.3   0.9 M  1.0  TMSI 
+    TMSI  IA    3.2 196  S       01:40:44.2  -0.5 M  1.0  TMSI 
+    MTAI  IA    3.3 132  P       01:40:08.7   0.3 M  1.0  MTAI 
+    MTAI  IA    3.3 132  S       01:40:45.5  -1.0 M  1.0  MTAI 
+    JHMI  IA    3.7 153  P       01:40:14.4   0.6 M  1.0  JHMI 
+    JHMI  IA    3.7 153  S       01:40:55.1  -1.1 M  1.0  JHMI 
+    TBMCM IA    3.9 199  P       01:40:18.3   2.0 M  1.0  TBMCM
+    TBMCM IA    3.9 199  S       01:40:59.5  -1.2 M  1.0  TBMCM
+    TNTI  IA    3.9 157  P       01:40:17.8   0.9 M  1.0  TNTI 
+    TNTI  IA    3.9 157  S       01:41:01.2  -0.7 M  1.0  TNTI 
+    KMSI  IA    4.2 206  P       01:40:21.3   0.1 M  1.0  KMSI 
+    PBCI  IA    4.4 204  P       01:40:24.6   1.4 M  1.0  PBCI 
+    WBMI  IA    4.5 153  P       01:40:26.0   0.9 M  1.0  WBMI 
+    WBMI  IA    4.5 153  S       01:41:16.9   0.2 M  1.0  WBMI 
+    TGCM  IA    4.7 216  P       01:40:28.6   0.4 M  1.0  TGCM 
+    KGCM  IA    4.8 219  P       01:40:28.4  -0.3 M  1.0  KGCM 
+    SMSI  IA    4.8 226  P       01:40:29.2  -0.5 M  1.0  SMSI 
+    LBMI  IA    5.3 162  P       01:40:36.3   0.9 M  1.0  LBMI 
+    LBMI  IA    5.3 162  S       01:41:35.1  -0.0 M  1.0  LBMI 
+    MRSI  IA    5.5 225  P       01:40:38.7  -0.0 M  1.0  MRSI 
+    LUWI  IA    6.2 210  P       01:40:49.5   1.2 M  1.0  LUWI 
+    LUWI  IA    6.2 210  S       01:41:58.2   0.1 M  1.0  LUWI 
+    SANI  IA    6.4 179  P       01:40:50.1  -0.7 M  1.0  SANI 
+
+20 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MGAI  IA    0.9 113  MLv     4.69 -0.16    48.8305     
+    PSSI  IA    1.7 195  MLv     4.57 -0.28    13.6262     
+    DAV   IU    2.7 355  MLv     4.63 -0.22    4.16629     
+    MNI   IA    3.1 199  MLv     4.89  0.04    4.79167     
+    TMSI  IA    3.2 196  MLv     4.86  0.00    3.81037     
+    MTAI  IA    3.3 132  MLv     4.92  0.06    4.02908     
+    JHMI  IA    3.7 153  MLv     4.95  0.10     2.7105     
+    TBMCM IA    3.9 199  MLv     4.93  0.08    2.34048     
+    PBCI  IA    4.4 204  MLv     4.69 -0.16    1.00644     
+    TGCM  IA    4.7 216  MLv     5.15  0.30    2.33465     
+    SMSI  IA    4.8 226  MLv     4.82 -0.03    1.02606     
+    LBMI  IA    5.3 162  MLv     4.77 -0.09   0.708837     
+    LBMI  IA    5.3 162  mb      4.69 -0.54    71.2859 0.80
+    MRSI  IA    5.5 225  mB      5.83  0.37    10376.8     
+    MRSI  IA    5.5 225  mb      6.08  0.86    1098.32 0.51
+    LUWI  IA    6.2 210  MLv     5.24  0.38    1.21134     
+    LUWI  IA    6.2 210  mB      5.56  0.10    5044.94     
+    LUWI  IA    6.2 210  mb      5.62  0.39    338.983 0.51
+    SANI  IA    6.4 179  mB      4.99 -0.47    1355.81     
+    SANI  IA    6.4 179  mb      4.64 -0.58    40.9088 0.58
+
+stageofternate
+</p></body></html>

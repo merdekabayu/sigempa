@@ -1,0 +1,64 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xydu
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-07
+    Time                   12:30:31.5  +/-    0.3 s
+    Latitude                 0.78 deg  +/-      3 km
+    Longitude              125.58 deg  +/-      1 km
+    Depth                       2 km   +/-    3 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.16 s
+    Azimuthal gap             153 deg
+
+2 Network magnitudes:
+    MLv       4.48 +/- 0.25  11            
+    M         4.48           11 preferred  
+
+27 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TMSI  IA    0.8 308  P       12:30:48.7   1.2 M  1.0  TMSI 
+    TMSI  IA    0.8 308  S       12:31:00.3   1.5 M  1.0  TMSI 
+    TBMCM IA    1.0 266  P       12:30:50.2  -0.4 M  1.0  TBMCM
+    TBMCM IA    1.0 266  S       12:31:02.7  -1.4 M  1.0  TBMCM
+    PBCI  IA    1.6 256  P       12:30:58.6  -1.6 M  1.0  PBCI 
+    PBCI  IA    1.6 256  S       12:31:18.4  -3.1 MX 0.0  PBCI 
+    KMSI  IA    1.6 263  P       12:31:00.1  -0.3 M  1.0  KMSI 
+    KMSI  IA    1.6 263  S       12:31:20.3  -1.8 M  1.0  KMSI 
+    TNTI  IA    1.8  90  P       12:31:03.3   0.3 M  1.0  TNTI 
+    TNTI  IA    1.8  90  S       12:31:26.8   0.1 M  1.0  TNTI 
+    PMMI  IA    1.9 102  P       12:31:04.4   0.1 M  1.0  PMMI 
+    PMMI  IA    1.9 102  S       12:31:29.5   0.4 M  1.0  PMMI 
+    JHMI  IA    1.9  81  P       12:31:05.4   0.5 M  1.0  JHMI 
+    JHMI  IA    1.9  81  S       12:31:30.0  -0.3 M  1.0  JHMI 
+    PSSI  IA    1.9 355  P       12:31:05.3  -0.1 M  1.0  PSSI 
+    PSSI  IA    1.9 355  S       12:31:29.5  -1.7 M  1.0  PSSI 
+    IHMI  IA    2.1  70  P       12:31:08.5   1.0 M  1.0  IHMI 
+    IHMI  IA    2.1  70  S       12:31:33.5  -1.5 M  1.0  IHMI 
+    TGCM  IA    2.5 264  P       12:31:13.9   0.6 M  1.0  TGCM 
+    TGCM  IA    2.5 264  S       12:31:45.0  -0.4 M  1.0  TGCM 
+    GTOI  IA    2.7 270  P       12:31:16.6   0.5 M  1.0  GTOI 
+    GTOI  IA    2.7 270  S       12:31:52.5   2.2 M  1.0  GTOI 
+    KGCM  IA    2.7 267  P       12:31:18.8   2.4 M  1.0  KGCM 
+    KGCM  IA    2.7 267  S       12:31:55.3   4.6 MX 0.0  KGCM 
+    BGCI  IA    2.7 233  P       12:31:22.4   5.9 MX 0.0  BGCI 
+    SMSI  IA    3.2 274  P       12:31:21.8  -1.3 M  1.0  SMSI 
+    SMSI  IA    3.2 274  S       12:32:07.7   4.9 MX 0.0  SMSI 
+
+9 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TMSI  IA    0.8 308  MLv     4.70  0.22    54.2542     
+    TBMCM IA    1.0 266  MLv     4.79  0.31    55.0219     
+    PBCI  IA    1.6 256  MLv     4.35 -0.13    9.21522     
+    PMMI  IA    1.9 102  MLv     4.31 -0.17    5.80854     
+    JHMI  IA    1.9  81  MLv     4.26 -0.22    4.91345     
+    PSSI  IA    1.9 355  MLv     4.54  0.06    9.12426     
+    IHMI  IA    2.1  70  MLv     4.64  0.16      9.336     
+    GTOI  IA    2.7 270  MLv     4.47 -0.01    2.86373     
+    SMSI  IA    3.2 274  MLv     4.42 -0.06     1.3278     
+
+stageofgorontalo
+</p></body></html>

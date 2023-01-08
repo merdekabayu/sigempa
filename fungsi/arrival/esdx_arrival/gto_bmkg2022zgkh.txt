@@ -1,0 +1,80 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zgkh
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-26
+    Time                   06:24:47.0  +/-    0.3 s
+    Latitude                 0.86 deg  +/-      3 km
+    Longitude              122.50 deg  +/-      2 km
+    Depth                      54 km   +/-    4 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.84 s
+    Azimuthal gap             106 deg
+
+5 Network magnitudes:
+    Mjma      3.82 +/- 0.13   8            
+    ML        3.99 +/- 0.29   9            
+    MLv       3.94 +/- 0.27   9            
+    Ms(BB)    3.82 +/- 0.21   2            
+    M         3.90            9 preferred  
+
+21 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SMSI  IA    0.2 312  P       06:24:57.5   0.6 M  1.0  SMSI 
+    SMSI  IA    0.2 312  S       06:25:05.9   1.5 M  1.0  SMSI 
+    GTOI  IA    0.4 105  P       06:24:58.8  -0.0 M  1.0  GTOI 
+    GTOI  IA    0.4 105  S       06:25:07.5  -0.3 M  1.0  GTOI 
+    KGCM  IA    0.4 123  P       06:24:59.3   0.1 M  1.0  KGCM 
+    KGCM  IA    0.4 123  S       06:25:08.2  -0.2 M  1.0  KGCM 
+    TGCM  IA    0.7 121  P       06:25:01.6  -0.0 M  1.0  TGCM 
+    TGCM  IA    0.7 121  S       06:25:12.7  -0.1 M  1.0  TGCM 
+    MRSI  IA    0.7 236  P       06:25:00.8  -1.0 M  1.0  MRSI 
+    MRSI  IA    0.7 236  S       06:25:10.9  -2.1 M  1.0  MRSI 
+    TPCI  IA    1.5 254  P       06:25:10.6  -0.4 M  1.0  TPCI 
+    TPCI  IA    1.5 254  S       06:25:29.2  -0.4 M  1.0  TPCI 
+    PBCI  IA    1.6 107  P       06:25:14.1   1.0 M  1.0  PBCI 
+    PBCI  IA    1.6 107  S       06:25:33.7   0.4 M  1.0  PBCI 
+    TOLI2 IA    1.7 278  P       06:25:14.9   0.1 M  1.0  TOLI2
+    TOLI2 IA    1.7 278  S       06:25:36.2  -0.2 M  1.0  TOLI2
+    LUWI  IA    1.9 172  P       06:25:18.0   0.8 M  1.0  LUWI 
+    LUWI  IA    1.9 172  S       06:25:41.1   0.4 M  1.0  LUWI 
+    MPSI  IA    2.7 259  P       06:25:28.7   1.4 M  1.0  MPSI 
+    PSSI  IA    3.4  57  P       06:25:38.1  -0.1 M  1.0  PSSI 
+    PSSI  IA    3.4  57  S       06:26:16.7  -1.6 M  1.0  PSSI 
+
+28 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    GTOI  IA    0.4 105  ML      3.40 -0.60    10.9375     
+    GTOI  IA    0.4 105  MLv     3.56 -0.37    16.0347     
+    KGCM  IA    0.4 123  ML      4.24  0.25    61.5616     
+    KGCM  IA    0.4 123  MLv     4.16  0.22    50.4082     
+    KGCM  IA    0.4 123  Mjma    3.89  0.07    25.2526     
+    TGCM  IA    0.7 121  MLv     4.25  0.32    23.9533     
+    TGCM  IA    0.7 121  Mjma    3.81 -0.01     9.2218     
+    MRSI  IA    0.7 236  ML      4.07  0.07    15.4134     
+    MRSI  IA    0.7 236  MLv     4.10  0.16    16.5473     
+    MRSI  IA    0.7 236  Mjma    3.71 -0.11    7.05145     
+    TPCI  IA    1.5 254  ML      4.45  0.46    13.7646     
+    PBCI  IA    1.6 107  ML      3.81 -0.18    2.62233     
+    PBCI  IA    1.6 107  MLv     3.53 -0.40    1.37299     
+    PBCI  IA    1.6 107  Mjma    3.77 -0.05    1.81909     
+    TOLI2 IA    1.7 278  ML      3.71 -0.28    1.77046     
+    TOLI2 IA    1.7 278  MLv     3.73 -0.20    1.85261     
+    TOLI2 IA    1.7 278  Mjma    3.70 -0.12     1.3735     
+    LUWI  IA    1.9 172  ML      4.18  0.18    4.05346     
+    LUWI  IA    1.9 172  MLv     4.17  0.24    3.99652     
+    LUWI  IA    1.9 172  Mjma    4.03  0.21     2.4325     
+    MPSI  IA    2.7 259  ML      3.87 -0.12   0.780755     
+    MPSI  IA    2.7 259  MLv     3.78 -0.15   0.638058     
+    MPSI  IA    2.7 259  Mjma    3.68 -0.14   0.618611     
+    MPSI  IA    2.7 259  Ms(BB)  3.67 -0.15   2.91217e-06 0.20
+    PSSI  IA    3.4  57  ML      4.16  0.16    0.54872     
+    PSSI  IA    3.4  57  MLv     4.11  0.17     0.4876     
+    PSSI  IA    3.4  57  Mjma    3.99  0.17   0.808502     
+    PSSI  IA    3.4  57  Ms(BB)  3.97  0.15   3.75884e-06 0.10
+
+stageofgorontalo
+</p></body></html>

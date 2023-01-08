@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {	font-size: 24px;
+	font-weight: bold;
+}
+.style2 {	font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR AMBON </span></td>
+</tr>
+<tr>
+<td> </td>
+<td valign="top"> </td>
+</tr>
+<tr>
+<td><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top" width="48%"><img src="area_ambon.jpg"/></td>
+<td valign="top" width="52%"><pre>Event:
+    Public ID              bmkg2023acgr
+    Description
+      region name: Seram, Indonesia
+Origin:
+    Date                   2023-01-02
+    Time                   05:38:30.2  +/-    0.8 s
+    Latitude                -2.86 deg  +/-      9 km
+    Longitude              130.00 deg  +/-      5 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.54 s
+    Azimuthal gap             198 deg
+
+5 Network magnitudes:
+    Mjma      2.81 +/- 0.61   3            
+    ML        2.55 +/- 0.13   4            
+    MLv       2.63 +/- 0.18   4 preferred  
+    Ms(BB)    2.93 +/- 0.00   1            
+    M         2.71            4            
+
+4 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SEMI  IA    0.2 254  P       05:38:34.7  -0.5 M  1.0  SEMI 
+    WSTMM IA    0.6 181  P       05:38:41.7  -0.4 M  1.0  WSTMM
+    TMTMM IA    0.6 228  P       05:38:43.9   0.8 M  1.0  TMTMM
+    FAKI  IA    2.3  91  P       05:39:07.7   0.1 M  1.0  FAKI 
+
+12 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    SEMI  IA    0.2 254  ML      2.77  0.22    8.64925     
+    SEMI  IA    0.2 254  MLv     2.69  0.06    7.18444     
+    WSTMM IA    0.6 181  ML      2.48 -0.07   0.448786     
+    WSTMM IA    0.6 181  MLv     2.43 -0.21   0.395741     
+    WSTMM IA    0.6 181  Mjma    2.29 -0.51   0.345846     
+    TMTMM IA    0.6 228  ML      2.54 -0.01   0.484312     
+    TMTMM IA    0.6 228  MLv     2.55 -0.08   0.490156     
+    TMTMM IA    0.6 228  Mjma    2.65 -0.16   0.677119     
+    FAKI  IA    2.3  91  ML      2.48 -0.07   0.0528528     
+    FAKI  IA    2.3  91  MLv     2.89  0.26   0.137814     
+    FAKI  IA    2.3  91  Mjma    3.48  0.67   0.523989     
+    FAKI  IA    2.3  91  Ms(BB)  2.93  0.00   6.96183e-07 0.33
+
+Regional10Ambon
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

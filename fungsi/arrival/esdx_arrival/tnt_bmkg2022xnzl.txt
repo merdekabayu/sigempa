@@ -1,0 +1,47 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xnzl
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-12-01
+    Time                   22:56:37.0  +/-    1.5 s
+    Latitude                -1.93 deg  +/-      3 km
+    Longitude              128.24 deg  +/-      5 km
+    Depth                      19 km   +/-   15 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.82 s
+    Azimuthal gap              83 deg
+
+2 Network magnitudes:
+    MLv       3.63 +/- 0.25   8            
+    M         3.63            8 preferred  
+
+11 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    OBMI  IA    0.8 315  P       22:56:52.7  -0.4 M  1.0  OBMI 
+    LBMI  IA    1.5 330  P       22:57:02.8   0.3 M  1.0  LBMI 
+    MSAI  IA    1.6 154  P       22:57:04.9   1.1 M  1.0  MSAI 
+    TAMI  IA    1.7 184  P       22:57:06.9   0.7 M  1.0  TAMI 
+    SANI  IA    2.3 267  P       22:57:11.8  -1.5 M  1.0  SANI 
+    PMMI  IA    2.4 340  P       22:57:15.9   0.1 M  1.0  PMMI 
+    BSMI  IA    2.5 118  P       22:57:16.6  -0.6 M  1.0  BSMI 
+    WHMI  IA    3.0 358  P       22:57:24.1   0.7 M  1.0  WHMI 
+    JHMI  IA    3.1 346  P       22:57:25.5   0.8 M  1.0  JHMI 
+    SWI   IA    3.2  71  P       22:57:25.0  -1.4 M  1.0  SWI  
+    MTAI  IA    4.1   1  P       22:57:38.9   0.2 M  1.0  MTAI 
+
+8 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    OBMI  IA    0.8 315  MLv     3.90  0.27     8.5818     
+    MSAI  IA    1.6 154  MLv     3.41 -0.22    1.07358     
+    TAMI  IA    1.7 184  MLv     3.10 -0.53   0.422794     
+    PMMI  IA    2.4 340  MLv     3.71  0.08     0.7169     
+    BSMI  IA    2.5 118  MLv     3.56 -0.06   0.446908     
+    WHMI  IA    3.0 358  MLv     3.67  0.04    0.31025     
+    SWI   IA    3.2  71  MLv     3.88  0.25   0.397559     
+    MTAI  IA    4.1   1  MLv     3.74  0.11   0.128461     
+
+stageofternate
+</p></body></html>

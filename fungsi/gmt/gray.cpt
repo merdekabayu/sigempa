@@ -1,0 +1,3 @@
+-10000 white -5 white
+-5 gray60 2000 gray30
+#(depth(small) color(r/g/b), depth(large) color(r/g/b))

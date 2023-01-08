@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022ypzm
+    Preferred Origin ID    Origin/20221217065501.623988.220878
+    Preferred Magnitude ID Origin/20221217065501.623988.220878/netMag/M
+    Description
+      region name: South of Sumbawa, Indonesia
+    Creation time          2022-12-17 06:47:53
+
+Origin:
+    Public ID              Origin/20221217065501.623988.220878
+    Date                   2022-12-17
+    Time                   06:45:51.2  +/-    0.5 s
+    Latitude               -10.03 deg  +/-      3 km
+    Longitude              118.76 deg  +/-      1 km
+    Depth                      13 km   +/-    4 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-17 06:55:01
+    Residual RMS             1.68 s
+    Azimuthal gap             188 deg
+
+6 Network magnitudes:
+    mb        4.90 +/- 0.03   3            BMG
+    mB        5.57 +/- 1.07   2            BMG
+    Mw(mB)    5.06 +/- 1.07   2            BMG
+    MLv       4.47 +/- 0.22  19            BMG
+    Mjma      4.18 +/- 0.09  12            BMG1
+    M         4.51           19 preferred  BMG1
+
+58 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    WBSI  IA    0.7  58  P       06:46:03.6  -2.2 M  1.0  WBSI 
+    USTI  IA    1.1  70  P       06:46:05.4  -6.1 MX 0.0  USTI 
+    USTI  IA    1.1  70  S       06:46:25.9  -0.4 MX 0.0  USTI 
+    TSNI  IA    1.4 339  P       06:46:16.3  -0.0 M  1.0  TSNI 
+    TSNI  IA    1.4 339  S       06:46:36.0   0.9 M  1.0  TSNI 
+    LBNFM IA    1.4  10  P       06:46:16.1  -0.8 M  1.0  LBNFM
+    ESNI  IA    1.5 328  P       06:46:16.0  -1.2 M  1.0  ESNI 
+    ESNI  IA    1.5 328  S       06:46:37.9   1.2 M  1.0  ESNI 
+    PLAI  IA    1.5 321  P       06:46:17.4  -0.9 M  1.0  PLAI 
+    PLAI  IA    1.5 321  S       06:46:39.3   0.6 M  1.0  PLAI 
+    DBNFM IA    1.6 354  P       06:46:19.4   0.2 M  1.0  DBNFM
+    OMBFM IA    1.7  38  P       06:46:19.7  -0.7 M  1.0  OMBFM
+    RSNI  IA    1.7 312  P       06:46:20.4  -0.1 M  1.0  RSNI 
+    RSNI  IA    1.7 312  S       06:46:43.1   0.2 M  1.0  RSNI 
+    WBNI  IA    1.7   5  P       06:46:19.4  -1.5 M  1.0  WBNI 
+    WBNI  IA    1.7   5  S       06:46:42.6  -0.8 M  1.0  WBNI 
+    BASI  IA    1.8  96  P       06:46:20.5  -1.4 M  1.0  BASI 
+    LSNI  IA    1.9 305  P       06:46:21.9  -0.9 M  1.0  LSNI 
+    PDLI  IA    2.1 335  P       06:46:27.0   0.7 M  1.0  PDLI 
+    KMBFM IA    2.1  46  P       06:46:25.6  -0.8 M  1.0  KMBFM
+    LMTI  IA    2.2  50  P       06:46:28.6   0.9 M  1.0  LMTI 
+    JSBFM IA    2.2 301  P       06:46:28.4   0.3 M  1.0  JSBFM
+    TWSI  IA    2.3 305  P       06:46:28.2  -0.1 M  1.0  TWSI 
+    TWSI  IA    2.3 305  S       06:46:56.7  -0.3 M  1.0  TWSI 
+    USFM  IA    2.3 315  P       06:46:29.2   0.7 M  1.0  USFM 
+    LTNI  IA    2.6 299  P       06:46:32.7  -0.0 M  1.0  LTNI 
+    WLTFM IA    2.7 304  P       06:46:35.3   1.4 M  1.0  WLTFM
+    PBLI  IA    2.7 296  P       06:46:34.3  -0.6 M  1.0  PBLI 
+    RNFM  IA    2.7  55  P       06:46:41.2   6.2 M  1.0  RNFM 
+    BYLI  IA    2.9 308  P       06:46:40.3   2.7 M  1.0  BYLI 
+    SBNI  IA    3.1  99  P       06:46:53.4  14.0 AX 0.0  SBNI 
+    EDFI  IA    3.2  66  P       06:46:38.9  -1.8 M  1.0  EDFI 
+    NKBI  IA    3.4 292  P       06:46:43.3  -1.4 M  1.0  NKBI 
+    PSJCM IA    3.5  32  P       06:46:43.4  -1.7 M  1.0  PSJCM
+    IGBI  IA    3.8 288  P       06:46:47.4  -1.8 M  1.0  IGBI 
+    IGBI  IA    3.8 288  S       06:47:31.5  -2.8 M  1.0  IGBI 
+    KBBI  IA    3.9 296  P       06:46:53.1   2.5 M  1.0  KBBI 
+    SRBI  IA    4.0 299  P       06:46:51.0  -1.4 M  1.0  SRBI 
+    RTBI  IA    4.1 292  P       06:46:53.4  -0.1 M  1.0  RTBI 
+    BSSI  IA    4.2  24  P       06:46:55.4  -0.1 M  1.0  BSSI 
+    BSSI  IA    4.2  24  S       06:47:45.1  -0.6 M  1.0  BSSI 
+    RONI  IA    4.3 100  P       06:46:55.6  -0.8 M  1.0  RONI 
+    NJBM  IA    4.4 292  P       06:46:57.3  -1.1 M  1.0  NJBM 
+    KJCM  IA    4.6  13  P       06:46:59.9  -0.1 M  1.0  KJCM 
+    JAGI  IA    4.8 288  P       06:47:01.3  -2.1 M  1.0  JAGI 
+    MKS   IA    4.8   8  P       06:47:05.3   1.4 M  1.0  MKS  
+    BKSI  IA    4.9  16  P       06:47:04.2  -0.1 M  1.0  BKSI 
+    BKSI  IA    4.9  16  S       06:48:00.0  -1.6 M  1.0  BKSI 
+    KAPI  II    5.1  11  P       06:47:08.5   1.3 M  1.0  KAPI 
+    KAPI  II    5.1  11  S       06:48:06.4  -0.4 M  1.0  KAPI 
+    BBCM  IA    5.1  15  P       06:47:08.2   0.4 M  1.0  BBCM 
+    BBCM  IA    5.1  15  S       06:48:07.2  -0.7 M  1.0  BBCM 
+    LMNI  IA    5.2  70  P       06:47:12.6   3.7 M  1.0  LMNI 
+    TTPSI IA    5.3  11  P       06:47:12.3   2.4 A  1.0  TTPSI
+    SOEI  IA    5.4  88  P       06:47:20.8   8.8 AX 0.0  SOEI 
+    GMJI  IA    5.5 288  P       06:47:18.1   4.6 M  1.0  GMJI 
+    KTTI  IA    5.7  90  P       06:47:14.1  -1.4 M  1.0  KTTI 
+    BNSI  IA    5.8  13  P       06:47:19.2   2.8 MX 0.0  BNSI 
+
+34 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TSNI  IA    1.4 339  MLv     4.18 -0.29    7.91876     
+    RSNI  IA    1.7 312  MLv     4.31 -0.17    7.23251     
+    WBNI  IA    1.7   5  MLv     4.22 -0.25    5.68504     
+    BASI  IA    1.8  96  MLv     4.19 -0.29    4.91221     
+    BASI  IA    1.8  96  Mjma    4.36  0.18    5.92094     
+    LSNI  IA    1.9 305  MLv     4.77  0.30    17.3217     
+    LMTI  IA    2.2  50  MLv     4.34 -0.13    4.06777     
+    LMTI  IA    2.2  50  Mjma    4.16 -0.02    2.62444     
+    TWSI  IA    2.3 305  MLv     4.27 -0.21    3.23531     
+    LTNI  IA    2.6 299  MLv     4.45 -0.03    3.26119     
+    LTNI  IA    2.6 299  Mjma    4.18 -0.00    2.07496     
+    BYLI  IA    2.9 308  MLv     4.71  0.24    3.81729     
+    NKBI  IA    3.4 292  MLv     4.69  0.21    1.85092     
+    NKBI  IA    3.4 292  Mjma    4.27  0.09    1.54492     
+    PSJCM IA    3.5  32  MLv     4.26 -0.22   0.652318     
+    IGBI  IA    3.8 288  Mjma    4.27  0.09    1.32931     
+    SRBI  IA    4.0 299  MLv     4.55  0.08   0.888763     
+    SRBI  IA    4.0 299  Mjma    4.13 -0.05    0.87359     
+    KJCM  IA    4.6  13  MLv     4.63  0.16   0.764285     
+    KJCM  IA    4.6  13  Mjma    4.12 -0.06   0.674715     
+    JAGI  IA    4.8 288  MLv     4.57  0.10   0.584603     
+    JAGI  IA    4.8 288  Mjma    4.11 -0.07   0.605744     
+    MKS   IA    4.8   8  MLv     4.78  0.31   0.924048     
+    MKS   IA    4.8   8  Mjma    4.26  0.07   0.835523     
+    BKSI  IA    4.9  16  Mjma    4.13 -0.06   0.612123     
+    KAPI  II    5.1  11  MLv     4.39 -0.08   0.326466     
+    KAPI  II    5.1  11  Mjma    4.03 -0.15   0.455021     
+    KAPI  II    5.1  11  mB      4.81 -0.76     947.72     
+    KAPI  II    5.1  11  mb      4.86 -0.03     79.452 0.64
+    TTPSI IA    5.3  11  Mjma    4.16 -0.02   0.574803     
+    TTPSI IA    5.3  11  mB      6.33  0.76    29619.5     
+    TTPSI IA    5.3  11  mb      4.93  0.03    74.3758 0.54
+    GMJI  IA    5.5 288  MLv     4.75  0.27   0.575762     
+    GMJI  IA    5.5 288  mb      4.90  0.00     129.77 1.07
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

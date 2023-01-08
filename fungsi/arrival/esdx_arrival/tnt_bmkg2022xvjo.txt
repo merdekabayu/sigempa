@@ -1,0 +1,70 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xvjo
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-06
+    Time                   00:00:34.2  +/-    0.3 s
+    Latitude                 0.74 deg  +/-      4 km
+    Longitude              125.90 deg  +/-      2 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.92 s
+    Azimuthal gap             135 deg
+
+5 Network magnitudes:
+    Mjma      3.42 +/- 0.15   6            
+    ML        3.35 +/- 0.35   6            
+    MLv       3.43 +/- 0.32   6            
+    Ms(BB)    3.67 +/- 1.05   3            
+    M         3.46            6 preferred  
+
+18 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TMSI  IA    1.1 299  P       00:00:53.9  -1.4 M  1.0  TMSI 
+    TMSI  IA    1.1 299  S       00:01:10.3  -0.4 M  1.0  TMSI 
+    MNI   IA    1.3 303  P       00:00:56.9  -0.6 M  1.0  MNI  
+    MNI   IA    1.3 303  S       00:01:15.1   0.3 M  1.0  MNI  
+    TBMCM IA    1.3 269  P       00:00:57.1  -1.1 M  1.0  TBMCM
+    TBMCM IA    1.3 269  S       00:01:16.3   0.3 M  1.0  TBMCM
+    PMMI  IA    1.6 104  P       00:00:59.6  -2.1 M  1.0  PMMI 
+    JHMI  IA    1.6  78  P       00:01:02.5   0.1 M  1.0  JHMI 
+    JHMI  IA    1.6  78  S       00:01:25.6   1.8 M  1.0  JHMI 
+    PBCI  IA    1.9 259  P       00:01:06.1  -0.6 M  1.0  PBCI 
+    PBCI  IA    1.9 259  S       00:01:31.4  -0.0 M  1.0  PBCI 
+    KMSI  IA    1.9 265  P       00:01:07.5   0.3 M  1.0  KMSI 
+    KMSI  IA    1.9 265  S       00:01:33.2   0.9 M  1.0  KMSI 
+    LBMI  IA    2.1 131  P       00:01:09.9   0.4 M  1.0  LBMI 
+    KGCM  IA    3.1 268  P       00:01:23.0   0.4 M  1.0  KGCM 
+    KGCM  IA    3.1 268  S       00:02:11.4  11.2 MX 0.0  KGCM 
+    SMSI  IA    3.5 274  P       00:01:30.4   1.0 M  1.0  SMSI 
+    SMSI  IA    3.5 274  S       00:02:13.0   0.6 M  1.0  SMSI 
+
+21 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TMSI  IA    1.1 299  ML      3.61  0.26    3.07615     
+    TMSI  IA    1.1 299  MLv     3.38 -0.04    1.81945     
+    TMSI  IA    1.1 299  Mjma    3.27 -0.15    1.07053     
+    MNI   IA    1.3 303  ML      3.57  0.22    2.31463     
+    MNI   IA    1.3 303  MLv     3.65  0.22    2.77446     
+    MNI   IA    1.3 303  Mjma    3.47  0.05    1.38512     
+    TBMCM IA    1.3 269  ML      3.72  0.37    3.10954     
+    TBMCM IA    1.3 269  MLv     3.80  0.37    3.71416     
+    TBMCM IA    1.3 269  Mjma    3.62  0.21    1.86023     
+    PBCI  IA    1.9 259  ML      3.07 -0.28   0.324106     
+    PBCI  IA    1.9 259  MLv     3.12 -0.31   0.368764     
+    PBCI  IA    1.9 259  Mjma    3.26 -0.16   0.422545     
+    LBMI  IA    2.1 131  ML      2.82 -0.53   0.139647     
+    LBMI  IA    2.1 131  MLv     2.99 -0.43   0.209242     
+    LBMI  IA    2.1 131  Mjma    3.36 -0.05   0.450507     
+    LBMI  IA    2.1 131  Ms(BB)  3.05 -0.62   1.0252e-06 0.11
+    KGCM  IA    3.1 268  Ms(BB)  4.89  1.21   3.78702e-05 0.13
+    SMSI  IA    3.5 274  ML      3.31 -0.04   0.0687281     
+    SMSI  IA    3.5 274  MLv     3.62  0.19   0.140362     
+    SMSI  IA    3.5 274  Mjma    3.53  0.11   0.267042     
+    SMSI  IA    3.5 274  Ms(BB)  3.09 -0.59   4.6836e-07 2.21
+
+stageofternate
+</p></body></html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022ymnf
+    Preferred Origin ID    Origin/20221215091419.666039.115198
+    Preferred Magnitude ID Magnitude/20221215091424.642863.115207
+    Description
+      region name: Near North Coast of Papua New Guinea
+    Creation time          2022-12-15 09:14:25
+
+Origin:
+    Public ID              Origin/20221215091419.666039.115198
+    Date                   2022-12-15
+    Time                   09:10:34.6  +/-    4.0 s
+    Latitude                -2.64 deg  +/-     18 km
+    Longitude              142.77 deg  +/-     32 km
+    Depth                      10 km   (fixed)
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-15 09:14:19
+    Residual RMS             1.21 s
+    Azimuthal gap             285 deg
+
+3 Network magnitudes:
+    MLv       4.82 +/- 0.40   4 preferred  BMG
+    M         4.88            4            BMG1
+    Mjma      5.00 +/- 0.72   2            BMG1
+
+11 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    ARPI  IA    2.0 263  P       09:11:07.5  -1.5 M  1.0  ARPI 
+    JAY   IA    2.1 273  P       09:11:08.0  -1.5 M  1.0  JAY  
+    SKPM  IA    2.2 248  P       09:11:11.4   0.2 M  1.0  SKPM 
+    GENI  IA    2.6 271  P       09:11:17.7   0.9 M  1.0  GENI 
+    LJPI  IA    2.9 260  P       09:11:20.5   0.2 M  1.0  LJPI 
+    DYPI  IA    3.9 236  P       09:11:36.1   1.0 M  1.0  DYPI 
+    SMPI  IA    4.1 279  P       09:11:38.3   0.8 M  1.0  SMPI 
+    TRPI  IA    4.2 216  P       09:11:39.4   0.3 M  1.0  TRPI 
+    FKMPM IA    6.1 204  P       09:12:04.5  -0.5 M  1.0  FKMPM
+    IWPI  IA    8.2 269  P       09:12:32.4  -2.0 M  1.0  IWPI 
+    MBPI  IA    9.1 274  P       09:12:47.7   2.2 M  1.0  MBPI 
+
+6 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    ARPI  IA    2.0 263  MLv     4.98  0.16     22.408     
+    ARPI  IA    2.0 263  Mjma    5.51  0.51    67.4724     
+    JAY   IA    2.1 273  MLv     4.25 -0.57    3.99016     
+    JAY   IA    2.1 273  Mjma    4.49 -0.51    6.22913     
+    SMPI  IA    4.1 279  MLv     4.70 -0.12    1.19387     
+    TRPI  IA    4.2 216  MLv     5.32  0.49    4.51507     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

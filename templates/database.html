@@ -1,0 +1,211 @@
+{% extends 'base.html' %}
+{% block judul %} Database Gempabumi {% endblock %}
+{% block subjudul %} Database Gempabumi Periode {{date[0]}} s/d {{date[1]}} {% endblock %}
+{% block menuopen_database %} menu-open {% endblock %}
+{% block mainnav_database %} active {% endblock %}
+{% block nav_database%} active {% endblock %}
+
+{% block content %} 
+  
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-left">
+            <li class="breadcrumb-item"><a href="/">SI-GEMPA</a></li>
+            <li class="breadcrumb-item active">Database</li>
+            
+          </ol>
+        </div>
+        <div class="col-sm-6">
+          
+        </div>
+      </div>
+    </div><!-- /.container-fluid -->
+  </section>
+
+  <!-- Main content -->
+  <section class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="card col-12">
+          <div class="card-header">
+            <h3 class="card-title">Filter Parameter</h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse" >
+                  <i class="fa fa-chevron-down pull-right"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+          </div>
+          <div class="card-body">
+            <form action="/database/sorted" method="POST">
+              <div class="row">
+                <div class="col-4">
+                  <div class="row">
+                    <label class="col-12" style="text-align: center;">Waktu</label>
+                  </div>
+                  <div class="row">
+                    <div class="input-group date pl-0" style="width: 210px;" id="datefilter" data-target-input="nearest">
+                        <input value="{{date.0}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date1" data-target="#datefilter"/>
+                        <div class="input-group-append" data-target="#datefilter" data-toggle="datetimepicker" >
+                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                        </div>
+                    </div>
+                    <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
+                    <div class="input-group date pl-0" style="width: 210px;" id="datefilter1" data-target-input="nearest">
+                      <input value="{{date.1}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date2" data-target="#datefilter1"/>
+                      <div class="input-group-append" data-target="#datefilter1" data-toggle="datetimepicker" >
+                          <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 float-right">
+                      <label for="Input"></label>
+                      <div class="btn-group w-100">
+                        <button type="submit" class="btn btn-success col start">
+                          <i class="fas fa-search"></i>
+                          <span>Filter</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="row">
+                    <label class="col-12" style="text-align: center;">Kedalaman</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group row">
+                        <div class="col-sm-5">
+                          <input style="text-align: center;" class="form-control" id="Input" placeholder="Min" name="depth1" value="{{date.2}}">
+                        </div>
+                        <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
+                        <div class="col-sm-5">
+                          <input style="text-align: center;" class="form-control" id="Input" placeholder="Max" name="depth2" value="{{date.3}}">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="row">
+                    <label class="col-12" style="text-align: center;">Magnitudo</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group row">
+                        <div class="col-sm-5">
+                          <input style="text-align: center;" class="form-control" id="Input" placeholder="Min" name="mag1" value="{{date.4}}">
+                        </div>
+                        <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
+                        <div class="col-sm-5">
+                          <input style="text-align: center;" class="form-control" id="Input" placeholder="Max" name="mag2" value="{{date.5}}">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  
+
+                <div class="col-4">
+                  <div class="row">
+                    <label class="col-12" style="text-align: center;">Koordinat</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                      <input style="text-align: center;" class="form-control" id="Input" placeholder="Lat" name="lat1" value="{{date.6}}"/>
+                    </div>
+                    <div class="col-sm-4"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <input style="text-align: center;" class="form-control" id="Input" placeholder="Long" name="long1" value="{{date.8}}" />
+                    </div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                      <input style="text-align: center;" class="form-control" id="Input" placeholder="Long" name="long2" value="{{date.9}}" />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                      <input style="text-align: center;" class="form-control" id="Input" placeholder="Lat" name="lat2" value="{{date.7}}"/>
+                    </div>
+                    <div class="col-sm-4"></div>
+                  </div>
+                </div>
+                  
+                  
+                  
+                  
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card col-12">
+          <div class="card-header">
+            <h3 class="card-title">Tabel Gempabumi</h3>
+            <a href="/export/dbfilter!{{date.0}}@{{date.1}}@{{date.2}}@{{date.3}}@{{date.4}}@{{date.5}}@{{date.6}}@{{date.7}}@{{date.8}}@{{date.9}}@0" type="submit" class="btn btn-navbar info-box-icon bg-warning elevation-1 ml-2 float-right"><i class="fas fa-file-download"></i>
+            Export</a>
+            
+          </div>
+          <!-- /.card-header -->
+          <div class="card-body">
+            <table id="tabeldb" class="table table-bordered table-striped">
+              <thead>
+              <tr>
+                <!-- /.<th style="width: 10px;">No</th>-->
+                <th style="width: 100px;">Tanggal (UTC)</th>
+                <th style="width: 100px;">Jam (UTC)</th>
+                <th style="width: 100px;">Lintang</th>
+                <th style="width: 100px;">Bujur</th>
+                <th style="width: 100px;">Kedalaman</th>
+                <th style="width: 100px;">Magnitudo</th>
+                <th style="width: 350px;">Keterangan</th>
+                <th>Informasi</th>
+              </tr>
+              </thead>
+              <tbody>
+                {% for par in data %}
+                <tr>
+                  <!-- /.<td>1</td>-->
+                  <td>{{par.1}}</td>
+                  <td>{{par.2}}</td>
+                  <td>{{par.3}}</td>
+                  <td>{{par.4}}</td>
+                  <td>{{par.5}}</td>
+                  <td>{{par.6}}</td>
+                  <td>{{par.7}}</td>
+                  <td>{{par.8}}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          <!-- /.card-body -->
+        </div>
+      </div>
+      
+      
+      
+    </div><!--/. container-fluid -->
+  </section>
+  <!-- /.content -->
+</div>
+  <!-- /.content-wrapper -->
+{% endblock %}
+
+
+
+

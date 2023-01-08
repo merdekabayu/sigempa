@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022yfoq
+    Preferred Origin ID    Origin/20221211140138.140618.295213
+    Preferred Magnitude ID Origin/20221211140138.140618.295213/netMag/M
+    Description
+      region name: Halmahera, Indonesia
+    Creation time          2022-12-11 14:00:03
+
+Origin:
+    Public ID              Origin/20221211140138.140618.295213
+    Date                   2022-12-11
+    Time                   13:55:43.8  +/-    0.7 s
+    Latitude                 2.22 deg  +/-      6 km
+    Longitude              129.30 deg  +/-      5 km
+    Depth                      10 km   (fixed)
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-11 14:01:38
+    Residual RMS             0.71 s
+    Azimuthal gap             199 deg
+
+4 Network magnitudes:
+    mb        4.45 +/- 0.15   2            BMG
+    MLv       4.05 +/- 0.12   9            BMG
+    Mjma      3.98 +/- 0.13   9            BMG1
+    M         4.13            9 preferred  BMG1
+
+16 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MTAI  IA    1.0 269  P       13:56:02.0  -1.3 M  1.0  MTAI 
+    WHMI  IA    1.6 226  P       13:56:11.7  -0.5 M  1.0  WHMI 
+    IHMI  IA    1.9 248  P       13:56:16.4   0.5 M  1.0  IHMI 
+    JHMI  IA    2.1 238  P       13:56:19.9   0.3 M  1.0  JHMI 
+    WBMI  IA    2.4 217  P       13:56:22.3  -0.2 M  1.0  WBMI 
+    TNTI  IA    2.4 233  P       13:56:23.5   0.2 M  1.0  TNTI 
+    PMMI  IA    2.6 226  P       13:56:26.6   0.4 M  1.0  PMMI 
+    MGAI  IA    3.2 304  P       13:56:34.0   0.2 M  1.0  MGAI 
+    LBMI  IA    3.4 212  P       13:56:36.3  -0.0 M  1.0  LBMI 
+    SWI   IA    3.6 147  P       13:56:39.1  -1.0 M  1.0  SWI  
+    OBMI  IA    3.9 205  P       13:56:42.5  -1.4 M  1.0  OBMI 
+    PSSI  IA    3.9 278  P       13:56:44.5   0.4 M  1.0  PSSI 
+    TMSI  IA    4.5 258  P       13:56:52.0   0.4 M  1.0  TMSI 
+    TSPI  IA    4.6 143  P       13:56:53.5  -0.0 M  1.0  TSPI 
+    TMTMM IA    5.5 178  P       13:57:06.8   1.2 M  1.0  TMTMM
+    WSTMM IA    5.7 173  P       13:57:09.2   0.9 M  1.0  WSTMM
+
+20 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MTAI  IA    1.0 269  MLv     3.75 -0.30    4.81223     
+    MTAI  IA    1.0 269  Mjma    3.74 -0.25    3.72644     
+    WHMI  IA    1.6 226  MLv     4.01 -0.03    4.06316     
+    WHMI  IA    1.6 226  Mjma    3.96 -0.02    2.80633     
+    JHMI  IA    2.1 238  MLv     4.17  0.12    2.97512     
+    JHMI  IA    2.1 238  Mjma    4.13  0.15    2.57227     
+    MGAI  IA    3.2 304  MLv     4.16  0.11   0.775934     
+    MGAI  IA    3.2 304  Mjma    4.03  0.05    1.03284     
+    LBMI  IA    3.4 212  MLv     4.13  0.08   0.564316     
+    LBMI  IA    3.4 212  Mjma    4.07  0.08    1.01238     
+    SWI   IA    3.6 147  MLv     4.09  0.04   0.373696     
+    SWI   IA    3.6 147  Mjma    3.75 -0.23   0.429809     
+    TSPI  IA    4.6 143  MLv     4.09  0.04   0.215731     
+    TSPI  IA    4.6 143  Mjma    4.03  0.04   0.534678     
+    TMTMM IA    5.5 178  MLv     4.07  0.02   0.121859     
+    TMTMM IA    5.5 178  Mjma    4.10  0.11   0.466923     
+    TMTMM IA    5.5 178  mb      4.56  0.10    37.9125 0.69
+    WSTMM IA    5.7 173  MLv     3.92 -0.13   0.0770098     
+    WSTMM IA    5.7 173  Mjma    4.03  0.04   0.372791     
+    WSTMM IA    5.7 173  mb      4.35 -0.10    19.0083 0.58
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

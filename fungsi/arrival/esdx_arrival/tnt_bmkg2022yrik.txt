@@ -1,0 +1,66 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yrik
+    Description
+      region name: Southern Molucca Sea
+Origin:
+    Date                   2022-12-18
+    Time                   00:25:14.9  +/-    0.6 s
+    Latitude                -0.53 deg  +/-      2 km
+    Longitude              126.77 deg  +/-      2 km
+    Depth                      20 km   +/-    6 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.53 s
+    Azimuthal gap              81 deg
+
+2 Network magnitudes:
+    MLv       4.03 +/- 0.13  12            
+    M         4.03           12 preferred  
+
+26 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    LBMI  IA    0.7  98  P       00:25:29.5  -0.1 M  1.0  LBMI 
+    LBMI  IA    0.7  98  S       00:25:39.6  -0.8 M  1.0  LBMI 
+    PMMI  IA    1.1  36  P       00:25:35.4   0.3 M  1.0  PMMI 
+    PMMI  IA    1.1  36  S       00:25:50.1  -0.1 M  1.0  PMMI 
+    OBMI  IA    1.2 133  P       00:25:36.6   0.3 M  1.0  OBMI 
+    OBMI  IA    1.2 133  S       00:25:52.2  -0.1 M  1.0  OBMI 
+    WBMI  IA    1.4  52  P       00:25:39.6   0.4 M  1.0  WBMI 
+    WBMI  IA    1.4  52  S       00:25:57.8   0.1 M  1.0  WBMI 
+    TNTI  IA    1.4  25  P       00:25:40.0   0.4 M  1.0  TNTI 
+    TNTI  IA    1.4  25  S       00:25:58.0  -0.4 M  1.0  TNTI 
+    SANI  IA    1.7 207  P       00:25:43.8   0.3 M  1.0  SANI 
+    SANI  IA    1.7 207  S       00:26:05.5   0.2 M  1.0  SANI 
+    JHMI  IA    1.7  24  P       00:25:45.0   0.8 M  1.0  JHMI 
+    JHMI  IA    1.7  24  S       00:26:06.2  -0.3 M  1.0  JHMI 
+    WHMI  IA    2.1  40  P       00:25:49.4   0.4 M  1.0  WHMI 
+    WHMI  IA    2.1  40  S       00:26:15.0  -0.4 M  1.0  WHMI 
+    IHMI  IA    2.2  21  P       00:25:50.6   0.6 M  1.0  IHMI 
+    IHMI  IA    2.2  21  S       00:26:16.6  -0.5 M  1.0  IHMI 
+    TBMCM IA    2.5 300  P       00:25:53.7  -0.9 M  1.0  TBMCM
+    TMSI  IA    2.6 314  P       00:25:55.8   0.1 M  1.0  TMSI 
+    TMSI  IA    2.6 314  S       00:26:27.6   0.2 M  1.0  TMSI 
+    NLAI  IA    2.7 173  P       00:25:56.3  -1.1 M  1.0  NLAI 
+    MNI   IA    2.8 315  P       00:25:58.1   0.1 M  1.0  MNI  
+    PBCI  IA    2.9 288  P       00:25:58.8  -0.9 M  1.0  PBCI 
+    MTAI  IA    3.1  29  P       00:26:03.3   0.5 M  1.0  MTAI 
+    TAMI  IA    3.4 157  P       00:26:07.7   0.8 M  1.0  TAMI 
+
+12 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    LBMI  IA    0.7  98  MLv     4.02 -0.00    12.9302     
+    PMMI  IA    1.1  36  MLv     3.96 -0.07     6.9703     
+    WBMI  IA    1.4  52  MLv     4.24  0.21    9.09751     
+    TNTI  IA    1.4  25  MLv     3.86 -0.17    3.65084     
+    SANI  IA    1.7 207  MLv     3.80 -0.22    2.24703     
+    JHMI  IA    1.7  24  MLv     4.19  0.16    5.09742     
+    WHMI  IA    2.1  40  MLv     4.11  0.09     2.7581     
+    TBMCM IA    2.5 300  MLv     4.10  0.07    1.60294     
+    TMSI  IA    2.6 314  MLv     3.93 -0.10   0.967092     
+    NLAI  IA    2.7 173  MLv     4.09  0.06    1.17121     
+    MNI   IA    2.8 315  MLv     4.09  0.07    1.14998     
+    PBCI  IA    2.9 288  MLv     3.93 -0.10   0.672822     
+
+stageofternate
+</p></body></html>

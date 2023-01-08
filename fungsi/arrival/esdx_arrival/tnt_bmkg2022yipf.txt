@@ -1,0 +1,59 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yipf
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-12-13
+    Time                   05:38:00.5  +/-    0.5 s
+    Latitude                 0.56 deg  +/-      3 km
+    Longitude              127.51 deg  +/-      4 km
+    Depth                      95 km   +/-    5 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.94 s
+    Azimuthal gap              71 deg
+
+2 Network magnitudes:
+    MLv       3.36 +/- 0.81  13            
+    M         3.36           13 preferred  
+
+18 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    PMMI  IA    0.2 207  P       05:38:13.5  -1.6 M  1.0  PMMI 
+    PMMI  IA    0.2 207  S       05:38:28.0   1.7 M  1.0  PMMI 
+    TNTI  IA    0.3 326  P       05:38:14.4  -1.0 M  1.0  TNTI 
+    WBMI  IA    0.4 121  P       05:38:15.5  -1.0 M  1.0  WBMI 
+    JHMI  IA    0.5 357  P       05:38:16.9  -0.4 M  1.0  JHMI 
+    WHMI  IA    0.8  50  P       05:38:19.9   0.7 M  1.0  WHMI 
+    IHMI  IA    0.9   3  P       05:38:20.2   0.1 M  1.0  IHMI 
+    LBMI  IA    1.2 180  P       05:38:23.2   0.5 M  1.0  LBMI 
+    MTAI  IA    1.8  25  P       05:38:31.2   0.9 M  1.0  MTAI 
+    OBMI  IA    1.9 176  P       05:38:30.1  -1.4 M  1.0  OBMI 
+    TMSI  IA    2.7 286  P       05:38:41.4  -0.5 M  1.0  TMSI 
+    MNI   IA    2.8 288  P       05:38:43.2  -0.4 M  1.0  MNI  
+    TBMCM IA    2.9 273  P       05:38:44.4  -0.7 M  1.0  TBMCM
+    SANI  IA    3.0 210  P       05:38:46.1  -0.1 M  1.0  SANI 
+    PSSI  IA    3.0 316  P       05:38:47.5   1.1 M  1.0  PSSI 
+    PBCI  IA    3.5 267  P       05:38:52.9   0.4 M  1.0  PBCI 
+    KMSI  IA    3.5 270  P       05:38:53.6   0.3 M  1.0  KMSI 
+    NLAI  IA    3.8 186  P       05:38:58.3   1.5 M  1.0  NLAI 
+
+13 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    WBMI  IA    0.4 121  MLv     2.41 -0.96   0.863456     
+    JHMI  IA    0.5 357  MLv     3.24 -0.12    3.01245     
+    WHMI  IA    0.8  50  MLv     2.38 -0.99   0.266166     
+    IHMI  IA    0.9   3  MLv     3.03 -0.33    1.01098     
+    LBMI  IA    1.2 180  MLv     3.16 -0.20   0.997596     
+    MTAI  IA    1.8  25  MLv     2.41 -0.95   0.0803069     
+    OBMI  IA    1.9 176  MLv     3.05 -0.31   0.310022     
+    TMSI  IA    2.7 286  MLv     4.46  1.10    2.92076     
+    SANI  IA    3.0 210  MLv     4.11  0.74   0.846759     
+    PSSI  IA    3.0 316  MLv     4.17  0.81   0.976732     
+    PBCI  IA    3.5 267  MLv     4.40  1.04   0.940289     
+    KMSI  IA    3.5 270  MLv     2.59 -0.77   0.0134934     
+    NLAI  IA    3.8 186  MLv     4.32  0.96   0.588769     
+
+stageofternate
+</p></body></html>

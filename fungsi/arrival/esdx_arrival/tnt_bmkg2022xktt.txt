@@ -1,0 +1,81 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xktt
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-11-30
+    Time                   04:39:11.9  +/-    0.8 s
+    Latitude                 2.15 deg  +/-      4 km
+    Longitude              129.12 deg  +/-      5 km
+    Depth                       1 km   +/-    5 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.02 s
+    Azimuthal gap             193 deg
+
+6 Network magnitudes:
+    mb        4.69 +/- 0.00   1            
+    Mjma      4.27 +/- 0.23   9            
+    ML        4.25 +/- 0.19   9            
+    MLv       4.34 +/- 0.15   9            
+    Ms(BB)    3.90 +/- 0.33   6            
+    M         4.30            9 preferred  
+
+15 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MTAI  IA    0.8 273  P       04:39:28.2   0.1 M  1.0  MTAI 
+    MTAI  IA    0.8 273  S       04:39:40.0   0.7 M  1.0  MTAI 
+    WHMI  IA    1.4 223  P       04:39:38.4   0.2 M  1.0  WHMI 
+    WHMI  IA    1.4 223  S       04:39:55.5  -2.2 M  1.0  WHMI 
+    IHMI  IA    1.7 248  P       04:39:42.6   0.6 M  1.0  IHMI 
+    JHMI  IA    2.0 237  P       04:39:46.3   0.4 M  1.0  JHMI 
+    WBMI  IA    2.2 215  P       04:39:49.7   0.4 M  1.0  WBMI 
+    TNTI  IA    2.2 232  P       04:39:50.3   0.6 M  1.0  TNTI 
+    MGAI  IA    3.1 307  P       04:39:59.8  -1.5 M  1.0  MGAI 
+    LBMI  IA    3.2 210  P       04:40:05.1   1.8 M  1.0  LBMI 
+    SWI   IA    3.7 144  P       04:40:08.6  -1.1 M  1.0  SWI  
+    PSSI  IA    3.8 279  P       04:40:10.6  -0.3 M  1.0  PSSI 
+    TMSI  IA    4.3 259  P       04:40:16.8  -1.2 M  1.0  TMSI 
+    TSPI  IA    4.7 140  P       04:40:23.9   0.6 M  1.0  TSPI 
+    PBCI  IA    5.4 251  P       04:40:33.9   0.8 M  1.0  PBCI 
+
+34 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MTAI  IA    0.8 273  MLv     4.24 -0.09    18.8001     
+    MTAI  IA    0.8 273  Mjma    4.41  0.14    24.6547     
+    WHMI  IA    1.4 223  ML      4.15 -0.11    6.91521     
+    WHMI  IA    1.4 223  MLv     4.30 -0.03    9.92778     
+    WHMI  IA    1.4 223  Mjma    4.52  0.25    12.4605     
+    IHMI  IA    1.7 248  MLv     4.57  0.23    13.4791     
+    IHMI  IA    1.7 248  Mjma    4.59  0.32    11.1579     
+    TNTI  IA    2.2 232  ML      4.03 -0.23    1.94634     
+    TNTI  IA    2.2 232  Mjma    4.10 -0.18    2.21552     
+    TNTI  IA    2.2 232  Ms(BB)  3.69 -0.22   4.06584e-06 1.53
+    MGAI  IA    3.1 307  ML      4.26  0.00    1.12674     
+    MGAI  IA    3.1 307  MLv     4.31 -0.02    1.27276     
+    MGAI  IA    3.1 307  Mjma    4.51  0.24    3.30982     
+    MGAI  IA    3.1 307  Ms(BB)  4.05  0.14   5.46177e-06 1.88
+    LBMI  IA    3.2 210  ML      4.53  0.27    1.73428     
+    LBMI  IA    3.2 210  Ms(BB)  4.19  0.29   7.05918e-06 1.88
+    SWI   IA    3.7 144  ML      4.22 -0.04   0.494719     
+    SWI   IA    3.7 144  MLv     4.05 -0.29   0.335293     
+    PSSI  IA    3.8 279  ML      4.28  0.02   0.545288     
+    PSSI  IA    3.8 279  MLv     4.38  0.05   0.695838     
+    PSSI  IA    3.8 279  Mjma    4.13 -0.15   0.961154     
+    TMSI  IA    4.3 259  ML      4.63  0.37   0.904131     
+    TMSI  IA    4.3 259  MLv     4.59  0.25    0.83238     
+    TMSI  IA    4.3 259  Mjma    4.18 -0.09   0.874568     
+    TMSI  IA    4.3 259  Ms(BB)  4.33  0.42   5.97212e-06 0.14
+    TSPI  IA    4.7 140  ML      4.22 -0.04   0.279453     
+    TSPI  IA    4.7 140  MLv     4.21 -0.12   0.277512     
+    TSPI  IA    4.7 140  Mjma    4.02 -0.26   0.509353     
+    TSPI  IA    4.7 140  Ms(BB)  3.62 -0.28   1.02287e-06 0.43
+    PBCI  IA    5.4 251  ML      4.05 -0.21   0.126613     
+    PBCI  IA    5.4 251  MLv     4.35  0.02   0.257172     
+    PBCI  IA    5.4 251  Mjma    4.02 -0.25   0.404971     
+    PBCI  IA    5.4 251  Ms(BB)  3.54 -0.36   6.75676e-07 1.38
+    PBCI  IA    5.4 251  mb      4.69  0.00    71.9047 0.93
+
+stageofternate
+</p></body></html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022zaaw
+    Preferred Origin ID    Origin/20221222190322.263728.79811
+    Preferred Magnitude ID Origin/20221222190322.263728.79811/netMag/M
+    Description
+      region name: Banda Sea
+    Creation time          2022-12-22 19:03:27
+
+Origin:
+    Public ID              Origin/20221222190322.263728.79811
+    Date                   2022-12-22
+    Time                   18:50:21.5  +/-    0.4 s
+    Latitude                -6.54 deg  +/-      4 km
+    Longitude              130.15 deg  +/-      3 km
+    Depth                     148 km   +/-   12 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-22 19:03:22
+    Residual RMS             1.34 s
+    Azimuthal gap              98 deg
+
+5 Network magnitudes:
+    mb        4.00 +/- 0.34   5            BMG
+    mB        4.73 +/- 0.00   1            BMG
+    Mw(mB)    3.97 +/- 0.40   1            BMG
+    MLv       4.38 +/- 0.30   8            BMG
+    M         4.25            8 preferred  BMG1
+
+20 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SAUI  IA    1.8 141  P       18:50:54.8  -0.3 M  1.0  SAUI 
+    BNDI  IA    2.0 353  P       18:50:57.4   0.1 M  1.0  BNDI 
+    KKMI  IA    2.7  72  P       18:51:06.1   0.9 M  1.0  KKMI 
+    TLE2  IA    2.7  72  P       18:51:07.7   2.2 M  1.0  TLE2 
+    ARMI  IA    4.1  80  P       18:51:22.2  -1.0 M  1.0  ARMI 
+    FAKI  IA    4.2  30  P       18:51:22.2  -1.8 M  1.0  FAKI 
+    KMPI  IA    4.6  51  P       18:51:28.3  -0.6 M  1.0  KMPI 
+    TSPI  IA    5.4  21  P       18:51:38.1  -1.7 M  1.0  TSPI 
+    MBPI  IA    5.7  39  P       18:51:45.4   1.2 M  1.0  MBPI 
+    AMPM  IA    5.7  24  P       18:51:43.4  -0.9 M  1.0  AMPM 
+    ALKI  IA    5.7 254  P       18:51:44.6   0.3 M  1.0  ALKI 
+    SWI   IA    5.7  11  P       18:51:43.2  -1.3 M  1.0  SWI  
+    ATNI  IA    5.8 244  P       18:51:44.2  -1.1 M  1.0  ATNI 
+    ANAN  IA    5.8 253  P       18:51:45.9   0.4 M  1.0  ANAN 
+    MTN   AU    6.3 171  P       18:51:50.7  -1.5 M  1.0  MTN  
+    RKPI  IA    6.4  39  P       18:51:54.0   0.8 M  1.0  RKPI 
+    LMNI  IA    6.6 255  P       18:51:58.5   2.9 M  1.0  LMNI 
+    SOEI  IA    6.6 241  P       18:51:55.2  -1.0 M  1.0  SOEI 
+    SWPM  IA    6.7  31  P       18:51:56.6   0.2 M  1.0  SWPM 
+    BAKI  IA    8.0  48  P       18:52:16.0   2.2 M  1.0  BAKI 
+
+12 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    BNDI  IA    2.0 353  MLv     3.60 -0.77    0.93515     
+    FAKI  IA    4.2  30  MLv     4.29 -0.09   0.435601     
+    TSPI  IA    5.4  21  MLv     4.54  0.16   0.379792     
+    TSPI  IA    5.4  21  mB      4.73  0.00    1031.19     
+    ALKI  IA    5.7 254  MLv     4.60  0.23   0.368853     
+    SWI   IA    5.7  11  MLv     4.36 -0.02   0.203876     
+    ANAN  IA    5.8 253  MLv     4.65  0.28     0.3931     
+    MTN   AU    6.3 171  MLv     4.40  0.02   0.160219     
+    MTN   AU    6.3 171  mb      3.74 -0.26    18.4768 1.66
+    SOEI  IA    6.6 241  MLv     4.44  0.07   0.151612     
+    SOEI  IA    6.6 241  mb      3.93 -0.07    29.6128 1.73
+    BAKI  IA    8.0  48  mb      4.25  0.25    52.8174 1.79
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

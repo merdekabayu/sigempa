@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022xxkj
+    Preferred Origin ID    Origin/20221207024412.805157.493844
+    Preferred Magnitude ID Origin/20221207024412.805157.493844/netMag/M
+    Description
+      region name: Northern Sumatra, Indonesia
+    Creation time          2022-12-07 02:43:47
+
+Origin:
+    Public ID              Origin/20221207024412.805157.493844
+    Date                   2022-12-07
+    Time                   02:40:51.1  +/-    0.9 s
+    Latitude                 1.42 deg  +/-     10 km
+    Longitude               97.33 deg  +/-      6 km
+    Depth                      22 km   +/-    9 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-07 02:44:12
+    Residual RMS             0.60 s
+    Azimuthal gap             200 deg
+
+3 Network magnitudes:
+    MLv       3.35 +/- 0.27   6            BMG1
+    Mjma      3.48 +/- 0.26   7            BMG1
+    M         3.39            7 preferred  BMG1
+
+19 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    GSI   IA    0.3 115  P       02:40:58.4  -0.2 M  1.0  GSI  
+    SNBI  IA    0.5 167  P       02:40:57.0  -4.2 MX 0.0  SNBI 
+    TDNI  IA    1.0 150  P       02:41:09.8   1.4 MX 0.0  TDNI 
+    MTSI  IA    1.2  52  P       02:41:20.0   8.6 MX 0.0  MTSI 
+    KASAI IA    1.2  27  P       02:41:15.7   4.1 MX 0.0  KASAI
+    SNSI  IA    1.4 315  P       02:41:15.0   0.2 M  1.0  SNSI 
+    SASN  IA    1.4  29  P       02:41:14.9   0.1 M  1.0  SASN 
+    SSSI  IA    1.4  27  P       02:41:15.1   0.3 M  1.0  SSSI 
+    ONSM  IA    1.5  61  P       02:41:16.1  -0.1 M  1.0  ONSM 
+    SPSM  IA    1.5  44  P       02:41:16.6   0.2 M  1.0  SPSM 
+    LTSM  IA    1.6  86  P       02:41:17.9  -0.0 M  1.0  LTSM 
+    SDSM  IA    1.6  36  P       02:41:23.6   5.3 MX 0.0  SDSM 
+    LDSI  IA    1.7  30  P       02:41:18.3  -0.6 M  1.0  LDSI 
+    TPTI  IA    1.8 355  P       02:41:17.1  -4.2 MX 0.0  TPTI 
+    RSSM  IA    1.9  51  P       02:41:23.3   1.5 M  1.0  RSSM 
+    TKSM  IA    2.0  30  P       02:41:22.6  -0.8 M  1.0  TKSM 
+    PSI   IA    2.0  52  P       02:41:23.7  -0.5 M  1.0  PSI  
+    KCSI  IA    2.1  12  P       02:41:08.2 -17.5 MX 0.0  KCSI 
+    PLSM  IA    2.3  87  P       02:41:01.2 -27.0 MX 0.0  PLSM 
+
+11 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    SNSI  IA    1.4 315  MLv     3.43  0.08    1.42416     
+    SNSI  IA    1.4 315  Mjma    3.80  0.32    2.48051     
+    SASN  IA    1.4  29  MLv     3.67  0.32    2.48283     
+    SSSI  IA    1.4  27  Mjma    3.58  0.10      1.509     
+    ONSM  IA    1.5  61  MLv     3.25 -0.10   0.823896     
+    ONSM  IA    1.5  61  Mjma    3.24 -0.24   0.611277     
+    LDSI  IA    1.7  30  MLv     3.31 -0.04   0.752381     
+    LDSI  IA    1.7  30  Mjma    3.26 -0.22   0.528855     
+    TKSM  IA    2.0  30  MLv     3.55  0.20   0.893523     
+    TKSM  IA    2.0  30  Mjma    3.50  0.02   0.692292     
+    PSI   IA    2.0  52  MLv     2.89 -0.46   0.180136     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

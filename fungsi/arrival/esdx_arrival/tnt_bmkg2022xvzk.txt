@@ -1,0 +1,72 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xvzk
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-06
+    Time                   08:01:30.6  +/-    0.4 s
+    Latitude                -0.11 deg  +/-      4 km
+    Longitude              123.22 deg  +/-      2 km
+    Depth                     155 km   +/-    7 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.82 s
+    Azimuthal gap              50 deg
+
+7 Network magnitudes:
+    mBc       6.26 +/- 0.00   1            
+    Mw(mBc)   5.52 +/- 0.40   1            
+    mb        5.23 +/- 0.00   1            
+    mB        5.29 +/- 0.00   1            
+    Mw(mB)    4.69 +/- 0.40   1            
+    MLv       4.98 +/- 0.32  12            
+    M         5.40           12 preferred  
+
+26 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TGCM  IA    0.6 347  P       08:01:52.9  -1.4 M  1.0  TGCM 
+    BGCI  IA    0.8 167  P       08:01:54.8  -0.2 M  1.0  BGCI 
+    KGCM  IA    0.8 334  P       08:01:54.9  -0.3 M  1.0  KGCM 
+    PBCI  IA    1.0  59  P       08:01:56.3   0.6 M  1.0  PBCI 
+    KMSI  IA    1.0  48  P       08:01:57.1   1.0 M  1.0  KMSI 
+    SMSI  IA    1.4 322  P       08:01:58.7  -0.9 M  1.0  SMSI 
+    MRSI  IA    1.4 295  P       08:01:58.7  -1.2 M  1.0  MRSI 
+    TBMCM IA    1.6  59  P       08:02:02.8   1.1 M  1.0  TBMCM
+    APSI  IA    1.8 243  P       08:02:03.6   0.1 M  1.0  APSI 
+    TPCI  IA    2.2 285  P       08:02:08.8   0.4 M  1.0  TPCI 
+    TMSI  IA    2.2  51  P       08:02:10.1   1.5 M  1.0  TMSI 
+    MNI   IA    2.2  46  P       08:02:09.8   0.9 M  1.0  MNI  
+    WMCM  IA    2.6 217  P       08:02:13.9   0.3 M  1.0  WMCM 
+    TOLI2 IA    2.7 297  P       08:02:13.9  -0.9 M  1.0  TOLI2
+    MPSI  IA    3.4 278  P       08:02:23.1   0.4 M  1.0  MPSI 
+    SANI  IA    3.4 125  P       08:02:21.8  -1.1 M  1.0  SANI 
+    SDCI  IA    3.5 264  P       08:02:24.7   0.4 M  1.0  SDCI 
+    PCI   IA    3.5 257  P       08:02:25.4   1.1 M  1.0  PCI  
+    PSSI  IA    3.6  38  P       08:02:25.9   0.4 M  1.0  PSSI 
+    PMMI  IA    4.2  83  P       08:02:33.7  -0.2 M  1.0  PMMI 
+    TNTI  IA    4.2  78  P       08:02:33.7  -0.4 M  1.0  TNTI 
+    LBMI  IA    4.3  97  P       08:02:34.6  -0.5 M  1.0  LBMI 
+    OBMI  IA    4.6 105  P       08:02:38.8   0.1 M  1.0  OBMI 
+    IHMI  IA    4.6  70  P       08:02:37.6  -1.5 M  1.0  IHMI 
+    NLAI  IA    5.0 129  P       08:02:44.5   0.8 M  1.0  NLAI 
+    WHMI  IA    5.1  76  P       08:02:44.4  -0.4 M  1.0  WHMI 
+
+13 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TGCM  IA    0.6 347  MLv     5.18  0.20     206.72     
+    BGCI  IA    0.8 167  MLv     5.44  0.46    320.796     
+    SMSI  IA    1.4 322  MLv     4.87 -0.11    39.0919     
+    MRSI  IA    1.4 295  MLv     4.55 -0.43    18.6127     
+    TBMCM IA    1.6  59  MLv     4.74 -0.24    22.6011     
+    TPCI  IA    2.2 285  MLv     5.14  0.16    26.3015     
+    TMSI  IA    2.2  51  MLv     4.80 -0.18    11.7523     
+    MNI   IA    2.2  46  MLv     4.97 -0.01    16.5642     
+    WMCM  IA    2.6 217  MLv     5.37  0.39    25.5259     
+    TOLI2 IA    2.7 297  MLv     4.72 -0.26     5.0141     
+    WHMI  IA    5.1  76  mB      5.29  0.00       4000     
+    WHMI  IA    5.1  76  mBc     6.26  0.00    37457.4     
+    WHMI  IA    5.1  76  mb      5.23  0.00    176.023 0.43
+
+stageofternate
+</p></body></html>

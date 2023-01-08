@@ -1,0 +1,49 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zhnk
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-12-26
+    Time                   21:06:40.5  +/-    0.9 s
+    Latitude                 1.20 deg  +/-      4 km
+    Longitude              127.42 deg  +/-      4 km
+    Depth                     133 km   +/-   12 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.93 s
+    Azimuthal gap             216 deg
+
+2 Network magnitudes:
+    MLv       3.79 +/- 0.80   6            
+    M         3.79            6 preferred  
+
+15 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    GHMI  IA    1.6 163  P       21:07:10.0  -0.2 M  1.0  GHMI 
+    LBMI  IA    1.8 177  P       21:07:12.6  -0.1 M  1.0  LBMI 
+    LBMI  IA    1.8 177  S       21:07:38.3   0.5 M  1.0  LBMI 
+    TMSI  IA    2.5 272  P       21:07:21.4   0.5 M  1.0  TMSI 
+    TMSI  IA    2.5 272  S       21:07:53.1   0.7 M  1.0  TMSI 
+    PSSI  IA    2.5 307  P       21:07:21.5   0.2 M  1.0  PSSI 
+    PSSI  IA    2.5 307  S       21:07:53.0  -0.1 M  1.0  PSSI 
+    TBMCM IA    2.9 260  P       21:07:25.6  -0.1 M  1.0  TBMCM
+    TBMCM IA    2.9 260  S       21:07:58.8  -2.1 M  1.0  TBMCM
+    PBCI  IA    3.5 257  P       21:07:32.9  -0.7 M  1.0  PBCI 
+    PBCI  IA    3.5 257  S       21:08:13.5  -1.5 M  1.0  PBCI 
+    KMSI  IA    3.5 260  P       21:07:33.7  -0.0 M  1.0  KMSI 
+    KMSI  IA    3.5 260  S       21:08:16.8   1.3 M  1.0  KMSI 
+    TGCM  IA    4.4 261  P       21:07:45.4  -0.2 M  1.0  TGCM 
+    TGCM  IA    4.4 261  S       21:08:38.5   1.8 M  1.0  TGCM 
+
+6 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    GHMI  IA    1.6 163  MLv     2.61 -1.18   0.163417     
+    LBMI  IA    1.8 177  MLv     2.95 -0.84   0.267486     
+    TMSI  IA    2.5 272  MLv     4.23  0.44    2.19546     
+    PSSI  IA    2.5 307  MLv     4.10  0.31    1.55129     
+    PBCI  IA    3.5 257  MLv     4.42  0.63   0.970174     
+    TGCM  IA    4.4 261  MLv     4.43  0.64   0.537013     
+
+stageofternate
+</p></body></html>

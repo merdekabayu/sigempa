@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022ygbo
+    Preferred Origin ID    Origin/20221211203112.624412.304129
+    Preferred Magnitude ID Origin/20221211203112.624412.304129/netMag/M
+    Description
+      region name: Flores Region, Indonesia
+    Creation time          2022-12-11 20:31:18
+
+Origin:
+    Public ID              Origin/20221211203112.624412.304129
+    Date                   2022-12-11
+    Time                   20:27:28.7  +/-    0.5 s
+    Latitude                -8.19 deg  +/-      4 km
+    Longitude              120.14 deg  +/-      3 km
+    Depth                     159 km   +/-    5 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-11 20:31:12
+    Residual RMS             0.66 s
+    Azimuthal gap              82 deg
+
+2 Network magnitudes:
+    MLv       3.31 +/- 0.37  12            BMG
+    M         3.31           12 preferred  BMG1
+
+29 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    KMBFM IA    0.4 156  P       20:27:51.2  -0.5 M  1.0  KMBFM
+    KMBFM IA    0.4 156  S       20:28:09.3  -0.3 M  1.0  KMBFM
+    LMTI  IA    0.5 141  P       20:27:51.8  -0.4 M  1.0  LMTI 
+    LMTI  IA    0.5 141  S       20:28:10.9   0.4 M  1.0  LMTI 
+    OMBFM IA    0.6 212  P       20:27:52.2  -0.3 M  1.0  OMBFM
+    OMBFM IA    0.6 212  S       20:28:10.8  -0.3 M  1.0  OMBFM
+    RNFM  IA    0.9 105  P       20:27:55.9   2.0 M  1.0  RNFM 
+    PSJCM IA    1.2  23  P       20:27:56.3  -0.1 M  1.0  PSJCM
+    WBNI  IA    1.2 264  P       20:27:56.5   0.1 M  1.0  WBNI 
+    DBNFM IA    1.6 261  P       20:28:00.1   0.5 M  1.0  DBNFM
+    WEFM  IA    1.6 105  P       20:28:00.0  -0.3 M  1.0  WEFM 
+    WBSI  IA    1.6 207  P       20:27:59.3  -1.1 M  1.0  WBSI 
+    EDFI  IA    1.6 110  P       20:28:00.6   0.2 M  1.0  EDFI 
+    TSNI  IA    1.9 254  P       20:28:03.9   0.1 M  1.0  TSNI 
+    BSSI  IA    2.1  10  P       20:28:04.3  -0.8 M  1.0  BSSI 
+    BASI  IA    2.1 168  P       20:28:17.8  12.6 MX 0.0  BASI 
+    ESNI  IA    2.2 254  P       20:28:06.8  -0.4 M  1.0  ESNI 
+    PDLI  IA    2.2 272  P       20:28:09.3   2.0 M  1.0  PDLI 
+    PLAI  IA    2.4 255  P       20:28:09.4  -0.0 M  1.0  PLAI 
+    KJCM  IA    2.6 353  P       20:28:12.0   0.1 M  1.0  KJCM 
+    RSNI  IA    2.7 255  P       20:28:12.9  -0.1 M  1.0  RSNI 
+    BKSI  IA    2.8 360  P       20:28:14.4  -0.1 M  1.0  BKSI 
+    USFM  IA    3.0 265  P       20:28:15.9  -0.3 M  1.0  USFM 
+    LSNI  IA    3.0 255  P       20:28:16.6   0.2 M  1.0  LSNI 
+    BBCM  IA    3.1 358  P       20:28:17.8  -0.3 M  1.0  BBCM 
+    TWSI  IA    3.3 260  P       20:28:18.9  -1.0 M  1.0  TWSI 
+    WLTFM IA    3.6 264  P       20:28:23.7  -0.1 M  1.0  WLTFM
+    BYLI  IA    3.7 269  P       20:28:25.6   0.4 M  1.0  BYLI 
+    RONI  IA    3.9 132  P       20:28:27.7   0.3 M  1.0  RONI 
+
+10 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    LMTI  IA    0.5 141  MLv     2.90 -0.41    1.35265     
+    WBNI  IA    1.2 264  MLv     3.27 -0.04    1.23111     
+    TSNI  IA    1.9 254  MLv     3.44  0.12   0.714022     
+    BSSI  IA    2.1  10  MLv     2.95 -0.36   0.200124     
+    PLAI  IA    2.4 255  MLv     3.52  0.20   0.463978     
+    KJCM  IA    2.6 353  MLv     3.08 -0.23   0.128893     
+    BKSI  IA    2.8 360  MLv     3.01 -0.30   0.0833036     
+    LSNI  IA    3.0 255  MLv     3.83  0.51   0.459125     
+    TWSI  IA    3.3 260  MLv     3.35  0.04   0.107202     
+    BYLI  IA    3.7 269  MLv     3.85  0.54   0.212607     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

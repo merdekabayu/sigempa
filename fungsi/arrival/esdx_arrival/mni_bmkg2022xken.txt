@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2022xken
+    Description
+      region name: Mindanao, Philippines
+Origin:
+    Date                   2022-11-29
+    Time                   20:58:04.8  +/-    0.6 s
+    Latitude                 5.43 deg  +/-      5 km
+    Longitude              126.56 deg  +/-      7 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.73 s
+    Azimuthal gap             183 deg
+
+5 Network magnitudes:
+    MLv       4.24 +/- 0.20   8            
+    M         4.39            8 preferred  
+    mb        4.73 +/- 0.18   4            
+    mB        4.88 +/- 0.12   3            
+    Mw(mB)    4.17 +/- 0.40   3            
+
+10 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MGAI  IA    1.4 176  P       20:58:28.8  -0.5 M  1.0  MGAI 
+    DAV   IU    1.9 329  P       20:58:36.9  -0.0 M  1.0  DAV  
+    PSSI  IA    2.9 203  P       20:58:50.5  -0.7 M  1.0  PSSI 
+    MTAI  IA    3.6 152  P       20:59:00.7  -0.3 M  1.0  MTAI 
+    IHMI  IA    4.0 166  P       20:59:05.6  -0.7 M  1.0  IHMI 
+    WHMI  IA    4.6 160  P       20:59:15.2   1.0 M  1.0  WHMI 
+    TBMCM IA    5.1 203  P       20:59:22.5   1.6 M  1.0  TBMCM
+    PBCI  IA    5.6 207  P       20:59:28.5   0.3 M  1.0  PBCI 
+    TGCM  IA    6.0 216  P       20:59:32.7  -0.6 M  1.0  TGCM 
+    MRSI  IA    6.7 223  P       20:59:43.4  -0.3 M  1.0  MRSI 
+
+15 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    DAV   IU    1.9 329  MLv     4.08 -0.16    3.34782     
+    PSSI  IA    2.9 203  MLv     4.35  0.11    1.68034     
+    MTAI  IA    3.6 152  MLv     3.99 -0.24   0.305378     
+    IHMI  IA    4.0 166  MLv     4.61  0.38    1.02099     
+    WHMI  IA    4.6 160  MLv     4.20 -0.03    0.28458     
+    TBMCM IA    5.1 203  MLv     4.32  0.08   0.281342     
+    TBMCM IA    5.1 203  mB      5.02  0.13     1538.6     
+    TBMCM IA    5.1 203  mb      4.76  0.02    56.5827 0.58
+    PBCI  IA    5.6 207  MLv     4.03 -0.20   0.106843     
+    PBCI  IA    5.6 207  mb      4.46 -0.28     29.096 0.68
+    TGCM  IA    6.0 216  MLv     4.34  0.10   0.173324     
+    TGCM  IA    6.0 216  mB      4.79 -0.09    726.995     
+    TGCM  IA    6.0 216  mb      4.74  0.00    33.7851 0.46
+    MRSI  IA    6.7 223  mB      4.84 -0.04    720.235     
+    MRSI  IA    6.7 223  mb      4.96  0.22    58.0372 0.54
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

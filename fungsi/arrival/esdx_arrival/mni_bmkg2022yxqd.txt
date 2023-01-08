@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2022yxqd
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-21
+    Time                   11:08:22.1  +/-    1.3 s
+    Latitude                 0.09 deg  +/-      4 km
+    Longitude              126.41 deg  +/-      6 km
+    Depth                      11 km   +/-   10 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.12 s
+    Azimuthal gap             276 deg
+
+2 Network magnitudes:
+    MLv       3.14 +/- 0.23   7            
+    M         3.14            7 preferred  
+
+12 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    PMMI  IA    1.0  74  P       11:08:43.1   1.2 M  1.0  PMMI 
+    PMMI  IA    1.0  74  S       11:08:56.7   0.1 M  1.0  PMMI 
+    TNTI  IA    1.2  55  P       11:08:44.7   0.8 M  1.0  TNTI 
+    TNTI  IA    1.2  55  S       11:08:59.1  -0.9 M  1.0  TNTI 
+    LBMI  IA    1.3 123  P       11:08:43.3  -2.6 M  1.0  LBMI 
+    LBMI  IA    1.3 123  S       11:09:05.0   1.4 M  1.0  LBMI 
+    JHMI  IA    1.5  47  P       11:08:48.3   0.3 M  1.0  JHMI 
+    JHMI  IA    1.5  47  S       11:09:06.9  -0.6 M  1.0  JHMI 
+    WBMI  IA    1.5  80  P       11:08:47.5  -0.9 M  1.0  WBMI 
+    IHMI  IA    1.8  39  P       11:08:54.0   0.7 M  1.0  IHMI 
+    WHMI  IA    2.0  60  P       11:08:56.3   0.6 M  1.0  WHMI 
+    SANI  IA    2.2 191  P       11:08:42.8 -15.3 MX 0.0  SANI 
+
+5 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    PMMI  IA    1.0  74  MLv     3.44  0.30    2.26088     
+    LBMI  IA    1.3 123  MLv     2.94 -0.20   0.517153     
+    JHMI  IA    1.5  47  MLv     3.26  0.12   0.886338     
+    WBMI  IA    1.5  80  MLv     3.09 -0.06   0.576943     
+    WHMI  IA    2.0  60  MLv     2.97 -0.17   0.233313     
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

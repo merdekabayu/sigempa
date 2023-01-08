@@ -1,0 +1,57 @@
+<html><body><p>Event:
+    Public ID              bmkg2022ycul
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-10
+    Time                   01:27:54.6  +/-    0.7 s
+    Latitude                 0.30 deg  +/-      4 km
+    Longitude              122.12 deg  +/-      3 km
+    Depth                     167 km   +/-    5 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.72 s
+    Azimuthal gap              67 deg
+
+2 Network magnitudes:
+    MLv       3.07 +/- 0.30   9            
+    M         3.07            9 preferred  
+
+20 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MRSI  IA    0.3 316  P       01:28:17.5  -0.3 M  1.0  MRSI 
+    MRSI  IA    0.3 316  S       01:28:35.2  -0.7 M  1.0  MRSI 
+    SMSI  IA    0.7  20  P       01:28:19.3  -0.5 M  1.0  SMSI 
+    SMSI  IA    0.7  20  S       01:28:39.8   0.1 M  1.0  SMSI 
+    KGCM  IA    0.8  65  P       01:28:20.9   0.7 M  1.0  KGCM 
+    KGCM  IA    0.8  65  S       01:28:39.4  -0.8 M  1.0  KGCM 
+    TGCM  IA    1.0  77  P       01:28:21.3   0.3 M  1.0  TGCM 
+    TGCM  IA    1.0  77  S       01:28:42.9   1.4 M  1.0  TGCM 
+    TPCI  IA    1.0 280  P       01:28:21.0  -0.3 M  1.0  TPCI 
+    TPCI  IA    1.0 280  S       01:28:42.9   0.8 M  1.0  TPCI 
+    LUWI  IA    1.5 154  P       01:28:24.7  -0.7 M  1.0  LUWI 
+    LUWI  IA    1.5 154  S       01:28:49.0  -0.6 M  1.0  LUWI 
+    BGCI  IA    1.7 133  S       01:28:54.7   0.6 M  1.0  BGCI 
+    PBCI  IA    1.9  87  P       01:28:30.6   0.6 M  1.0  PBCI 
+    PBCI  IA    1.9  87  S       01:28:57.1  -0.6 M  1.0  PBCI 
+    MPSI  IA    2.2 271  P       01:28:33.6   0.3 M  1.0  MPSI 
+    MPSI  IA    2.2 271  S       01:29:03.6  -0.1 M  1.0  MPSI 
+    POCI  IA    2.2 221  P       01:28:33.9   0.3 M  1.0  POCI 
+    PICM  IA    2.3 244  P       01:28:34.9   1.1 M  1.0  PICM 
+    BLCM  IA    2.5 260  P       01:28:34.7  -1.5 M  1.0  BLCM 
+
+9 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    SMSI  IA    0.7  20  MLv     2.53 -0.53   0.421477     
+    KGCM  IA    0.8  65  MLv     3.37  0.30    2.60361     
+    TGCM  IA    1.0  77  MLv     2.99 -0.07   0.880324     
+    TPCI  IA    1.0 280  MLv     3.22  0.16    1.41168     
+    LUWI  IA    1.5 154  MLv     3.05 -0.01   0.532094     
+    PBCI  IA    1.9  87  MLv     3.14  0.07    0.36788     
+    MPSI  IA    2.2 271  MLv     2.69 -0.38   0.0898667     
+    PICM  IA    2.3 244  MLv     3.65  0.59    0.78266     
+    BLCM  IA    2.5 260  MLv     2.97 -0.10   0.125623     
+
+stageofgorontalo
+</p></body></html>

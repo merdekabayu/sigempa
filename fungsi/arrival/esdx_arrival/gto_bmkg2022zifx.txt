@@ -1,0 +1,51 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zifx
+    Description
+      region name: Southern Molucca Sea
+Origin:
+    Date                   2022-12-27
+    Time                   06:27:52.6  +/-    1.2 s
+    Latitude                -0.33 deg  +/-      9 km
+    Longitude              124.14 deg  +/-      4 km
+    Depth                      44 km   +/-   15 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.52 s
+    Azimuthal gap             283 deg
+
+5 Network magnitudes:
+    Mjma      2.92 +/- 0.19   5            
+    ML        2.57 +/- 0.20   5            
+    MLv       2.57 +/- 0.26   5            
+    Ms(BB)    2.77 +/- 0.00   1            
+    M         2.68            5 preferred  
+
+10 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    PBCI  IA    0.7 352  P       06:28:06.9  -0.3 M  1.0  PBCI 
+    PBCI  IA    0.7 352  S       06:28:18.5   0.3 M  1.0  PBCI 
+    TBMCM IA    1.1  24  P       06:28:12.2   0.2 M  1.0  TBMCM
+    TBMCM IA    1.1  24  S       06:28:26.7  -0.1 M  1.0  TBMCM
+    TGCM  IA    1.4 308  P       06:28:15.3   0.2 M  1.0  TGCM 
+    TGCM  IA    1.4 308  S       06:28:31.6  -0.8 M  1.0  TGCM 
+    GTOI  IA    1.7 311  P       06:28:19.4   0.0 M  1.0  GTOI 
+    GTOI  IA    1.7 311  S       06:28:39.6  -0.5 M  1.0  GTOI 
+    SMSI  IA    2.2 306  P       06:28:26.4  -0.3 M  1.0  SMSI 
+    SMSI  IA    2.2 306  S       06:28:54.5   1.2 M  1.0  SMSI 
+
+10 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    PBCI  IA    0.7 352  ML      2.60  0.03    0.50314     
+    PBCI  IA    0.7 352  MLv     2.37 -0.21   0.293467     
+    TBMCM IA    1.1  24  Mjma    2.88 -0.04   0.430248     
+    TGCM  IA    1.4 308  ML      2.66  0.09   0.254016     
+    TGCM  IA    1.4 308  MLv     2.71  0.13   0.285946     
+    TGCM  IA    1.4 308  Mjma    2.98  0.06   0.399906     
+    GTOI  IA    1.7 311  Mjma    3.01  0.09   0.296165     
+    SMSI  IA    2.2 306  ML      2.44 -0.13   0.0515853     
+    SMSI  IA    2.2 306  MLv     2.58  0.00   0.0714194     
+    SMSI  IA    2.2 306  Ms(BB)  2.77  0.00   5.01666e-07 0.19
+
+stageofgorontalo
+</p></body></html>

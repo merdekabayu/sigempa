@@ -1,0 +1,84 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yawy
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-09
+    Time                   00:26:53.3  +/-    0.3 s
+    Latitude                 0.70 deg  +/-      2 km
+    Longitude              122.10 deg  +/-      1 km
+    Depth                      68 km   +/-    4 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.80 s
+    Azimuthal gap              99 deg
+
+2 Network magnitudes:
+    MLv       3.83 +/- 0.24  15            
+    M         3.83           15 preferred  
+
+41 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MRSI  IA    0.3 215  P       00:27:04.4  -1.0 M  1.0  MRSI 
+    MRSI  IA    0.3 215  S       00:27:13.3  -1.4 M  1.0  MRSI 
+    SMSI  IA    0.4  43  P       00:27:05.1  -1.3 M  1.0  SMSI 
+    SMSI  IA    0.4  43  S       00:27:15.5  -1.0 M  1.0  SMSI 
+    KGCM  IA    0.8  95  P       00:27:08.9  -0.6 M  1.0  KGCM 
+    KGCM  IA    0.8  95  S       00:27:23.6   1.6 M  1.0  KGCM 
+    GTOI  IA    0.8  85  P       00:27:09.3  -0.5 M  1.0  GTOI 
+    GTOI  IA    0.8  85  S       00:27:22.9   0.6 M  1.0  GTOI 
+    BBCI  IA    0.8 304  P       00:27:11.1   1.1 M  1.0  BBCI 
+    BBCI  IA    0.8 304  S       00:27:23.1   0.3 M  1.0  BBCI 
+    TGCM  IA    1.0 100  P       00:27:11.7   0.1 M  1.0  TGCM 
+    TGCM  IA    1.0 100  S       00:27:26.5   0.8 M  1.0  TGCM 
+    TPCI  IA    1.0 257  P       00:27:12.5   0.5 M  1.0  TPCI 
+    TPCI  IA    1.0 257  S       00:27:28.4   2.0 M  1.0  TPCI 
+    LUWI  IA    1.9 159  P       00:27:22.8  -0.1 M  1.0  LUWI 
+    LUWI  IA    1.9 159  S       00:27:47.3   1.3 M  1.0  LUWI 
+    PBCI  IA    2.0  99  P       00:27:23.9  -0.5 M  1.0  PBCI 
+    PBCI  IA    2.0  99  S       00:27:47.9  -0.7 M  1.0  PBCI 
+    BGCI  IA    2.0 141  P       00:27:26.4   1.0 M  1.0  BGCI 
+    BGCI  IA    2.0 141  S       00:27:51.9   1.6 M  1.0  BGCI 
+    MPSI  IA    2.2 261  P       00:27:28.7   0.7 M  1.0  MPSI 
+    MPSI  IA    2.2 261  S       00:27:55.2   0.2 M  1.0  MPSI 
+    BGCM  IA    2.3 251  P       00:27:32.0   2.5 M  1.0  BGCM 
+    BGCM  IA    2.3 251  S       00:27:57.0  -0.7 M  1.0  BGCM 
+    PICM  IA    2.5 235  P       00:27:30.8  -0.2 M  1.0  PICM 
+    PICM  IA    2.5 235  S       00:27:55.3  -5.2 M  1.0  PICM 
+    TBMCM IA    2.5  90  P       00:27:33.1   1.6 M  1.0  TBMCM
+    TBMCM IA    2.5  90  S       00:28:04.3   2.8 M  1.0  TBMCM
+    BLCM  IA    2.5 251  P       00:27:33.3   1.0 M  1.0  BLCM 
+    BLCM  IA    2.5 251  S       00:28:04.8   2.0 M  1.0  BLCM 
+    POCI  IA    2.6 214  P       00:27:34.3   2.0 M  1.0  POCI 
+    POCI  IA    2.6 214  S       00:28:05.6   2.7 M  1.0  POCI 
+    LUCM  IA    2.8 220  P       00:27:36.5   1.3 M  1.0  LUCM 
+    BDCM  IA    3.0 238  P       00:27:37.4  -0.5 M  1.0  BDCM 
+    BDCM  IA    3.0 238  S       00:28:11.5  -1.3 M  1.0  BDCM 
+    SRSI  IA    3.4 201  P       00:27:43.0  -1.3 M  1.0  SRSI 
+    SRSI  IA    3.4 201  S       00:28:20.3  -4.3 M  1.0  SRSI 
+    PSSI  IA    3.9  59  P       00:27:50.3  -0.1 M  1.0  PSSI 
+    PSSI  IA    3.9  59  S       00:28:31.4  -3.9 M  1.0  PSSI 
+    SANI  IA    4.8 125  P       00:27:59.6  -2.9 M  1.0  SANI 
+    JHMI  IA    5.4  86  P       00:28:14.5   3.3 AX 0.0  JHMI 
+
+15 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MRSI  IA    0.3 215  MLv     3.63 -0.20    37.3372     
+    GTOI  IA    0.8  85  MLv     3.76 -0.07    6.83017     
+    BBCI  IA    0.8 304  MLv     3.72 -0.11    5.86826     
+    TGCM  IA    1.0 100  MLv     4.10  0.27    11.1112     
+    TPCI  IA    1.0 257  MLv     3.99  0.16    8.29019     
+    LUWI  IA    1.9 159  MLv     4.13  0.30    3.95367     
+    PBCI  IA    2.0  99  MLv     3.30 -0.53   0.511181     
+    MPSI  IA    2.2 261  MLv     3.54 -0.29   0.634699     
+    PICM  IA    2.5 235  MLv     3.86  0.03   0.985555     
+    TBMCM IA    2.5  90  MLv     3.71 -0.12   0.669808     
+    BLCM  IA    2.5 251  MLv     3.64 -0.19   0.533765     
+    POCI  IA    2.6 214  MLv     4.06  0.22    1.34954     
+    BDCM  IA    3.0 238  MLv     4.12  0.29   0.943033     
+    PSSI  IA    3.9  59  MLv     4.12  0.29    0.35793     
+    SANI  IA    4.8 125  MLv     3.68 -0.15   0.0779599     
+
+stageofgorontalo
+</p></body></html>

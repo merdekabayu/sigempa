@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022ysca
+    Preferred Origin ID    Origin/20221218102238.298639.271437
+    Preferred Magnitude ID Origin/20221218102238.298639.271437/netMag/M
+    Description
+      region name: Off West Coast of Northern Sumatra
+    Creation time          2022-12-18 10:22:45
+
+Origin:
+    Public ID              Origin/20221218102238.298639.271437
+    Date                   2022-12-18
+    Time                   10:19:57.0  +/-    2.3 s
+    Latitude                 0.82 deg  +/-      9 km
+    Longitude               96.87 deg  +/-     17 km
+    Depth                      25 km   +/-   10 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-18 10:22:38
+    Residual RMS             0.49 s
+    Azimuthal gap             246 deg
+
+3 Network magnitudes:
+    MLv       3.25 +/- 0.26   4            BMG
+    M         3.39            4 preferred  BMG1
+    Mjma      3.67 +/- 0.63   4            BMG1
+
+11 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SNBI  IA    0.6  76  P       10:20:08.9  -0.5 M  1.0  SNBI 
+    GSI   IA    0.9  56  P       10:20:13.9   0.6 M  1.0  GSI  
+    TNSR  IA    0.9  42  P       10:20:13.9   0.5 M  1.0  TNSR 
+    TDNI  IA    1.0 104  P       10:20:14.9  -0.2 M  1.0  TDNI 
+    PBSI  IA    1.7 122  P       10:20:24.8   0.3 M  1.0  PBSI 
+    LTSM  IA    2.2  71  P       10:20:31.2  -0.5 M  1.0  LTSM 
+    LDSI  IA    2.4  32  P       10:20:34.5  -0.6 M  1.0  LDSI 
+    TPTI  IA    2.4   7  P       10:20:34.7  -0.7 M  1.0  TPTI 
+    KCSI  IA    2.8  19  P       10:20:41.5   0.8 M  1.0  KCSI 
+    MPSM  IA    3.3  94  P       10:20:46.9   0.1 M  1.0  MPSM 
+    SMSM  IA    3.4 104  P       10:20:48.6   0.1 M  1.0  SMSM 
+
+8 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    GSI   IA    0.9  56  MLv     2.93 -0.31   0.903056     
+    GSI   IA    0.9  56  Mjma    2.73 -0.94   0.498385     
+    TNSR  IA    0.9  42  MLv     3.62  0.38    4.37723     
+    TNSR  IA    0.9  42  Mjma    4.18  0.51    13.7791     
+    PBSI  IA    1.7 122  MLv     3.30  0.06   0.760985     
+    PBSI  IA    1.7 122  Mjma    4.10  0.43    3.72936     
+    TPTI  IA    2.4   7  MLv     3.16 -0.09   0.194021     
+    TPTI  IA    2.4   7  Mjma    3.46 -0.21   0.439014     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

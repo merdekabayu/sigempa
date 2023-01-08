@@ -1,0 +1,77 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zois
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-30
+    Time                   14:42:01.9  +/-    0.2 s
+    Latitude                 1.57 deg  +/-      2 km
+    Longitude              126.29 deg  +/-      1 km
+    Depth                       8 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.71 s
+    Azimuthal gap              64 deg
+
+2 Network magnitudes:
+    MLv       3.67 +/- 0.31  16            
+    M         3.67           16 preferred  
+
+33 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    JHMI  IA    1.3 112  P       14:42:25.5   0.2 M  1.0  JHMI 
+    JHMI  IA    1.3 112  S       14:42:41.8  -1.0 M  1.0  JHMI 
+    TNTI  IA    1.3 126  P       14:42:25.8  -0.3 M  1.0  TNTI 
+    TMSI  IA    1.4 259  P       14:42:27.4   0.3 M  1.0  TMSI 
+    TMSI  IA    1.4 259  S       14:42:44.4  -1.5 M  1.0  TMSI 
+    MNI   IA    1.5 265  P       14:42:28.6   0.6 M  1.0  MNI  
+    MNI   IA    1.5 265  S       14:42:47.6  -0.1 M  1.0  MNI  
+    PSSI  IA    1.5 323  P       14:42:28.3   0.2 M  1.0  PSSI 
+    PSSI  IA    1.5 323  S       14:42:46.7  -1.1 M  1.0  PSSI 
+    PMMI  IA    1.6 137  P       14:42:30.7   0.1 M  1.0  PMMI 
+    PMMI  IA    1.6 137  S       14:42:51.7  -0.7 M  1.0  PMMI 
+    WHMI  IA    1.9 105  P       14:42:34.4  -0.2 M  1.0  WHMI 
+    TBMCM IA    1.9 244  P       14:42:35.6   1.0 M  1.0  TBMCM
+    TBMCM IA    1.9 244  S       14:42:58.1  -1.5 M  1.0  TBMCM
+    WBMI  IA    2.0 128  P       14:42:36.6   0.7 M  1.0  WBMI 
+    WBMI  IA    2.0 128  S       14:43:01.5  -0.4 M  1.0  WBMI 
+    MTAI  IA    2.1  72  P       14:42:38.0   0.9 M  1.0  MTAI 
+    MTAI  IA    2.1  72  S       14:43:03.2  -0.8 M  1.0  MTAI 
+    MGAI  IA    2.5   9  P       14:42:42.6   0.4 M  1.0  MGAI 
+    MGAI  IA    2.5   9  S       14:43:13.1  -0.2 M  1.0  MGAI 
+    GHMI  IA    2.5 140  P       14:42:43.2   0.5 M  1.0  GHMI 
+    LBMI  IA    2.5 151  P       14:42:43.6   0.7 M  1.0  LBMI 
+    KMSI  IA    2.5 247  P       14:42:42.7  -0.3 M  1.0  KMSI 
+    KMSI  IA    2.5 247  S       14:43:14.3  -0.6 M  1.0  KMSI 
+    PBCI  IA    2.5 242  P       14:42:43.6   0.1 M  1.0  PBCI 
+    TGCM  IA    3.4 252  P       14:42:56.5   1.5 M  1.0  TGCM 
+    TGCM  IA    3.4 252  S       14:43:37.0   0.7 M  1.0  TGCM 
+    KGCM  IA    3.6 255  P       14:42:58.3   0.8 M  1.0  KGCM 
+    SANI  IA    3.6 185  P       14:42:57.9  -0.2 M  1.0  SANI 
+    BGCI  IA    3.8 230  P       14:43:01.1   0.5 M  1.0  BGCI 
+    SMSI  IA    4.0 262  P       14:43:03.1  -0.1 M  1.0  SMSI 
+    LUWI  IA    4.4 234  P       14:43:08.8   0.1 M  1.0  LUWI 
+    LUWI  IA    4.4 234  S       14:44:00.6  -0.2 M  1.0  LUWI 
+
+16 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    JHMI  IA    1.3 112  MLv     3.53 -0.14    2.06194     
+    TNTI  IA    1.3 126  MLv     3.23 -0.44   0.969021     
+    TMSI  IA    1.4 259  MLv     4.24  0.57    9.24266     
+    MNI   IA    1.5 265  MLv     4.09  0.42    6.07198     
+    PSSI  IA    1.5 323  MLv     3.71  0.04     2.4867     
+    WHMI  IA    1.9 105  MLv     3.26 -0.41   0.511649     
+    TBMCM IA    1.9 244  MLv     3.91  0.24    2.25187     
+    WBMI  IA    2.0 128  MLv     3.55 -0.12   0.871647     
+    MGAI  IA    2.5   9  MLv     3.52 -0.15   0.444406     
+    GHMI  IA    2.5 140  MLv     3.44 -0.23   0.355783     
+    LBMI  IA    2.5 151  MLv     3.39 -0.28   0.309301     
+    PBCI  IA    2.5 242  MLv     3.79  0.12   0.751011     
+    TGCM  IA    3.4 252  MLv     3.99  0.32   0.411758     
+    SANI  IA    3.6 185  MLv     3.43 -0.24   0.0845331     
+    SMSI  IA    4.0 262  MLv     3.50 -0.17   0.0807146     
+    LUWI  IA    4.4 234  MLv     4.20  0.53   0.315725     
+
+stageofternate
+</p></body></html>

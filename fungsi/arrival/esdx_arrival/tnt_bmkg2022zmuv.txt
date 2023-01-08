@@ -1,0 +1,53 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zmuv
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-29
+    Time                   18:33:28.5  +/-    0.3 s
+    Latitude                 1.39 deg  +/-      3 km
+    Longitude              126.56 deg  +/-      2 km
+    Depth                       4 km   +/-    3 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.56 s
+    Azimuthal gap             106 deg
+
+2 Network magnitudes:
+    MLv       3.02 +/- 0.14   6            
+    M         3.02            6 preferred  
+
+19 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    JHMI  IA    1.0 108  P       18:33:47.5   0.3 M  1.0  JHMI 
+    JHMI  IA    1.0 108  S       18:34:00.9   0.3 M  1.0  JHMI 
+    TNTI  IA    1.0 127  P       18:33:47.7  -0.3 M  1.0  TNTI 
+    TNTI  IA    1.0 127  S       18:34:01.6  -0.4 M  1.0  TNTI 
+    TMSI  IA    1.6 267  P       18:33:57.8   0.2 M  1.0  TMSI 
+    TMSI  IA    1.6 267  S       18:34:19.0  -0.6 M  1.0  TMSI 
+    WBMI  IA    1.7 128  P       18:33:59.0   0.7 M  1.0  WBMI 
+    WBMI  IA    1.7 128  S       18:34:20.5  -0.2 M  1.0  WBMI 
+    MNI   IA    1.7 272  P       18:33:59.2   0.3 M  1.0  MNI  
+    MNI   IA    1.7 272  S       18:34:22.7   0.8 M  1.0  MNI  
+    PSSI  IA    1.8 319  P       18:33:59.8   0.2 M  1.0  PSSI 
+    PSSI  IA    1.8 319  S       18:34:23.2   0.0 M  1.0  PSSI 
+    MTAI  IA    1.9  65  P       18:34:01.4  -0.1 M  1.0  MTAI 
+    MTAI  IA    1.9  65  S       18:34:26.2  -0.5 M  1.0  MTAI 
+    GHMI  IA    2.2 143  P       18:34:05.7   0.2 M  1.0  GHMI 
+    GHMI  IA    2.2 143  S       18:34:33.1  -0.7 M  1.0  GHMI 
+    LBMI  IA    2.2 155  P       18:34:05.6  -0.5 M  1.0  LBMI 
+    LBMI  IA    2.2 155  S       18:34:36.2   1.2 M  1.0  LBMI 
+    PBCI  IA    2.7 248  S       18:34:45.9  -1.0 M  1.0  PBCI 
+
+6 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    JHMI  IA    1.0 108  MLv     3.19  0.17    1.40514     
+    WBMI  IA    1.7 128  MLv     3.01 -0.01   0.373927     
+    PSSI  IA    1.8 319  MLv     3.10  0.09   0.416838     
+    MTAI  IA    1.9  65  MLv     2.77 -0.24   0.164785     
+    GHMI  IA    2.2 143  MLv     2.96 -0.05   0.176822     
+    LBMI  IA    2.2 155  MLv     3.06  0.04   0.206437     
+
+stageofternate
+</p></body></html>

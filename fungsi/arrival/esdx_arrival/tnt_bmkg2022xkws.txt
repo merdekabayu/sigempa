@@ -1,0 +1,49 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xkws
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-11-30
+    Time                   06:09:26.3  +/-    0.9 s
+    Latitude                 2.40 deg  +/-      3 km
+    Longitude              128.53 deg  +/-      6 km
+    Depth                      13 km   +/-    4 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.51 s
+    Azimuthal gap             246 deg
+
+2 Network magnitudes:
+    MLv       3.71 +/- 0.29   7            
+    M         3.71            7 preferred  
+
+14 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MTAI  IA    0.3 232  P       06:09:33.8  -0.2 M  1.0  MTAI 
+    IHMI  IA    1.3 228  P       06:09:50.3   0.2 M  1.0  IHMI 
+    IHMI  IA    1.3 228  S       06:10:08.3   0.4 M  1.0  IHMI 
+    WHMI  IA    1.4 197  P       06:09:50.4  -0.5 M  1.0  WHMI 
+    WHMI  IA    1.4 197  S       06:10:09.1  -0.2 M  1.0  WHMI 
+    JHMI  IA    1.7 219  P       06:09:56.1   0.8 M  1.0  JHMI 
+    JHMI  IA    1.7 219  S       06:10:17.6   0.1 M  1.0  JHMI 
+    TNTI  IA    2.0 216  P       06:10:00.6   0.8 M  1.0  TNTI 
+    TNTI  IA    2.0 216  S       06:10:24.8  -0.8 M  1.0  TNTI 
+    WBMI  IA    2.2 198  P       06:10:01.4  -0.6 M  1.0  WBMI 
+    PMMI  IA    2.3 209  P       06:10:04.7   0.7 M  1.0  PMMI 
+    MGAI  IA    2.5 311  P       06:10:06.0   0.0 M  1.0  MGAI 
+    MGAI  IA    2.5 311  S       06:10:36.8   0.1 M  1.0  MGAI 
+    PSSI  IA    3.1 276  P       06:10:14.8  -0.7 M  1.0  PSSI 
+
+7 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    IHMI  IA    1.3 228  MLv     3.91  0.20    4.68026     
+    WHMI  IA    1.4 197  MLv     3.63 -0.08    2.29835     
+    TNTI  IA    2.0 216  MLv     3.15 -0.56   0.341874     
+    WBMI  IA    2.2 198  MLv     3.89  0.18    1.52271     
+    PMMI  IA    2.3 209  MLv     3.61 -0.10   0.661664     
+    MGAI  IA    2.5 311  MLv     3.70 -0.01   0.685064     
+    PSSI  IA    3.1 276  MLv     4.07  0.36   0.661495     
+
+stageofternate
+</p></body></html>

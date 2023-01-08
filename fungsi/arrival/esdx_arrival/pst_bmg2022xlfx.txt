@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022xlfx
+    Preferred Origin ID    Origin/20221130105807.512631.483829
+    Preferred Magnitude ID Origin/20221130105807.512631.483829/netMag/M
+    Description
+      region name: North Island, New Zealand
+    Creation time          2022-11-30 10:56:14
+
+Origin:
+    Public ID              Origin/20221130105807.512631.483829
+    Date                   2022-11-30
+    Time                   10:48:06.8  +/-    1.0 s
+    Latitude               -38.99 deg  +/-      4 km
+    Longitude              176.16 deg  +/-      8 km
+    Depth                      58 km   +/-    7 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-11-30 10:58:07
+    Residual RMS             1.23 s
+    Azimuthal gap             206 deg
+
+8 Network magnitudes:
+    mb        5.36 +/- 0.37  24            BMG
+    mB        6.06 +/- 0.25  15            BMG
+    Mw(mB)    5.70 +/- 0.40  15            BMG
+    MLv       5.82 +/- 0.00   1            BMG
+    Mwp       5.79 +/- 0.17   3            BMG
+    Mw(Mwp)   5.64 +/- 0.40   3            BMG
+    Mjma      6.28 +/- 0.00   1            BMG1
+    M         5.75           24 preferred  BMG1
+
+47 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    HIZ   NZ    1.1 294  P       10:48:18.1  -8.3 MX 0.0  HIZ  
+    SNZO  IU    2.6 205  P       10:48:44.8  -1.2 M  1.0  SNZO 
+    NFK   AU   12.0 323  P       10:50:55.2  -0.2 M  1.0  NFK  
+    RIV   AU   20.7 277  P       10:52:45.6   3.0 M  1.0  RIV  
+    MGCD  AU   21.0 278  P       10:52:48.6   3.0 M  1.0  MGCD 
+    MILA  AU   21.3 267  P       10:52:49.2   0.3 M  1.0  MILA 
+    CNB   AU   21.6 271  P       10:52:53.4   1.1 M  1.0  CNB  
+    ARMA  AU   21.9 286  P       10:52:58.9   4.3 MX 0.0  ARMA 
+    YNG   AU   22.7 273  P       10:53:02.9  -0.8 M  1.0  YNG  
+    TOO   AU   24.1 264  P       10:53:15.3  -1.3 M  1.0  TOO  
+    SANVU G    24.7 339  P       10:53:23.1   0.3 M  1.0  SANVU
+    EIDS  AU   25.1 295  P       10:53:27.0   0.9 M  1.0  EIDS 
+    CMSA  AU   25.9 277  P       10:53:32.8  -0.4 M  1.0  CMSA 
+    ARPS  AU   27.1 264  P       10:53:43.5  -0.5 M  1.0  ARPS 
+    STKA  AU   28.9 273  P       10:54:00.3  -0.0 M  1.0  STKA 
+    QLP   AU   29.4 285  P       10:54:03.7  -0.9 M  1.0  QLP  
+    CTAO  IU   31.9 298  P       10:54:26.9   0.0 M  1.0  CTAO 
+    HNR   IU   32.8 329  P       10:54:35.5   0.8 M  1.0  HNR  
+    BBOO  AU   32.9 268  P       10:54:32.9  -2.2 M  1.0  BBOO 
+    DRV   G    34.4 205  P       10:54:47.6  -0.1 M  1.0  DRV  
+    MTSU  AU   34.6 298  P       10:54:50.2   0.3 M  1.0  MTSU 
+    VNDA  GT   39.1 185  P       10:55:30.6   2.7 M  1.0  VNDA 
+    FORT  AU   39.9 267  P       10:55:35.2   0.1 M  1.0  FORT 
+    CCD   G    43.4 197  P       10:56:03.7   1.0 M  1.0  CCD  
+    FKMPM IA   44.4 304  P       10:56:13.4   1.5 M  1.0  FKMPM
+    KMBL  AU   44.5 263  P       10:56:11.0  -1.1 M  1.0  KMBL 
+    CASY  IU   45.3 211  P       10:56:17.0  -1.4 M  1.0  CASY 
+    TRPI  IA   46.0 306  P       10:56:25.2   0.5 M  1.0  TRPI 
+    KNRA  AU   47.4 286  P       10:56:34.7  -0.9 M  1.0  KNRA 
+    DYPI  IA   47.5 306  P       10:56:36.6   0.5 M  1.0  DYPI 
+    MTN   AU   47.5 291  P       10:56:36.1  -0.0 M  1.0  MTN  
+    SKPM  IA   47.8 309  P       10:56:38.1  -0.6 M  1.0  SKPM 
+    ARPI  IA   48.3 309  P       10:56:38.6  -3.4 M  1.0  ARPI 
+    FITZ  AU   48.3 281  P       10:56:43.0   0.4 M  1.0  FITZ 
+    LJPI  IA   48.6 308  P       10:56:44.4   0.0 M  1.0  LJPI 
+    JAY   IA   48.6 309  P       10:56:44.5   0.0 M  1.0  JAY  
+    SJPM  IA   48.7 309  P       10:56:43.7  -1.4 M  1.0  SJPM 
+    GENI  IA   48.8 309  P       10:56:45.6  -0.9 M  1.0  GENI 
+    MEEK  AU   49.2 266  P       10:56:48.1  -0.9 M  1.0  MEEK 
+    MIPI  IA   49.4 304  P       10:56:49.5  -1.3 M  1.0  MIPI 
+    ERPI  IA   50.2 304  P       10:56:57.8   1.0 M  1.0  ERPI 
+    NBPI  IA   51.2 303  P       10:57:05.4   1.0 M  1.0  NBPI 
+    SRPI  IA   51.8 305  P       10:57:08.8  -0.4 M  1.0  SRPI 
+    IWPI  IA   52.3 303  P       10:57:11.9  -0.6 M  1.0  IWPI 
+    MBPI  IA   53.3 303  P       10:57:21.6   1.3 M  1.0  MBPI 
+    FAKI  IA   53.7 301  P       10:57:22.5  -0.1 M  1.0  FAKI 
+    KTTI  IA   54.2 288  P       10:57:27.4   0.7 M  1.0  KTTI 
+
+42 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    SNZO  IU    2.6 205  MLv     5.82  0.00    76.6277     
+    SNZO  IU    2.6 205  Mjma    6.28  0.00      262.7     
+    NFK   AU   12.0 323  mB      5.80 -0.26    3903.51     
+    NFK   AU   12.0 323  mb      5.22 -0.15     179.03 1.53
+    RIV   AU   20.7 277  mB      6.01 -0.06    6666.98     
+    RIV   AU   20.7 277  mb      5.12 -0.24    165.386 1.65
+    MGCD  AU   21.0 278  Mwp     5.67 -0.12    4216.44     
+    MILA  AU   21.3 267  mb      4.83 -0.53    84.4889 1.70
+    CNB   AU   21.6 271  Mwp     5.71 -0.07    4821.39     
+    CNB   AU   21.6 271  mB      5.79 -0.28    3823.28     
+    CNB   AU   21.6 271  mb      5.00 -0.36    115.777 1.59
+    YNG   AU   22.7 273  mB      5.80 -0.26    3613.98     
+    SANVU G    24.7 339  Mwp     5.98  0.20    10666.3     
+    SANVU G    24.7 339  mB      6.22  0.16    7398.68     
+    SANVU G    24.7 339  mb      5.44  0.07    134.572 0.96
+    EIDS  AU   25.1 295  mB      5.84 -0.22     2964.6     
+    EIDS  AU   25.1 295  mb      5.34 -0.03    150.899 1.43
+    CMSA  AU   25.9 277  mb      5.21 -0.16    104.437 1.54
+    STKA  AU   28.9 273  mb      5.91  0.55    362.862 1.71
+    QLP   AU   29.4 285  mB      6.28  0.22    4082.08     
+    QLP   AU   29.4 285  mb      5.60  0.24    182.689 1.87
+    CTAO  IU   31.9 298  mB      5.99 -0.08    1767.99     
+    CTAO  IU   31.9 298  mb      5.28 -0.08    67.0675 1.68
+    HNR   IU   32.8 329  mB      6.28  0.22    3389.47     
+    HNR   IU   32.8 329  mb      5.97  0.61    209.004 1.10
+    BBOO  AU   32.9 268  mb      5.41  0.05    98.7959 1.88
+    DRV   G    34.4 205  mB      6.20  0.14    2870.69     
+    DRV   G    34.4 205  mb      5.90  0.54    192.252 1.16
+    FORT  AU   39.9 267  mb      4.88 -0.49    24.7916 1.47
+    KMBL  AU   44.5 263  mb      4.68 -0.69    15.0132 1.41
+    CASY  IU   45.3 211  mb      5.32 -0.04    40.4564 0.89
+    KNRA  AU   47.4 286  mB      5.97 -0.10    1649.12     
+    KNRA  AU   47.4 286  mb      5.42  0.06    72.3073 1.32
+    MTN   AU   47.5 291  mB      5.74 -0.32    987.066     
+    MTN   AU   47.5 291  mb      5.09 -0.27    46.0568 1.83
+    FITZ  AU   48.3 281  mb      5.29 -0.08    58.4654 1.52
+    JAY   IA   48.6 309  mB      6.29  0.23    3298.32     
+    JAY   IA   48.6 309  mb      5.74  0.38    169.051 1.56
+    MEEK  AU   49.2 266  mb      5.73  0.37    42.9042 0.42
+    MIPI  IA   49.4 304  mB      6.75  0.69    9216.22     
+    FAKI  IA   53.7 301  mB      6.14  0.07    2155.31     
+    FAKI  IA   53.7 301  mb      5.63  0.27    121.925 1.58
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

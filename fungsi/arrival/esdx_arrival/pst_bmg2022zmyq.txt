@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022zmyq
+    Preferred Origin ID    Origin/20221229204056.544649.383617
+    Preferred Magnitude ID Origin/20221229204056.544649.383617/netMag/M
+    Description
+      region name: Northern Sumatra, Indonesia
+    Creation time          2022-12-29 20:40:11
+
+Origin:
+    Public ID              Origin/20221229204056.544649.383617
+    Date                   2022-12-29
+    Time                   20:27:54.0  +/-    0.4 s
+    Latitude                 3.70 deg  +/-      4 km
+    Longitude               96.92 deg  +/-      5 km
+    Depth                      85 km   +/-   10 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-29 20:40:56
+    Residual RMS             0.74 s
+    Azimuthal gap             101 deg
+
+2 Network magnitudes:
+    MLv       3.04 +/- 0.23  10            BMG
+    M         3.04           10 preferred  BMG1
+
+20 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    KUSI  IA    0.7 138  P       20:28:10.1  -0.9 M  1.0  KUSI 
+    BESM  IA    0.7 307  P       20:28:11.6  -0.0 M  1.0  BESM 
+    LISM  IA    0.8 350  P       20:28:11.3  -0.7 M  1.0  LISM 
+    KCSI  IA    0.9 102  P       20:28:13.0   0.5 M  1.0  KCSI 
+    SISM  IA    0.9 348  P       20:28:12.9  -0.1 M  1.0  SISM 
+    SISM  IA    0.9 348  S       20:28:27.8   0.1 M  1.0  SISM 
+    GESM  IA    1.4 325  P       20:28:18.3  -0.0 M  1.0  GESM 
+    SNSI  IA    1.4 205  P       20:28:18.7   0.1 M  1.0  SNSI 
+    SSSI  IA    1.5 134  P       20:28:19.3   0.1 M  1.0  SSSI 
+    LDSI  IA    1.5 123  P       20:28:19.0  -0.4 M  1.0  LDSI 
+    SASN  IA    1.5 134  P       20:28:22.1   2.5 M  1.0  SASN 
+    TKSM  IA    1.5 112  P       20:28:20.2   0.4 M  1.0  TKSM 
+    KASAI IA    1.5 142  P       20:28:20.2   0.3 M  1.0  KASAI
+    LHMI  IA    1.5   1  P       20:28:19.7  -0.3 M  1.0  LHMI 
+    CASI  IA    1.6 305  P       20:28:22.4   1.1 M  1.0  CASI 
+    ONSM  IA    2.3 132  P       20:28:29.6  -0.3 M  1.0  ONSM 
+    BSI   IA    2.4 318  P       20:28:31.2  -0.3 M  1.0  BSI  
+    GSI   IA    2.5 165  P       20:28:31.6  -0.6 M  1.0  GSI  
+    PSSN  IA    2.9 137  P       20:28:37.6  -0.5 M  1.0  PSSN 
+    LTSM  IA    2.9 137  P       20:28:37.7  -0.9 M  1.0  LTSM 
+
+10 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    GESM  IA    1.4 325  MLv     3.30  0.26    1.06072     
+    SNSI  IA    1.4 205  MLv     2.88 -0.15   0.393384     
+    LDSI  IA    1.5 123  MLv     2.73 -0.31   0.253988     
+    SASN  IA    1.5 134  MLv     3.22  0.18   0.775278     
+    TKSM  IA    1.5 112  MLv     3.10  0.06   0.571291     
+    KASAI IA    1.5 142  MLv     3.03 -0.00   0.485433     
+    LHMI  IA    1.5   1  MLv     3.23  0.19   0.750528     
+    CASI  IA    1.6 305  MLv     3.11  0.07    0.50264     
+    BSI   IA    2.4 318  MLv     3.17  0.14   0.212572     
+    GSI   IA    2.5 165  MLv     2.44 -0.60   0.0364676     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

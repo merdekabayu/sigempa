@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022yrud
+    Preferred Origin ID    Origin/20221218062452.928822.264531
+    Preferred Magnitude ID Origin/20221218062452.928822.264531/netMag/M
+    Description
+      region name: West Papua, Indonesia
+    Creation time          2022-12-18 06:24:59
+
+Origin:
+    Public ID              Origin/20221218062452.928822.264531
+    Date                   2022-12-18
+    Time                   06:20:21.0  +/-    0.5 s
+    Latitude                -2.72 deg  +/-      5 km
+    Longitude              138.00 deg  +/-      3 km
+    Depth                      79 km   +/-   21 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-18 06:24:52
+    Residual RMS             0.55 s
+    Azimuthal gap              95 deg
+
+4 Network magnitudes:
+    mb        4.62 +/- 0.15   2            BMG
+    MLv       4.37 +/- 0.26   6            BMG
+    M         4.44            6 preferred  BMG1
+    Mjma      4.41 +/- 0.25   6            BMG1
+
+19 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SMPI  IA    1.0  44  P       06:20:39.9  -0.3 M  1.0  SMPI 
+    WWPI  IA    1.7 284  P       06:20:48.2  -0.5 M  1.0  WWPI 
+    SRPI  IA    2.0 295  P       06:20:51.8  -0.5 M  1.0  SRPI 
+    LJPI  IA    2.0 102  P       06:20:52.4  -0.3 M  1.0  LJPI 
+    MIPI  IA    2.1 212  P       06:20:55.1   0.7 M  1.0  MIPI 
+    GENI  IA    2.2  87  P       06:20:56.1   1.0 M  1.0  GENI 
+    BAKI  IA    2.4 309  P       06:20:59.6   0.9 M  1.0  BAKI 
+    NBPI  IA    2.6 256  P       06:21:04.8   4.0 MX 0.0  NBPI 
+    DYPI  IA    2.6 145  P       06:21:01.6   0.8 M  1.0  DYPI 
+    JAY   IA    2.7  86  P       06:21:01.9  -0.5 M  1.0  JAY  
+    IWPI  IA    3.5 269  P       06:21:12.8  -0.2 M  1.0  IWPI 
+    RKPI  IA    4.0 287  P       06:21:20.0  -0.1 M  1.0  RKPI 
+    TRPI  IA    4.1 146  P       06:21:20.4  -0.4 M  1.0  TRPI 
+    MBPI  IA    4.3 279  P       06:21:27.9   3.6 MX 0.0  MBPI 
+    ARMI  IA    4.8 231  P       06:21:31.3  -0.1 M  1.0  ARMI 
+    AMPM  IA    5.7 285  P       06:21:43.7   0.6 M  1.0  AMPM 
+    FAKI  IA    5.7 268  P       06:21:43.8   0.2 M  1.0  FAKI 
+    FKMPM IA    5.9 158  P       06:21:45.8  -0.7 M  1.0  FKMPM
+    TSPI  IA    6.0 282  P       06:21:47.3  -0.5 M  1.0  TSPI 
+
+12 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    SMPI  IA    1.0  44  MLv     4.28 -0.09    16.1881     
+    SMPI  IA    1.0  44  Mjma    4.31 -0.09    14.1255     
+    WWPI  IA    1.7 284  MLv     4.11 -0.26    4.76284     
+    WWPI  IA    1.7 284  Mjma    4.32 -0.09    6.06215     
+    MIPI  IA    2.1 212  MLv     4.82  0.45    13.9224     
+    MIPI  IA    2.1 212  Mjma    4.67  0.26    9.07144     
+    BAKI  IA    2.4 309  MLv     4.17 -0.20    2.08535     
+    BAKI  IA    2.4 309  Mjma    4.37 -0.04    3.54411     
+    FAKI  IA    5.7 268  MLv     4.35 -0.02   0.205623     
+    FAKI  IA    5.7 268  mb      4.51 -0.11    39.8004 0.71
+    TSPI  IA    6.0 282  MLv     4.49  0.12   0.241845     
+    TSPI  IA    6.0 282  mb      4.73  0.11    69.4582 0.79
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

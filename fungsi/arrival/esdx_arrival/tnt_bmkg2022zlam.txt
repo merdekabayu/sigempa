@@ -1,0 +1,84 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zlam
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-28
+    Time                   19:07:42.4  +/-    0.4 s
+    Latitude                 1.88 deg  +/-      2 km
+    Longitude              127.00 deg  +/-      2 km
+    Depth                      99 km   +/-    6 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.56 s
+    Azimuthal gap              85 deg
+
+5 Network magnitudes:
+    mb        3.93 +/- 0.15   5            
+    mB        4.86 +/- 0.15   3            
+    Mw(mB)    4.13 +/- 0.40   3            
+    MLv       3.58 +/- 0.30  17            
+    M         3.72           17 preferred  
+
+32 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    JHMI  IA    0.9 149  P       19:08:02.5   0.2 M  1.0  JHMI 
+    JHMI  IA    0.9 149  S       19:08:17.7   0.1 M  1.0  JHMI 
+    TNTI  IA    1.2 162  P       19:08:05.2   0.6 M  1.0  TNTI 
+    TNTI  IA    1.2 162  S       19:08:21.9  -0.0 M  1.0  TNTI 
+    MTAI  IA    1.3  76  P       19:08:06.1  -0.4 M  1.0  MTAI 
+    MTAI  IA    1.3  76  S       19:08:24.9  -0.2 M  1.0  MTAI 
+    WBMI  IA    1.8 150  P       19:08:12.0   0.0 M  1.0  WBMI 
+    WBMI  IA    1.8 150  S       19:08:35.3   0.3 M  1.0  WBMI 
+    PSSI  IA    1.8 298  P       19:08:12.4   0.0 M  1.0  PSSI 
+    PSSI  IA    1.8 298  S       19:08:35.7  -0.1 M  1.0  PSSI 
+    MGAI  IA    2.1 351  P       19:08:16.0  -0.7 M  1.0  MGAI 
+    MGAI  IA    2.1 351  S       19:08:43.5   0.1 M  1.0  MGAI 
+    TMSI  IA    2.2 254  P       19:08:17.4   0.5 M  1.0  TMSI 
+    TMSI  IA    2.2 254  S       19:08:43.9   0.1 M  1.0  TMSI 
+    MNI   IA    2.2 259  P       19:08:18.2   0.6 M  1.0  MNI  
+    MNI   IA    2.2 259  S       19:08:45.2   0.3 M  1.0  MNI  
+    GHMI  IA    2.4 158  P       19:08:19.8  -0.3 M  1.0  GHMI 
+    GHMI  IA    2.4 158  S       19:08:49.1  -0.4 M  1.0  GHMI 
+    LBMI  IA    2.6 169  P       19:08:22.7   0.5 M  1.0  LBMI 
+    TBMCM IA    2.7 244  P       19:08:23.6  -0.2 M  1.0  TBMCM
+    TBMCM IA    2.7 244  S       19:08:55.4  -0.7 M  1.0  TBMCM
+    PBCI  IA    3.3 243  P       19:08:32.5   0.2 M  1.0  PBCI 
+    PBCI  IA    3.3 243  S       19:09:10.8  -0.6 M  1.0  PBCI 
+    SANI  IA    4.0 194  P       19:08:40.1  -1.9 M  1.0  SANI 
+    TGCM  IA    4.1 251  P       19:08:44.0   0.4 M  1.0  TGCM 
+    KGCM  IA    4.3 253  P       19:08:46.0   0.1 M  1.0  KGCM 
+    SMSI  IA    4.7 259  P       19:08:51.5   0.3 M  1.0  SMSI 
+    NLAI  IA    5.1 179  P       19:08:55.7  -0.6 M  1.0  NLAI 
+    LUWI  IA    5.1 236  P       19:08:56.4  -0.4 M  1.0  LUWI 
+    KRAI  IA    5.4 165  P       19:09:01.2   1.2 M  1.0  KRAI 
+    TAMI  IA    5.6 169  P       19:09:04.0   0.2 M  1.0  TAMI 
+    APSI  IA    6.0 243  P       19:09:09.7   0.7 M  1.0  APSI 
+
+21 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MTAI  IA    1.3  76  MLv     3.12 -0.46   0.781805     
+    PSSI  IA    1.8 298  MLv     3.31 -0.27   0.638854     
+    MGAI  IA    2.1 351  MLv     3.24 -0.34    0.35126     
+    TMSI  IA    2.2 254  MLv     3.70  0.12    1.00263     
+    MNI   IA    2.2 259  MLv     3.49 -0.09   0.588955     
+    GHMI  IA    2.4 158  MLv     3.32 -0.26   0.304573     
+    LBMI  IA    2.6 169  MLv     3.19 -0.39   0.183839     
+    TBMCM IA    2.7 244  MLv     3.58  0.00   0.393336     
+    PBCI  IA    3.3 243  MLv     3.77  0.19   0.269613     
+    SANI  IA    4.0 194  MLv     3.89  0.31    0.18744     
+    TGCM  IA    4.1 251  MLv     3.57 -0.01   0.086135     
+    SMSI  IA    4.7 259  MLv     3.75  0.17   0.0931423     
+    NLAI  IA    5.1 179  MLv     3.96  0.38   0.119016     
+    NLAI  IA    5.1 179  mb      3.80 -0.13    13.2329 1.01
+    LUWI  IA    5.1 236  MLv     3.92  0.34   0.107314     
+    LUWI  IA    5.1 236  mB      4.80 -0.06       1146     
+    LUWI  IA    5.1 236  mb      3.99  0.06    12.8162 0.62
+    KRAI  IA    5.4 165  MLv     3.85  0.27   0.0793878     
+    KRAI  IA    5.4 165  mB      5.02  0.17    1857.67     
+    TAMI  IA    5.6 169  mB      4.74 -0.11    939.709     
+    TAMI  IA    5.6 169  mb      4.01  0.08     18.385 0.92
+
+stageofternate
+</p></body></html>

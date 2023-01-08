@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022zocj
+    Preferred Origin ID    Origin/20221230113724.732436.448766
+    Preferred Magnitude ID Origin/20221230113724.732436.448766/netMag/M
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+    Creation time          2022-12-30 11:37:29
+
+Origin:
+    Public ID              Origin/20221230113724.732436.448766
+    Date                   2022-12-30
+    Time                   11:29:20.7  +/-    0.5 s
+    Latitude                 0.92 deg  +/-      5 km
+    Longitude              124.46 deg  +/-      3 km
+    Depth                     214 km   +/-    5 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-30 11:37:24
+    Residual RMS             0.34 s
+    Azimuthal gap             115 deg
+
+2 Network magnitudes:
+    MLv       3.92 +/- 0.30  10            BMG
+    M         3.92           10 preferred  BMG1
+
+22 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TBMCM IA    0.2 148  P       11:29:49.1   0.1 M  1.0  TBMCM
+    TBMCM IA    0.2 148  S       11:30:11.7  -0.2 M  1.0  TBMCM
+    KMSI  IA    0.6 235  P       11:29:50.6   0.4 M  1.0  KMSI 
+    TMSI  IA    0.6  51  P       11:29:49.7  -0.5 M  1.0  TMSI 
+    TMSI  IA    0.6  51  S       11:30:14.3   0.2 M  1.0  TMSI 
+    MNI   IA    0.6  36  P       11:29:50.7   0.3 M  1.0  MNI  
+    PBCI  IA    0.7 218  P       11:29:51.1   0.5 M  1.0  PBCI 
+    PBCI  IA    0.7 218  S       11:30:14.3  -0.3 M  1.0  PBCI 
+    TGCM  IA    1.4 254  P       11:29:55.7   0.6 M  1.0  TGCM 
+    GTOI  IA    1.6 264  P       11:29:56.5   0.1 M  1.0  GTOI 
+    PSSI  IA    2.0  28  P       11:30:00.0  -0.4 M  1.0  PSSI 
+    SMSI  IA    2.1 272  P       11:30:00.4  -0.6 M  1.0  SMSI 
+    LUWI  IA    2.6 221  P       11:30:06.0  -0.1 M  1.0  LUWI 
+    BBLSI IA    2.7 200  P       11:30:07.7   0.1 M  1.0  BBLSI
+    TNTI  IA    2.9  93  P       11:30:09.6  -0.2 M  1.0  TNTI 
+    UTUSI IA    2.9 243  P       11:30:09.8  -0.1 M  1.0  UTUSI
+    SANI  IA    3.3 153  P       11:30:14.1  -0.5 M  1.0  SANI 
+    APSI  IA    3.3 237  P       11:30:15.0   0.1 M  1.0  APSI 
+    LBMI  IA    3.4 117  P       11:30:15.8   0.2 M  1.0  LBMI 
+    GHMI  IA    3.6 110  P       11:30:18.4  -0.0 M  1.0  GHMI 
+    WHMI  IA    3.7  87  P       11:30:19.1   0.4 M  1.0  WHMI 
+    TOLI2 IA    3.7 273  P       11:30:18.8  -0.0 M  1.0  TOLI2
+
+10 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    GTOI  IA    1.6 264  MLv     3.55 -0.37    1.45203     
+    SMSI  IA    2.1 272  MLv     3.42 -0.50   0.564794     
+    TNTI  IA    2.9  93  MLv     3.77 -0.14   0.450538     
+    UTUSI IA    2.9 243  MLv     3.66 -0.25   0.342432     
+    SANI  IA    3.3 153  MLv     4.05  0.13   0.493961     
+    APSI  IA    3.3 237  MLv     4.32  0.41   0.913605     
+    LBMI  IA    3.4 117  MLv     4.21  0.30   0.655716     
+    GHMI  IA    3.6 110  MLv     4.25  0.33   0.546343     
+    WHMI  IA    3.7  87  MLv     4.14  0.22   0.418053     
+    TOLI2 IA    3.7 273  MLv     3.73 -0.18   0.162301     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

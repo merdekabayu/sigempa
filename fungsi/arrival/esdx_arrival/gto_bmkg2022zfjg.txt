@@ -1,0 +1,46 @@
+<html><body><p>Event:
+    Public ID              bmkg2022zfjg
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-25
+    Time                   16:44:12.0  +/-    0.4 s
+    Latitude                 0.58 deg  +/-      3 km
+    Longitude              122.66 deg  +/-      2 km
+    Depth                       3 km   +/-    2 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.69 s
+    Azimuthal gap             163 deg
+
+2 Network magnitudes:
+    MLv       1.77 +/- 0.34   7            
+    M         1.77            7 preferred  
+
+13 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    KGCM  IA    0.2  74  P       16:44:15.3  -1.0 M  1.0  KGCM 
+    KGCM  IA    0.2  74  S       16:44:20.5   1.5 M  1.0  KGCM 
+    GTOI  IA    0.3  49  P       16:44:17.7   0.0 M  1.0  GTOI 
+    GTOI  IA    0.3  49  S       16:44:21.1  -0.3 M  1.0  GTOI 
+    TGCM  IA    0.4  99  P       16:44:20.5   0.1 M  1.0  TGCM 
+    TGCM  IA    0.4  99  S       16:44:25.7  -0.4 M  1.0  TGCM 
+    SMSI  IA    0.5 323  P       16:44:22.8   0.8 M  1.0  SMSI 
+    SMSI  IA    0.5 323  S       16:44:28.1  -0.7 M  1.0  SMSI 
+    MRSI  IA    0.7 262  P       16:44:26.8   0.6 M  1.0  MRSI 
+    MRSI  IA    0.7 262  S       16:44:35.9  -0.3 M  1.0  MRSI 
+    PBCI  IA    1.4  98  P       16:44:38.0   0.5 M  1.0  PBCI 
+    PBCI  IA    1.4  98  S       16:44:55.5  -0.8 M  1.0  PBCI 
+    TOLI2 IA    2.0 286  P       16:44:45.9  -0.1 M  1.0  TOLI2
+
+5 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    KGCM  IA    0.2  74  MLv     1.65 -0.12   0.636485     
+    TGCM  IA    0.4  99  MLv     1.73 -0.05   0.183029     
+    SMSI  IA    0.5 323  MLv     1.53 -0.24   0.0678429     
+    MRSI  IA    0.7 262  MLv     1.67 -0.10   0.0585211     
+    TOLI2 IA    2.0 286  MLv     2.28  0.51   0.0494312     
+
+stageofgorontalo
+</p></body></html>

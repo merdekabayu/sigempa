@@ -1,0 +1,58 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xiog
+    Description
+      region name: Talaud Islands, Indonesia
+Origin:
+    Date                   2022-11-28
+    Time                   23:37:23.9  +/-    0.5 s
+    Latitude                 4.38 deg  +/-      3 km
+    Longitude              126.03 deg  +/-      4 km
+    Depth                     119 km   +/-    7 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.51 s
+    Azimuthal gap             129 deg
+
+5 Network magnitudes:
+    MLv       4.42 +/- 0.31   8            
+    mB        5.15 +/- 0.63   2            
+    Mw(mB)    4.52 +/- 0.63   2            
+    mb        4.84 +/- 0.29   2            
+    M         4.56            8 preferred  
+
+15 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MGAI  IA    0.7 120  P       23:37:46.3   1.9 M  1.0  MGAI 
+    MGAI  IA    0.7 120  S       23:38:00.9   0.6 M  1.0  MGAI 
+    PSSI  IA    1.7 201  P       23:37:55.6   1.3 M  1.0  PSSI 
+    PSSI  IA    1.7 201  S       23:38:15.3  -2.7 M  1.0  PSSI 
+    DAV   IU    2.7 351  S       23:38:38.0  -1.7 M  1.0  DAV  
+    MTAI  IA    3.1 134  P       23:38:12.7   0.9 M  1.0  MTAI 
+    MTAI  IA    3.1 134  S       23:38:47.3  -1.9 M  1.0  MTAI 
+    MNI   IA    3.1 202  P       23:38:13.6   1.5 M  1.0  MNI  
+    IHMI  IA    3.2 152  P       23:38:14.1   0.9 M  1.0  IHMI 
+    IHMI  IA    3.2 152  S       23:38:48.4  -3.5 MX 0.0  IHMI 
+    TMSI  IA    3.3 200  P       23:38:14.9   1.4 M  1.0  TMSI 
+    PBCI  IA    4.4 207  P       23:38:29.1  -0.2 M  1.0  PBCI 
+    TGCM  IA    4.8 218  P       23:38:34.5  -0.1 M  1.0  TGCM 
+    MRSI  IA    5.6 227  P       23:38:46.1   0.7 M  1.0  MRSI 
+    SANI  IA    6.4 180  P       23:38:53.0  -2.6 M  1.0  SANI 
+
+12 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    PSSI  IA    1.7 201  MLv     4.02 -0.40    3.57214     
+    MTAI  IA    3.1 134  MLv     4.16 -0.26   0.849548     
+    MNI   IA    3.1 202  MLv     4.58  0.16    2.15818     
+    TMSI  IA    3.3 200  MLv     4.49  0.07    1.51301     
+    PBCI  IA    4.4 207  MLv     4.24 -0.18   0.341531     
+    TGCM  IA    4.8 218  MLv     4.37 -0.05   0.365326     
+    MRSI  IA    5.6 227  MLv     4.44  0.02   0.271775     
+    MRSI  IA    5.6 227  mB      4.71 -0.44     907.58     
+    MRSI  IA    5.6 227  mb      4.64 -0.21    76.1483 0.86
+    SANI  IA    6.4 180  MLv     5.11  0.69   0.822921     
+    SANI  IA    6.4 180  mB      5.60  0.44    6618.51     
+    SANI  IA    6.4 180  mb      5.05  0.21    131.566 0.60
+
+stageofternate
+</p></body></html>

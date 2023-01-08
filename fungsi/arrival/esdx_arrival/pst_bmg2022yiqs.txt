@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022yiqs
+    Preferred Origin ID    Origin/20221213062729.047616.380113
+    Preferred Magnitude ID Origin/20221213062729.047616.380113/netMag/M
+    Description
+      region name: Halmahera, Indonesia
+    Creation time          2022-12-13 06:26:25
+
+Origin:
+    Public ID              Origin/20221213062729.047616.380113
+    Date                   2022-12-13
+    Time                   06:23:59.1  +/-    0.4 s
+    Latitude                 1.80 deg  +/-      3 km
+    Longitude              127.31 deg  +/-      4 km
+    Depth                      25 km   +/-    6 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-13 06:27:29
+    Residual RMS             0.50 s
+    Azimuthal gap              84 deg
+
+3 Network magnitudes:
+    MLv       3.89 +/- 0.17   7            BMG
+    Mjma      3.71 +/- 0.15   5            BMG1
+    M         3.83            7 preferred  BMG1
+
+19 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    IHMI  IA    0.4 140  P       06:24:08.3  -0.0 M  1.0  IHMI 
+    IHMI  IA    0.4 140  S       06:24:15.3  -0.1 M  1.0  IHMI 
+    JHMI  IA    0.7 167  P       06:24:13.8   0.6 M  1.0  JHMI 
+    TNTI  IA    1.0 177  P       06:24:17.3   0.2 M  1.0  TNTI 
+    MTAI  IA    1.0  68  P       06:24:17.0  -0.5 M  1.0  MTAI 
+    WHMI  IA    1.1 131  P       06:24:18.0  -0.1 M  1.0  WHMI 
+    PMMI  IA    1.4 176  P       06:24:22.0  -0.9 M  1.0  PMMI 
+    WBMI  IA    1.6 159  P       06:24:25.6   0.7 M  1.0  WBMI 
+    PSSI  IA    2.1 296  P       06:24:32.9  -0.2 M  1.0  PSSI 
+    MGAI  IA    2.3 344  P       06:24:35.0  -0.3 M  1.0  MGAI 
+    LBMI  IA    2.4 175  P       06:24:37.5   0.1 M  1.0  LBMI 
+    TMSI  IA    2.4 258  P       06:24:37.3  -0.1 M  1.0  TMSI 
+    SGSI  IA    2.6 317  P       06:24:40.5   1.1 M  1.0  SGSI 
+    TBMCM IA    2.9 248  P       06:24:44.2   0.1 M  1.0  TBMCM
+    OBMI  IA    3.1 174  P       06:24:47.8   0.7 M  1.0  OBMI 
+    PBCI  IA    3.6 247  P       06:24:52.9   0.1 M  1.0  PBCI 
+    SANI  IA    4.0 199  P       06:24:58.7  -0.8 M  1.0  SANI 
+    TGCM  IA    4.4 253  P       06:25:04.0  -0.6 M  1.0  TGCM 
+    GTOI  IA    4.6 257  P       06:25:06.6   0.1 M  1.0  GTOI 
+
+10 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    IHMI  IA    0.4 140  MLv     4.10  0.21    53.6888     
+    IHMI  IA    0.4 140  Mjma    3.81  0.10    24.1214     
+    JHMI  IA    0.7 167  MLv     3.90  0.01    9.67108     
+    JHMI  IA    0.7 167  Mjma    3.69 -0.02    5.91423     
+    TNTI  IA    1.0 177  MLv     3.72 -0.17    4.48599     
+    TNTI  IA    1.0 177  Mjma    3.61 -0.10    2.77816     
+    MTAI  IA    1.0  68  MLv     3.88 -0.01    6.31734     
+    MGAI  IA    2.3 344  MLv     3.64 -0.25   0.733532     
+    LBMI  IA    2.4 175  MLv     4.09  0.20    1.69905     
+    SANI  IA    4.0 199  MLv     3.89  0.00   0.191635     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

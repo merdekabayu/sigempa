@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022xonn
+    Preferred Origin ID    Origin/20221202060514.965021.601479
+    Preferred Magnitude ID Origin/20221202060514.965021.601479/netMag/M
+    Description
+      region name: Java, Indonesia
+    Creation time          2022-12-02 06:05:24
+
+Origin:
+    Public ID              Origin/20221202060514.965021.601479
+    Date                   2022-12-02
+    Time                   06:03:30.4  +/-    0.4 s
+    Latitude                -6.84 deg  +/-      5 km
+    Longitude              107.10 deg  +/-      2 km
+    Depth                      10 km   (fixed)
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-02 06:05:14
+    Residual RMS             0.68 s
+    Azimuthal gap             137 deg
+
+3 Network magnitudes:
+    MLv       2.56 +/- 0.16   7            BMG
+    M         2.52            7 preferred  BMG1
+    Mjma      2.44 +/- 0.21   5            BMG1
+
+12 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SCJM  IA    0.1  92  P       06:03:33.9  -0.4 M  1.0  SCJM 
+    SSJM  IA    0.1 251  P       06:03:33.5  -1.2 M  1.0  SSJM 
+    CCJM  IA    0.2 167  P       06:03:34.8  -0.5 M  1.0  CCJM 
+    CBJI  IA    0.2 311  P       06:03:35.4  -0.5 M  1.0  CBJI 
+    CBJM  IA    0.3 110  P       06:03:36.7  -0.2 M  1.0  CBJM 
+    JTJM  IA    0.4 234  P       06:03:38.6   0.1 M  1.0  JTJM 
+    WSJM  IA    0.4 250  P       06:03:40.5   1.4 M  1.0  WSJM 
+    LEM   IA    0.5  88  P       06:03:42.1   1.1 M  1.0  LEM  
+    PSJM  IA    0.6 257  P       06:03:41.8  -0.1 M  1.0  PSJM 
+    SKJI  IA    0.6 253  P       06:03:42.0   0.1 M  1.0  SKJI 
+    CSJI  IA    0.8 230  P       06:03:45.7   0.5 M  1.0  CSJI 
+    BBJI  IA    0.8 139  P       06:03:46.3  -0.3 M  1.0  BBJI 
+
+8 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    SCJM  IA    0.1  92  MLv     2.60  0.04    9.27587     
+    SSJM  IA    0.1 251  MLv     2.62  0.06    8.24412     
+    JTJM  IA    0.4 234  MLv     2.42 -0.14    1.25099     
+    JTJM  IA    0.4 234  Mjma    2.27 -0.17   0.756579     
+    WSJM  IA    0.4 250  Mjma    2.59  0.15    1.36658     
+    PSJM  IA    0.6 257  MLv     2.62  0.06   0.636536     
+    PSJM  IA    0.6 257  Mjma    2.51  0.06   0.615855     
+    CSJI  IA    0.8 230  MLv     2.63  0.07    0.50994     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

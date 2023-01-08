@@ -1,0 +1,72 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yqgc
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-12-17
+    Time                   10:07:03.9  +/-    0.7 s
+    Latitude                 2.27 deg  +/-      6 km
+    Longitude              129.31 deg  +/-      5 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.61 s
+    Azimuthal gap             200 deg
+
+5 Network magnitudes:
+    mb        4.93 +/- 0.52   6            
+    mB        5.31 +/- 0.19   3            
+    Mw(mB)    4.73 +/- 0.40   3            
+    MLv       4.76 +/- 0.21  13            
+    M         4.81           13 preferred  
+
+21 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MTAI  IA    1.0 266  P       10:07:22.1  -1.5 M  1.0  MTAI 
+    WHMI  IA    1.7 225  P       10:07:32.3  -0.6 M  1.0  WHMI 
+    IHMI  IA    1.9 247  P       10:07:36.8   0.3 M  1.0  IHMI 
+    JHMI  IA    2.2 237  P       10:07:40.3   0.0 M  1.0  JHMI 
+    WBMI  IA    2.4 217  P       10:07:43.0  -0.3 M  1.0  WBMI 
+    TNTI  IA    2.5 233  P       10:07:43.6  -0.4 M  1.0  TNTI 
+    PMMI  IA    2.7 225  P       10:07:47.1   0.1 M  1.0  PMMI 
+    MGAI  IA    3.2 303  P       10:07:53.9   0.2 M  1.0  MGAI 
+    LBMI  IA    3.4 212  P       10:07:56.4  -0.8 M  1.0  LBMI 
+    SWI   IA    3.7 148  P       10:07:59.8  -1.0 M  1.0  SWI  
+    PSSI  IA    3.9 277  P       10:08:04.7   0.3 M  1.0  PSSI 
+    TMSI  IA    4.5 258  P       10:08:12.8   0.7 M  1.0  TMSI 
+    MNI   IA    4.5 260  P       10:08:12.9   0.1 M  1.0  MNI  
+    TSPI  IA    4.6 143  P       10:08:14.1   0.1 M  1.0  TSPI 
+    TBMCM IA    5.0 252  P       10:08:19.0   0.4 M  1.0  TBMCM
+    MSAI  IA    5.6 184  P       10:08:28.1   0.9 M  1.0  MSAI 
+    KMSI  IA    5.6 253  P       10:08:27.5   0.3 M  1.0  KMSI 
+    PBCI  IA    5.6 251  P       10:08:27.5   0.3 M  1.0  PBCI 
+    KRAI  IA    5.6 189  P       10:08:28.8   1.1 M  1.0  KRAI 
+    SMSI  IA    7.1 260  P       10:08:47.1  -0.3 M  1.0  SMSI 
+    LUWI  IA    7.3 243  P       10:08:51.1   0.1 M  1.0  LUWI 
+
+20 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MTAI  IA    1.0 266  MLv     4.48 -0.28    25.1808     
+    WHMI  IA    1.7 225  MLv     4.52 -0.24    12.2415     
+    IHMI  IA    1.9 247  MLv     4.86  0.10    19.7969     
+    MGAI  IA    3.2 303  MLv     4.72 -0.04    2.90277     
+    LBMI  IA    3.4 212  MLv     4.96  0.20    3.59359     
+    SWI   IA    3.7 148  MLv     4.59 -0.17    1.16047     
+    PSSI  IA    3.9 277  MLv     4.96  0.21    2.40322     
+    TMSI  IA    4.5 258  MLv     4.99  0.23     1.8374     
+    MNI   IA    4.5 260  MLv     4.97  0.21    1.71048     
+    TBMCM IA    5.0 252  MLv     4.79  0.04    0.89361     
+    MSAI  IA    5.6 184  MLv     4.88  0.12   0.742721     
+    MSAI  IA    5.6 184  mb      5.26  0.33    168.538 0.62
+    PBCI  IA    5.6 251  mB      5.54  0.22    4463.62     
+    KRAI  IA    5.6 189  MLv     4.36 -0.40   0.221995     
+    KRAI  IA    5.6 189  mB      5.22 -0.09     2134.2     
+    KRAI  IA    5.6 189  mb      4.83 -0.11    63.7322 0.65
+    SMSI  IA    7.1 260  MLv     4.75 -0.01   0.242134     
+    SMSI  IA    7.1 260  mb      4.90 -0.03    76.4246 0.84
+    LUWI  IA    7.3 243  mB      5.18 -0.13    1428.92     
+    LUWI  IA    7.3 243  mb      5.03  0.10     118.42 1.01
+
+stageofternate
+</p></body></html>

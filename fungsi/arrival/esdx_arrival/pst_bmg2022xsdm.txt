@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022xsdm
+    Preferred Origin ID    Origin/20221204053546.720533.201593
+    Preferred Magnitude ID Origin/20221204053546.720533.201593/netMag/M
+    Description
+      region name: Banda Sea
+    Creation time          2022-12-04 05:34:40
+
+Origin:
+    Public ID              Origin/20221204053546.720533.201593
+    Date                   2022-12-04
+    Time                   05:31:55.1  +/-    0.4 s
+    Latitude                -7.53 deg  +/-      4 km
+    Longitude              125.23 deg  +/-      4 km
+    Depth                     350 km   +/-   10 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-04 05:35:46
+    Residual RMS             1.73 s
+    Azimuthal gap              73 deg
+
+5 Network magnitudes:
+    mb        4.35 +/- 0.19  11            BMG
+    mB        4.69 +/- 0.26   7            BMG
+    Mw(mB)    3.91 +/- 0.40   7            BMG
+    MLv       4.69 +/- 0.31  11            BMG
+    M         4.33           11 preferred  BMG1
+
+21 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    ALKI  IA    0.9 226  P       05:32:41.6   1.0 M  1.0  ALKI 
+    TNTN  IA    2.1 201  P       05:32:48.0   1.1 M  1.0  TNTN 
+    EDFI  IA    3.7 251  P       05:33:00.3  -1.0 M  1.0  EDFI 
+    SBNI  IA    4.5 228  P       05:33:08.5  -0.4 M  1.0  SBNI 
+    WKCM  IA    5.4 313  P       05:33:19.0   0.1 M  1.0  WKCM 
+    BKSI  IA    5.5 293  P       05:33:20.7  -0.1 M  1.0  BKSI 
+    BNSI  IA    6.0 301  P       05:33:26.2   0.5 A  1.0  BNSI 
+    KTMI  IA    6.3  92  P       05:33:29.2  -0.3 A  1.0  KTMI 
+    SRSI  IA    6.6 319  P       05:33:33.1   0.2 AX 0.0  SRSI 
+    OSSN  IA    6.7 311  P       05:33:28.2  -6.4 A  1.0  OSSN 
+    BUMSI IA    6.7 325  P       05:33:18.6 -16.1 AX 0.0  BUMSI
+    MMCI  IA    7.4 308  P       05:33:42.9   0.5 A  1.0  MMCI 
+    MTN   AU    7.8 133  P       05:33:47.9   0.3 A  1.0  MTN  
+    FAKI  IA    8.4  57  P       05:33:51.6  -2.2 A  1.0  FAKI 
+    GTOI  IA    8.6 344  P       05:33:57.3   1.1 A  1.0  GTOI 
+    MRSI  IA    8.6 337  P       05:33:57.2   0.6 A  1.0  MRSI 
+    DOCM  IA    8.7 321  P       05:33:59.4   1.2 A  1.0  DOCM 
+    KNRA  AU    8.8 157  P       05:33:59.4   0.4 A  1.0  KNRA 
+    SMSI  IA    8.9 341  P       05:34:01.5   1.0 A  1.0  SMSI 
+    MPSI  IA    9.5 326  P       05:34:07.7   1.0 A  1.0  MPSI 
+    TOLI2 IA    9.7 332  P       05:34:10.6   1.5 A  1.0  TOLI2
+
+23 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TNTN  IA    2.1 201  MLv     4.34 -0.35    4.91924     
+    SBNI  IA    4.5 228  MLv     4.52 -0.17   0.636811     
+    BKSI  IA    5.5 293  mb      4.26 -0.08    36.0845 0.69
+    BNSI  IA    6.0 301  MLv     4.34 -0.35   0.175583     
+    BNSI  IA    6.0 301  mb      4.37  0.03    57.0669 0.79
+    KTMI  IA    6.3  92  mB      4.69  0.01    1293.14     
+    OSSN  IA    6.7 311  mb      4.37  0.03    59.9141 0.88
+    MTN   AU    7.8 133  MLv     4.75  0.06   0.153476     
+    MTN   AU    7.8 133  mB      4.51 -0.18    660.051     
+    MTN   AU    7.8 133  mb      4.26 -0.08    21.0843 0.49
+    FAKI  IA    8.4  57  MLv     4.94  0.24   0.173796     
+    FAKI  IA    8.4  57  mB      4.59 -0.09    713.667     
+    FAKI  IA    8.4  57  mb      4.46  0.12    36.3931 0.59
+    GTOI  IA    8.6 344  MLv     5.06  0.36   0.199385     
+    GTOI  IA    8.6 344  mB      4.52 -0.17    566.084     
+    MRSI  IA    8.6 337  MLv     4.96  0.26   0.155878     
+    MRSI  IA    8.6 337  mb      4.46  0.11    42.3076 0.74
+    KNRA  AU    8.8 157  MLv     4.58 -0.11   0.0584837     
+    KNRA  AU    8.8 157  mb      4.09 -0.25    17.8229 0.76
+    SMSI  IA    8.9 341  MLv     4.89  0.19   0.109263     
+    SMSI  IA    8.9 341  mb      4.35  0.00    29.7239 0.72
+    MPSI  IA    9.5 326  mB      5.09  0.41     1946.3     
+    TOLI2 IA    9.7 332  mb      4.57  0.23    49.3945 0.73
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {	font-size: 24px;
+	font-weight: bold;
+}
+.style2 {	font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR AMBON </span></td>
+</tr>
+<tr>
+<td> </td>
+<td valign="top"> </td>
+</tr>
+<tr>
+<td><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top" width="48%"><img src="area_ambon.jpg"/></td>
+<td valign="top" width="52%"><pre>Event:
+    Public ID              bmkg2023amga
+    Description
+      region name: Irian Jaya Region, Indonesia
+Origin:
+    Date                   2023-01-07
+    Time                   16:40:26.6  +/-    0.3 s
+    Latitude                -3.80 deg  +/-      4 km
+    Longitude              133.45 deg  +/-      3 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.25 s
+    Azimuthal gap             115 deg
+
+10 Network magnitudes:
+    mBc       6.45 +/- 0.25   6            
+    Mw(mBc)   5.76 +/- 0.40   6            
+    mb        5.15 +/- 0.23   7            
+    mB        5.37 +/- 0.19   6            
+    Mw(mB)    4.80 +/- 0.40   6            
+    Mjma      5.01 +/- 0.21  10            
+    ML        4.95 +/- 0.20   8            
+    MLv       5.02 +/- 0.19   8            
+    Ms(BB)    4.44 +/- 0.19  12            
+    M         5.16           12 preferred  
+
+19 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    FAKI  IA    1.5 306  P       16:40:51.1  -1.6 M  1.0  FAKI 
+    TLE2  IA    2.0 200  P       16:41:01.4   0.7 M  1.0  TLE2 
+    NBPI  IA    2.1  78  P       16:41:02.2   0.5 M  1.0  NBPI 
+    ERPI  IA    2.9  93  P       16:41:14.1   0.8 M  1.0  ERPI 
+    WSTMM IA    3.5 276  P       16:41:22.2   1.7 M  1.0  WSTMM
+    SWI   IA    3.6 323  P       16:41:22.2  -0.8 M  1.0  SWI  
+    TMTMM IA    3.9 277  P       16:41:29.1   1.9 M  1.0  TMTMM
+    NSBMM IA    5.3 278  P       16:41:46.7   1.2 M  1.0  NSBMM
+    LBMI  IA    6.7 298  P       16:42:05.2  -0.2 M  1.0  LBMI 
+    SANI  IA    7.6 283  P       16:42:15.7  -2.5 M  1.0  SANI 
+    MTN   AU    9.3 194  P       16:42:38.3  -2.1 M  1.0  MTN  
+    SOEI  IA   10.9 237  P       16:43:03.1   0.8 M  1.0  SOEI 
+    SMSI  IA   12.1 293  P       16:43:17.6  -0.9 M  1.0  SMSI 
+    APSI  IA   12.1 283  P       16:43:20.2   0.6 M  1.0  APSI 
+    SRSI  IA   12.6 275  P       16:43:27.1   0.9 M  1.0  SRSI 
+    EDFI  IA   12.7 247  P       16:43:37.7  10.5 AX 0.0  EDFI 
+    TTSI  IA   13.6 273  P       16:43:54.4  14.3 AX 0.0  TTSI 
+    WRAB  II   16.1 177  P       16:44:11.9  -0.9 M  1.0  WRAB 
+    CTAO  IU   20.4 143  P       16:45:04.3  -0.1 M  1.0  CTAO 
+
+51 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    FAKI  IA    1.5 306  ML      4.60 -0.35    19.4137     
+    FAKI  IA    1.5 306  MLv     4.80 -0.22    30.2168     
+    FAKI  IA    1.5 306  Mjma    5.15  0.14    51.6505     
+    TLE2  IA    2.0 200  Mjma    5.01 -0.01    21.0886     
+    TLE2  IA    2.0 200  Ms(BB)  4.45  0.01   2.7375e-05 2.61
+    NBPI  IA    2.1  78  ML      5.14  0.18    29.9174     
+    NBPI  IA    2.1  78  MLv     5.04  0.01    23.6642     
+    ERPI  IA    2.9  93  ML      4.86 -0.10    5.35584     
+    ERPI  IA    2.9  93  MLv     4.97 -0.05    7.00487     
+    ERPI  IA    2.9  93  Mjma    5.38  0.36    26.2564     
+    ERPI  IA    2.9  93  Ms(BB)  4.79  0.35   3.27859e-05 3.92
+    WSTMM IA    3.5 276  ML      4.91 -0.05    3.04088     
+    WSTMM IA    3.5 276  MLv     4.84 -0.18    2.63319     
+    WSTMM IA    3.5 276  Mjma    4.84 -0.17    5.71459     
+    WSTMM IA    3.5 276  Ms(BB)  4.38 -0.06   9.63212e-06 1.70
+    SWI   IA    3.6 323  ML      5.07  0.12    3.61216     
+    SWI   IA    3.6 323  MLv     5.14  0.12    4.25071     
+    SWI   IA    3.6 323  Mjma    5.13  0.12    10.1815     
+    SWI   IA    3.6 323  Ms(BB)  4.60  0.16   1.46743e-05 2.92
+    TMTMM IA    3.9 277  ML      4.75 -0.21    1.45466     
+    TMTMM IA    3.9 277  MLv     4.86 -0.16    1.87203     
+    TMTMM IA    3.9 277  Mjma    4.89 -0.12    5.14286     
+    TMTMM IA    3.9 277  Ms(BB)  4.30 -0.14   6.46274e-06 1.23
+    NSBMM IA    5.3 278  Mjma    5.22  0.20    6.56435     
+    LBMI  IA    6.7 298  ML      5.08  0.13   0.634189     
+    LBMI  IA    6.7 298  MLv     5.36  0.33    1.18438     
+    LBMI  IA    6.7 298  Mjma    4.85 -0.16    1.84811     
+    LBMI  IA    6.7 298  Ms(BB)  4.43 -0.01   3.58025e-06 1.46
+    LBMI  IA    6.7 298  mb      5.03 -0.12    133.295 1.04
+    SANI  IA    7.6 283  ML      5.20  0.24    0.48179     
+    SANI  IA    7.6 283  MLv     5.19  0.17   0.473721     
+    SANI  IA    7.6 283  Ms(BB)  4.14 -0.31   1.47343e-06 1.07
+    SANI  IA    7.6 283  mB      5.17 -0.20    1347.86     
+    SANI  IA    7.6 283  mBc     6.18 -0.27    13615.3     
+    SANI  IA    7.6 283  mb      5.24  0.10    122.453 0.67
+    MTN   AU    9.3 194  Mjma    4.52 -0.49   0.491009     
+    MTN   AU    9.3 194  Ms(BB)  4.41 -0.03   1.98216e-06 0.37
+    MTN   AU    9.3 194  mB      5.47  0.10    1973.46     
+    MTN   AU    9.3 194  mBc     6.43 -0.02    17870.2     
+    MTN   AU    9.3 194  mb      5.21  0.07    68.2544 0.54
+    SOEI  IA   10.9 237  Mjma    5.09  0.07    1.38681     
+    SOEI  IA   10.9 237  Ms(BB)  4.50  0.06   1.89463e-06 2.49
+    SOEI  IA   10.9 237  mB      5.46  0.09    1657.81     
+    SOEI  IA   10.9 237  mBc     6.62  0.17    23746.5     
+    SOEI  IA   10.9 237  mb      5.15  0.00    73.2587 0.79
+    SMSI  IA   12.1 293  mb      5.10 -0.04    72.6197 0.90
+    APSI  IA   12.1 283  Ms(BB)  4.41 -0.03   1.28182e-06 0.55
+    APSI  IA   12.1 283  mB      5.36 -0.01    1281.82     
+    APSI  IA   12.1 283  mBc     6.59  0.14      21342     
+    APSI  IA   12.1 283  mb      5.53  0.39    130.349 0.60
+    WRAB  II   16.1 177  mb      4.76 -0.39    43.0042 0.98
+
+Regional10Ambon
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

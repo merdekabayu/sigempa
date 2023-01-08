@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022yvbo
+    Preferred Origin ID    Origin/20221220013328.46056.346465
+    Preferred Magnitude ID Origin/20221220013328.46056.346465/netMag/M
+    Description
+      region name: Banda Sea
+    Creation time          2022-12-20 01:32:44
+
+Origin:
+    Public ID              Origin/20221220013328.46056.346465
+    Date                   2022-12-20
+    Time                   01:30:14.3  +/-    0.7 s
+    Latitude                -5.19 deg  +/-      4 km
+    Longitude              131.19 deg  +/-      4 km
+    Depth                      85 km   +/-   24 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-20 01:33:28
+    Residual RMS             0.82 s
+    Azimuthal gap             119 deg
+
+2 Network magnitudes:
+    MLv       4.38 +/- 0.41   6            BMG
+    M         4.38            6 preferred  BMG1
+
+16 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    BNDI  IA    1.4 297  P       01:30:39.8   0.6 M  1.0  BNDI 
+    KKMI  IA    1.6 108  P       01:30:41.1  -0.1 M  1.0  KKMI 
+    TLE2  IA    1.6 108  P       01:30:42.0   0.5 M  1.0  TLE2 
+    WSTMM IA    2.1 325  P       01:30:46.8  -0.9 M  1.0  WSTMM
+    BSMI  IA    2.2 341  P       01:30:55.9   7.1 MX 0.0  BSMI 
+    KTMI  IA    2.5 171  P       01:30:51.5  -1.3 M  1.0  KTMI 
+    FAKI  IA    2.5  25  P       01:30:52.5  -0.6 M  1.0  FAKI 
+    TMTMM IA    2.5 319  P       01:30:53.0  -0.1 M  1.0  TMTMM
+    SAUI  IA    2.8 178  P       01:30:57.9   1.2 M  1.0  SAUI 
+    ARMI  IA    3.1 101  P       01:30:59.6  -1.1 M  1.0  ARMI 
+    AAII  IA    3.3 297  P       01:31:04.8   0.4 M  1.0  AAII 
+    TSPI  IA    3.8  14  P       01:31:10.2  -0.5 M  1.0  TSPI 
+    MBPI  IA    4.0  39  P       01:31:15.2   1.5 M  1.0  MBPI 
+    IWPI  IA    4.1  54  P       01:31:15.5   0.8 M  1.0  IWPI 
+    SWI   IA    4.3   1  P       01:31:16.9  -0.5 M  1.0  SWI  
+    NLAI  IA    4.5 295  P       01:31:24.3   4.0 MX 0.0  NLAI 
+
+4 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TLE2  IA    1.6 108  MLv     3.91 -0.46    3.24158     
+    WSTMM IA    2.1 325  MLv     4.23 -0.15    3.58704     
+    KTMI  IA    2.5 171  MLv     4.53  0.15    4.30552     
+    FAKI  IA    2.5  25  MLv     4.82  0.44    8.34433     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2022yiws
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-13
+    Time                   09:25:01.9  +/-    1.9 s
+    Latitude                 0.97 deg  +/-      8 km
+    Longitude              121.98 deg  +/-      8 km
+    Depth                      57 km   +/-   17 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.52 s
+    Azimuthal gap             157 deg
+
+2 Network magnitudes:
+    MLv       2.23 +/- 0.70   3            
+    M         2.23            3            
+
+5 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SMSI  IA    0.4  87  P       09:25:13.2  -0.7 M  1.0  SMSI 
+    SMSI  IA    0.4  87  S       09:25:23.6   0.4 M  1.0  SMSI 
+    MRSI  IA    0.5 184  P       09:25:15.6   0.7 M  1.0  MRSI 
+    MRSI  IA    0.5 184  S       09:25:24.4  -0.4 M  1.0  MRSI 
+    BBCI  IA    0.6 290  P       09:25:15.7  -0.0 M  1.0  BBCI 
+
+3 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    SMSI  IA    0.4  87  MLv     1.67 -0.56   0.192375     
+    MRSI  IA    0.5 184  MLv     2.00 -0.23   0.223448     
+    BBCI  IA    0.6 290  MLv     3.02  0.79    1.57954     
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

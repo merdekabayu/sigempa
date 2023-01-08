@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2022ziuv
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-27
+    Time                   14:00:15.7  +/-    0.6 s
+    Latitude                -0.18 deg  +/-      2 km
+    Longitude              122.57 deg  +/-      2 km
+    Depth                      36 km   +/-   11 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.85 s
+    Azimuthal gap              65 deg
+
+2 Network magnitudes:
+    MLv       3.38 +/- 0.23  10            
+    M         3.38           10 preferred  
+
+25 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TGCM  IA    0.9  36  P       14:00:30.9  -0.9 M  1.0  TGCM 
+    TGCM  IA    0.9  36  S       14:00:44.0  -0.1 M  1.0  TGCM 
+    KGCM  IA    0.9  19  P       14:00:31.9   0.1 M  1.0  KGCM 
+    KGCM  IA    0.9  19  S       14:00:45.6   1.5 M  1.0  KGCM 
+    LUWI  IA    0.9 167  P       14:00:31.2  -0.8 M  1.0  LUWI 
+    LUWI  IA    0.9 167  S       14:00:44.9   0.5 M  1.0  LUWI 
+    BGCI  IA    1.1 130  P       14:00:34.5  -0.1 M  1.0  BGCI 
+    BGCI  IA    1.1 130  S       14:00:50.5   1.6 M  1.0  BGCI 
+    APSI  IA    1.2 232  P       14:00:35.9   0.1 M  1.0  APSI 
+    APSI  IA    1.2 232  S       14:00:51.8   0.6 M  1.0  APSI 
+    SMSI  IA    1.2 350  P       14:00:35.8  -0.2 M  1.0  SMSI 
+    SMSI  IA    1.2 350  S       14:00:52.2   0.8 M  1.0  SMSI 
+    PBCI  IA    1.6  69  P       14:00:39.9  -1.5 M  1.0  PBCI 
+    PBCI  IA    1.6  69  S       14:00:59.6  -1.5 M  1.0  PBCI 
+    KMSI  IA    1.6  62  P       14:00:41.1  -0.6 M  1.0  KMSI 
+    KMSI  IA    1.6  62  S       14:01:02.2   0.4 M  1.0  KMSI 
+    TPCI  IA    1.6 294  P       14:00:43.1   1.3 M  1.0  TPCI 
+    TPCI  IA    1.6 294  S       14:01:01.8  -0.0 M  1.0  TPCI 
+    TOLI2 IA    2.2 306  P       14:00:49.3  -0.6 M  1.0  TOLI2
+    TOLI2 IA    2.2 306  S       14:01:15.8  -0.8 M  1.0  TOLI2
+    TBMCM IA    2.2  66  P       14:00:50.2   0.2 M  1.0  TBMCM
+    TBMCM IA    2.2  66  S       14:01:17.1   0.3 M  1.0  TBMCM
+    POCI  IA    2.3 237  P       14:00:50.3  -0.6 M  1.0  POCI 
+    POCI  IA    2.3 237  S       14:01:17.2  -1.2 M  1.0  POCI 
+    MPSI  IA    2.7 281  P       14:00:58.1   1.0 M  1.0  MPSI 
+
+10 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TGCM  IA    0.9  36  MLv     3.53  0.16    3.57426     
+    KGCM  IA    0.9  19  MLv     3.62  0.25    4.37517     
+    LUWI  IA    0.9 167  MLv     3.52  0.15    3.42606     
+    APSI  IA    1.2 232  MLv     3.35 -0.02    1.58996     
+    SMSI  IA    1.2 350  MLv     3.23 -0.15    1.18083     
+    PBCI  IA    1.6  69  MLv     3.07 -0.31   0.492091     
+    TPCI  IA    1.6 294  MLv     3.67  0.29    1.89319     
+    TOLI2 IA    2.2 306  MLv     3.13 -0.25   0.253544     
+    POCI  IA    2.3 237  MLv     3.57  0.20   0.645949     
+    MPSI  IA    2.7 281  MLv     3.05 -0.33   0.108186     
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

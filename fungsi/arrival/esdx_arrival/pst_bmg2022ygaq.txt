@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022ygaq
+    Preferred Origin ID    Origin/20221211200307.689353.303360
+    Preferred Magnitude ID Origin/20221211200307.689353.303360/netMag/M
+    Description
+      region name: Banda Sea
+    Creation time          2022-12-11 20:03:24
+
+Origin:
+    Public ID              Origin/20221211200307.689353.303360
+    Date                   2022-12-11
+    Time                   19:59:40.7  +/-    0.5 s
+    Latitude                -7.83 deg  +/-      9 km
+    Longitude              128.01 deg  +/-      4 km
+    Depth                      10 km   (fixed)
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-11 20:03:07
+    Residual RMS             1.15 s
+    Azimuthal gap             160 deg
+
+4 Network magnitudes:
+    mb        4.17 +/- 0.56   5            BMG
+    MLv       4.51 +/- 0.40   3            BMG
+    M         4.34            5 preferred  BMG1
+    Mjma      4.16 +/- 0.30   3            BMG1
+
+28 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    ALTI  IA    2.9 261  P       20:00:26.9   0.0 M  1.0  ALTI 
+    ALTI  IA    2.9 261  S       20:01:02.2  -0.6 M  1.0  ALTI 
+    AAFM  IA    3.3 262  P       20:00:32.9   0.6 M  1.0  AAFM 
+    AAFM  IA    3.3 262  S       20:01:10.5  -1.9 M  1.0  AAFM 
+    ATNI  IA    3.4 248  P       20:00:34.1   0.8 M  1.0  ATNI 
+    ATNI  IA    3.4 248  S       20:01:13.3  -0.8 M  1.0  ATNI 
+    ALKI  IA    3.4 265  P       20:00:34.1   0.1 M  1.0  ALKI 
+    ANAN  IA    3.5 263  P       20:00:35.2   0.2 M  1.0  ANAN 
+    KTMI  IA    3.5  88  P       20:00:34.4  -1.3 M  1.0  KTMI 
+    PAFM  IA    3.9 262  P       20:00:37.8  -2.8 M  1.0  PAFM 
+    KTTI  IA    4.1 238  P       20:00:43.2   0.2 M  1.0  KTTI 
+    LMNI  IA    4.3 264  P       20:00:48.3   2.4 M  1.0  LMNI 
+    WLFM  IA    4.6 261  P       20:00:49.3  -0.6 M  1.0  WLFM 
+    IBTI  IA    4.7 263  P       20:00:52.1  -0.1 M  1.0  IBTI 
+    LRTI  IA    5.0 265  P       20:00:55.2  -0.4 M  1.0  LRTI 
+    RONI  IA    5.7 239  P       20:01:06.7   1.4 M  1.0  RONI 
+    MMRI  IA    5.8 262  P       20:01:06.1  -0.4 M  1.0  MMRI 
+    WEFM  IA    6.3 263  P       20:01:13.2  -0.3 M  1.0  WEFM 
+    EDFI  IA    6.3 261  P       20:01:14.4   0.3 M  1.0  EDFI 
+    SBNI  IA    6.6 246  P       20:01:17.3  -1.1 M  1.0  SBNI 
+    RNFM  IA    6.9 265  P       20:01:29.8   7.2 MX 0.0  RNFM 
+    BNTI  IA    7.0 262  P       20:01:26.8   3.0 M  1.0  BNTI 
+    PSJCM IA    7.4 275  P       20:01:29.0   0.5 M  1.0  PSJCM
+    LMTI  IA    7.5 264  P       20:01:31.1   0.9 M  1.0  LMTI 
+    KMBFM IA    7.7 264  P       20:01:32.7   0.3 M  1.0  KMBFM
+    OMBFM IA    8.2 263  P       20:01:39.1  -0.1 M  1.0  OMBFM
+    BKSI  IA    8.2 287  P       20:01:39.8  -0.4 M  1.0  BKSI 
+    WBSI  IA    8.7 257  P       20:01:46.9   0.0 M  1.0  WBSI 
+
+9 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    ALKI  IA    3.4 265  MLv     4.05 -0.45    0.45962     
+    ALKI  IA    3.4 265  Mjma    4.01 -0.16    0.86155     
+    ANAN  IA    3.5 263  MLv     4.81  0.30    2.35779     
+    ANAN  IA    3.5 263  Mjma    4.51  0.35    2.66257     
+    KTMI  IA    3.5  88  MLv     4.66  0.15    1.55767     
+    KTMI  IA    3.5  88  Mjma    3.97 -0.19   0.749255     
+    EDFI  IA    6.3 261  mb      3.89 -0.28     5.7303 0.57
+    SBNI  IA    6.6 246  mb      4.72  0.55    42.4405 0.67
+    BKSI  IA    8.2 287  mb      3.83 -0.34    5.78366 0.91
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

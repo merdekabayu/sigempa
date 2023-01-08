@@ -1,0 +1,93 @@
+<html><body><p>Event:
+    Public ID              bmkg2022ycyz
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-10
+    Time                   03:45:10.4  +/-    0.3 s
+    Latitude                 1.97 deg  +/-      2 km
+    Longitude              126.89 deg  +/-      2 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             2.75 s
+    Azimuthal gap              87 deg
+
+10 Network magnitudes:
+    mBc       6.29 +/- 0.00   1            
+    Mw(mBc)   5.56 +/- 0.40   1            
+    mb        4.52 +/- 0.00   1            
+    mB        5.10 +/- 0.00   1            
+    Mw(mB)    4.46 +/- 0.40   1            
+    Mjma      3.65 +/- 0.08  11            
+    ML        3.71 +/- 0.27  11            
+    MLv       3.76 +/- 0.23  11            
+    Ms(BB)    3.95 +/- 0.27   5            
+    M         4.40           11 preferred  
+
+24 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    IHMI  IA    0.8 124  P       03:45:26.7   0.5 M  1.0  IHMI 
+    IHMI  IA    0.8 124  S       03:45:38.5   0.7 M  1.0  IHMI 
+    JHMI  IA    1.1 146  P       03:45:30.6   0.1 M  1.0  JHMI 
+    JHMI  IA    1.1 146  S       03:45:46.1   0.9 M  1.0  JHMI 
+    TNTI  IA    1.3 158  P       03:45:37.2   3.4 M  1.0  TNTI 
+    TNTI  IA    1.3 158  S       03:45:49.7  -1.6 M  1.0  TNTI 
+    MTAI  IA    1.4  81  P       03:45:34.3  -1.4 M  1.0  MTAI 
+    MTAI  IA    1.4  81  S       03:45:51.9  -2.7 M  1.0  MTAI 
+    WHMI  IA    1.5 125  P       03:45:42.0   4.6 M  1.0  WHMI 
+    WHMI  IA    1.5 125  S       03:45:56.7  -1.1 M  1.0  WHMI 
+    PSSI  IA    1.7 297  P       03:45:39.2  -0.2 M  1.0  PSSI 
+    PSSI  IA    1.7 297  S       03:46:00.4  -1.1 M  1.0  PSSI 
+    PMMI  IA    1.7 162  P       03:45:39.1  -0.5 M  1.0  PMMI 
+    PMMI  IA    1.7 162  S       03:45:59.2  -2.4 M  1.0  PMMI 
+    WBMI  IA    1.9 149  P       03:45:45.4   2.6 M  1.0  WBMI 
+    WBMI  IA    1.9 149  S       03:46:03.4  -4.1 M  1.0  WBMI 
+    MGAI  IA    2.0 354  P       03:45:43.9  -0.8 M  1.0  MGAI 
+    TMSI  IA    2.1 251  P       03:45:53.4   8.1 M  1.0  TMSI 
+    TMSI  IA    2.1 251  S       03:46:10.4  -1.6 M  1.0  TMSI 
+    PBCI  IA    3.3 241  P       03:45:59.7  -1.9 M  1.0  PBCI 
+    PBCI  IA    3.3 241  S       03:46:37.4  -3.8 M  1.0  PBCI 
+    OBMI  IA    3.4 167  P       03:46:06.0   2.8 M  1.0  OBMI 
+    OBMI  IA    3.4 167  S       03:46:46.2   1.9 M  1.0  OBMI 
+    TAMI  IA    5.7 168  P       03:46:33.5  -2.2 M  1.0  TAMI 
+
+33 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    IHMI  IA    0.8 124  ML      3.95  0.24    10.0162     
+    IHMI  IA    0.8 124  MLv     3.89  0.13    8.74146     
+    IHMI  IA    0.8 124  Mjma    3.66  0.01    4.69238     
+    JHMI  IA    1.1 146  ML      3.78  0.07    4.89064     
+    JHMI  IA    1.1 146  MLv     3.74 -0.02    4.46135     
+    JHMI  IA    1.1 146  Mjma    3.62 -0.03    2.64334     
+    TNTI  IA    1.3 158  ML      3.67 -0.04    2.84902     
+    MTAI  IA    1.4  81  ML      3.46 -0.26    1.49408     
+    MTAI  IA    1.4  81  MLv     3.72 -0.04    2.75287     
+    MTAI  IA    1.4  81  Mjma    3.64 -0.01    1.70817     
+    PSSI  IA    1.7 297  ML      3.84  0.13     2.6168     
+    PSSI  IA    1.7 297  MLv     3.86  0.09    2.68303     
+    PSSI  IA    1.7 297  Mjma    3.68  0.03     1.4141     
+    PMMI  IA    1.7 162  ML      3.46 -0.25     1.0593     
+    PMMI  IA    1.7 162  MLv     3.53 -0.23    1.25853     
+    PMMI  IA    1.7 162  Mjma    3.59 -0.07    1.11414     
+    WBMI  IA    1.9 149  ML      3.51 -0.21   0.888453     
+    WBMI  IA    1.9 149  MLv     3.53 -0.23   0.939142     
+    WBMI  IA    1.9 149  Mjma    3.72  0.06    1.21245     
+    MGAI  IA    2.0 354  MLv     3.82  0.06    1.52184     
+    MGAI  IA    2.0 354  Mjma    3.74  0.09    1.13141     
+    MGAI  IA    2.0 354  Ms(BB)  4.03  0.08   1.02619e-05 0.17
+    PBCI  IA    3.3 241  ML      4.09  0.38   0.601706     
+    PBCI  IA    3.3 241  MLv     4.15  0.38   0.683565     
+    PBCI  IA    3.3 241  Mjma    3.62 -0.03   0.386686     
+    PBCI  IA    3.3 241  Ms(BB)  3.92 -0.03   3.70478e-06 0.16
+    OBMI  IA    3.4 167  ML      3.51 -0.20   0.132441     
+    OBMI  IA    3.4 167  MLv     3.54 -0.22   0.143304     
+    OBMI  IA    3.4 167  Mjma    3.58 -0.07   0.324863     
+    TAMI  IA    5.7 168  Ms(BB)  3.97  0.01   1.5842e-06 0.16
+    TAMI  IA    5.7 168  mB      5.10  0.00     1584.2     
+    TAMI  IA    5.7 168  mBc     6.29  0.00    24060.3     
+    TAMI  IA    5.7 168  mb      4.52  0.00    20.2881 0.42
+
+stageofternate
+</p></body></html>

@@ -1,0 +1,575 @@
+{% extends 'base.html' %}
+{% block judul %} SI-GEMPA V2.0{% endblock %}
+{% block mainpage_css %} 
+  <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css') }}">
+  <!-- Toastr -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/toastr/toastr.min.css') }}">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='dist/css/adminlte.min.css') }}">
+{% endblock %}
+{% block subjudul %} SI-GEMPA V2.0 {% endblock %}
+{% block menuopen_ig %} {% endblock %}
+{% block mainnav_add %} active {% endblock %}
+
+{% block content %} 
+  
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-left">
+            <li class="breadcrumb-item"><a href="/">SI-GEMPA</a></li>
+            <li class="breadcrumb-item active">Add Data</li>
+            
+          </ol>
+        </div>
+        <div class="col-sm-6">
+          
+        </div>
+      </div>
+    </div><!-- /.container-fluid -->
+  </section>
+
+  <!-- Main content -->
+  <section class="content">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Input</h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <div class="card-body">
+              <div id="actions" class="col-12">
+                <div class="row">
+                  <div class="col-4">
+                    <div class="fileupload-process w-100">
+                      <form action="/inputotomatis" method="POST">
+                        <div class="form-group row">
+                          <label for="input" class="col-sm-4 col-form-label">Pilih Parameter :</label>
+                          <div class="col-sm-5">
+                            <select class="form-control" name="par_otomatis">
+                              <option>TERNATE</option>
+                              <option>MANADO</option>
+                              <option>GORONTALO</option>
+                              <option>PUSAT</option>
+                              <option>AMBON</option>
+                              <option>TNT-ESDX</option>
+                            </select>
+                          </div>
+                          <div class="col-3">
+                            <div class="btn-group float-center w-100">
+                              <button type="submit" class="btn btn-success">
+                                <i class="fas fa-plus"></i>
+                                <span>
+                                  <strong>Input</strong>
+                                </span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="inputEmail3" class="col-sm-4 col-form-label">Custom Map :</label>
+                          <div class="col-sm-5">
+                            <select class="form-control" name="opsi_map">
+                              <option>Regional</option>
+                              <option>Lokal</option>
+                              <option>Lokal - 1</option>
+                            </select>
+                          </div>
+                          
+                        </div>
+                      </form>
+                      <div class="form-group row">
+                        <div class="col-sm-12">
+                          <div class="form-group">
+                            <br>
+                            <label>Teks Infogempa :</label>
+                            <textarea class="form-control" rows="3" id="infogempa" placeholder="" disabled>{% print(infogb[0]) %}</textarea>
+                          </div>
+                        </div>
+                        <div class="col-8"></div>
+                        <div class="col-4">
+                          <div class="btn-group float-center w-100">
+                            <button type="submit" onclick="copy()" class="btn btn-primary start swalDefaultSuccess">
+                              <i class="fas fa-copy"></i>
+                              <span>Copy Text</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      {% if submit %}
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                          <strong>INPUT SUCCESS !!</strong>
+                          <br>Silahkan salin gambar dan teks parameter! <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                      {% endif %}
+                      
+                    </div>
+                  </div>
+                  <div class="col-sm-4 align-items-start">
+                    <img style="margin-left: 25px; width: 85%;"src="{{ url_for('static', filename='peta_diseminasi.png') }}" class="img-fluid rounded " />
+                  </div>
+                  <div class="col-sm-3 ">
+                    <div id="map" style="width: 400px; height: 400px;"></div>
+                      <!--<div class="row" data-aos="zoom-in">
+                              <div class="map container-fluid mb-4" style="margin-bottom: 100px;" id="map" data-aos="fade-up">
+                              </div>
+                          </div>-->
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+            <!-- /.card-body -->
+          </div>
+          <!-- Default box -->
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">Input Manual</h3>
+                <div class="card-tools">
+                  <button type="button" class="btn btn-tool" href="#collapse-collapsed"  data-toggle="collapse" title="Collapse" >
+                    <i class="fa fa-chevron-down pull-right"></i>
+                  </button>
+                  <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                    <i class="fas fa-times"></i>
+                  </button>
+                </div>
+            </div>
+            
+            <div id="collapse-collapsed" class="collapse" aria-labelledby="heading-collapsed">
+                <div class="card-body">
+                  <form action="/inputmanual" method="POST">
+                    <div class="row">
+                      <div class="col-1">
+                        <div class="row">
+                          <label class="col-12" style="text-align: center;">Parameter</label>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <select class="form-control" name="parameter">
+                              <option>TERNATE</option>
+                              <option>MANADO</option>
+                              <option>GORONTALO</option>
+                              <option>PUSAT</option>
+                              <option>AMBON</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-1">
+                        <div class="row">
+                          <label class="col-12" style="text-align: center;">ID Event</label>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <input class="form-control" id="Input" placeholder="id" name="id">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-2">
+                        <div class="row">
+                          <label class="col-12" style="text-align: center;">Date</label>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="input-group date" id="reservationdate" data-target-input="nearest">
+                              <input type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="ot_date" data-target="#reservationdate"/>
+                              <div class="input-group-append" data-target="#reservationdate" data-toggle="datetimepicker" >
+                                  <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                              </div>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-2">
+                        <div class="row">
+                          <label class="col-12" style="text-align: center;">Time</label>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <div class="input-group date" id="timepicker" data-target-input="nearest">
+                              <input type="text" class="form-control datetimepicker-input" placeholder="hh:mm:ss" name="ot_time" data-target="#timepicker"/>
+                              <div class="input-group-append " data-target="#timepicker" data-toggle="datetimepicker" >
+                                  <div class="input-group-text"><i class="far fa-clock"></i></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-1">
+                        <div class="row">
+                          <label class="col-12" style="text-align: center;">Lat</label>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <input class="form-control" id="Input" placeholder="Lat" name="lat" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-1">
+                        <div class="row">
+                          <label class="col-12" style="text-align: center;">Long</label>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <input class="form-control" id="Input" placeholder="Long" name="long">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-1">
+                        <div class="row">
+                          <label class="col-12" style="text-align: center;">Depth</label>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <input class="form-control" id="Input" placeholder="Depth" name="depth">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-1">
+                        <div class="row">
+                          <label class="col-12" style="text-align: center;">Mag</label>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <input class="form-control" id="Input" placeholder="Mag" name="mag">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-2">
+                        <div class="row">
+                          <label class="col-12" style="text-align: center;">Info</label>
+                        </div>
+                        <div class="row">
+                          <div class="col-12">
+                            <input class="form-control" id="Input" placeholder="-" value="-" name="info">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-2">
+                        <div class="row">
+                          <label class="col-12" style="text-align: center;"></label>
+                          <label class="col-12" style="text-align: center;"></label>
+                          <label class="col-12" style="text-align: center;"></label>
+                          <div class="col-12 float-right">
+                            <div class="form-group row">
+                              <label class="col-sm-5" for="Input">Map Type :</label>
+                              <div class="col-sm-7">
+                                <select class="form-control" name="opsi_map">
+                                  <option>Regional</option>
+                                  <option>Lokal</option>
+                                  <option>Lokal - 1</option>
+                                </select>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-2">
+                        <div class="row">
+                          <div class="col-12 float-right">
+                            <label for="Input"></label>
+                            <div class="btn-group col-12">
+                              <button type="submit" class="btn btn-success col start">
+                                <i class="fas fa-plus"></i>
+                                <span>Add</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                        
+                    </div>
+                  </form>
+                </div>
+            </div>
+          </div>
+          
+          <!-- /.card -->
+          
+
+
+          <div class="card">
+            <div class="card-header">
+              <h3 class="card-title">50 Gempabumi Terakhir</h3>
+              <div class="btn-group float-right ">
+                <a href="/tabelgempa" class="btn btn-warning start" role="button" aria-pressed="true"> 
+                  <i class="fas fa-edit"></i> Edit Parameter
+                </a>
+              </div>
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+              <table id="example1" class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                  <!-- /.<th style="width: 10px;">No</th>-->
+                  <th style="width: 100px;">Tanggal (UTC)</th>
+                  <th style="width: 100px;">Jam (UTC)</th>
+                  <th style="width: 100px;">Lintang</th>
+                  <th style="width: 100px;">Bujur</th>
+                  <th style="width: 100px;">Kedalaman</th>
+                  <th style="width: 100px;">Magnitudo</th>
+                  <th style="width: 350px;">Keterangan</th>
+                  <th>Informasi</th>
+                </tr>
+                </thead>
+                <tbody>
+                  {% for par in data %}
+                  <tr>
+                    <!-- /.<td>1</td>-->
+                    <td>{{par.1}}</td>
+                    <td>{{par.2}}</td>
+                    <td>{{par.3}}</td>
+                    <td>{{par.4}}</td>
+                    <td>{{par.5}}</td>
+                    <td>{{par.6}}</td>
+                    <td>{{par.7}}</td>
+                    <td>{{par.8}}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+            <!-- /.card-body -->
+          </div>
+          <!-- /.card -->
+        </div>
+        <!-- /.col -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+  </section>
+  <!-- /.content -->
+</div>
+  <!-- /.content-wrapper -->
+{% endblock %}
+
+
+{% block scriptmainpage %} 
+
+
+
+<script>
+  $(document).ready(function() {
+      window.setTimeout(function() {
+          $(".alert").fadeTo(500, 0).slideUp(500, function(){
+              $(this).remove();
+          });
+      }, 2000);
+  });    
+</script>
+
+
+
+
+<script>
+  function copy() {
+  // Get the text field
+  var copyText = document.getElementById("infogempa");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+} 
+</script>
+
+
+<script>
+  var map = L.map('map').setView([{{ koord[0] }},{{ koord[1] }}], 7);
+  var icon_epic_last = L.icon({iconUrl: '{{ url_for('static', filename='gempa.png') }}', iconSize: [40,40]});
+  var icon_epic = L.icon({iconUrl: 'http://inatews.bmkg.go.id/generate_peta/images/new/circle-red-10.png', iconSize: [15,15]});
+  L.marker([{{ koord[0] }},{{ koord[1] }}], {icon: icon_epic_last}).addTo(map);
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '&copy; <a href="https://www.bmkg.go.id">Badan Meteorologi Klimatologi dan Geofisika</a>'
+  }).addTo(map);
+</script>
+
+
+
+
+<script src="{{ url_for('static', filename='plugins/sweetalert2/sweetalert2.min.js') }}"></script>
+<!-- Toastr -->
+<script src="{{ url_for('static', filename='plugins/toastr/toastr.min.js') }}"></script>
+<!-- AdminLTE App -->
+<script src="{{ url_for('static', filename='dist/js/adminlte.min.js') }}"></script>
+
+<!-- Page specific script -->
+<script>
+  $(function() {
+    var Toast = Swal.mixin({
+      toast: true,
+      position: 'top-end',
+      showConfirmButton: false,
+      timer: 3000
+    });
+
+    $('.swalDefaultSuccess').click(function() {
+      Toast.fire({
+        icon: 'success',
+        title: 'Parameter berhasil di-copy !!'
+      })
+    });
+    $('.swalDefaultInfo').click(function() {
+      Toast.fire({
+        icon: 'info',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.swalDefaultError').click(function() {
+      Toast.fire({
+        icon: 'error',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.swalDefaultWarning').click(function() {
+      Toast.fire({
+        icon: 'warning',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.swalDefaultQuestion').click(function() {
+      Toast.fire({
+        icon: 'question',
+        title: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+
+    $('.toastrDefaultSuccess').click(function() {
+      toastr.success('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+    });
+    $('.toastrDefaultInfo').click(function() {
+      toastr.info('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+    });
+    $('.toastrDefaultError').click(function() {
+      toastr.error('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+    });
+    $('.toastrDefaultWarning').click(function() {
+      toastr.warning('Lorem ipsum dolor sit amet, consetetur sadipscing elitr.')
+    });
+
+    $('.toastsDefaultDefault').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultTopLeft').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        position: 'topLeft',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultBottomRight').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        position: 'bottomRight',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultBottomLeft').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        position: 'bottomLeft',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultAutohide').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        autohide: true,
+        delay: 750,
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultNotFixed').click(function() {
+      $(document).Toasts('create', {
+        title: 'Toast Title',
+        fixed: false,
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultFull').click(function() {
+      $(document).Toasts('create', {
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        icon: 'fas fa-envelope fa-lg',
+      })
+    });
+    $('.toastsDefaultFullImage').click(function() {
+      $(document).Toasts('create', {
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        image: '../../dist/img/user3-128x128.jpg',
+        imageAlt: 'User Picture',
+      })
+    });
+    $('.toastsDefaultSuccess').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-success',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultInfo').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-info',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultWarning').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-warning',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultDanger').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-danger',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+    $('.toastsDefaultMaroon').click(function() {
+      $(document).Toasts('create', {
+        class: 'bg-maroon',
+        title: 'Toast Title',
+        subtitle: 'Subtitle',
+        body: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr.'
+      })
+    });
+  });
+</script>
+
+{% endblock %}
+
+
+

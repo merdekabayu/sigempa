@@ -1,0 +1,56 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xcns
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-11-25
+    Time                   16:31:07.6  +/-    0.3 s
+    Latitude                 1.27 deg  +/-      5 km
+    Longitude              126.16 deg  +/-      2 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.86 s
+    Azimuthal gap             103 deg
+
+2 Network magnitudes:
+    MLv       3.35 +/- 0.30  12            
+    M         3.35           12 preferred  
+
+18 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TMSI  IA    1.2 271  P       16:31:30.3   0.0 M  1.0  TMSI 
+    TMSI  IA    1.2 271  S       16:31:45.9  -1.2 M  1.0  TMSI 
+    TNTI  IA    1.3 112  P       16:31:31.3  -0.1 M  1.0  TNTI 
+    TNTI  IA    1.3 112  S       16:31:47.2  -1.9 M  1.0  TNTI 
+    MNI   IA    1.3 277  P       16:31:32.3   0.5 M  1.0  MNI  
+    MNI   IA    1.3 277  S       16:31:49.3  -0.5 M  1.0  MNI  
+    JHMI  IA    1.3  98  P       16:31:31.6  -0.2 M  1.0  JHMI 
+    IHMI  IA    1.4  80  P       16:31:32.3  -0.7 M  1.0  IHMI 
+    PMMI  IA    1.5 125  P       16:31:35.1   0.3 M  1.0  PMMI 
+    PSSI  IA    1.6 333  P       16:31:36.4   0.1 M  1.0  PSSI 
+    TBMCM IA    1.7 251  P       16:31:35.9  -0.7 M  1.0  TBMCM
+    WBMI  IA    1.9 118  P       16:31:41.6   0.9 M  1.0  WBMI 
+    WHMI  IA    2.0  95  P       16:31:40.8  -0.4 M  1.0  WHMI 
+    KMSI  IA    2.3 252  P       16:31:45.9   0.5 M  1.0  KMSI 
+    PBCI  IA    2.3 247  P       16:31:45.2  -0.4 M  1.0  PBCI 
+    MTAI  IA    2.3  66  P       16:31:46.8   1.1 M  1.0  MTAI 
+    LBMI  IA    2.3 145  P       16:31:47.5   1.6 M  1.0  LBMI 
+    TGCM  IA    3.2 256  P       16:31:58.8   1.2 M  1.0  TGCM 
+
+10 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TNTI  IA    1.3 112  MLv     2.84 -0.51   0.407134     
+    JHMI  IA    1.3  98  MLv     3.24 -0.10     1.0024     
+    IHMI  IA    1.4  80  MLv     3.26 -0.09   0.938542     
+    PMMI  IA    1.5 125  MLv     3.28 -0.07   0.834418     
+    PSSI  IA    1.6 333  MLv     3.35  0.01   0.871241     
+    TBMCM IA    1.7 251  MLv     3.72  0.37    1.95272     
+    WBMI  IA    1.9 118  MLv     3.30 -0.05   0.516147     
+    PBCI  IA    2.3 247  MLv     3.65  0.31   0.755144     
+    LBMI  IA    2.3 145  MLv     3.11 -0.23   0.207277     
+    TGCM  IA    3.2 256  MLv     3.74  0.39   0.298125     
+
+stageofternate
+</p></body></html>

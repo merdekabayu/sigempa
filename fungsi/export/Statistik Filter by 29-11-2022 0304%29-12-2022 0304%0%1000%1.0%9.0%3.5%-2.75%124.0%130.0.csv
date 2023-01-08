@@ -1,0 +1,61 @@
+HISTOGRAM GEMPABMI
+Tanggal,Jumlah
+29-Nov-22,0
+30-Nov-22,0
+01-Dec-22,0
+02-Dec-22,0
+03-Dec-22,0
+04-Dec-22,1
+05-Dec-22,0
+06-Dec-22,0
+07-Dec-22,0
+08-Dec-22,0
+09-Dec-22,0
+10-Dec-22,0
+11-Dec-22,1
+12-Dec-22,1
+13-Dec-22,0
+14-Dec-22,0
+15-Dec-22,1
+16-Dec-22,0
+17-Dec-22,0
+18-Dec-22,0
+19-Dec-22,0
+20-Dec-22,0
+21-Dec-22,0
+22-Dec-22,0
+23-Dec-22,0
+24-Dec-22,0
+25-Dec-22,0
+26-Dec-22,0
+27-Dec-22,0
+28-Dec-22,0
+29-Dec-22,0
+TOTAL,4,
+TOTAL DIRASAKAN,4,
+
+BERDASARKAN MAGNITUDO
+M < 3,0, 0.0%,
+3 < M < 5,2, 50.0%,
+M > 5,2, 50.0%,
+
+BERDASARKAN KEDALAMAN
+< 60 Km,3, 75.0%,
+60 - 300 Km,1, 25.0%,
+> 300 Km,0, 0.0%,
+
+BERDASARKAN WILAYAH
+LAUT MALUKU,1
+HALMAHERA BAG. UTARA,0
+HALMAHERA BAG. TIMUR,1
+HALMAHERA BAG. BARAT,1
+HALMAHERA BAG. SELATAN,0
+KEP. SULA & TALIABU,1
+SULAWESI,0
+
+Event ID,Origin Date,Origin Time,Latitude,Longitude,Depth,Magnitude,Remark,Information
+BMKG-TNT20221204T081534,2022-12-04,8:15:34,-2.18,125.38,207.0,3.9,68 km BaratDaya SANANA-MALUT,Dirasakan III MMI di Taliabu
+BMKG-TNT20221211T022844,2022-12-11,2:28:44,1.5,128.24,10.0,5.1,37 km Tenggara TOBELO-MALUT,Dirasakan II-III MMI di Halmahera Barat, Halmahera Utara, Halmahera Timur, dan Morotai
+BMKG-TNT20221212T083815,2022-12-12,8:38:15,1.07,127.92,12.0,4.6,49 km TimurLaut SOFIFI-MALUT,dirasakan III MMI di Halmahera Tengah, Halmahera Timur, dan Halmahera Utara, II-III MMI di Halmahera Barat dan Ternate
+BMKG-TNT20221215T033109,2022-12-15,3:31:09,2.88,127.5,13.0,5.0,128 km BaratLaut DARUBA-MALUT, dirasakan di Morotai Selatan II MMI
+

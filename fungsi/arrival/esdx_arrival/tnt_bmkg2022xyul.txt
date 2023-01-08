@@ -1,0 +1,76 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xyul
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-12-07
+    Time                   20:54:56.8  +/-    0.4 s
+    Latitude                 1.74 deg  +/-      3 km
+    Longitude              127.19 deg  +/-      2 km
+    Depth                     106 km   +/-    5 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.63 s
+    Azimuthal gap              80 deg
+
+7 Network magnitudes:
+    mBc       6.19 +/- 0.00   1            
+    Mw(mBc)   5.44 +/- 0.40   1            
+    mb        4.45 +/- 0.00   1            
+    mB        4.95 +/- 0.00   1            
+    Mw(mB)    4.26 +/- 0.40   1            
+    MLv       3.91 +/- 0.51  13            
+    M         4.78           13 preferred  
+
+29 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    IHMI  IA    0.4 122  P       20:55:13.1  -1.0 M  1.0  IHMI 
+    IHMI  IA    0.4 122  S       20:55:27.6   0.1 M  1.0  IHMI 
+    JHMI  IA    0.7 156  P       20:55:15.5  -0.4 M  1.0  JHMI 
+    JHMI  IA    0.7 156  S       20:55:30.8   0.1 M  1.0  JHMI 
+    TNTI  IA    1.0 170  P       20:55:17.9   0.3 M  1.0  TNTI 
+    TNTI  IA    1.0 170  S       20:55:33.7   0.1 M  1.0  TNTI 
+    WHMI  IA    1.1 125  P       20:55:19.7   0.4 M  1.0  WHMI 
+    MTAI  IA    1.2  67  P       20:55:19.7   0.0 M  1.0  MTAI 
+    MTAI  IA    1.2  67  S       20:55:37.0  -0.4 M  1.0  MTAI 
+    PMMI  IA    1.4 171  P       20:55:22.7   0.6 M  1.0  PMMI 
+    WBMI  IA    1.5 154  P       20:55:24.8   0.7 M  1.0  WBMI 
+    WBMI  IA    1.5 154  S       20:55:45.4   0.1 M  1.0  WBMI 
+    PSSI  IA    2.0 299  P       20:55:30.5   0.2 M  1.0  PSSI 
+    PSSI  IA    2.0 299  S       20:55:56.0  -0.2 M  1.0  PSSI 
+    TMSI  IA    2.3 259  P       20:55:34.3   0.6 M  1.0  TMSI 
+    TMSI  IA    2.3 259  S       20:56:02.7   0.3 M  1.0  TMSI 
+    MGAI  IA    2.3 347  P       20:55:33.6  -0.2 M  1.0  MGAI 
+    MNI   IA    2.4 263  P       20:55:35.1   0.7 M  1.0  MNI  
+    MNI   IA    2.4 263  S       20:56:03.8  -0.0 M  1.0  MNI  
+    LBMI  IA    2.4 173  P       20:55:35.3   0.7 M  1.0  LBMI 
+    TBMCM IA    2.8 249  P       20:55:39.5  -0.5 M  1.0  TBMCM
+    TBMCM IA    2.8 249  S       20:56:12.8  -1.0 M  1.0  TBMCM
+    OBMI  IA    3.1 172  P       20:55:43.1  -0.8 M  1.0  OBMI 
+    KMSI  IA    3.4 250  P       20:55:49.0   0.8 M  1.0  KMSI 
+    KMSI  IA    3.4 250  S       20:56:29.3   0.8 M  1.0  KMSI 
+    PBCI  IA    3.4 247  P       20:55:48.6   0.2 M  1.0  PBCI 
+    PBCI  IA    3.4 247  S       20:56:28.0  -0.9 M  1.0  PBCI 
+    SANI  IA    4.0 198  P       20:55:53.6  -1.8 M  1.0  SANI 
+    TAMI  IA    5.5 170  P       20:56:16.1   0.3 M  1.0  TAMI 
+
+14 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TNTI  IA    1.0 170  MLv     3.12 -0.79     1.1883     
+    WHMI  IA    1.1 125  MLv     3.40 -0.51     1.8515     
+    PMMI  IA    1.4 171  MLv     3.54 -0.37    1.88322     
+    PSSI  IA    2.0 299  MLv     3.98  0.07    2.20192     
+    TMSI  IA    2.3 259  MLv     4.48  0.57    4.93316     
+    MGAI  IA    2.3 347  MLv     3.94  0.03    1.38713     
+    MNI   IA    2.4 263  MLv     4.57  0.66    5.70454     
+    LBMI  IA    2.4 173  MLv     3.71 -0.20   0.755398     
+    OBMI  IA    3.1 172  MLv     3.52 -0.40   0.193167     
+    SANI  IA    4.0 198  MLv     4.44  0.53   0.695065     
+    TAMI  IA    5.5 170  MLv     4.37  0.46   0.249997     
+    TAMI  IA    5.5 170  mB      4.95  0.00    1575.88     
+    TAMI  IA    5.5 170  mBc     6.19  0.00    27064.5     
+    TAMI  IA    5.5 170  mb      4.45  0.00    28.3269 0.49
+
+stageofternate
+</p></body></html>

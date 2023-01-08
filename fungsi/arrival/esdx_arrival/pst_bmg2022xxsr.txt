@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022xxsr
+    Preferred Origin ID    Origin/20221207065543.798673.507719
+    Preferred Magnitude ID Magnitude/20221207065633.863697.327742
+    Description
+      region name: Seram, Indonesia
+    Creation time          2022-12-07 06:55:29
+
+Origin:
+    Public ID              Origin/20221207065543.798673.507719
+    Date                   2022-12-07
+    Time                   06:53:19.0  +/-    0.4 s
+    Latitude                -3.20 deg  +/-      3 km
+    Longitude              130.90 deg  +/-      2 km
+    Depth                      16 km   +/-    5 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-07 06:55:43
+    Residual RMS             0.94 s
+    Azimuthal gap              74 deg
+
+8 Network magnitudes:
+    mb        5.32 +/- 0.38   6            BMG
+    mB        5.77 +/- 0.49   6            BMG
+    Mw(mB)    5.32 +/- 0.49   6            BMG
+    MLv       4.99 +/- 0.33  13            BMG
+    Mwp       5.19 +/- 0.18   3            BMG
+    Mw(Mwp)   4.94 +/- 0.40   3            BMG
+    Mjma      4.85 +/- 0.24  13            BMG1
+    M         5.10           13            BMG1
+    Mw        4.88            5 preferred  BMG
+
+33 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    BSMI  IA    0.4 283  P       06:53:27.4  -0.5 M  1.0  BSMI 
+    WSTMM IA    0.9 255  P       06:53:35.7  -0.0 M  1.0  WSTMM
+    SEMI  IA    1.1 285  P       06:53:45.8   7.4 AX 0.0  SEMI 
+    TMTMM IA    1.4 266  P       06:53:44.3   1.9 A  1.0  TMTMM
+    FAKI  IA    1.4  78  P       06:53:42.6  -0.1 M  1.0  FAKI 
+    BNDI  IA    1.6 217  P       06:53:46.2  -0.4 M  1.0  BNDI 
+    MSAI  IA    2.0 266  P       06:53:51.4  -0.4 M  1.0  MSAI 
+    TSPI  IA    2.1  35  P       06:53:52.7  -0.7 M  1.0  TSPI 
+    SWI   IA    2.4   9  P       06:53:56.0  -1.0 M  1.0  SWI  
+    KRAI  IA    2.5 267  P       06:53:59.5   0.4 M  1.0  KRAI 
+    NSBMM IA    2.7 272  P       06:54:03.1   1.5 M  1.0  NSBMM
+    AAII  IA    2.7 260  P       06:54:01.4  -1.0 M  1.0  AAII 
+    TAMI  IA    2.8 260  P       06:54:02.7  -0.8 M  1.0  TAMI 
+    KMPI  IA    2.8  99  P       06:54:02.7  -0.9 M  1.0  KMPI 
+    MBPI  IA    3.1  68  P       06:54:07.8   1.1 M  1.0  MBPI 
+    TLE2  IA    3.1 144  P       06:54:06.5  -0.5 M  1.0  TLE2 
+    IWPI  IA    3.6  83  P       06:54:13.7  -1.0 M  1.0  IWPI 
+    RKPI  IA    3.7  63  P       06:54:14.8  -0.4 M  1.0  RKPI 
+    OBMI  IA    3.7 300  P       06:54:14.7  -1.4 M  1.0  OBMI 
+    NLAI  IA    3.8 269  P       06:54:18.0   1.2 M  1.0  NLAI 
+    LBMI  IA    4.2 307  P       06:54:23.5   0.4 A  1.0  LBMI 
+    KTMI  IA    4.5 171  P       06:54:32.7   6.4 AX 0.0  KTMI 
+    NBPI  IA    4.6  92  P       06:54:28.1   0.4 A  1.0  NBPI 
+    SANI  IA    5.0 283  P       06:54:32.4  -1.5 A  1.0  SANI 
+    WHMI  IA    5.1 327  P       06:54:34.5   0.0 A  1.0  WHMI 
+    TNTI  IA    5.3 318  P       06:54:39.1   1.7 A  1.0  TNTI 
+    JHMI  IA    5.5 321  P       06:54:49.3   9.6 AX 0.0  JHMI 
+    ERPI  IA    5.5  98  P       06:54:40.9   0.4 A  1.0  ERPI 
+    WWPI  IA    5.5  81  P       06:54:40.9   0.2 A  1.0  WWPI 
+    BAKI  IA    5.6  69  P       06:54:43.0   1.8 A  1.0  BAKI 
+    IHMI  IA    5.8 324  P       06:54:33.6 -10.0 AX 0.0  IHMI 
+    MTAI  IA    6.0 334  P       06:54:45.9  -0.7 A  1.0  MTAI 
+    MIPI  IA    6.1 103  P       06:54:48.9   0.2 A  1.0  MIPI 
+
+37 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    WSTMM IA    0.9 255  MLv     4.82 -0.18    62.5738     
+    WSTMM IA    0.9 255  Mjma    5.19  0.34    123.084     
+    TMTMM IA    1.4 266  MLv     4.81 -0.18    35.5608     
+    FAKI  IA    1.4  78  Mjma    4.71 -0.14    20.7014     
+    BNDI  IA    1.6 217  MLv     5.24  0.25    66.9839     
+    TSPI  IA    2.1  35  Mjma    4.83 -0.02    13.5503     
+    NSBMM IA    2.7 272  MLv     5.38  0.39    24.3585     
+    TLE2  IA    3.1 144  MLv     4.53 -0.46    2.09795     
+    LBMI  IA    4.2 307  MLv     5.26  0.27    3.95949     
+    LBMI  IA    4.2 307  Mjma    4.99  0.14    5.66225     
+    NBPI  IA    4.6  92  Mjma    5.07  0.21    5.91502     
+    SANI  IA    5.0 283  MLv     4.84 -0.15   0.961929     
+    SANI  IA    5.0 283  Mjma    4.49 -0.36    1.34392     
+    SANI  IA    5.0 283  Mwp     4.98 -0.21     1660.2     
+    SANI  IA    5.0 283  mb      5.25 -0.07    235.095 0.78
+    WHMI  IA    5.1 327  MLv     5.04  0.05    1.49098     
+    WHMI  IA    5.1 327  Mjma    4.55 -0.31    1.50252     
+    WHMI  IA    5.1 327  mB      5.25 -0.52     2584.2     
+    WHMI  IA    5.1 327  mb      5.21 -0.10    236.694 0.86
+    TNTI  IA    5.3 318  MLv     4.50 -0.50   0.367468     
+    TNTI  IA    5.3 318  mb      4.67 -0.64    61.2374 0.81
+    ERPI  IA    5.5  98  Mjma    5.13  0.28    5.03446     
+    WWPI  IA    5.5  81  MLv     5.33  0.33    2.20061     
+    WWPI  IA    5.5  81  Mjma    4.70 -0.15    1.85055     
+    WWPI  IA    5.5  81  mB      6.27  0.50    24943.9     
+    WWPI  IA    5.5  81  mb      5.41  0.09    307.047 0.79
+    BAKI  IA    5.6  69  MLv     5.33  0.33    2.15675     
+    BAKI  IA    5.6  69  Mjma    4.85 -0.00    2.57519     
+    BAKI  IA    5.6  69  Mwp     5.30  0.11    4509.17     
+    BAKI  IA    5.6  69  mB      5.66 -0.11    5975.83     
+    BAKI  IA    5.6  69  mb      5.80  0.49    735.681 0.76
+    MTAI  IA    6.0 334  MLv     4.56 -0.44   0.284011     
+    MIPI  IA    6.1 103  MLv     5.25  0.26    1.32762     
+    MIPI  IA    6.1 103  Mjma    4.88  0.03    2.34634     
+    MIPI  IA    6.1 103  Mwp     5.30  0.10    4018.88     
+    MIPI  IA    6.1 103  mB      5.81  0.04    7648.65     
+    MIPI  IA    6.1 103  mb      5.54  0.23    377.921 0.80
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

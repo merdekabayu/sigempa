@@ -1,0 +1,81 @@
+<html><body><p>Event:
+    Public ID              bmkg2022ygzq
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-12-12
+    Time                   08:38:15.2  +/-    0.2 s
+    Latitude                 1.08 deg  +/-      2 km
+    Longitude              127.93 deg  +/-      2 km
+    Depth                       3 km   +/-    1 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.71 s
+    Azimuthal gap              73 deg
+
+5 Network magnitudes:
+    mb        4.69 +/- 0.22   3            
+    mB        4.97 +/- 0.00   1            
+    Mw(mB)    4.28 +/- 0.40   1            
+    MLv       4.49 +/- 0.22  19            
+    M         4.56           19 preferred  
+
+29 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    WHMI  IA    0.2  90  P       08:38:20.4   0.8 M  1.0  WHMI 
+    WHMI  IA    0.2  90  S       08:38:23.0   0.6 M  1.0  WHMI 
+    JHMI  IA    0.5 270  P       08:38:24.7   0.5 M  1.0  JHMI 
+    JHMI  IA    0.5 270  S       08:38:30.9   0.4 M  1.0  JHMI 
+    IHMI  IA    0.6 318  P       08:38:26.6   0.3 M  1.0  IHMI 
+    IHMI  IA    0.6 318  S       08:38:33.7  -0.4 M  1.0  IHMI 
+    TNTI  IA    0.6 241  P       08:38:27.7  -0.0 M  1.0  TNTI 
+    WBMI  IA    0.7 185  P       08:38:29.4  -0.1 M  1.0  WBMI 
+    WBMI  IA    0.7 185  S       08:38:38.9  -0.8 M  1.0  WBMI 
+    PMMI  IA    0.9 216  P       08:38:31.7  -0.3 M  1.0  PMMI 
+    PMMI  IA    0.9 216  S       08:38:43.7  -0.3 M  1.0  PMMI 
+    MTAI  IA    1.2  17  P       08:38:35.8  -1.2 M  1.0  MTAI 
+    MTAI  IA    1.2  17  S       08:38:52.4  -0.4 M  1.0  MTAI 
+    LBMI  IA    1.8 194  P       08:38:45.6  -0.7 M  1.0  LBMI 
+    PSSI  IA    3.0 303  P       08:39:03.7  -0.0 M  1.0  PSSI 
+    TMSI  IA    3.0 274  P       08:39:04.6   0.8 M  1.0  TMSI 
+    MGAI  IA    3.2 337  P       08:39:05.4  -0.5 M  1.0  MGAI 
+    TBMCM IA    3.4 264  P       08:39:08.4  -0.2 M  1.0  TBMCM
+    SANI  IA    3.7 212  P       08:39:11.0  -1.8 M  1.0  SANI 
+    PBCI  IA    4.0 260  P       08:39:17.0   0.3 M  1.0  PBCI 
+    KMSI  IA    4.0 263  P       08:39:16.9  -0.2 M  1.0  KMSI 
+    KRAI  IA    4.4 174  P       08:39:24.5   1.7 M  1.0  KRAI 
+    MSAI  IA    4.5 167  P       08:39:24.3  -0.0 M  1.0  MSAI 
+    TAMI  IA    4.7 178  P       08:39:28.4   1.0 M  1.0  TAMI 
+    TSPI  IA    4.9 121  P       08:39:28.9  -0.4 M  1.0  TSPI 
+    TGCM  IA    4.9 263  P       08:39:30.6   1.1 M  1.0  TGCM 
+    SMSI  IA    5.6 269  P       08:39:38.8  -0.1 M  1.0  SMSI 
+    FAKI  IA    5.9 133  P       08:39:42.6  -0.6 M  1.0  FAKI 
+    APSI  IA    6.6 253  P       08:39:53.5   0.6 M  1.0  APSI 
+
+21 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    WHMI  IA    0.2  90  MLv     4.71  0.21     704.43     
+    JHMI  IA    0.5 270  MLv     4.90  0.41    220.135     
+    TNTI  IA    0.6 241  MLv     4.30 -0.19    27.7059     
+    WBMI  IA    0.7 185  MLv     4.77  0.28    72.0687     
+    PMMI  IA    0.9 216  MLv     4.60  0.10    40.6827     
+    MTAI  IA    1.2  17  MLv     4.23 -0.26    12.0777     
+    TMSI  IA    3.0 274  MLv     4.30 -0.19    1.33125     
+    MGAI  IA    3.2 337  MLv     4.22 -0.27    0.89866     
+    TBMCM IA    3.4 264  MLv     4.44 -0.05    1.19261     
+    SANI  IA    3.7 212  MLv     4.32 -0.17   0.630508     
+    PBCI  IA    4.0 260  MLv     4.23 -0.26   0.435489     
+    KRAI  IA    4.4 174  MLv     4.59  0.09   0.758094     
+    TAMI  IA    4.7 178  MLv     4.67  0.18    0.75357     
+    TSPI  IA    4.9 121  MLv     4.54  0.05   0.523906     
+    TGCM  IA    4.9 263  MLv     4.43 -0.07   0.402688     
+    SMSI  IA    5.6 269  mb      4.48 -0.21    33.0152 0.72
+    FAKI  IA    5.9 133  MLv     4.40 -0.09   0.211126     
+    FAKI  IA    5.9 133  mb      4.67 -0.02    45.7839 0.71
+    APSI  IA    6.6 253  MLv     4.72  0.23   0.294465     
+    APSI  IA    6.6 253  mB      4.97  0.00    977.634     
+    APSI  IA    6.6 253  mb      4.92  0.23    59.6412 0.60
+
+stageofternate
+</p></body></html>

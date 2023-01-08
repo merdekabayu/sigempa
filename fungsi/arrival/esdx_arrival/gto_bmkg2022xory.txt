@@ -1,0 +1,65 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xory
+    Description
+      region name: Southern Molucca Sea
+Origin:
+    Date                   2022-12-02
+    Time                   08:17:35.0  +/-    0.4 s
+    Latitude                -0.11 deg  +/-      2 km
+    Longitude              124.35 deg  +/-      3 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.80 s
+    Azimuthal gap             117 deg
+
+5 Network magnitudes:
+    Mjma      3.04 +/- 0.18   6            
+    ML        3.07 +/- 0.17   6            
+    MLv       3.06 +/- 0.24   6            
+    Ms(BB)    3.13 +/- 0.20   2            
+    M         3.07            6 preferred  
+
+14 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    PBCI  IA    0.6 327  P       08:17:48.4   1.6 M  1.0  PBCI 
+    PBCI  IA    0.6 327  S       08:17:54.7  -0.8 M  1.0  PBCI 
+    TBMCM IA    0.9  16  P       08:17:51.0  -0.6 M  1.0  TBMCM
+    TBMCM IA    0.9  16  S       08:18:03.9   0.2 M  1.0  TBMCM
+    BGCI  IA    1.2 232  P       08:17:56.2  -1.4 M  1.0  BGCI 
+    TGCM  IA    1.4 296  P       08:18:00.9   0.4 M  1.0  TGCM 
+    TMSI  IA    1.5  22  P       08:18:01.2  -0.6 M  1.0  TMSI 
+    TMSI  IA    1.5  22  S       08:18:22.1   0.1 M  1.0  TMSI 
+    GTOI  IA    1.7 300  P       08:18:06.2   1.4 M  1.0  GTOI 
+    GTOI  IA    1.7 300  S       08:18:26.7  -0.8 M  1.0  GTOI 
+    LUWI  IA    1.8 240  P       08:18:06.2  -0.2 M  1.0  LUWI 
+    LUWI  IA    1.8 240  S       08:18:30.9   0.5 M  1.0  LUWI 
+    SANI  IA    2.5 140  P       08:18:16.3   0.2 M  1.0  SANI 
+    APSI  IA    2.8 254  P       08:18:20.1  -0.0 M  1.0  APSI 
+
+20 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    PBCI  IA    0.6 327  ML      2.97 -0.10    1.38838     
+    TBMCM IA    0.9  16  ML      3.05 -0.02      1.187     
+    TBMCM IA    0.9  16  MLv     3.11  0.05    1.35388     
+    TBMCM IA    0.9  16  Mjma    2.80 -0.24   0.583729     
+    TGCM  IA    1.4 296  ML      3.05 -0.03   0.569097     
+    TGCM  IA    1.4 296  MLv     3.15  0.09   0.719989     
+    TGCM  IA    1.4 296  Mjma    2.90 -0.14   0.306721     
+    TMSI  IA    1.5  22  MLv     3.11  0.05   0.580483     
+    TMSI  IA    1.5  22  Mjma    3.06  0.02   0.393805     
+    GTOI  IA    1.7 300  ML      2.85 -0.22   0.247003     
+    GTOI  IA    1.7 300  MLv     2.68 -0.37   0.168573     
+    GTOI  IA    1.7 300  Mjma    2.99 -0.05   0.271296     
+    LUWI  IA    1.8 240  ML      3.21  0.14   0.488595     
+    LUWI  IA    1.8 240  MLv     3.39  0.33   0.738698     
+    LUWI  IA    1.8 240  Mjma    3.26  0.22   0.451416     
+    SANI  IA    2.5 140  MLv     2.90 -0.15   0.098618     
+    SANI  IA    2.5 140  Mjma    3.23  0.19    0.23873     
+    SANI  IA    2.5 140  Ms(BB)  2.99 -0.14   6.58036e-07 0.16
+    APSI  IA    2.8 254  ML      3.31  0.24   0.176728     
+    APSI  IA    2.8 254  Ms(BB)  3.27  0.14   1.05571e-06 0.17
+
+stageofgorontalo
+</p></body></html>

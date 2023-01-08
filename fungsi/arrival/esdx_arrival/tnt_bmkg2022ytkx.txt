@@ -1,0 +1,51 @@
+<html><body><p>Event:
+    Public ID              bmkg2022ytkx
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-19
+    Time                   03:57:26.6  +/-    0.9 s
+    Latitude                 1.15 deg  +/-      5 km
+    Longitude              124.68 deg  +/-      3 km
+    Depth                     161 km   +/-   10 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.65 s
+    Azimuthal gap             163 deg
+
+2 Network magnitudes:
+    MLv       3.23 +/- 0.69   8            
+    M         3.23            8 preferred  
+
+15 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TMSI  IA    0.3  60  P       03:57:48.2  -1.0 M  1.0  TMSI 
+    TBMCM IA    0.4 192  P       03:57:49.8  -0.1 M  1.0  TBMCM
+    KMSI  IA    0.9 231  P       03:57:53.0   1.1 M  1.0  KMSI 
+    PBCI  IA    1.0 220  P       03:57:53.0   0.7 M  1.0  PBCI 
+    TNTI  IA    2.7  98  P       03:58:11.2   0.3 M  1.0  TNTI 
+    TNTI  IA    2.7  98  S       03:58:44.5  -1.0 M  1.0  TNTI 
+    JHMI  IA    2.8  91  P       03:58:12.2   0.3 M  1.0  JHMI 
+    JHMI  IA    2.8  91  S       03:58:47.0  -0.4 M  1.0  JHMI 
+    MRSI  IA    2.8 256  P       03:58:11.6  -0.6 M  1.0  MRSI 
+    PMMI  IA    2.8 106  P       03:58:12.9   0.4 M  1.0  PMMI 
+    PMMI  IA    2.8 106  S       03:58:49.5   1.1 M  1.0  PMMI 
+    LBMI  IA    3.3 122  P       03:58:18.2  -0.4 M  1.0  LBMI 
+    LBMI  IA    3.3 122  S       03:58:59.9   0.4 M  1.0  LBMI 
+    SANI  IA    3.4 158  P       03:58:19.6  -0.3 M  1.0  SANI 
+    SANI  IA    3.4 158  S       03:59:01.4  -0.5 M  1.0  SANI 
+
+8 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TMSI  IA    0.3  60  MLv     2.23 -1.00    1.39199     
+    TBMCM IA    0.4 192  MLv     2.81 -0.42    1.87222     
+    PBCI  IA    1.0 220  MLv     2.43 -0.80   0.238264     
+    TNTI  IA    2.7  98  MLv     3.52  0.29   0.326439     
+    MRSI  IA    2.8 256  MLv     3.02 -0.21   0.0897331     
+    PMMI  IA    2.8 106  MLv     3.99  0.75   0.806173     
+    LBMI  IA    3.3 122  MLv     4.16  0.92   0.630555     
+    SANI  IA    3.4 158  MLv     3.69  0.45   0.184672     
+
+stageofternate
+</p></body></html>

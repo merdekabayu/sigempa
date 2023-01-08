@@ -1,0 +1,80 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xzna
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2022-12-08
+    Time                   06:17:50.2  +/-    0.7 s
+    Latitude                 0.99 deg  +/-      3 km
+    Longitude              128.88 deg  +/-      4 km
+    Depth                       1 km   +/-    4 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.55 s
+    Azimuthal gap             154 deg
+
+5 Network magnitudes:
+    Mjma      3.89 +/- 0.15  10            
+    ML        3.97 +/- 0.15   9            
+    MLv       4.02 +/- 0.14  10            
+    Ms(BB)    3.69 +/- 0.45   5            
+    M         3.92           10 preferred  
+
+17 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    WHMI  IA    0.8 277  P       06:18:05.1   0.4 M  1.0  WHMI 
+    WHMI  IA    0.8 277  S       06:18:14.5  -0.1 M  1.0  WHMI 
+    WBMI  IA    1.2 237  P       06:18:12.7   0.0 M  1.0  WBMI 
+    WBMI  IA    1.2 237  S       06:18:28.3  -0.4 M  1.0  WBMI 
+    MTAI  IA    1.3 333  P       06:18:14.5  -0.5 M  1.0  MTAI 
+    JHMI  IA    1.4 274  P       06:18:16.3   0.4 M  1.0  JHMI 
+    IHMI  IA    1.4 291  P       06:18:16.5   0.3 M  1.0  IHMI 
+    TNTI  IA    1.5 262  P       06:18:18.8   0.9 M  1.0  TNTI 
+    PMMI  IA    1.6 247  P       06:18:19.4   0.6 M  1.0  PMMI 
+    PMMI  IA    1.6 247  S       06:18:40.1   0.2 M  1.0  PMMI 
+    LBMI  IA    2.1 220  P       06:18:27.6   0.9 M  1.0  LBMI 
+    LBMI  IA    2.1 220  S       06:18:53.4  -1.0 M  1.0  LBMI 
+    OBMI  IA    2.6 208  S       06:19:03.5  -3.3 MX 0.0  OBMI 
+    PSSI  IA    3.9 297  P       06:18:50.2  -0.8 M  1.0  PSSI 
+    TMSI  IA    4.0 274  P       06:18:51.9  -0.2 M  1.0  TMSI 
+    TSPI  IA    4.0 127  P       06:18:53.1  -0.1 M  1.0  TSPI 
+    KMSI  IA    4.9 265  P       06:19:04.7  -0.5 M  1.0  KMSI 
+
+32 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    WHMI  IA    0.8 277  ML      3.98  0.01    11.4398     
+    WHMI  IA    0.8 277  MLv     4.20  0.18    19.0719     
+    WHMI  IA    0.8 277  Mjma    4.00  0.12    11.7318     
+    WBMI  IA    1.2 237  ML      3.97  0.00    6.31007     
+    WBMI  IA    1.2 237  MLv     4.05  0.03    7.62921     
+    WBMI  IA    1.2 237  Mjma    3.90  0.01    4.10919     
+    MTAI  IA    1.3 333  ML      3.67 -0.29    2.64447     
+    MTAI  IA    1.3 333  MLv     3.65 -0.37    2.50408     
+    MTAI  IA    1.3 333  Mjma    3.46 -0.43     1.2098     
+    JHMI  IA    1.4 274  MLv     4.13  0.11    7.14922     
+    JHMI  IA    1.4 274  Mjma    3.98  0.09    3.74496     
+    IHMI  IA    1.4 291  ML      4.16  0.20    7.47317     
+    IHMI  IA    1.4 291  MLv     4.17  0.15     7.6264     
+    IHMI  IA    1.4 291  Mjma    3.98  0.10     3.7243     
+    TNTI  IA    1.5 262  ML      3.91 -0.06    3.63772     
+    TNTI  IA    1.5 262  MLv     3.93 -0.09    3.78435     
+    TNTI  IA    1.5 262  Mjma    3.80 -0.09    2.14986     
+    PMMI  IA    1.6 247  ML      4.02  0.06    4.37531     
+    LBMI  IA    2.1 220  MLv     3.95 -0.07    1.83932     
+    LBMI  IA    2.1 220  Mjma    4.06  0.18    2.21561     
+    LBMI  IA    2.1 220  Ms(BB)  3.78  0.09   5.37634e-06 1.03
+    PSSI  IA    3.9 297  ML      4.06  0.09   0.306694     
+    PSSI  IA    3.9 297  MLv     3.94 -0.08   0.232817     
+    PSSI  IA    3.9 297  Mjma    3.92  0.04   0.569241     
+    TMSI  IA    4.0 274  ML      4.11  0.15    0.33308     
+    TMSI  IA    4.0 274  MLv     4.11  0.09   0.329219     
+    TMSI  IA    4.0 274  Mjma    3.73 -0.16    0.35031     
+    TMSI  IA    4.0 274  Ms(BB)  3.98  0.30   3.08078e-06 0.13
+    TSPI  IA    4.0 127  ML      3.77 -0.19   0.144405     
+    TSPI  IA    4.0 127  MLv     3.98 -0.04   0.234002     
+    TSPI  IA    4.0 127  Mjma    3.91  0.02   0.509974     
+    TSPI  IA    4.0 127  Ms(BB)  3.36 -0.33   7.02703e-07 0.42
+
+stageofternate
+</p></body></html>

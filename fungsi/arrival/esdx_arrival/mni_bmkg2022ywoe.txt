@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2022ywoe
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-20
+    Time                   21:01:07.2  +/-    0.6 s
+    Latitude                 2.69 deg  +/-      3 km
+    Longitude              126.09 deg  +/-      2 km
+    Depth                      27 km   +/-    6 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.72 s
+    Azimuthal gap             111 deg
+
+2 Network magnitudes:
+    MLv       3.53 +/- 0.21  12            
+    M         3.53           12 preferred  
+
+25 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    PSSI  IA    0.7 273  P       21:01:20.9  -0.2 M  1.0  PSSI 
+    PSSI  IA    0.7 273  S       21:01:31.6   0.1 M  1.0  PSSI 
+    MGAI  IA    1.4  24  P       21:01:31.5   0.2 M  1.0  MGAI 
+    MGAI  IA    1.4  24  S       21:01:50.4   0.6 M  1.0  MGAI 
+    TMSI  IA    1.8 220  P       21:01:36.4  -0.3 M  1.0  TMSI 
+    TMSI  IA    1.8 220  S       21:01:59.2  -0.2 M  1.0  TMSI 
+    IHMI  IA    1.9 129  P       21:01:38.2   0.7 M  1.0  IHMI 
+    IHMI  IA    1.9 129  S       21:02:00.4  -0.6 M  1.0  IHMI 
+    JHMI  IA    2.1 139  S       21:02:06.3  -0.7 M  1.0  JHMI 
+    MTAI  IA    2.2 103  P       21:01:42.3  -0.2 M  1.0  MTAI 
+    MTAI  IA    2.2 103  S       21:02:08.1  -1.8 M  1.0  MTAI 
+    TBMCM IA    2.5 217  P       21:01:45.3  -0.4 M  1.0  TBMCM
+    TBMCM IA    2.5 217  S       21:02:15.9   0.2 M  1.0  TBMCM
+    WHMI  IA    2.6 128  P       21:01:48.7   1.3 M  1.0  WHMI 
+    WHMI  IA    2.6 128  S       21:02:19.2   0.5 M  1.0  WHMI 
+    PMMI  IA    2.7 150  S       21:02:21.7   1.4 M  1.0  PMMI 
+    KMSI  IA    3.0 225  P       21:01:52.6  -0.1 M  1.0  KMSI 
+    KMSI  IA    3.0 225  S       21:02:28.5   0.3 M  1.0  KMSI 
+    PBCI  IA    3.1 222  P       21:01:54.5   0.5 M  1.0  PBCI 
+    PBCI  IA    3.1 222  S       21:02:30.9   0.2 M  1.0  PBCI 
+    LBMI  IA    3.6 157  P       21:02:01.6   0.4 M  1.0  LBMI 
+    TGCM  IA    3.7 234  P       21:02:02.6  -0.0 M  1.0  TGCM 
+    SMSI  IA    4.1 246  P       21:02:06.5  -1.5 M  1.0  SMSI 
+    MRSI  IA    4.7 242  P       21:02:16.8   0.5 M  1.0  MRSI 
+    SANI  IA    4.7 181  P       21:02:15.7  -0.8 M  1.0  SANI 
+
+10 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    PSSI  IA    0.7 273  MLv     3.34 -0.19    2.89433     
+    MGAI  IA    1.4  24  MLv     3.29 -0.24   0.997847     
+    TMSI  IA    1.8 220  MLv     3.67  0.14    1.46699     
+    IHMI  IA    1.9 129  MLv     3.68  0.14    1.35413     
+    WHMI  IA    2.6 128  MLv     3.19 -0.34   0.178936     
+    PBCI  IA    3.1 222  MLv     3.66  0.13   0.284529     
+    LBMI  IA    3.6 157  MLv     3.80  0.27   0.200276     
+    TGCM  IA    3.7 234  MLv     3.59  0.05    0.11495     
+    SMSI  IA    4.1 246  MLv     3.54  0.01   0.0830949     
+    SANI  IA    4.7 181  MLv     3.57  0.04   0.0622538     
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

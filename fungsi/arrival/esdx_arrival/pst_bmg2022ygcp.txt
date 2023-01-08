@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022ygcp
+    Preferred Origin ID    Origin/20221211210310.441903.304749
+    Preferred Magnitude ID Origin/20221211210310.441903.304749/netMag/M
+    Description
+      region name: Northern Sumatra, Indonesia
+    Creation time          2022-12-11 21:03:16
+
+Origin:
+    Public ID              Origin/20221211210310.441903.304749
+    Date                   2022-12-11
+    Time                   20:58:58.8  +/-    0.8 s
+    Latitude                 2.07 deg  +/-      4 km
+    Longitude               98.96 deg  +/-      4 km
+    Depth                     120 km   +/-    9 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-11 21:03:10
+    Residual RMS             0.57 s
+    Azimuthal gap             131 deg
+
+2 Network magnitudes:
+    MLv       3.35 +/- 0.37  11            BMG
+    M         3.35           11 preferred  BMG1
+
+28 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    ONSM  IA    0.3 284  P       20:59:17.1  -0.0 M  1.0  ONSM 
+    PSSN  IA    0.5 187  P       20:59:17.4  -0.8 M  1.0  PSSN 
+    LTSM  IA    0.5 183  P       20:59:18.1  -0.2 M  1.0  LTSM 
+    RSSM  IA    0.5 341  P       20:59:19.3   1.0 M  1.0  RSSM 
+    PSI   IA    0.6 357  P       20:59:18.3  -0.4 M  1.0  PSI  
+    SPSM  IA    0.7 307  P       20:59:18.6  -0.7 M  1.0  SPSM 
+    SBSI  IA    0.8 145  P       20:59:20.4   0.5 M  1.0  SBSI 
+    PLSM  IA    0.9 128  P       20:59:20.2   0.0 M  1.0  PLSM 
+    SDSM  IA    1.0 315  P       20:59:21.6   1.0 M  1.0  SDSM 
+    TTSM  IA    1.1 155  P       20:59:21.6  -0.1 M  1.0  TTSM 
+    SASN  IA    1.1 301  P       20:59:22.2   0.0 M  1.0  SASN 
+    LDSI  IA    1.1 315  P       20:59:22.2  -0.1 M  1.0  LDSI 
+    SSSI  IA    1.2 301  P       20:59:22.7   0.2 M  1.0  SSSI 
+    KASAI IA    1.2 291  P       20:59:22.9   0.1 M  1.0  KASAI
+    TKSM  IA    1.2 329  P       20:59:23.5   0.1 M  1.0  TKSM 
+    GSI   IA    1.6 241  P       20:59:28.0   0.6 M  1.0  GSI  
+    KCSI  IA    1.9 320  P       20:59:30.3  -0.4 M  1.0  KCSI 
+    TDNI  IA    1.9 217  P       20:59:30.8  -0.0 M  1.0  TDNI 
+    SNBI  IA    1.9 234  P       20:59:30.9  -0.1 M  1.0  SNBI 
+    MPSM  IA    1.9 141  P       20:59:31.0   0.0 M  1.0  MPSM 
+    SBSM  IA    1.9 167  P       20:59:29.8  -1.5 M  1.0  SBSM 
+    RRHRI IA    2.1 136  P       20:59:33.0  -0.5 M  1.0  RRHRI
+    TPTI  IA    2.1 304  P       20:59:33.2  -0.9 M  1.0  TPTI 
+    PABI  IA    2.1 155  P       20:59:34.2   0.1 M  1.0  PABI 
+    SASI  IA    2.1 155  P       20:59:34.6   0.5 M  1.0  SASI 
+    SMSM  IA    2.4 150  P       20:59:37.3  -0.0 M  1.0  SMSM 
+    TASI  IA    2.6 155  P       20:59:41.5   1.1 M  1.0  TASI 
+    SNSI  IA    2.7 277  P       20:59:41.0   0.4 M  1.0  SNSI 
+
+9 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    ONSM  IA    0.3 284  MLv     2.96 -0.39    5.16037     
+    PSSN  IA    0.5 187  MLv     3.00 -0.35    1.74382     
+    SASN  IA    1.1 301  MLv     3.96  0.60     6.7881     
+    LDSI  IA    1.1 315  MLv     3.26 -0.09    1.34072     
+    KASAI IA    1.2 291  MLv     3.78  0.42    4.17452     
+    GSI   IA    1.6 241  MLv     3.23 -0.12   0.705943     
+    KCSI  IA    1.9 320  MLv     3.20 -0.15   0.460799     
+    RRHRI IA    2.1 136  MLv     3.32 -0.04   0.447033     
+    TPTI  IA    2.1 304  MLv     3.45  0.09   0.570423     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xivl
+    Description
+      region name: Ceram Sea
+Origin:
+    Date                   2022-11-29
+    Time                   03:14:42.0  +/-    0.5 s
+    Latitude                -2.55 deg  +/-      4 km
+    Longitude              126.89 deg  +/-      5 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.09 s
+    Azimuthal gap             136 deg
+
+4 Network magnitudes:
+    Mjma      2.85 +/- 0.15   4            
+    ML        3.03 +/- 0.34   4            
+    MLv       2.94 +/- 0.25   4            
+    M         2.94            4 preferred  
+
+8 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    NLAI  IA    0.7 163  P       03:14:57.8   1.6 M  1.0  NLAI 
+    NLAI  IA    0.7 163  S       03:15:04.9  -1.6 M  1.0  NLAI 
+    SANI  IA    1.0 299  P       03:15:01.4  -0.2 M  1.0  SANI 
+    SANI  IA    1.0 299  S       03:15:12.0  -3.8 MX 0.0  SANI 
+    OBMI  IA    1.4  32  P       03:15:06.6  -0.8 M  1.0  OBMI 
+    OBMI  IA    1.4  32  S       03:15:23.5  -2.9 MX 0.0  OBMI 
+    TAMI  IA    1.7 133  P       03:15:11.8   1.0 M  1.0  TAMI 
+    TAMI  IA    1.7 133  S       03:15:32.7  -0.1 M  1.0  TAMI 
+
+12 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    NLAI  IA    0.7 163  ML      3.31  0.28    2.57648     
+    NLAI  IA    0.7 163  MLv     3.34  0.40    2.75721     
+    NLAI  IA    0.7 163  Mjma    2.96  0.11    1.13737     
+    SANI  IA    1.0 299  ML      2.46 -0.57   0.244776     
+    SANI  IA    1.0 299  MLv     2.68 -0.26     0.3999     
+    SANI  IA    1.0 299  Mjma    2.63 -0.22    0.28856     
+    OBMI  IA    1.4  32  ML      3.00 -0.03   0.515755     
+    OBMI  IA    1.4  32  MLv     2.83 -0.11   0.343343     
+    OBMI  IA    1.4  32  Mjma    2.97  0.12   0.356143     
+    TAMI  IA    1.7 133  ML      3.21  0.18   0.613938     
+    TAMI  IA    1.7 133  MLv     2.98  0.04   0.362061     
+    TAMI  IA    1.7 133  Mjma    2.79 -0.06   0.181427     
+
+stageofternate
+</p></body></html>

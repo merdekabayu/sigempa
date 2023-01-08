@@ -1,0 +1,873 @@
+# 2022 12 11 02 28 46.30   1.5400  128.1400  16.00  4.93 0.00 0.00 1.050     1
+ WHMI        7.90     0.0   P
+ IHMI       11.50     1.0   P
+ MTAI       10.00     0.0   P
+ JHMI       14.40     1.0   P
+ TNTI       18.40     1.0   P
+ WBMI       21.20     1.0   P
+ PMMI       23.30     1.0   P
+ LBMI       35.70     1.0   P
+ MGAI       45.10     1.0   P
+ OBMI       44.00     1.0   P
+ PSSI       46.90     1.0   P
+ TMSI       49.80     1.0   P
+  MNI       51.70     1.0   P
+ SGSI       51.60     1.0   P
+TBMCM       55.10     1.0   P
+ SANI       61.10     1.0   P
+ PBCI       63.90     1.0   P
+NSBMM       70.10     1.0   P
+ NLAI       72.40     1.0   P
+ TSPI       71.80     1.0   P
+TMTMM       75.80     1.0   P
+ TGCM       77.60     1.0   P
+ TAMI       77.70     1.0   P
+ AAII       77.70     1.0   P
+WSTMM       79.10     1.0   P
+ BGCI       80.50     1.0   P
+ GTOI       80.40     1.0   P
+BBLSI       81.80     1.0   P
+ SMSI       86.20     1.0   P
+ LUWI       87.60     1.0   P
+ FAKI       87.00     1.0   P
+ BNDI       93.90     1.0   P
+ MRSI       93.60     1.0   P
+UTUSI       94.40     1.0   P
+ MBPI       96.20     1.0   P
+ BBCI      106.80     0.0   P
+ APSI      101.00     1.0   P
+TOLI2      107.70     1.0   P
+LKUCM      109.90     1.0   P
+BUMSI      111.40     1.0   P
+ WWCI      118.30     1.0   P
+ PKCI      118.90     1.0   P
+ SRSI      118.50     1.0   P
+ MPSI      123.30     0.0   P
+ BGCM      133.80     0.0   P
+ BAKI      122.20     1.0   P
+ TLE2      123.80     1.0   P
+ BLCM      133.10     0.0   P
+ WKCM      124.70     1.0   P
+ DOCM      128.90     0.0   P
+ BBSI      129.80     1.0   P
+ RDCM      134.40     0.0   P
+ TTSI      135.50     1.0   P
+ KTMI      139.60     1.0   P
+ MMCI      140.90     1.0   P
+ PPCM      143.00     1.0   P
+ BNSI      142.20     1.0   P
+ SPSI      143.00     1.0   P
+ LSCM      146.40     1.0   P
+ MMSI      150.90     0.0   P
+ ALKI      148.60     1.0   P
+TTPSI      149.10     1.0   P
+ PMSI      160.10     0.0   P
+ BKSI      149.90     1.0   P
+ KAPI      151.20     1.0   P
+ BSSI      154.40     1.0   P
+ KJCM      157.60     1.0   P
+  MKS      156.00     1.0   P
+ SMPI      158.90     1.0   P
+PSJCM      163.70     1.0   P
+ EDFI      172.40     1.0   P
+ LMTI      181.60     0.0   P
+ KBKI      188.70     0.0   P
+# 2022 12 15 03 31 11.40   2.8300  127.4700  29.00  5.00 0.00 0.00 1.330     2
+ MTAI       17.20     1.0   P
+ MTAI       31.60     1.0   S
+ IHMI       22.30     1.0   P
+ MGAI       23.00     1.0   P
+ MGAI       42.70     1.0   S
+ JHMI       28.80     1.0   P
+ WHMI       29.20     1.0   P
+ TNTI       32.80     1.0   P
+ TNTI       59.90     1.0   S
+ PSSI       32.80     1.0   P
+ SGSI       33.10     1.0   P
+ SGSI       59.50     1.0   S
+ PMMI       38.60     1.0   P
+ WBMI       39.30     1.0   P
+ TMSI       45.80     1.0   P
+ TMSI       81.70     1.0   S
+  MNI       45.70     1.0   P
+ LBMI       51.60     1.0   P
+TBMCM       53.80     1.0   P
+TBMCM       95.20     1.0   S
+PBMSI       55.90     1.0   P
+ KMSI       63.10     1.0   P
+ OBMI       60.50     1.0   P
+ PBCI       62.60     1.0   P
+ PBCI      110.20     1.0   S
+ TGCM       72.30     1.0   P
+ GTOI       73.70     1.0   P
+ SANI       71.60     1.0   P
+ KGCM       75.30     1.0   P
+ SMSI       78.20     1.0   P
+ SMSI      139.10     1.0   S
+ BGCI       84.10     0.0   P
+NSBMM       87.40     1.0   P
+BBLSI       84.10     1.0   P
+ MRSI       88.40     1.0   P
+ MRSI      153.30     1.0   S
+ NLAI       86.40     1.0   P
+ KRAI       90.90     1.0   P
+ BBCI       91.50     1.0   P
+ TSPI       89.50     1.0   P
+TMTMM       94.30     1.0   P
+UTUSI       92.20     1.0   P
+ TAMI       95.10     1.0   P
+WSTMM       97.90     1.0   P
+ TPCI       95.90     1.0   P
+TOLI2       99.10     1.0   P
+ APSI      100.10     1.0   P
+ FAKI      105.20     1.0   P
+BUMSI      110.80     1.0   P
+ MBPI      114.00     1.0   P
+ MPSI      114.50     1.0   P
+LKUCM      113.40     1.0   P
+ BGCM      130.60     0.0   P
+ TOCM      115.70     1.0   P
+ RKCM      116.40     1.0   P
+ BLCM      121.10     1.0   P
+ DOCM      120.70     1.0   P
+ SRSI      118.50     1.0   P
+ PKCI      121.60     1.0   P
+ RDCM      128.70     1.0   P
+ WWCI      125.30     1.0   P
+ WKCM      127.40     1.0   P
+ TTSI      136.60     1.0   P
+ MMCI      139.60     1.0   P
+ KKMI      141.60     1.0   P
+ TLE2      142.60     1.0   P
+ PPCM      144.30     1.0   P
+ SPSI      145.20     1.0   P
+ BNSI      145.50     1.0   P
+ BBCM      151.90     1.0   P
+ BKSI      154.60     1.0   P
+ KTMI      155.60     1.0   P
+ ALKI      158.90     1.0   P
+ ALTI      159.10     1.0   P
+ LMNI      165.20     1.0   P
+PSJCM      169.70     1.0   P
+ ATNI      172.10     1.0   P
+ WEFM      180.00     1.0   P
+ EDFI      181.50     1.0   P
+ LMTI      195.80     0.0   P
+OMBFM      192.10     1.0   P
+ WBNI      197.50     1.0   P
+ RONI      198.30     1.0   P
+ SBNI      201.20     1.0   P
+ TSNI      209.00     1.0   P
+ ESNI      212.40     1.0   P
+ PLAI      213.10     1.0   P
+ RSNI      216.40     1.0   P
+ TWSI      216.70     1.0   P
+  MTN      217.60     0.0   P
+# 2022 12 28 23 07 37.50  -0.6000  127.4300  10.00  3.69 0.00 0.00 1.290     3
+ LBMI        0.60     1.0   P
+ OBMI       12.50     1.0   P
+ OBMI       25.10     1.0   S
+ TNTI       24.40     1.0   P
+ SANI       34.00     1.0   P
+ SANI       60.20     1.0   S
+NSBMM       41.80     1.0   P
+NSBMM       76.40     1.0   S
+ NLAI       43.30     1.0   P
+ NLAI       75.60     1.0   S
+ KRAI       47.10     1.0   P
+ MSAI       50.40     1.0   P
+ TAMI       50.60     1.0   P
+TMTMM       53.20     1.0   P
+  SWI       60.20     1.0   P
+# 2022 12 16 03 20 19.40   1.6500  127.2400 103.00  4.13 0.00 0.00 0.680     4
+ IHMI       16.60     1.0   P
+ IHMI       29.50     1.0   S
+ PSSI       34.10     1.0   P
+ PSSI       60.50     1.0   S
+ LBMI       64.20     1.0   S
+ TMSI       38.00     1.0   P
+ TMSI       66.70     1.0   S
+ MGAI       67.10     1.0   S
+TBMCM       43.50     1.0   P
+TBMCM       76.10     1.0   S
+ SANI       57.20     1.0   P
+ SANI       98.10     0.0   S
+ TGCM       64.80     1.0   P
+ GTOI       65.80     1.0   P
+# 2022 12 25 12 37 15.30  -0.0200  124.3200  25.00  2.46 0.00 0.00 0.530     5
+ PBCI       10.80     1.0   P
+ PBCI       19.70     1.0   S
+ KMSI       13.10     1.0   P
+ KMSI       24.40     1.0   S
+TBMCM       14.80     1.0   P
+TBMCM       27.40     1.0   S
+ TGCM       23.00     1.0   P
+ TGCM       41.30     1.0   S
+ TMSI       24.50     1.0   P
+ GTOI       26.90     1.0   P
+ GTOI       47.70     1.0   S
+ LUWI       29.40     1.0   P
+ LUWI       54.50     1.0   S
+ SMSI       35.00     1.0   P
+ SMSI       61.60     1.0   S
+# 2022 12 12 08 38 15.30   1.0700  127.9200  12.00  4.59 0.00 0.00 1.210     6
+ WHMI        5.00     1.0   P
+ WHMI        8.30     1.0   S
+ JHMI        9.10     1.0   P
+ JHMI       15.80     1.0   S
+ IHMI       11.00     1.0   P
+ IHMI       18.80     1.0   S
+ TNTI       11.90     1.0   P
+ TNTI       21.00     1.0   S
+ WBMI       13.80     1.0   P
+ WBMI       24.70     1.0   S
+ PMMI       15.90     1.0   P
+ PMMI       28.90     1.0   S
+ MTAI       20.30     1.0   P
+ MTAI       37.10     1.0   S
+ LBMI       30.00     1.0   P
+ LBMI       52.90     1.0   S
+ OBMI       67.90     1.0   S
+ TMSI       47.40     1.0   P
+ PSSI       47.70     1.0   P
+ MGAI       49.30     1.0   P
+TBMCM       93.00     1.0   S
+ SANI       55.80     1.0   P
+ PBCI       61.70     1.0   P
+ PBCI      104.60     1.0   S
+ NLAI       67.10     1.0   P
+ NLAI      117.30     1.0   S
+ TGCM       75.40     1.0   P
+ SMSI       83.70     1.0   P
+ FAKI       87.00     1.0   P
+ APSI       99.00     1.0   P
+ WWCI      111.60     1.0   P
+# 2022 12 13 05 37 54.40   0.2400  127.1800 133.00  3.49 0.00 0.00 1.420     7
+ PMMI       19.00     1.0   P
+ PMMI       34.70     1.0   S
+ WBMI       20.00     1.0   P
+ WBMI       37.40     1.0   S
+ LBMI       22.80     1.0   P
+ LBMI       43.80     1.0   S
+ WHMI       25.10     1.0   P
+ WHMI       44.70     1.0   S
+ IHMI       27.50     1.0   P
+ IHMI       49.20     1.0   S
+ OBMI       31.40     1.0   P
+ OBMI       54.60     1.0   S
+ TMSI       43.70     1.0   P
+ TMSI       72.30     1.0   S
+ SANI       41.20     1.0   P
+ SANI       72.20     1.0   S
+  MNI       41.30     1.0   P
+  MNI       75.90     1.0   S
+TBMCM       43.80     1.0   P
+TBMCM       74.70     1.0   S
+ PBCI       49.20     1.0   P
+ PBCI       86.50     1.0   S
+# 2022 12 13 06 23 59.20   1.8500  127.2500  17.00  4.23 0.00 0.00 1.640     8
+ IHMI        9.80     1.0   P
+ IHMI       16.70     1.0   S
+ JHMI       14.50     1.0   P
+ JHMI       25.60     1.0   S
+ TNTI       18.80     1.0   P
+ TNTI       32.80     1.0   S
+ MTAI       18.00     1.0   P
+ MTAI       32.40     1.0   S
+ WHMI       19.30     1.0   P
+ WHMI       34.40     1.0   S
+ PMMI       24.50     1.0   P
+ PMMI       44.50     1.0   S
+ WBMI       27.10     1.0   P
+ PSSI       33.50     1.0   P
+ PSSI       60.10     1.0   S
+ TMSI       38.10     1.0   P
+ TMSI       64.40     1.0   S
+ LBMI       40.00     1.0   P
+ LBMI       70.40     1.0   S
+TBMCM       44.60     1.0   P
+TBMCM       77.10     1.0   S
+ OBMI       53.00     1.0   P
+ KMSI       54.60     1.0   P
+ PBCI       53.60     1.0   P
+ SANI       59.50     1.0   P
+ TGCM       66.70     1.0   P
+ KGCM       79.40     0.0   P
+ BGCI       73.80     1.0   P
+ SMSI       73.70     1.0   P
+ NLAI       78.70     1.0   P
+ LUWI       78.30     1.0   P
+ MRSI       81.80     1.0   P
+TOLI2       94.30     1.0   P
+# 2022 12 14 14 29 55.30   0.9600  125.6300  11.00  3.20 0.00 0.00 0.820     9
+ TMSI       15.80     1.0   P
+ TMSI       25.60     1.0   S
+  MNI       18.30     1.0   P
+  MNI       30.60     1.0   S
+TBMCM       20.60     1.0   P
+TBMCM       34.40     1.0   S
+ PBCI       29.70     1.0   P
+ PBCI       49.90     1.0   S
+ KMSI       30.40     1.0   P
+ KMSI       51.80     1.0   S
+ PSSI       29.40     1.0   P
+ TGCM       43.20     1.0   P
+ TGCM       75.00     1.0   S
+ MTAI       46.50     1.0   P
+ MTAI       82.20     1.0   S
+ SANI       83.40     1.0   S
+ LUWI       54.80     1.0   P
+ LUWI       96.70     1.0   S
+# 2022 12 16 04 24 46.10   2.1600  129.2800  10.00  4.74 0.00 0.00 0.640    10
+ MTAI       17.60     1.0   P
+ WHMI       26.50     1.0   P
+ WHMI       46.80     1.0   S
+ IHMI       31.60     1.0   P
+ JHMI       35.50     1.0   P
+ JHMI       61.60     1.0   S
+ WBMI       37.90     1.0   P
+ WBMI       66.70     1.0   S
+ TNTI       38.40     1.0   P
+ PMMI       42.30     1.0   P
+ MGAI       48.80     1.0   P
+ LBMI       52.30     1.0   P
+  SWI       54.70     1.0   P
+ PSSI       60.10     1.0   P
+ TMSI       68.00     1.0   P
+TBMCM       73.80     1.0   P
+ SANI       80.70     1.0   P
+ KMSI       85.70     0.0   P
+ PBCI       82.40     1.0   P
+ NLAI       88.00     0.0   P
+ FAKI       89.00     0.0   P
+ TGCM       94.60     1.0   P
+ KGCM       93.90     0.0   P
+ SMSI      101.90     1.0   P
+ LUWI      112.00     0.0   P
+ MRSI      109.50     1.0   P
+ APSI      119.50     1.0   P
+TOLI2      124.20     0.0   P
+ POCI      140.10     0.0   P
+ MPSI      140.20     0.0   P
+ SDCI      144.10     0.0   P
+ MMCI      159.90     0.0   P
+# 2022 12 17 10 07  5.70   2.1800  129.2200  17.00  4.85 0.00 0.00 1.010    11
+ MTAI       16.20     1.0   P
+ MTAI       29.20     1.0   S
+ WHMI       25.80     1.0   P
+ IHMI       30.60     1.0   P
+ IHMI       52.20     1.0   S
+ JHMI       34.00     1.0   P
+ JHMI       61.30     1.0   S
+ WBMI       37.00     1.0   P
+ WBMI       64.70     1.0   S
+ TNTI       37.50     1.0   P
+ TNTI       67.30     1.0   S
+ PMMI       41.00     1.0   P
+ PMMI       73.20     1.0   S
+ MGAI       47.70     1.0   P
+ MGAI       87.20     1.0   S
+ LBMI       51.10     1.0   P
+ LBMI       89.40     1.0   S
+  SWI       53.80     1.0   P
+ OBMI       57.40     1.0   P
+ PSSI       58.80     1.0   P
+ PSSI      102.60     1.0   S
+ TMSI       67.20     1.0   P
+ TMSI      119.20     1.0   S
+  MNI       67.70     1.0   P
+  MNI      119.10     1.0   S
+TBMCM       73.60     1.0   P
+ PBCI       81.20     1.0   P
+ NLAI       85.50     1.0   P
+ TGCM       94.20     1.0   P
+ SMSI      101.00     1.0   P
+ MRSI      107.90     1.0   P
+# 2022 12 19 09 30  2.90   1.1000  126.9100   7.00  3.90 0.00 0.00 0.920    12
+ TNTI       10.30     1.0   P
+ TNTI       18.70     1.0   S
+ JHMI       11.40     1.0   P
+ JHMI       20.00     1.0   S
+ IHMI       13.30     1.0   P
+ IHMI       24.50     1.0   S
+ PMMI       15.60     1.0   P
+ PMMI       27.90     1.0   S
+ WBMI       22.40     1.0   P
+ WBMI       39.80     1.0   S
+ WHMI       24.10     1.0   P
+ WHMI       38.60     1.0   S
+ MTAI       29.40     1.0   P
+ LBMI       31.20     1.0   P
+ LBMI       53.30     1.0   S
+ TMSI       33.40     1.0   P
+  MNI       35.50     1.0   P
+ PSSI       37.00     1.0   P
+TBMCM       37.70     1.0   P
+ OBMI       42.90     1.0   P
+ MGAI       46.30     1.0   P
+ PBCI       47.20     1.0   P
+ SANI       51.70     1.0   P
+ TGCM       60.90     1.0   P
+ KGCM       62.70     1.0   P
+ SMSI       68.30     1.0   P
+ LUWI       71.70     1.0   P
+ APSI       84.30     1.0   P
+ DBKI      203.50     0.0   P
+# 2022 12 19 12 36 23.60   0.3100  125.5500  13.00  3.40 0.00 0.00 0.820    13
+TBMCM       18.00     1.0   P
+ TMSI       19.90     1.0   P
+ TMSI       36.50     1.0   S
+  MNI       23.10     1.0   P
+  MNI       40.80     1.0   S
+ PBCI       24.70     1.0   P
+ KMSI       26.90     1.0   P
+ KMSI       45.80     0.0   S
+ PMMI       33.20     1.0   P
+ PMMI       55.20     1.0   S
+ JHMI       61.70     1.0   S
+ LBMI       35.70     1.0   P
+ LBMI       62.20     1.0   S
+ WBMI       38.50     1.0   P
+ IHMI       37.50     1.0   P
+ IHMI       66.50     1.0   S
+ SANI       38.00     1.0   P
+ PSSI       38.50     1.0   P
+ TGCM       40.40     1.0   P
+ TGCM       69.90     1.0   S
+ KGCM       44.50     1.0   P
+ KGCM       77.80     1.0   S
+ LUWI       87.60     1.0   S
+ SMSI       49.80     1.0   P
+ SMSI       91.70     1.0   S
+ MTAI       52.80     1.0   P
+# 2022 12 22 15 38 15.60   1.0400  126.7000  70.00  3.19 0.00 0.00 0.660    14
+ TNTI       15.40     1.0   P
+ TNTI       28.60     1.0   S
+ JHMI       16.20     1.0   P
+ JHMI       29.20     1.0   S
+ PMMI       18.70     1.0   P
+ PMMI       32.50     1.0   S
+ IHMI       17.70     1.0   P
+ IHMI       32.20     1.0   S
+ WHMI       24.20     1.0   P
+ WHMI       43.70     1.0   S
+ TMSI       29.30     1.0   P
+ TMSI       52.00     1.0   S
+ LBMI       29.70     1.0   P
+ LBMI       53.20     1.0   S
+  MNI       30.90     1.0   P
+  MNI       54.70     1.0   S
+ MTAI       31.00     1.0   P
+ MTAI       56.40     1.0   S
+ PSSI       33.10     1.0   P
+ PSSI       59.10     1.0   S
+TBMCM       33.20     1.0   P
+TBMCM       58.80     1.0   S
+ PBCI       42.00     1.0   P
+ KMSI       43.00     1.0   P
+ MGAI       43.20     1.0   P
+ SANI       45.90     1.0   P
+# 2022 12 25 12 34 21.60   1.1300  127.6900   7.00  2.60 0.00 0.00 0.260    15
+ JHMI        4.80     1.0   P
+ JHMI        9.00     1.0   S
+ IHMI        8.40     1.0   P
+ IHMI       14.50     1.0   S
+ WHMI        9.00     1.0   P
+ TNTI        9.50     1.0   P
+ TNTI       16.70     1.0   S
+ PMMI       15.40     1.0   P
+ WBMI       15.80     1.0   P
+ WBMI       27.40     1.0   S
+ MTAI       22.30     1.0   P
+ MTAI       39.80     1.0   S
+# 2022 12 28 12 34 18.30   1.5600  126.6400  22.00  3.19 0.00 0.00 0.560    16
+ JHMI       18.10     1.0   P
+ JHMI       31.00     1.0   S
+ TNTI       19.00     1.0   P
+ TNTI       32.70     1.0   S
+ PMMI       43.10     1.0   S
+ WHMI       26.40     1.0   P
+ PSSI       28.60     1.0   P
+ PSSI       49.70     1.0   S
+ WBMI       29.40     1.0   P
+ WBMI       51.30     1.0   S
+ TMSI       50.10     1.0   S
+ MTAI       29.10     1.0   P
+TBMCM       36.10     1.0   P
+ PBCI       44.50     1.0   P
+# 2022 12 11 04 03 15.30   2.5500  127.0700   8.00  3.38 0.00 0.00 0.520    17
+ IHMI       21.50     1.0   P
+ IHMI       36.50     1.0   S
+ MTAI       23.40     1.0   P
+ MTAI       40.10     1.0   S
+ MGAI       26.20     1.0   P
+ MGAI       46.90     1.0   S
+ JHMI       27.40     1.0   P
+ JHMI       47.20     1.0   S
+ PSSI       30.40     1.0   P
+ PSSI       51.60     1.0   S
+ TNTI       30.40     1.0   P
+ WHMI       32.60     1.0   P
+ PMMI       36.90     1.0   P
+ TMSI       40.70     1.0   P
+TBMCM       49.10     1.0   P
+ PBCI       57.90     1.0   P
+# 2022 12 11 13 55 44.10   2.2100  129.2300   8.00  4.88 0.00 0.00 1.030    18
+ MTAI       17.90     1.0   P
+ MTAI       29.80     1.0   S
+ WHMI       27.90     1.0   P
+ WHMI       49.40     1.0   S
+ IHMI       32.50     1.0   P
+ JHMI       35.50     1.0   P
+ JHMI       62.40     1.0   S
+ WBMI       38.10     1.0   P
+ TNTI       40.00     1.0   P
+ TNTI       68.00     1.0   S
+ PMMI       42.50     1.0   P
+ PMMI       73.40     1.0   S
+ MGAI       49.30     1.0   P
+ MGAI       87.30     1.0   S
+ LBMI       52.40     1.0   P
+  SWI       55.80     1.0   P
+ PSSI       60.70     1.0   P
+ PSSI      105.60     1.0   S
+ OBMI       58.10     1.0   P
+ TMSI       69.30     1.0   P
+ TSPI       69.70     1.0   P
+ BGCI       99.10     1.0   P
+# 2022 12 12 05 47 25.90  -0.3700  126.8000 213.00  3.21 0.00 0.00 0.930    19
+ LBMI       32.30     1.0   P
+ LBMI       56.10     1.0   S
+ PMMI       30.80     1.0   P
+ PMMI       55.70     1.0   S
+ TNTI       29.10     0.0   P
+ TNTI       58.10     1.0   S
+ OBMI       32.80     1.0   P
+ OBMI       58.60     1.0   S
+ WBMI       33.50     1.0   P
+ WBMI       59.50     1.0   S
+ JHMI       35.80     1.0   P
+ JHMI       63.80     1.0   S
+ SANI       38.40     1.0   P
+ SANI       67.60     1.0   S
+ WHMI       39.40     1.0   P
+ WHMI       65.80     0.0   S
+ IHMI       38.80     1.0   P
+ IHMI       72.40     1.0   S
+# 2022 12 12 14 07 44.00   2.7100  128.2400  12.00  3.32 0.00 0.00 0.530    20
+ MTAI       11.00     1.0   P
+ MTAI       18.30     1.0   S
+ IHMI       23.60     1.0   P
+ IHMI       43.00     1.0   S
+ WHMI       27.50     1.0   P
+ WHMI       49.80     1.0   S
+ JHMI       31.80     1.0   P
+ JHMI       54.10     1.0   S
+ MGAI       34.40     1.0   P
+ MGAI       59.90     1.0   S
+ TNTI       34.40     1.0   P
+ TNTI       62.40     1.0   S
+ WBMI       39.50     1.0   P
+ WBMI       68.70     1.0   S
+ PMMI       39.60     1.0   P
+  MNI       56.30     1.0   P
+# 2022 12 13 09 37 14.60   3.0900  125.8800 132.00  3.89 0.00 0.00 0.750    21
+ PSSI       20.20     1.0   P
+ PSSI       35.50     1.0   S
+ MGAI       25.10     1.0   P
+ MGAI       46.60     1.0   S
+  MNI       60.50     1.0   S
+ TMSI       34.30     1.0   P
+ TMSI       62.40     1.0   S
+ IHMI       37.70     1.0   P
+ IHMI       66.40     1.0   S
+ MTAI       40.60     1.0   P
+ MTAI       72.80     1.0   S
+ JHMI       41.70     1.0   P
+ JHMI       72.90     1.0   S
+TBMCM       42.80     1.0   P
+TBMCM       75.40     1.0   S
+ TNTI       43.00     1.0   P
+ TNTI       76.60     1.0   S
+ WHMI       46.60     1.0   P
+ WHMI       84.30     1.0   S
+ PMMI       47.80     1.0   P
+ PMMI       86.40     1.0   S
+ PBCI       50.30     1.0   P
+ PBCI       89.30     1.0   S
+ WBMI       50.50     1.0   P
+ WBMI       92.30     1.0   S
+ LBMI       59.80     1.0   P
+ LBMI      107.60     1.0   S
+# 2022 12 16 17 00 53.00   2.1800  129.2100  10.00  4.34 0.00 0.00 0.850    22
+ MTAI       16.40     1.0   P
+ MTAI       30.10     1.0   S
+ WHMI       26.50     1.0   P
+ WHMI       48.30     1.0   S
+ JHMI       34.70     1.0   P
+ JHMI       61.70     1.0   S
+ TNTI       37.90     1.0   P
+ PMMI       41.40     1.0   P
+ PMMI       73.90     1.0   S
+ MGAI       48.50     1.0   P
+ MGAI       87.80     1.0   S
+ LBMI       51.60     1.0   P
+ LBMI       89.90     1.0   S
+ PSSI       59.40     1.0   P
+ PSSI      105.60     1.0   S
+ TMSI       67.20     1.0   P
+ TMSI      119.00     1.0   S
+TBMCM       73.20     1.0   P
+TBMCM      130.60     1.0   S
+ SANI       78.20     1.0   P
+ SANI      141.70     1.0   S
+ KMSI       83.20     1.0   P
+ PBCI       82.40     1.0   P
+ PBCI      143.70     1.0   S
+ TAMI       87.80     1.0   P
+# 2022 12 16 17 32 50.30   3.3000  125.9300 160.00  3.89 0.00 0.00 0.890    23
+ PSSI       22.20     1.0   P
+ MGAI       26.80     1.0   P
+ MGAI       46.50     1.0   S
+  MNI       37.20     1.0   P
+ TMSI       38.10     1.0   P
+ TMSI       69.00     1.0   S
+ IHMI       40.00     1.0   P
+ MTAI       42.90     1.0   P
+ MTAI       76.40     1.0   S
+ JHMI       43.90     1.0   P
+ JHMI       78.50     1.0   S
+ TNTI       46.60     1.0   P
+ TNTI       82.90     1.0   S
+TBMCM       46.80     1.0   P
+TBMCM       82.60     1.0   S
+ WHMI       50.20     1.0   P
+ WHMI       88.10     1.0   S
+ PMMI       51.50     1.0   P
+ PMMI       91.30     1.0   S
+ PBCI       55.00     1.0   P
+ PBCI       97.90     1.0   S
+ WBMI       55.10     1.0   P
+ LBMI       63.70     1.0   P
+ LBMI      113.00     1.0   S
+ SANI       75.80     1.0   P
+# 2022 12 18 13 02 31.30   2.5900  127.6300 127.00  3.91 0.00 0.00 0.850    24
+ MTAI       21.10     1.0   P
+ MTAI       36.90     1.0   S
+ IHMI       24.30     1.0   P
+ IHMI       42.90     1.0   S
+ MGAI       30.50     1.0   P
+ MGAI       54.10     1.0   S
+ PSSI       33.30     0.0   P
+ TMSI       47.40     1.0   P
+ TMSI       83.10     1.0   S
+TBMCM       55.10     1.0   P
+TBMCM       95.20     1.0   S
+ PBCI       63.30     1.0   P
+ PBCI      110.60     1.0   S
+ SANI       70.20     1.0   P
+ NLAI       84.10     1.0   P
+# 2022 12 19 02 46  0.90   0.6500  125.3700  10.00  3.02 0.00 0.00 0.840    25
+ TMSI       16.50     1.0   P
+ TMSI       26.30     1.0   S
+TBMCM       14.90     1.0   P
+TBMCM       27.50     1.0   S
+  MNI       19.10     1.0   P
+  MNI       30.00     1.0   S
+ PBCI       23.50     1.0   P
+ PBCI       42.50     1.0   S
+ KMSI       24.80     1.0   P
+ KMSI       44.10     1.0   S
+# 2022 12 19 16 07 10.90   0.3700  125.2700  11.00  2.71 0.00 0.00 0.580    26
+TBMCM       14.80     1.0   P
+TBMCM       26.30     1.0   S
+ PBCI       22.00     1.0   P
+ PBCI       38.90     1.0   S
+ KMSI       23.90     1.0   P
+ KMSI       41.30     1.0   S
+ TGCM       35.70     1.0   P
+ TGCM       64.50     1.0   S
+ PSSI       39.60     1.0   P
+ SANI       41.50     1.0   P
+ IHMI       40.30     1.0   P
+# 2022 12 21 11 08 41.20   0.4300  127.3700  13.00  2.52 0.00 0.00 1.170    27
+ PMMI        1.90     1.0   P
+ PMMI        6.50     1.0   S
+ TNTI        9.60     1.0   P
+ TNTI       12.90     1.0   S
+ WBMI       10.70     1.0   P
+ WBMI       18.60     1.0   S
+ JHMI       15.50     1.0   P
+ JHMI       22.30     1.0   S
+ GHMI       18.40     1.0   P
+ GHMI       30.00     1.0   S
+ WHMI       21.00     1.0   P
+ WHMI       32.90     1.0   S
+ LBMI        6.30     0.0   P
+ IHMI       19.20     1.0   P
+ IHMI       34.10     1.0   S
+# 2022 12 24 03 03  4.90   1.5900  127.0500 110.00  2.91 0.00 0.00 0.560    28
+ IHMI       17.00     1.0   P
+ JHMI       18.90     1.0   P
+ JHMI       34.00     1.0   S
+ WHMI       23.90     1.0   P
+ PMMI       24.80     1.0   P
+ PMMI       43.60     1.0   S
+ MTAI       25.60     1.0   P
+ MTAI       45.30     1.0   S
+ PSSI       33.20     1.0   P
+ GHMI       60.20     1.0   S
+TBMCM       72.70     1.0   S
+# 2022 12 24 10 34 33.20   1.8200  127.3900 102.00  3.57 0.00 0.00 0.460    29
+ IHMI       15.90     1.0   P
+ IHMI       28.10     1.0   S
+ JHMI       18.90     1.0   P
+ JHMI       33.90     1.0   S
+ MTAI       20.70     1.0   P
+ MTAI       36.40     1.0   S
+ TNTI       21.40     1.0   P
+ TNTI       37.70     1.0   S
+ WHMI       21.40     1.0   P
+ WHMI       37.10     1.0   S
+ PMMI       26.50     1.0   P
+ PMMI       46.60     1.0   S
+ WBMI       27.20     1.0   P
+ PSSI       34.90     1.0   P
+ PSSI       62.70     1.0   S
+ MGAI       35.90     1.0   P
+ MGAI       64.70     1.0   S
+ LBMI       38.60     1.0   P
+ LBMI       68.00     1.0   S
+ TMSI       39.60     1.0   P
+ TMSI       69.90     1.0   S
+  MNI       40.40     1.0   P
+  MNI       71.70     1.0   S
+TBMCM       45.30     1.0   P
+ PBCI       53.60     1.0   P
+ SANI       59.90     1.0   P
+ TGCM       66.60     1.0   P
+# 2022 12 24 15 27 42.00   1.3800  128.1800  71.00  3.92 0.00 0.00 0.860    30
+ WHMI       12.10     1.0   P
+ WHMI       22.20     1.0   S
+ IHMI       14.70     1.0   P
+ JHMI       15.90     1.0   P
+ JHMI       29.00     1.0   S
+ MTAI       16.40     1.0   P
+ MTAI       29.70     1.0   S
+ TNTI       18.60     1.0   P
+ TNTI       33.30     1.0   S
+ WBMI       19.90     1.0   P
+ WBMI       36.00     1.0   S
+ PMMI       22.20     1.0   P
+ PMMI       40.10     1.0   S
+ GHMI       28.80     1.0   P
+ GHMI       50.90     1.0   S
+ LBMI       34.60     1.0   P
+ MGAI       46.00     1.0   P
+ MGAI       83.20     1.0   S
+ TMSI       48.80     1.0   P
+ TMSI       87.50     1.0   S
+TBMCM       53.70     1.0   P
+TBMCM       95.00     1.0   S
+  SWI       56.60     1.0   P
+  SWI       98.80     1.0   S
+ SANI       58.80     1.0   P
+ SANI      105.10     1.0   S
+ PBCI       62.20     1.0   P
+ PBCI      110.40     1.0   S
+ KMSI       62.90     1.0   P
+ KMSI      112.50     1.0   S
+ NLAI       69.60     1.0   P
+ TGCM       75.60     1.0   P
+ FAKI       85.00     1.0   P
+ LUWI       84.60     1.0   P
+ APSI       97.70     1.0   P
+# 2022 12 25 13 17  2.70   3.0600  128.9000  10.00  4.33 0.00 0.00 1.700    31
+ MTAI       15.90     1.0   P
+ MTAI       35.20     1.0   S
+ WHMI       37.80     1.0   P
+ WHMI       63.40     1.0   S
+ MGAI       41.90     1.0   P
+ MGAI       69.90     1.0   S
+ JHMI       37.20     1.0   P
+ JHMI       70.20     1.0   S
+ TNTI       44.80     1.0   P
+ TNTI       79.60     1.0   S
+ WBMI       42.50     1.0   P
+ WBMI       82.80     1.0   S
+ PSSI       55.60     1.0   P
+ PSSI       96.60     1.0   S
+ GHMI       56.90     1.0   P
+ GHMI       98.10     1.0   S
+ TMSI       66.30     1.0   P
+ TMSI      118.30     1.0   S
+ PBCI       82.30     1.0   P
+ PBCI      146.30     1.0   S
+# 2022 12 26 21 06 40.50   1.2000  127.4200 133.00  3.79 0.00 0.00 0.930    32
+ GHMI       29.50     1.0   P
+ LBMI       32.10     1.0   P
+ LBMI       57.80     1.0   S
+ TMSI       40.90     1.0   P
+ TMSI       72.60     1.0   S
+ PSSI       41.00     1.0   P
+ PSSI       72.50     1.0   S
+TBMCM       45.10     1.0   P
+TBMCM       78.30     1.0   S
+ PBCI       52.40     1.0   P
+ PBCI       93.00     1.0   S
+ KMSI       53.20     1.0   P
+ KMSI       96.30     1.0   S
+ TGCM       64.90     1.0   P
+ TGCM      118.00     1.0   S
+# 2022 12 28 16 51 51.80  -0.0100  126.7300  10.00  3.03 0.00 0.00 1.030    33
+ LBMI       19.00     1.0   P
+ LBMI       32.30     1.0   S
+ TNTI       19.20     1.0   P
+ TNTI       32.20     1.0   S
+ WBMI       22.30     1.0   P
+ WBMI       37.80     1.0   S
+ GHMI       22.30     1.0   P
+ GHMI       37.70     1.0   S
+ JHMI       23.90     1.0   P
+ JHMI       40.80     1.0   S
+TBMCM       37.20     1.0   P
+TBMCM       63.70     1.0   S
+ MTAI       45.60     1.0   P
+ MTAI       78.00     1.0   S
+ PBCI       43.50     1.0   P
+ NLAI       51.20     1.0   P
+ TGCM       58.30     1.0   P
+ TGCM      102.50     1.0   S
+# 2022 12 28 19 07 42.40   1.8800  127.0000  99.00  3.72 0.00 0.00 0.560    34
+ JHMI       20.10     1.0   P
+ JHMI       35.30     1.0   S
+ TNTI       22.80     1.0   P
+ TNTI       39.50     1.0   S
+ MTAI       23.70     1.0   P
+ MTAI       42.50     1.0   S
+ WBMI       29.60     1.0   P
+ WBMI       52.90     1.0   S
+ PSSI       30.00     1.0   P
+ PSSI       53.30     1.0   S
+ MGAI       33.60     1.0   P
+ MGAI       61.10     1.0   S
+ TMSI       35.00     1.0   P
+ TMSI       61.50     1.0   S
+  MNI       35.80     1.0   P
+  MNI       62.80     1.0   S
+ GHMI       37.40     1.0   P
+ GHMI       66.70     1.0   S
+ LBMI       40.30     1.0   P
+TBMCM       41.20     1.0   P
+TBMCM       73.00     1.0   S
+ PBCI       50.10     1.0   P
+ PBCI       88.40     1.0   S
+ SANI       57.70     1.0   P
+ TGCM       61.60     1.0   P
+ KGCM       63.60     1.0   P
+ SMSI       69.10     1.0   P
+ NLAI       73.30     1.0   P
+ LUWI       74.00     1.0   P
+ KRAI       78.80     1.0   P
+ TAMI       81.60     1.0   P
+ APSI       87.30     1.0   P

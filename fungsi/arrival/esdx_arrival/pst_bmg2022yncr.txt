@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022yncr
+    Preferred Origin ID    Origin/20221215170208.703116.132469
+    Preferred Magnitude ID Origin/20221215170208.703116.132469/netMag/M
+    Description
+      region name: West Papua, Indonesia
+    Creation time          2022-12-15 17:02:14
+
+Origin:
+    Public ID              Origin/20221215170208.703116.132469
+    Date                   2022-12-15
+    Time                   16:59:05.9  +/-    0.5 s
+    Latitude                -3.02 deg  +/-      2 km
+    Longitude              136.06 deg  +/-      2 km
+    Depth                      23 km   +/-    5 km
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-15 17:02:08
+    Residual RMS             0.97 s
+    Azimuthal gap              53 deg
+
+3 Network magnitudes:
+    MLv       3.37 +/- 0.07   5            BMG
+    M         3.34            5 preferred  BMG1
+    Mjma      3.30 +/- 0.10   5            BMG1
+
+24 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    NBPI  IA    0.7 239  P       16:59:19.2  -0.2 M  1.0  NBPI 
+    NBPI  IA    0.7 239  S       16:59:34.1   4.7 MX 0.0  NBPI 
+    WWPI  IA    0.8  24  P       16:59:20.4  -0.7 M  1.0  WWPI 
+    WWPI  IA    0.8  24  S       16:59:34.3   1.9 M  1.0  WWPI 
+    ERPI  IA    1.0 160  P       16:59:23.6  -0.1 M  1.0  ERPI 
+    ERPI  IA    1.0 160  S       16:59:36.7  -0.3 M  1.0  ERPI 
+    SRPI  IA    1.2   9  P       16:59:24.8  -1.8 M  1.0  SRPI 
+    SRPI  IA    1.2   9  S       16:59:38.6  -3.4 MX 0.0  SRPI 
+    IWPI  IA    1.6 280  P       16:59:31.4  -0.9 M  1.0  IWPI 
+    IWPI  IA    1.6 280  S       16:59:53.5   1.0 M  1.0  IWPI 
+    MIPI  IA    1.7 151  P       16:59:35.8   1.5 M  1.0  MIPI 
+    MIPI  IA    1.7 151  S       16:59:59.9   3.7 MX 0.0  MIPI 
+    BAKI  IA    1.8   1  P       16:59:35.7  -0.1 M  1.0  BAKI 
+    BAKI  IA    1.8   1  S       16:59:59.4   0.5 M  1.0  BAKI 
+    RKPI  IA    2.4 309  P       16:59:43.0  -1.0 M  1.0  RKPI 
+    RKPI  IA    2.4 309  S       17:00:14.9   1.3 M  1.0  RKPI 
+    MBPI  IA    2.5 293  P       16:59:49.1   3.5 MX 0.0  MBPI 
+    MBPI  IA    2.5 293  S       17:00:24.0   7.6 MX 0.0  MBPI 
+    SMPI  IA    2.8  69  P       16:59:49.3  -0.7 M  1.0  SMPI 
+    SMPI  IA    2.8  69  S       17:00:23.4  -0.8 M  1.0  SMPI 
+    ARMI  IA    3.3 214  P       16:59:57.0   0.9 M  1.0  ARMI 
+    FAKI  IA    3.8 271  P       17:00:02.5  -0.5 M  1.0  FAKI 
+    FAKI  IA    3.8 271  S       17:00:47.0  -0.8 M  1.0  FAKI 
+    DYPI  IA    3.9 118  P       17:00:05.1   0.8 M  1.0  DYPI 
+
+6 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    NBPI  IA    0.7 239  Mjma    3.30  0.00    2.89241     
+    WWPI  IA    0.8  24  MLv     3.30 -0.07    2.34929     
+    ERPI  IA    1.0 160  MLv     3.38  0.01    2.22578     
+    ERPI  IA    1.0 160  Mjma    3.25 -0.04    1.38656     
+    MIPI  IA    1.7 151  Mjma    3.33  0.04   0.601618     
+    BAKI  IA    1.8   1  MLv     3.40  0.04   0.769358     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

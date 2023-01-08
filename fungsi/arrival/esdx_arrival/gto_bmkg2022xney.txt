@@ -1,0 +1,50 @@
+<html><body><p>Event:
+    Public ID              bmkg2022xney
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-01
+    Time                   12:35:11.7  +/-    0.7 s
+    Latitude                 0.38 deg  +/-      4 km
+    Longitude              121.53 deg  +/-      3 km
+    Depth                     174 km   +/-    6 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.66 s
+    Azimuthal gap             100 deg
+
+2 Network magnitudes:
+    MLv       2.88 +/- 0.35   7            
+    M         2.88            7 preferred  
+
+15 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MRSI  IA    0.4  77  P       12:35:35.5  -0.9 M  1.0  MRSI 
+    MRSI  IA    0.4  77  S       12:35:54.2  -1.5 M  1.0  MRSI 
+    SMSI  IA    1.0  54  P       12:35:39.0  -0.1 M  1.0  SMSI 
+    SMSI  IA    1.0  54  S       12:36:00.8   0.3 M  1.0  SMSI 
+    TOLI2 IA    1.0 314  P       12:35:39.7   0.5 M  1.0  TOLI2
+    TOLI2 IA    1.0 314  S       12:36:01.0   0.3 M  1.0  TOLI2
+    APSI  IA    1.3 175  P       12:35:41.8   0.5 M  1.0  APSI 
+    APSI  IA    1.3 175  S       12:36:04.8   0.2 M  1.0  APSI 
+    GTOI  IA    1.4  74  P       12:35:41.2  -1.1 M  1.0  GTOI 
+    GTOI  IA    1.4  74  S       12:36:07.4   1.2 M  1.0  GTOI 
+    TGCM  IA    1.5  85  P       12:35:43.8   0.0 M  1.0  TGCM 
+    TGCM  IA    1.5  85  S       12:36:09.5   0.5 M  1.0  TGCM 
+    MPSI  IA    1.6 269  P       12:35:44.7   0.1 M  1.0  MPSI 
+    LUWI  IA    1.9 139  P       12:35:47.1   0.1 M  1.0  LUWI 
+    PBCI  IA    2.5  90  P       12:35:54.1  -0.1 M  1.0  PBCI 
+
+7 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MRSI  IA    0.4  77  MLv     2.43 -0.45   0.923586     
+    SMSI  IA    1.0  54  MLv     2.79 -0.09    0.52072     
+    APSI  IA    1.3 175  MLv     2.49 -0.39    0.18823     
+    GTOI  IA    1.4  74  MLv     2.79 -0.09   0.326848     
+    MPSI  IA    1.6 269  MLv     3.36  0.48   0.886943     
+    LUWI  IA    1.9 139  MLv     3.16  0.27    0.40558     
+    PBCI  IA    2.5  90  MLv     3.16  0.28   0.184759     
+
+stageofgorontalo
+</p></body></html>

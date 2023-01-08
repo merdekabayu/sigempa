@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022yjie
+    Preferred Origin ID    Origin/20221213151551.470952.84883
+    Preferred Magnitude ID Origin/20221213151551.470952.84883/netMag/M
+    Description
+      region name: Bali Region, Indonesia
+    Creation time          2022-12-13 15:16:01
+
+Origin:
+    Public ID              Origin/20221213151551.470952.84883
+    Date                   2022-12-13
+    Time                   15:12:57.1  +/-    0.4 s
+    Latitude                -8.24 deg  +/-      4 km
+    Longitude              115.60 deg  +/-      2 km
+    Depth                      10 km   (fixed)
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-13 15:15:51
+    Residual RMS             0.57 s
+    Azimuthal gap             175 deg
+
+3 Network magnitudes:
+    MLv       2.48 +/- 0.17   6            BMG
+    M         2.58            6 preferred  BMG1
+    Mjma      2.77 +/- 0.19   6            BMG1
+
+17 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    KHK   IA    0.1 176  P       15:13:01.6   0.7 M  1.0  KHK  
+    KBBI  IA    0.3 262  P       15:13:05.0   0.2 M  1.0  KBBI 
+    SRBI  IA    0.4 292  P       15:13:05.5  -0.5 M  1.0  SRBI 
+    BDBI  IA    0.5 234  P       15:13:07.9   0.8 M  1.0  BDBI 
+    NKBI  IA    0.5 189  P       15:13:07.2  -0.2 M  1.0  NKBI 
+    DNP   IA    0.6 222  P       15:13:08.4  -0.6 M  1.0  DNP  
+    KMNI  IA    0.6 128  P       15:13:09.3  -0.2 M  1.0  KMNI 
+    SLBFM IA    0.6 149  P       15:13:09.6  -0.4 M  1.0  SLBFM
+    SBBM  IA    0.7 273  P       15:13:10.7   0.1 M  1.0  SBBM 
+    IGBI  IA    0.7 218  P       15:13:11.7   0.2 M  1.0  IGBI 
+    PBLI  IA    0.9 131  P       15:13:12.7  -1.5 M  1.0  PBLI 
+    WLTFM IA    1.0 107  P       15:13:16.3   0.6 M  1.0  WLTFM
+    NJBM  IA    1.0 266  P       15:13:15.3  -0.5 M  1.0  NJBM 
+    LTNI  IA    1.0 121  P       15:13:16.3  -0.2 M  1.0  LTNI 
+    JSBFM IA    1.4 118  P       15:13:22.1   0.5 M  1.0  JSBFM
+    TWSI  IA    1.4 112  P       15:13:22.2   0.6 M  1.0  TWSI 
+    JAGI  IA    1.5 261  P       15:13:23.1   0.2 M  1.0  JAGI 
+
+12 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    BDBI  IA    0.5 234  MLv     2.63  0.15    1.00434     
+    BDBI  IA    0.5 234  Mjma    2.71 -0.06    1.29395     
+    NKBI  IA    0.5 189  MLv     2.38 -0.10   0.512286     
+    NKBI  IA    0.5 189  Mjma    2.59 -0.18   0.941245     
+    KMNI  IA    0.6 128  Mjma    2.54 -0.24   0.566608     
+    IGBI  IA    0.7 218  MLv     2.74  0.26   0.678174     
+    IGBI  IA    0.7 218  Mjma    2.86  0.09   0.880704     
+    LTNI  IA    1.0 121  MLv     2.42 -0.06   0.224233     
+    LTNI  IA    1.0 121  Mjma    2.94  0.17   0.593813     
+    TWSI  IA    1.4 112  MLv     2.33 -0.15   0.118636     
+    TWSI  IA    1.4 112  Mjma    3.00  0.23   0.420021     
+    JAGI  IA    1.5 261  MLv     2.38 -0.10    0.11865     
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<html><body><p>Event:
+    Public ID              bmkg2022yctj
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2022-12-10
+    Time                   00:55:31.7  +/-    0.2 s
+    Latitude                 0.89 deg  +/-      3 km
+    Longitude              125.85 deg  +/-      1 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.42 s
+    Azimuthal gap             137 deg
+
+5 Network magnitudes:
+    Mjma      3.60 +/- 0.23  11            
+    ML        3.62 +/- 0.46  11            
+    MLv       3.63 +/- 0.45  11            
+    Ms(BB)    3.65 +/- 0.48   7            
+    M         3.63           11 preferred  
+
+28 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    TMSI  IA    1.0 293  P       00:55:50.0  -1.0 M  1.0  TMSI 
+    TMSI  IA    1.0 293  S       00:56:03.1  -1.9 M  1.0  TMSI 
+    TBMCM IA    1.3 262  P       00:55:54.2  -0.8 M  1.0  TBMCM
+    TBMCM IA    1.3 262  S       00:56:10.7  -1.6 M  1.0  TBMCM
+    TNTI  IA    1.5  95  P       00:55:57.4  -1.2 M  1.0  TNTI 
+    TNTI  IA    1.5  95  S       00:56:19.3   0.4 M  1.0  TNTI 
+    PMMI  IA    1.6 108  P       00:56:00.8   0.3 M  1.0  PMMI 
+    PMMI  IA    1.6 108  S       00:56:21.9  -0.4 M  1.0  PMMI 
+    IHMI  IA    1.8  70  P       00:56:02.6  -0.3 M  1.0  IHMI 
+    IHMI  IA    1.8  70  S       00:56:27.6   1.0 M  1.0  IHMI 
+    PBCI  IA    1.9 254  P       00:56:03.6  -0.3 M  1.0  PBCI 
+    PBCI  IA    1.9 254  S       00:56:27.0  -1.5 M  1.0  PBCI 
+    KMSI  IA    1.9 260  P       00:56:05.3   1.2 M  1.0  KMSI 
+    KMSI  IA    1.9 260  S       00:56:28.4  -0.5 M  1.0  KMSI 
+    WBMI  IA    2.1 105  P       00:56:06.4  -0.5 M  1.0  WBMI 
+    WBMI  IA    2.1 105  S       00:56:34.8   0.9 M  1.0  WBMI 
+    LBMI  IA    2.2 133  P       00:56:07.8  -1.1 M  1.0  LBMI 
+    LBMI  IA    2.2 133  S       00:56:38.0   0.4 M  1.0  LBMI 
+    TGCM  IA    2.8 262  P       00:56:16.5  -0.0 M  1.0  TGCM 
+    TGCM  IA    2.8 262  S       00:56:52.6   1.3 M  1.0  TGCM 
+    SANI  IA    2.9 177  P       00:56:18.0  -0.3 M  1.0  SANI 
+    SANI  IA    2.9 177  S       00:56:51.6  -2.9 M  1.0  SANI 
+    BGCI  IA    3.0 234  P       00:56:20.7   1.0 M  1.0  BGCI 
+    BGCI  IA    3.0 234  S       00:57:10.1  13.1 MX 0.0  BGCI 
+    SMSI  IA    3.5 272  P       00:56:27.3   1.2 M  1.0  SMSI 
+    SMSI  IA    3.5 272  S       00:57:15.4   7.1 MX 0.0  SMSI 
+    LUWI  IA    3.6 238  P       00:56:31.5   3.5 M  1.0  LUWI 
+    LUWI  IA    3.6 238  S       00:57:15.1   3.2 M  1.0  LUWI 
+
+32 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    TMSI  IA    1.0 293  MLv     4.18  0.55    13.2846     
+    TMSI  IA    1.0 293  Mjma    3.87  0.28    5.19691     
+    TBMCM IA    1.3 262  ML      4.06  0.43     7.0392     
+    TBMCM IA    1.3 262  MLv     4.06  0.43    7.12662     
+    TBMCM IA    1.3 262  Mjma    3.95  0.36    4.19004     
+    TNTI  IA    1.5  95  ML      3.14 -0.49   0.617389     
+    PMMI  IA    1.6 108  ML      3.30 -0.32    0.76787     
+    PMMI  IA    1.6 108  MLv     3.25 -0.38   0.677462     
+    PMMI  IA    1.6 108  Mjma    3.41 -0.18   0.774638     
+    IHMI  IA    1.8  70  ML      3.73  0.11    1.68176     
+    IHMI  IA    1.8  70  MLv     3.71  0.08    1.61466     
+    IHMI  IA    1.8  70  Mjma    3.57 -0.02   0.943381     
+    WBMI  IA    2.1 105  ML      3.45 -0.17   0.616157     
+    WBMI  IA    2.1 105  MLv     3.45 -0.18   0.605771     
+    WBMI  IA    2.1 105  Mjma    3.59 -0.01   0.762076     
+    WBMI  IA    2.1 105  Ms(BB)  3.36 -0.29   2.12058e-06 0.93
+    LBMI  IA    2.2 133  ML      3.11 -0.51   0.228019     
+    LBMI  IA    2.2 133  MLv     3.15 -0.48   0.249577     
+    LBMI  IA    2.2 133  Mjma    3.46 -0.14    0.49888     
+    LBMI  IA    2.2 133  Ms(BB)  3.43 -0.23   2.18153e-06 0.11
+    TGCM  IA    2.8 262  ML      4.03  0.41      0.946     
+    TGCM  IA    2.8 262  MLv     4.01  0.38   0.895708     
+    TGCM  IA    2.8 262  Mjma    3.59 -0.00   0.469877     
+    TGCM  IA    2.8 262  Ms(BB)  3.75  0.10   3.20343e-06 0.36
+    SANI  IA    2.9 177  MLv     3.15 -0.48   0.102613     
+    SANI  IA    2.9 177  Mjma    3.43 -0.17   0.291309     
+    SANI  IA    2.9 177  Ms(BB)  3.33 -0.32   1.11421e-06 0.12
+    SMSI  IA    3.5 272  ML      3.48 -0.15   0.109658     
+    SMSI  IA    3.5 272  MLv     3.63 -0.00   0.154696     
+    SMSI  IA    3.5 272  Mjma    3.50 -0.10   0.258397     
+    LUWI  IA    3.6 238  ML      4.30  0.67   0.610393     
+    LUWI  IA    3.6 238  Ms(BB)  4.25  0.60   6.62963e-06 0.10
+
+stageofgorontalo
+</p></body></html>

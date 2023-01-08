@@ -1,0 +1,11 @@
+# mby.cpt by M. Burak YIKILMAZ
+# 
+# (original title gmt_color.cpt) 
+#
+# COLOR_MODEL = RGB
+-10000    gray60    0    gray80
+  0    gray80     6000    white
+B	-
+F	-
+N	241    252    255
+

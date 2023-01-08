@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGN JAKARTA </span></td>
+</tr>
+<tr>
+<td valign="top" width="35%"> </td>
+<td valign="top" width="65%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_pusat.gif"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmg2022yixt
+    Preferred Origin ID    Origin/20221213100025.951032.395235
+    Preferred Magnitude ID Origin/20221213100025.951032.395235/netMag/M
+    Description
+      region name: Bali Region, Indonesia
+    Creation time          2022-12-13 09:57:56
+
+Origin:
+    Public ID              Origin/20221213100025.951032.395235
+    Date                   2022-12-13
+    Time                   09:56:42.1  +/-    0.1 s
+    Latitude                -8.16 deg  +/-      2 km
+    Longitude              115.63 deg  +/-      1 km
+    Depth                      10 km   (fixed)
+    Agency                 BMG
+    Author                 scolv@sc-gui-prod-new
+    Mode                   manual
+    Status                 confirmed
+    Creation time          2022-12-13 10:00:25
+    Residual RMS             1.31 s
+    Azimuthal gap              32 deg
+
+8 Network magnitudes:
+    mb        5.11 +/- 0.16  18            BMG
+    mB        5.28 +/- 0.18  14            BMG
+    Mw(mB)    4.69 +/- 0.40  14            BMG
+    MLv       5.12 +/- 0.15  40            BMG
+    Mwp       5.16 +/- 0.06   2            BMG
+    Mw(Mwp)   4.90 +/- 0.40   2            BMG
+    Mjma      4.84 +/- 0.21  31            BMG1
+    M         4.85           40 preferred  BMG1
+
+100 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    KHK   IA    0.2 187  P       09:56:46.8  -0.4 M  1.0  KHK  
+    KBBI  IA    0.4 252  P       09:56:49.9  -0.4 M  1.0  KBBI 
+    SRBI  IA    0.4 280  P       09:56:49.9  -0.9 M  1.0  SRBI 
+    BDBI  IA    0.6 230  P       09:56:52.7  -0.1 M  1.0  BDBI 
+    NKBI  IA    0.6 191  P       09:56:52.1  -1.0 M  1.0  NKBI 
+    KMNI  IA    0.6 135  P       09:56:54.1  -0.1 M  1.0  KMNI 
+    DNP   IA    0.7 219  P       09:56:55.1   0.5 M  1.0  DNP  
+    SLBFM IA    0.7 155  P       09:56:54.6  -0.5 M  1.0  SLBFM
+    SBBM  IA    0.7 267  P       09:56:55.6   0.2 M  1.0  SBBM 
+    RTBI  IA    0.7 247  P       09:56:56.1   0.2 M  1.0  RTBI 
+    BYLI  IA    0.8  95  P       09:56:58.7   2.2 M  1.0  BYLI 
+    IGBI  IA    0.8 217  P       09:56:56.6  -0.3 M  1.0  IGBI 
+    PBLI  IA    0.9 136  P       09:56:58.4  -0.2 M  1.0  PBLI 
+    WLTFM IA    1.0 112  P       09:57:01.2   1.8 M  1.0  WLTFM
+    NJBM  IA    1.0 262  P       09:57:00.4   0.2 M  1.0  NJBM 
+    LTNI  IA    1.0 126  P       09:57:01.5   1.0 M  1.0  LTNI 
+    BYJI  IA    1.3 268  P       09:57:05.4   1.2 M  1.0  BYJI 
+    TWSI  IA    1.4 115  P       09:57:05.9   0.2 M  1.0  TWSI 
+    JSBFM IA    1.4 121  P       09:57:06.2   0.4 M  1.0  JSBFM
+    ABJI  IA    1.4 285  P       09:57:06.6  -0.3 M  1.0  ABJI 
+    JAGI  IA    1.5 258  P       09:57:07.0  -0.9 M  1.0  JAGI 
+    USFM  IA    1.5 100  P       09:57:09.1   1.0 M  1.0  USFM 
+    LSNI  IA    1.8 117  P       09:57:12.5   0.4 M  1.0  LSNI 
+    TUJI  IA    1.9 263  P       09:57:12.7  -1.6 M  1.0  TUJI 
+    WRJI  IA    1.9 280  P       09:57:15.2   0.8 M  1.0  WRJI 
+    RSNI  IA    2.0 112  P       09:57:15.0  -0.3 M  1.0  RSNI 
+    KMMI  IA    2.0 303  P       09:57:15.5  -0.9 M  1.0  KMMI 
+    BLJI  IA    2.1 281  P       09:57:15.4  -1.4 M  1.0  BLJI 
+    GMJI  IA    2.2 267  P       09:57:17.6  -0.7 M  1.0  GMJI 
+    PDLI  IA    2.2  89  P       09:57:16.8  -2.1 M  1.0  PDLI 
+    PLAI  IA    2.2 107  P       09:57:18.7  -0.2 M  1.0  PLAI 
+    KLJI  IA    2.4 274  P       09:57:23.2   2.3 A  1.0  KLJI 
+    ESNI  IA    2.4 105  P       09:57:20.9  -0.3 M  1.0  ESNI 
+    BPMJM IA    2.4 299  P       09:57:21.5  -0.5 M  1.0  BPMJM
+    PRLJI IA    2.5 268  P       09:57:22.7  -0.0 A  1.0  PRLJI
+    LUJI  IA    2.6 277  P       09:57:24.6   0.1 M  1.0  LUJI 
+    TSNI  IA    2.6 102  P       09:57:24.9   0.1 M  1.0  TSNI 
+    DBNFM IA    2.9  95  P       09:57:28.3  -0.5 M  1.0  DBNFM
+    GEJI  IA    3.0 265  P       09:57:28.7  -0.5 M  1.0  GEJI 
+    PPJI  IA    3.0 278  P       09:57:29.8   0.0 M  1.0  PPJI 
+    MLJI  IA    3.2 270  P       09:57:33.1   1.3 M  1.0  MLJI 
+    WGJM  IA    3.2 284  P       09:57:32.1  -0.2 M  1.0  WGJM 
+    WBNI  IA    3.2  93  P       09:57:32.4  -0.7 M  1.0  WBNI 
+    GRJI  IA    3.4 291  P       09:57:33.9  -0.8 M  1.0  GRJI 
+    PLJI  IA    3.5 275  P       09:57:39.8   3.8 A  1.0  PLJI 
+    BWJI  IA    3.7 308  P       09:57:38.9  -0.9 M  1.0  BWJI 
+    PWJI  IA    3.8 272  P       09:57:41.0   0.4 M  1.0  PWJI 
+    KPJM  IA    3.8 284  P       09:57:35.5  -5.1 M  1.0  KPJM 
+    TBJI  IA    4.0 289  P       09:57:42.2  -1.0 M  1.0  TBJI 
+    WBSI  IA    4.0 112  P       09:57:42.4  -0.9 M  1.0  WBSI 
+    SEJI  IA    4.0 286  P       09:57:43.4  -0.5 M  1.0  SEJI 
+    OMBFM IA    4.2  98  P       09:57:45.5  -0.3 M  1.0  OMBFM
+    NGJI  IA    4.2 281  P       09:57:46.5   0.3 M  1.0  NGJI 
+    USTI  IA    4.4 110  P       09:57:47.7  -0.6 M  1.0  USTI 
+    PCJI  IA    4.4 269  P       09:57:48.6  -0.4 M  1.0  PCJI 
+    KMBFM IA    4.6  95  P       09:57:53.3   1.0 M  1.0  KMBFM
+    WOJI  IA    4.7 274  P       09:57:54.4   1.8 M  1.0  WOJI 
+    PRJI  IA    4.8 271  P       09:57:55.8   1.5 M  1.0  PRJI 
+    MKS   IA    4.8  53  P       09:57:53.5  -0.8 M  1.0  MKS  
+    LMTI  IA    4.8  96  P       09:57:49.0  -5.5 AX 0.0  LMTI 
+    KBKI  IA    4.9   6  P       09:57:54.6  -0.6 M  1.0  KBKI 
+    KJCM  IA    4.9  58  P       09:57:54.4  -1.0 M  1.0  KJCM 
+    BMBNG IA    4.9 287  P       09:57:54.9  -1.4 M  1.0  BMBNG
+    UWJI  IA    5.0 290  P       09:57:55.3  -1.3 M  1.0  UWJI 
+    GKJM  IA    5.0 273  P       09:57:55.9  -1.3 M  1.0  GKJM 
+    PSJCM IA    5.1  78  P       09:57:55.8  -2.2 M  1.0  PSJCM
+    UGM   IA    5.1 272  P       09:57:58.8   0.7 M  1.0  UGM  
+    SYJI  IA    5.1 274  P       09:58:04.1   5.3 AX 0.0  SYJI 
+    KAPI  II    5.1  53  P       09:57:58.3  -0.8 A  1.0  KAPI 
+    BKSI  IA    5.3  58  P       09:58:00.1  -0.8 A  1.0  BKSI 
+    TTPSI IA    5.3  51  P       09:58:00.1  -0.8 A  1.0  TTPSI
+    BASI  IA    5.3 113  P       09:58:10.0   8.9 AX 0.0  BASI 
+    YOGI  IA    5.3 273  P       09:58:07.1   5.9 AX 0.0  YOGI 
+    BBCM  IA    5.4  55  P       09:58:01.5  -0.8 A  1.0  BBCM 
+    KKJR  IA    5.4 273  P       09:58:13.2  10.4 AX 0.0  KKJR 
+    PMSI  IA    5.7  35  P       09:58:06.4   0.2 A  1.0  PMSI 
+    LSCM  IA    5.7  49  P       09:58:06.3  -0.0 A  1.0  LSCM 
+    BNSI  IA    5.8  50  P       09:58:08.5   0.4 A  1.0  BNSI 
+    SPSI  IA    5.9  45  P       09:58:07.8  -1.1 A  1.0  SPSI 
+    MBJI  IA    6.0 276  P       09:58:12.1   1.4 A  1.0  MBJI 
+    PPCM  IA    6.0  43  P       09:58:13.8   3.0 A  1.0  PPCM 
+    EDFI  IA    6.0  96  P       09:58:10.7  -0.3 A  1.0  EDFI 
+    MMSI  IA    6.3  31  P       09:58:15.4  -0.0 A  1.0  MMSI 
+    MMCI  IA    6.4  36  P       09:58:15.5  -0.2 A  1.0  MMCI 
+    DBKI  IA    6.5 354  P       09:58:24.8   7.5 AX 0.0  DBKI 
+    SBNI  IA    6.6 111  P       09:58:11.9  -6.5 AX 0.0  SBNI 
+    TTSI  IA    6.6  40  P       09:58:19.6   1.0 A  1.0  TTSI 
+    KPJI  IA    6.7 277  P       09:58:22.8   2.5 A  1.0  KPJI 
+    PBKI  IA    6.7 324  P       09:58:20.4  -0.1 A  1.0  PBKI 
+    WKCM  IA    7.1  53  P       09:58:28.4   2.7 A  1.0  WKCM 
+    MTKI  IA    7.2 354  P       09:58:28.9   1.5 A  1.0  MTKI 
+    BBSI  IA    7.4  69  P       09:58:34.5   4.8 AX 0.0  BBSI 
+    SRSI  IA    7.6  43  P       09:58:32.7  -0.6 A  1.0  SRSI 
+    LSSN  IA    7.7  45  P       09:58:37.9   3.2 A  1.0  LSSN 
+    BBJI  IA    7.9 274  P       09:58:39.4   2.1 A  1.0  BBJI 
+    ACBM  IA    8.0 278  P       09:58:48.7  11.1 AX 0.0  ACBM 
+    CWJM  IA    8.2 279  P       09:58:47.2   5.8 AX 0.0  CWJM 
+    WWCI  IA    8.3  70  P       09:58:53.2  10.4 AX 0.0  WWCI 
+    BUMSI IA    8.4  43  P       09:58:41.2  -1.8 A  1.0  BUMSI
+    SSJM  IA    8.7 278  P       09:58:54.9   7.4 AX 0.0  SSJM 
+
+101 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    KHK   IA    0.2 187  MLv     4.84 -0.29    937.977     
+    SRBI  IA    0.4 280  MLv     5.04 -0.08    365.176     
+    SRBI  IA    0.4 280  Mjma    4.89  0.05    240.476     
+    BDBI  IA    0.6 230  MLv     5.24  0.12    273.095     
+    BDBI  IA    0.6 230  Mjma    5.18  0.34    297.367     
+    NKBI  IA    0.6 191  MLv     5.18  0.05     227.06     
+    NKBI  IA    0.6 191  Mjma    5.09  0.25    228.354     
+    KMNI  IA    0.6 135  Mjma    5.10  0.27    194.349     
+    BYLI  IA    0.8  95  MLv     5.17  0.04    171.745     
+    BYLI  IA    0.8  95  Mjma    5.08  0.25    131.458     
+    IGBI  IA    0.8 217  MLv     5.34  0.22    245.739     
+    LTNI  IA    1.0 126  MLv     5.04 -0.08    92.4423     
+    LTNI  IA    1.0 126  Mjma    5.10  0.26    83.8292     
+    TWSI  IA    1.4 115  Mjma    4.88  0.05    31.7837     
+    ABJI  IA    1.4 285  MLv     5.17  0.04    74.0036     
+    JAGI  IA    1.5 258  MLv     4.90 -0.23    36.7747     
+    JAGI  IA    1.5 258  Mjma    5.01  0.17    35.7454     
+    RSNI  IA    2.0 112  MLv     5.10 -0.03     31.939     
+    BLJI  IA    2.1 281  MLv     5.26  0.14    41.3687     
+    GMJI  IA    2.2 267  MLv     5.21  0.09    32.0002     
+    PLAI  IA    2.2 107  MLv     5.07 -0.05    21.6629     
+    KLJI  IA    2.4 274  MLv     5.11 -0.02    19.5688     
+    ESNI  IA    2.4 105  MLv     5.17  0.04     21.745     
+    PRLJI IA    2.5 268  MLv     5.34  0.21    28.0822     
+    PRLJI IA    2.5 268  Mjma    5.11  0.27    18.7269     
+    TSNI  IA    2.6 102  MLv     5.21  0.08    17.2886     
+    TSNI  IA    2.6 102  Mjma    4.91  0.07    10.6935     
+    PPJI  IA    3.0 278  MLv     5.18  0.05    10.1584     
+    PPJI  IA    3.0 278  Mjma    4.92  0.08    8.78578     
+    WBNI  IA    3.2  93  MLv     4.91 -0.22    4.01362     
+    WBNI  IA    3.2  93  Mjma    4.87  0.03    6.85791     
+    GRJI  IA    3.4 291  MLv     5.45  0.32    11.8743     
+    GRJI  IA    3.4 291  Mjma    4.94  0.10    7.54504     
+    PLJI  IA    3.5 275  MLv     5.49  0.36    11.5909     
+    BWJI  IA    3.7 308  MLv     5.31  0.18      5.878     
+    PWJI  IA    3.8 272  MLv     5.25  0.12    4.99868     
+    TBJI  IA    4.0 289  MLv     5.13  0.01    3.43202     
+    MKS   IA    4.8  53  MLv     5.10 -0.02    1.97923     
+    KJCM  IA    4.9  58  MLv     5.14  0.01    2.07609     
+    PSJCM IA    5.1  78  mB      5.15 -0.13    2117.16     
+    PSJCM IA    5.1  78  mb      5.20  0.09    178.093 0.65
+    UGM   IA    5.1 272  mB      5.64  0.36    6518.37     
+    KAPI  II    5.1  53  MLv     4.95 -0.17    1.14954     
+    KAPI  II    5.1  53  Mjma    4.79 -0.05    2.56757     
+    KAPI  II    5.1  53  mB      5.19 -0.09    2241.11     
+    KAPI  II    5.1  53  mb      5.18  0.07    160.956 0.63
+    BKSI  IA    5.3  58  MLv     5.02 -0.11     1.2485     
+    BKSI  IA    5.3  58  Mjma    4.54 -0.30    1.38723     
+    BKSI  IA    5.3  58  mB      5.14 -0.15    1927.22     
+    BKSI  IA    5.3  58  mb      5.23  0.11    139.812 0.51
+    TTPSI IA    5.3  51  MLv     4.89 -0.24   0.919483     
+    TTPSI IA    5.3  51  Mjma    4.67 -0.17     1.8705     
+    TTPSI IA    5.3  51  mB      5.31  0.03    2866.94     
+    TTPSI IA    5.3  51  mb      5.22  0.11    141.681 0.53
+    BBCM  IA    5.4  55  MLv     5.02 -0.11    1.16963     
+    BBCM  IA    5.4  55  Mjma    4.81 -0.03    2.49461     
+    BBCM  IA    5.4  55  mB      5.31  0.03    2831.63     
+    BBCM  IA    5.4  55  mb      5.28  0.16    179.009 0.60
+    PMSI  IA    5.7  35  Mjma    4.72 -0.12    1.83341     
+    LSCM  IA    5.7  49  MLv     5.05 -0.07    1.07027     
+    LSCM  IA    5.7  49  Mjma    4.76 -0.08    2.00456     
+    LSCM  IA    5.7  49  mB      5.26 -0.02    2307.13     
+    LSCM  IA    5.7  49  mb      5.26  0.15    139.626 0.53
+    BNSI  IA    5.8  50  MLv     5.15  0.02    1.23555     
+    BNSI  IA    5.8  50  Mjma    4.85  0.01    2.38648     
+    BNSI  IA    5.8  50  mB      5.48  0.20    3735.39     
+    SPSI  IA    5.9  45  Mjma    4.67 -0.16      1.583     
+    MBJI  IA    6.0 276  MLv     5.19  0.07    1.23463     
+    MBJI  IA    6.0 276  Mjma    4.92  0.08    2.65387     
+    MBJI  IA    6.0 276  Mwp     5.12 -0.04    2232.56     
+    MBJI  IA    6.0 276  mB      5.15 -0.13    1675.37     
+    MBJI  IA    6.0 276  mb      5.05 -0.06    114.028 0.74
+    PPCM  IA    6.0  43  MLv     5.05 -0.08   0.877359     
+    PPCM  IA    6.0  43  Mjma    4.59 -0.25    1.24335     
+    PPCM  IA    6.0  43  mb      5.04 -0.07    86.6652 0.59
+    EDFI  IA    6.0  96  MLv     4.96 -0.17   0.709978     
+    EDFI  IA    6.0  96  Mjma    4.48 -0.36   0.949808     
+    EDFI  IA    6.0  96  mB      5.22 -0.06    1939.14     
+    EDFI  IA    6.0  96  mb      5.11  0.00    123.277 0.70
+    MMSI  IA    6.3  31  mB      5.04 -0.24    1215.13     
+    MMSI  IA    6.3  31  mb      5.12  0.01    85.9326 0.51
+    TTSI  IA    6.6  40  MLv     4.92 -0.21   0.464891     
+    TTSI  IA    6.6  40  mB      5.14 -0.14    1459.46     
+    TTSI  IA    6.6  40  mb      5.11 -0.00    64.5565 0.41
+    KPJI  IA    6.7 277  MLv     5.18  0.05   0.798901     
+    KPJI  IA    6.7 277  Mjma    4.88  0.05    2.01597     
+    KPJI  IA    6.7 277  Mwp     5.21  0.04    2718.14     
+    KPJI  IA    6.7 277  mB      5.30  0.02    2093.56     
+    KPJI  IA    6.7 277  mb      5.16  0.05    98.3248 0.57
+    PBKI  IA    6.7 324  MLv     5.31  0.18    1.05846     
+    PBKI  IA    6.7 324  Mjma    4.77 -0.07    1.55281     
+    PBKI  IA    6.7 324  mb      5.24  0.12    215.984 1.05
+    WKCM  IA    7.1  53  MLv     4.84 -0.28   0.292854     
+    WKCM  IA    7.1  53  Mjma    4.47 -0.37   0.704219     
+    WKCM  IA    7.1  53  mB      5.64  0.36    4240.68     
+    WKCM  IA    7.1  53  mb      4.76 -0.35     31.507 0.49
+    MTKI  IA    7.2 354  Mjma    4.84  0.00    1.60792     
+    BBJI  IA    7.9 274  MLv     5.17  0.04   0.381079     
+    BBJI  IA    7.9 274  Mjma    4.46 -0.38   0.568929     
+    BBJI  IA    7.9 274  mb      4.89 -0.22    68.6693 0.88
+    BUMSI IA    8.4  43  mb      4.93 -0.18     47.945 0.62
+
+BMGPusat1Jkt
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

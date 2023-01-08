@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2022yzdc
+    Description
+      region name: Minahassa Peninsula, Sulawesi
+Origin:
+    Date                   2022-12-22
+    Time                   06:49:22.5  +/-    0.3 s
+    Latitude                 0.75 deg  +/-      3 km
+    Longitude              121.63 deg  +/-      2 km
+    Depth                      38 km   +/-    5 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.85 s
+    Azimuthal gap              97 deg
+
+2 Network magnitudes:
+    MLv       3.01 +/- 0.31  10            
+    M         3.01           10 preferred  
+
+23 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MRSI  IA    0.4 131  P       06:49:33.5   0.2 M  1.0  MRSI 
+    MRSI  IA    0.4 131  S       06:49:41.6   0.1 M  1.0  MRSI 
+    BBCI  IA    0.5 335  P       06:49:32.9  -0.9 M  1.0  BBCI 
+    TPCI  IA    0.6 242  P       06:49:35.3  -0.2 M  1.0  TPCI 
+    TPCI  IA    0.6 242  S       06:49:46.1   0.7 M  1.0  TPCI 
+    SMSI  IA    0.8  72  P       06:49:36.7  -0.8 M  1.0  SMSI 
+    SMSI  IA    0.8  72  S       06:49:48.5  -0.4 M  1.0  SMSI 
+    TOLI2 IA    0.9 293  P       06:49:38.9  -0.3 M  1.0  TOLI2
+    TOLI2 IA    0.9 293  S       06:49:52.4   0.5 M  1.0  TOLI2
+    KGCM  IA    1.2  95  S       06:49:59.6   0.4 M  1.0  KGCM 
+    TGCM  IA    1.5  99  P       06:49:46.6   0.1 M  1.0  TGCM 
+    TGCM  IA    1.5  99  S       06:50:05.0  -0.0 M  1.0  TGCM 
+    APSI  IA    1.6 179  P       06:49:49.4   0.4 M  1.0  APSI 
+    APSI  IA    1.6 179  S       06:50:09.8   0.3 M  1.0  APSI 
+    MPSI  IA    1.8 257  P       06:49:49.7  -1.1 M  1.0  MPSI 
+    MPSI  IA    1.8 257  S       06:50:12.9   0.1 M  1.0  MPSI 
+    LUWI  IA    2.1 147  P       06:49:56.4   1.0 M  1.0  LUWI 
+    LUWI  IA    2.1 147  S       06:50:19.0  -2.0 M  1.0  LUWI 
+    SDCI  IA    2.2 236  P       06:49:56.7  -0.3 M  1.0  SDCI 
+    KMSI  IA    2.4  94  P       06:50:01.0   2.2 M  1.0  KMSI 
+    KMSI  IA    2.4  94  S       06:50:27.4   0.4 M  1.0  KMSI 
+    PBCI  IA    2.4  98  P       06:50:00.6   0.8 M  1.0  PBCI 
+    PBCI  IA    2.4  98  S       06:50:27.9  -1.2 M  1.0  PBCI 
+
+10 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MRSI  IA    0.4 131  MLv     2.88 -0.13     2.7255     
+    BBCI  IA    0.5 335  MLv     3.01 -0.00    2.81456     
+    TPCI  IA    0.6 242  MLv     3.64  0.64    6.45677     
+    SMSI  IA    0.8  72  MLv     2.57 -0.44   0.432373     
+    TOLI2 IA    0.9 293  MLv     2.60 -0.40   0.390543     
+    TGCM  IA    1.5  99  MLv     3.13  0.13   0.659823     
+    APSI  IA    1.6 179  MLv     2.97 -0.04   0.355822     
+    MPSI  IA    1.8 257  MLv     2.86 -0.15   0.235093     
+    LUWI  IA    2.1 147  MLv     3.52  0.52   0.708927     
+    PBCI  IA    2.4  98  MLv     2.98 -0.03   0.133504     
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>
