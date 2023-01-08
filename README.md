@@ -1,2 +1,0 @@
-# sigempa
-Sistem Informasi Gempabumi
