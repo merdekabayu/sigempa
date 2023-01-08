@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect, url_for, send_file, send_from_directory, session, flash
+from flask import Flask, render_template, request, redirect, url_for, send_file, session, flash
 from flask_mysqldb import MySQL
 from calendar import monthrange
 from datetime import datetime, timedelta
@@ -25,8 +25,7 @@ app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'sigempa2023'
 app.config['MYSQL_DB'] = 'sistem_diseminasi_test'
-#app.config["UPLOAD_FOLDER"] = "static/shakemap/"
-app.config["CLIENT_MSEED"] = "C:/Users/LENOVO/Downloads"
+app.config["UPLOAD_FOLDER"] = "static/shakemap/"
 mysql = MySQL(app)
 
 @app.route('/htmltes')
@@ -643,8 +642,8 @@ def downloadwaveformbyevent():
             return redirect(url_for('waveformbyevent'))
         else:
             id = down_waveformbyevent()
-            
-            return send_from_directory('fungsi/waveform/download','fungsi/waveform/'+id+'.mseed', as_attachment=True, attachment_filename=id+'.mseed')
+            print(id)
+            return send_file('fungsi/waveform/'+id+'.mseed', as_attachment=True, attachment_filename=id+'.mseed')
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
