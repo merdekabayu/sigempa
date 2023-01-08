@@ -1,1 +1,1 @@
-Info Gempa Mag:5.2, 08-Jan-23 01:40:26 WIT, Lok: 3.80 LS, 133.45 BT (404 km Tenggara SORONG-PAPUABARAT), Kedlmn:10 Km ::BMKG-TNT
+Info Gempa Mag:3.9, 07-Jan-23 15:46:54 WIT, Lok: 1.43 LU, 126.35 BT (130 km Timur BITUNG-SULUT), Kedlmn:8 Km ::BMKG-TNT
