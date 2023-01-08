@@ -551,7 +551,7 @@ def sensor_stat():
     yest = yes.strftime('%d%m%y')
     
     fileav='static/availability_'+yest+'.png'
-    
+    print('sampee siniiii ####',fileav)
     if not os.path.exists(fileav):
         if utctime >= timerange and utctime <= timerange1:
             
