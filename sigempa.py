@@ -556,8 +556,10 @@ def sensor_stat():
         if utctime >= timerange and utctime <= timerange1:
             
             os.system('sshpass -p "bmkg212$" ssh -p2222 sysop@36.91.152.130 sh run_availability.sh')
+            print('sampee siniiii ####')
             command = 'sshpass -p "bmkg212$" scp -p2222 -r sysop@36.91.152.130:availability_new.png '+fileav
             os.system(command)
+            print('sampee siniiii 1 ####')
         else:
             os.system('sshpass -p "bmkg212$" ssh -p2222 sysop@36.91.152.130 sh run_availability.sh')
             command = 'sshpass -p "bmkg212$" scp -p2222 -r sysop@36.91.152.130:availability_new.png '+fileav
