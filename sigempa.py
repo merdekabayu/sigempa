@@ -26,7 +26,7 @@ app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'sigempa2023'
 app.config['MYSQL_DB'] = 'sistem_diseminasi_test'
 #app.config["UPLOAD_FOLDER"] = "static/shakemap/"
-app.config["CLIENT_MSEED"] = "C:\Users\LENOVO\Downloads"
+app.config["CLIENT_MSEED"] = "C:/Users/LENOVO/Downloads"
 mysql = MySQL(app)
 
 @app.route('/htmltes')
