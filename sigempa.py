@@ -554,7 +554,7 @@ def sensor_stat():
     
     if not os.path.exists(fileav):
         if utctime >= timerange and utctime <= timerange1:
-            command = 'sshpass -p "bmkg212$" scp -P2222 -r sysop@36.91.152.130:availability_new.png '+fileav
+            command = 'sshpass -p "bmkg212$" scp -P 2222 -r sysop@36.91.152.130:availability_new.png '+fileav
             print('sampee siniiii',command)
             os.system(command)
         else:
