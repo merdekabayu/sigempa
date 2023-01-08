@@ -54,7 +54,7 @@ def map_diseminasi():
         atas=('%.2f')%(float(lat)+1.875)
         skala =('%.2f')%(float(long)+1.8)+'/'+('%.2f')%(float(lat)-1.6)
         variabel = lat+" "+long+" "+magfile+" "+skala+" "+kiri+" "+kanan+" "+bawah+" "+atas
-        run("/home/operasional/flask_app/fungsi/gmt/peta-epic_regional.sh "+variabel, shell=True)
+        run("fungsi/gmt/peta-epic_regional.sh "+variabel, shell=True)
         #os.system("C:\Windows\System32\cmd.exe /c gmt\peta-epic_regional_new.bat" + " " + lat + " " + long+ " " + magfile)
     elif opsi_map=="Lokal":
         #set lebar=1.5
@@ -65,7 +65,7 @@ def map_diseminasi():
         atas=('%.2f')%(float(lat)+0.9375)
         skala =('%.2f')%(float(long)+1.0)+'/'+('%.2f')%(float(lat)-0.8)
         variabel = lat+" "+long+" "+magfile+" "+skala+" "+kiri+" "+kanan+" "+bawah+" "+atas
-        run("/home/operasional/flask_app/fungsi/gmt/peta-epic_lokal.sh "+variabel, shell=True)
+        run("fungsi/gmt/peta-epic_lokal.sh "+variabel, shell=True)
         #os.system("C:\Windows\System32\cmd.exe /c gmt\peta-epic_lokal_new.bat" + " " + lat + " " + long+ " " + magfile)
     else:
         #set lebar=0.8
@@ -76,7 +76,7 @@ def map_diseminasi():
         atas=('%.2f')%(float(lat)+0.5)
         skala =('%.2f')%(float(long)+0.6)+'/'+('%.2f')%(float(lat)-0.4)
         variabel = lat+" "+long+" "+magfile+" "+skala+" "+kiri+" "+kanan+" "+bawah+" "+atas
-        run("/home/operasional/flask_app/fungsi/gmt/peta-epic_lokal1.sh "+variabel, shell=True)
+        run("flask_app/fungsi/gmt/peta-epic_lokal1.sh "+variabel, shell=True)
         
         #os.system("C:\Windows\System32\cmd.exe /c gmt\peta-epic_lokal1_new.bat" + " " + lat + " " + long+ " " + magfile)
     
@@ -166,7 +166,7 @@ def map_detail(var):
     atas=('%.2f')%(float(lat)+1.875)
     skala =('%.2f')%(float(long)+1.8)+'/'+('%.2f')%(float(lat)-1.6)
     variabel = ('%.2f')%(float(lat))+" "+('%.2f')%(float(long))+" "+magfile+" "+skala+" "+kiri+" "+kanan+" "+bawah+" "+atas+" "+id
-    run("/home/operasional/flask_app/fungsi/gmt/peta-epic_regional-detail.sh "+variabel, shell=True)
+    run("fungsi/gmt/peta-epic_regional-detail.sh "+variabel, shell=True)
 
     print(date,time,lat,long,depth,mag,ket,info)
 
