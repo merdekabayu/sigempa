@@ -47,10 +47,10 @@ def waveformplot(sta):
                 command)
         f.close()
     os.system('chmod +x fungsi/run_scmssort.sh')
-    command = 'sshpass -p "bmkg212$" scp -P22 -r fungsi/run_scmssort.sh sysop@172.21.95.248:vps_server/run_scmssort.sh'
+    command = 'sshpass -p "bmkg212$" scp -P2222 -r fungsi/run_scmssort.sh sysop@172.21.95.248:vps_server/run_scmssort.sh'
     os.system(command)
-    os.system('sshpass -p "bmkg212$" ssh -P22 sysop@172.21.95.248 sh vps_server/run_scmssort.sh')
-    command = 'sshpass -p "bmkg212$" scp -P22 -r sysop@172.21.95.248:vps_server/'+sta+'.mseed fungsi/waveform/'+sta+'.mseed'
+    os.system('sshpass -p "bmkg212$" ssh -P2222 sysop@172.21.95.248 sh vps_server/run_scmssort.sh')
+    command = 'sshpass -p "bmkg212$" scp -P2222 -r sysop@172.21.95.248:vps_server/'+sta+'.mseed fungsi/waveform/'+sta+'.mseed'
     os.system(command)
 
     
@@ -78,8 +78,8 @@ def allwaveform():
     file1 = ('%03d')%(date1.timetuple().tm_yday)
     file2 = ('%03d')%(date2.timetuple().tm_yday)
 
-    dir1 = subprocess.call('sshpass -p "bmkg212$" ssh sysop@172.21.95.248 cd /home/sysop/seiscomp/var/lib/archive/'+year1,shell=True)
-    dir2 = subprocess.call('sshpass -p "bmkg212$" ssh sysop@172.21.95.248 cd /home/sysop/seiscomp/var/lib/archive/'+year2,shell=True)
+    dir1 = subprocess.call('sshpass -p "bmkg212$" ssh -P2222 sysop@172.21.95.248 cd /home/sysop/seiscomp/var/lib/archive/'+year1,shell=True)
+    dir2 = subprocess.call('sshpass -p "bmkg212$" ssh -P2222 sysop@172.21.95.248 cd /home/sysop/seiscomp/var/lib/archive/'+year2,shell=True)
 
     if dir1 != 1:
         catstring1 = "/home/sysop/seiscomp/var/lib/archive/"+year1+"/*/*/*/*."+file1
@@ -107,13 +107,13 @@ def allwaveform():
                 command)
         f.close()
     os.system('chmod +x fungsi/download_waveform.sh')
-    command = 'sshpass -p "bmkg212$" scp -P22 -r fungsi/download_waveform.sh sysop@172.21.95.248:vps_server/download_waveform.sh'
+    command = 'sshpass -p "bmkg212$" scp -P2222 -r fungsi/download_waveform.sh sysop@172.21.95.248:vps_server/download_waveform.sh'
     print(command)
     os.system(command)
     print('sampe siniii')
-    os.system('sshpass -p "bmkg212$" ssh -P22 sysop@172.21.95.248 sh vps_server/download_waveform.sh')
+    os.system('sshpass -p "bmkg212$" ssh -P2222 sysop@172.21.95.248 sh vps_server/download_waveform.sh')
 
-    os.system('sshpass -p "bmkg212$" scp -P22 -r sysop@172.21.95.248:vps_server/waveform.mseed fungsi/waveform/waveform.mseed')
+    os.system('sshpass -p "bmkg212$" scp -P2222 -r sysop@172.21.95.248:vps_server/waveform.mseed fungsi/waveform/waveform.mseed')
     
     return send_file('fungsi/waveform/waveform.mseed', as_attachment=True, attachment_filename='waveform.mseed')
 
@@ -142,8 +142,8 @@ def down_waveformbyevent():
     range2 = date2.strftime('%Y-%m-%d %H:%M:%S')
     rentang = range1+'~'+range2
 
-    dir1 = subprocess.call('sshpass -p "bmkg212$" ssh sysop@172.21.95.248 cd /home/sysop/seiscomp/var/lib/archive/'+year1,shell=True)
-    dir2 = subprocess.call('sshpass -p "bmkg212$" ssh sysop@172.21.95.248 cd /home/sysop/seiscomp/var/lib/archive/'+year2,shell=True)
+    dir1 = subprocess.call('sshpass -p "bmkg212$" ssh -P2222 sysop@172.21.95.248 cd /home/sysop/seiscomp/var/lib/archive/'+year1,shell=True)
+    dir2 = subprocess.call('sshpass -p "bmkg212$" ssh -P2222 sysop@172.21.95.248 cd /home/sysop/seiscomp/var/lib/archive/'+year2,shell=True)
     if dir1 != 1:
         dirwave1 = "/home/sysop/seiscomp/var/lib/archive/"
     else:
@@ -244,10 +244,10 @@ def down_waveformbyevent():
                 command)
         f.close()
     os.system('chmod +x fungsi/download_waveformbyevent.sh')
-    command = 'sshpass -p "bmkg212$" scp -P22 -r fungsi/download_waveformbyevent.sh sysop@172.21.95.248:vps_server/download_waveformbyevent.sh'
+    command = 'sshpass -p "bmkg212$" scp -P2222 -r fungsi/download_waveformbyevent.sh sysop@172.21.95.248:vps_server/download_waveformbyevent.sh'
     os.system(command)
-    os.system('sshpass -p "bmkg212$" ssh -P22 sysop@172.21.95.248 sh vps_server/download_waveformbyevent.sh')
-    os.system('sshpass -p "bmkg212$" scp -P22 -r sysop@172.21.95.248:vps_server/'+id+'.mseed fungsi/waveform/'+id+'.mseed')
+    os.system('sshpass -p "bmkg212$" ssh -P2222 sysop@172.21.95.248 sh vps_server/download_waveformbyevent.sh')
+    os.system('sshpass -p "bmkg212$" scp -P2222 -r sysop@172.21.95.248:vps_server/'+id+'.mseed fungsi/waveform/'+id+'.mseed')
 
     
     print(id)

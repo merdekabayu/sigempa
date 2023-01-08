@@ -79,7 +79,7 @@ def slinktool():
     host = "172.21.95.248"
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    ssh.connect(host, username='sysop', password='bmkg212$', port=22)
+    ssh.connect(host, username='sysop', password='bmkg212$', port=2222)
     ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command('/home/sysop/seiscomp/bin/slinktool -Q localhost | grep IA', get_pty=True)
     output = ssh_stdout.read()
     #print(output)
@@ -184,10 +184,10 @@ def waveformplot(sta):
                 command)
         f.close()
     os.system('chmod +x fungsi/run_scmssort.sh')
-    command = 'sshpass -p "bmkg212$" scp -P22 -r fungsi/run_scmssort.sh sysop@172.21.95.248:vps_server/run_scmssort.sh'
+    command = 'sshpass -p "bmkg212$" scp -P2222 -r fungsi/run_scmssort.sh sysop@172.21.95.248:vps_server/run_scmssort.sh'
     os.system(command)
-    os.system('sshpass -p "bmkg212$" ssh -P22 sysop@172.21.95.248 sh vps_server/run_scmssort.sh')
-    command = 'sshpass -p "bmkg212$" scp -P22 -r sysop@172.21.95.248:vps_server/'+sta+'.mseed fungsi/waveform/'+sta+'.mseed'
+    os.system('sshpass -p "bmkg212$" ssh -P2222 sysop@172.21.95.248 sh vps_server/run_scmssort.sh')
+    command = 'sshpass -p "bmkg212$" scp -P2222 -r sysop@172.21.95.248:vps_server/'+sta+'.mseed fungsi/waveform/'+sta+'.mseed'
     os.system(command)
 
     
@@ -236,7 +236,7 @@ def arrivalsc3pst(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt
     host = "172.21.95.248"
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    ssh.connect(host, username='sysop', password='bmkg212$', port=22)
+    ssh.connect(host, username='sysop', password='bmkg212$', port=2222)
     
     with open('fungsi/filter_sc3.sql') as input_file:
         list_event ='fungsi/list_event.txt'
