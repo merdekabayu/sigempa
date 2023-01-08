@@ -76,7 +76,7 @@ def status(last_data,today):
 
 def slinktool():
 
-    host = "172.21.95.248"
+    host = "36.91.152.130"
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh.connect(host, username='sysop', password='bmkg212$', port=2222)
@@ -184,10 +184,10 @@ def waveformplot(sta):
                 command)
         f.close()
     os.system('chmod +x fungsi/run_scmssort.sh')
-    command = 'sshpass -p "bmkg212$" scp -P2222 -r fungsi/run_scmssort.sh sysop@172.21.95.248:vps_server/run_scmssort.sh'
+    command = 'sshpass -p "bmkg212$" scp -p 2222 -r fungsi/run_scmssort.sh sysop@36.91.152.130:vps_server/run_scmssort.sh'
     os.system(command)
-    os.system('sshpass -p "bmkg212$" ssh -P2222 sysop@172.21.95.248 sh vps_server/run_scmssort.sh')
-    command = 'sshpass -p "bmkg212$" scp -P2222 -r sysop@172.21.95.248:vps_server/'+sta+'.mseed fungsi/waveform/'+sta+'.mseed'
+    os.system('sshpass -p "bmkg212$" ssh -p 2222 sysop@36.91.152.130 sh vps_server/run_scmssort.sh')
+    command = 'sshpass -p "bmkg212$" scp -p 2222 -r sysop@36.91.152.130:vps_server/'+sta+'.mseed fungsi/waveform/'+sta+'.mseed'
     os.system(command)
 
     
@@ -233,7 +233,7 @@ def arrivalsc3pst(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt
             "ORDER BY Origin.time_value DESC")
 
         
-    host = "172.21.95.248"
+    host = "36.91.152.130"
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh.connect(host, username='sysop', password='bmkg212$', port=2222)

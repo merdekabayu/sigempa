@@ -102,7 +102,7 @@ def arrivalsc4tnt(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt
     with open('fungsi/filter_sc3.sql') as input_file:
         list_event ='fungsi/list_event.txt'
         with open(list_event,'w') as fout:
-            result = subprocess.run(['mysql', '-h172.21.95.248', '-usysop', '-psysop', '-P33066', '-Dseiscomp'], stdin=input_file, stdout=fout, stderr=PIPE)
+            result = subprocess.run(['mysql', '-h36.91.152.130', '-usysop', '-psysop', '-P33066', '-Dseiscomp'], stdin=input_file, stdout=fout, stderr=PIPE)
             print(result)
     nama = 'fungsi/Data Arrival-SC4.txt'
     with open(nama,'w') as list_detail:
@@ -111,7 +111,7 @@ def arrivalsc4tnt(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt
             for i in range(len(baris)):
                 baris[i]=baris[i].split()
             
-            host = "172.21.95.248"
+            host = "36.91.152.130"
             ssh = paramiko.SSHClient()
             ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
             ssh.connect(host, username='sysop', password='bmkg212$', port=2222)
@@ -160,15 +160,15 @@ def arrivalsc3pst(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt
             "ORDER BY Origin.time_value DESC")
 
         
-    host = "172.21.95.248"
+    host = "36.91.152.130"
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    ssh.connect(host, username='sysop', password='bmkg212$', port=22)
+    ssh.connect(host, username='sysop', password='bmkg212$', port=2222)
     
     with open('fungsi/filter_sc3.sql') as input_file:
         list_event ='fungsi/list_event.txt'
         with open(list_event,'w') as fout:
-            ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command('mysql -usysop -psysop -h172.19.3.51 -P33066 -Dseiscomp3 -e"'+query+'"', get_pty=True)
+            ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command('mysql -usysop -psysop -h172.19.3.51 -P3306 -Dseiscomp3 -e"'+query+'"', get_pty=True)
             output = ssh_stdout.read()
             fout.write(output.decode("utf-8")+'\n')
 
