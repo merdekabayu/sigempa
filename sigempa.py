@@ -643,7 +643,7 @@ def downloadwaveformbyevent():
         else:
             id = down_waveformbyevent()
             print(id)
-            return send_file('fungsi/waveform/'+id+'.mseed', as_attachment=True, attachment_filename=id+'.mseed')
+            return send_file('fungsi/waveform/'+id+'.mseed', as_attachment=True, attachment_filename=id+'.mseed',cache_timeout=600)
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
