@@ -116,7 +116,7 @@ def allwaveform():
 
     os.system("sshpass -p 'bmkg212$' rsync -arvz -e 'ssh -p2222' --progress --delete sysop@36.91.152.130:vps_server/waveform.mseed fungsi/waveform/waveform.mseed")
     
-    return send_file('fungsi/waveform/waveform.mseed', as_attachment=True, attachment_filename='waveform.mseed')
+    return "ok"
 
 
 def down_waveformbyevent():

@@ -584,7 +584,14 @@ def downloadwaveform():
 
             return render_template('download_waveform.html', date = [today,today])
         else:
-            allwaveform()
+            try:
+                allwaveform()
+                return send_file('fungsi/waveform/waveform.mseed', as_attachment=True, attachment_filename='waveform.mseed')
+            except:
+                today = datetime.today()
+                today = today.strftime('%d-%m-%Y %H:%M:%S')
+                return render_template('download_waveform.html', date = [today,today])
+
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
