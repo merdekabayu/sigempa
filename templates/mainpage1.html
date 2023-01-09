@@ -7,6 +7,15 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='plugins/toastr/toastr.min.css') }}">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{ url_for('static', filename='dist/css/adminlte.min.css') }}">
+  <style>
+    #map {
+            position: relative;
+            border: 1px solid black;
+            border-radius: 8px;
+            height: 400px;  /* or as desired */
+            width: 100%;  /* This means "100% of the width of its container", the .col-md-8 */
+          }
+  </style>
 {% endblock %}
 {% block subjudul %} SI-GEMPA V2.0 {% endblock %}
 {% block menuopen_ig %} {% endblock %}
@@ -152,7 +161,7 @@
                     <img style="margin-left: 25px; width: 85%;"src="{{ url_for('static', filename='peta_diseminasi.png') }}" class="img-fluid rounded " />
                   </div>
                   <div class="col-sm-3 ">
-                    <div id="map" style="width: 400px; height: 400px;"></div>
+                    <div id="map"></div>
                       <!--<div class="row" data-aos="zoom-in">
                               <div class="map container-fluid mb-4" style="margin-bottom: 100px;" id="map" data-aos="fade-up">
                               </div>
