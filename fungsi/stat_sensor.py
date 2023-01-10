@@ -95,7 +95,7 @@ def slinktool():
         fin.close()
 
     i = 0
-    sensor = []
+    sensor,sensorn,sensore, = [],[],[]
     sensor_sta = []
     while i < len(baris):
         if len(baris[i]) > 0:
@@ -109,38 +109,47 @@ def slinktool():
 
             if sta=='MTAI' or sta=='GLMI' or sta=='IHMI' or sta=='JHMI' or sta=='WHMI' or sta=='TNTI' or sta=='WBMI' or sta=='PMMI' \
             or sta=='GHMI' or sta=='LBMI' or sta=='OBMI' or sta=='SANI':
-                if comp == 'Z':
-                    sensor += [baris[i]]
-                    sensor_sta += sta
+                sensor += [baris[i]]
+                sensor_sta += sta
 
-            
-            
         i += 1
 
     if 'GLMI' not in sensor_sta:
-        strglmi = ['IA GLMI     SHZ D 2022/09/30 08:23:43.2250  -  2022/10/02 06:03:54.0000'.split()]
-        sensor += strglmi
+        strglmiz = ['IA GLMI     SHZ D 2022/09/30 08:23:43.2250  -  2022/10/02 06:03:54.0000'.split()]
+        strglmin = ['IA GLMI     SHZ D 2022/09/30 08:23:43.2250  -  2022/10/02 06:03:54.0000'.split()]
+        strglmie = ['IA GLMI     SHZ D 2022/09/30 08:23:43.2250  -  2022/10/02 06:03:54.0000'.split()]
+        sensor += strglmiz
+        sensor += strglmin
+        sensor += strglmie
 
-    print(sensor)
+    #print(sensor)
 
     last_data=[]
     today = datetime.utcnow()
+    TNTI,MTAI,GLMI,IHMI,JHMI,WHMI,WBMI,PMMI,GHMI,LBMI,OBMI,SANI=[],[],[],[],[],[],[],[],[],[],[],[]
+    update = []
     for sta in sensor:
-        #print(sta)
-        #dt = '2022/10/02 06:03:54.0000'
         dt = sta[len(sta)-2:]
         name = sta[1]
-
+        name1 = sta[1]
         dtime = dt[0]+' '+dt[1]
         last_dt = datetime.strptime(dtime, '%Y/%m/%d %H:%M:%S.%f')
         delay = (today-last_dt).total_seconds()
 
         last_data += [[name,last_dt,delay]]
-    
-    #print(last_data)
-        
+        last_data1 = [[name,last_dt,delay]]
+
+        exec("%s += %d" % (name1,last_data1))
+        exec("%s += %d" % (name,delay))
+        if len(name) > 2:
+            minv = min(name)
+            indexmin = name.index(minv)
+            update += name1[indexmin]
+
  
-    return last_data,today
+    return update,today
+
+
 
 def tabel_slinktool(last_data,today):
     tabel = []
