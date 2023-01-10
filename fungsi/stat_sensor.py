@@ -118,7 +118,7 @@ def slinktool():
         i += 1
 
     if 'GLMI' not in sensor_sta:
-        strglmi = 'IA GLMI     SHZ D 2022/09/30 08:23:43.2250  -  2022/10/02 06:03:54.0000'.split()
+        strglmi = ['IA GLMI     SHZ D 2022/09/30 08:23:43.2250  -  2022/10/02 06:03:54.0000'.split()]
         sensor += strglmi
 
     print(sensor)
