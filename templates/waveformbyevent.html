@@ -45,9 +45,9 @@
               <!-- /.card-header -->
               <div class="card-body">
                 <form action="{{ url_for('waveformbyevent') }}" method="POST">
-                  <div class="col-lg-4">
+                  <div class="col-lg-5">
                     <div class="form-group row">
-                      <div class="input-group col-sm-7">
+                      <div class="input-group col-lg-7 col-sm-5 mb-3">
                         <div class="input-group-prepend">
                           <span class="input-group-text">
                             <i class="far fa-calendar-alt"></i>
@@ -55,7 +55,7 @@
                         </div>
                         <input type="text" class="form-control float-right" id="reservation1" name="datefilter">
                       </div>
-                      <div class="col-3">
+                      <div class="col-lg-3">
                         <div class="btn-group float-center">
                           <button type="submit" class="btn btn-primary">
                             <i class="fas fa-filter"></i>

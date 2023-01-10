@@ -32,151 +32,157 @@
       <div class="row">
         <div class="card col-12">
           <div class="card-header">
-            <h3 class="card-title">Input</h3>
-            <div class="card-tools">
-              <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
-                <i class="fas fa-minus"></i>
-              </button>
-              <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
-                <i class="fas fa-times"></i>
-              </button>
-            </div>
+            <h3 class="card-title">Filter Parameter</h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse" >
+                  <i class="fa fa-chevron-down pull-right"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
           </div>
+          
           <div class="card-body">
-            <form action="downloadarrival" method="POST">
-                    <div class="row">
-                      <div class="col-4">
-                        <div class="row">
-                          <label class="col-12" style="text-align: center;">Waktu</label>
-                        </div>
-                        <div class="row">
-                          <div class="input-group date pl-0" style="width: 210px;" id="reservationdatetime" data-target-input="nearest">
-                              <input value="{{date.0}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date1" data-target="#reservationdatetime"/>
-                              <div class="input-group-append" data-target="#reservationdatetime" data-toggle="datetimepicker" >
+            <form action="/database/downloadarrival" method="POST">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="row">
+                    <label class="col-12" style="text-align: center;">Waktu</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group row">
+                        <div class="col-sm-5 mb-2">
+                          <div class="input-group date pl-0 "  id="datefilter" data-target-input="nearest">
+                              <input value="{{date.0}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date1" data-target="#datefilter"/>
+                              <div class="input-group-append" data-target="#datefilter" data-toggle="datetimepicker" >
                                   <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                               </div>
                           </div>
-                          <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
-                          <div class="input-group date pl-0" style="width: 210px;" id="reservationdatetime1" data-target-input="nearest">
-                            <input value="{{date.1}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date2" data-target="#reservationdatetime1"/>
-                            <div class="input-group-append" data-target="#reservationdatetime1" data-toggle="datetimepicker" >
+                        </div>
+                        <label style="text-align: center; margin-top: 4px; margin-left: 20px;margin-right: 20px;">s/d</label>
+                        <div class="col-sm-5">
+                          <div class="input-group date pl-0"  id="datefilter1" data-target-input="nearest">
+                            <input value="{{date.1}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date2" data-target="#datefilter1"/>
+                            <div class="input-group-append" data-target="#datefilter1" data-toggle="datetimepicker" >
                                 <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                             </div>
                           </div>
                         </div>
-                        <div class="row">
-                          <div class="col-lg-10 float-right">
-                            <label for="Input"></label>
-                            <div class="form-group row">
-                              <label class="col-sm-4" for="Input">Output :</label>
-                              <div class="col-sm-8">
-                                <select class="form-control" name="format_arrival">
-                                  <option>Arrival Format 2 (*.txt)</option>
-                                  <option>HypoDD (*.pha)</option>
-                                </select>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-lg-10 float-right">
-                            <div class="form-group row">
-                              <label class="col-sm-4" for="Input">Data Source :</label>
-                              <div class="col-sm-8">
-                                <select class="form-control" name="data_source">
-                                  <option>SPK</option>
-                                  <option>Seiscomp4 Ternate</option>
-                                  <option>Repogempa PGN</option>
-                                </select>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-lg-4 float-right">
-                            <label for="Input"></label>
-                            <div class="btn-group w-100">
-                              <button type="submit" class="btn btn-success col start">
-                                <i class="fas fa-download"></i>
-                                <span>Download</span>
-                              </button>
-                            </div>
-                          </div>
-                        </div>
                       </div>
-                      <div class="col-2">
-                        <div class="row">
-                          <label class="col-12" style="text-align: center;">Kedalaman</label>
-                        </div>
-                        <div class="row">
-                          <div class="col-lg-12">
-                            <div class="form-group row">
-                              <div class="col-sm-5">
-                                <input style="text-align: center;" class="form-control" id="Input" placeholder="Min" name="depth1" value="{{date.2}}">
-                              </div>
-                              <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
-                              <div class="col-sm-5">
-                                <input style="text-align: center;" class="form-control" id="Input" placeholder="Max" name="depth2" value="{{date.3}}">
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-2">
-                        <div class="row">
-                          <label class="col-12" style="text-align: center;">Magnitudo</label>
-                        </div>
-                        <div class="row">
-                          <div class="col-lg-12">
-                            <div class="form-group row">
-                              <div class="col-sm-5">
-                                <input style="text-align: center;" class="form-control" id="Input" placeholder="Min" name="mag1" value="{{date.4}}">
-                              </div>
-                              <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
-                              <div class="col-sm-5">
-                                <input style="text-align: center;" class="form-control" id="Input" placeholder="Max" name="mag2" value="{{date.5}}">
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                        
-
-                      <div class="col-4">
-                        <div class="row">
-                          <label class="col-12" style="text-align: center;">Koordinat</label>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-4"></div>
-                          <div class="col-sm-4">
-                            <input style="text-align: center;" class="form-control" id="Input" placeholder="Lat" name="lat1" value="{{date.6}}"/>
-                          </div>
-                          <div class="col-sm-4"></div>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <input style="text-align: center;" class="form-control" id="Input" placeholder="Long" name="long1" value="{{date.8}}" />
-                          </div>
-                          <div class="col-sm-4"></div>
-                          <div class="col-sm-4">
-                            <input style="text-align: center;" class="form-control" id="Input" placeholder="Long" name="long2" value="{{date.9}}" />
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-sm-4"></div>
-                          <div class="col-sm-4">
-                            <input style="text-align: center;" class="form-control" id="Input" placeholder="Lat" name="lat2" value="{{date.7}}"/>
-                          </div>
-                          <div class="col-sm-4"></div>
-                        </div>
-                      </div>
-                        
-                        
-                        
-                        
                     </div>
-                  </form>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="row">
+                    <label class="col-12" style="text-align: center;">Kedalaman</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group row">
+                        <div class="col-sm-5 mb-2">
+                          <input style="text-align: center;" class="form-control" id="Input" placeholder="Min" name="depth1" value="{{date.2}}">
+                        </div>
+                        <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
+                        <div class="col-sm-5">
+                          <input style="text-align: center;" class="form-control" id="Input" placeholder="Max" name="depth2" value="{{date.3}}">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-2">
+                  <div class="row">
+                    <label class="col-12" style="text-align: center;">Magnitudo</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="form-group row">
+                        <div class="col-sm-5 mb-2">
+                          <input style="text-align: center;" class="form-control" id="Input" placeholder="Min" name="mag1" value="{{date.4}}">
+                        </div>
+                        <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
+                        <div class="col-sm-5">
+                          <input style="text-align: center;" class="form-control" id="Input" placeholder="Max" name="mag2" value="{{date.5}}">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  
+
+                <div class="col-lg-4">
+                  <div class="row">
+                    <label class="col-12" style="text-align: center;">Koordinat</label>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4 mb-2">
+                      <input style="text-align: center;" class="form-control" id="Input" placeholder="Lat" name="lat1" value="{{date.6}}"/>
+                    </div>
+                    <div class="col-sm-4"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4 mb-2">
+                      <input style="text-align: center;" class="form-control" id="Input" placeholder="Long" name="long1" value="{{date.8}}" />
+                    </div>
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4 mb-2">
+                      <input style="text-align: center;" class="form-control" id="Input" placeholder="Long" name="long2" value="{{date.9}}" />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                      <input style="text-align: center;" class="form-control" id="Input" placeholder="Lat" name="lat2" value="{{date.7}}"/>
+                    </div>
+                    <div class="col-sm-4"></div>
+                  </div>
+                </div>
+                  
               </div>
+              <div class="row">
+                <div class="col-lg-4 float-right">
+                  <label for="Input"></label>
+                  <div class="form-group row">
+                    <label class="col-sm-4" for="Input">Output :</label>
+                    <div class="col-sm-8">
+                      <select class="form-control" name="format_arrival">
+                        <option>Arrival Format 2 (*.txt)</option>
+                        <option>HypoDD (*.pha)</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 float-right">
+                  <div class="form-group row">
+                    <label class="col-sm-4" for="Input">Data Source :</label>
+                    <div class="col-sm-8">
+                      <select class="form-control" name="data_source">
+                        <option>SPK</option>
+                        <option>Seiscomp4 Ternate</option>
+                        <option>Repogempa PGN</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 float-right">
+                  <label for="Input"></label>
+                  <div class="btn-group w-100">
+                    <button type="submit" class="btn btn-success col start">
+                      <i class="fas fa-download"></i>
+                      <span>Download</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
 

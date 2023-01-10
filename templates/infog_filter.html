@@ -48,56 +48,42 @@
           <div class="card-body">
             <form action="filteredig" method="POST">
               <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4">
                   <div class="row">
                     <label class="col-12" style="text-align: center;">Waktu</label>
                   </div>
                   <div class="row">
-                    <div class="input-group date pl-0" style="width: 210px;" id="datefilter" data-target-input="nearest">
-                        <input value="{{date.0}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date1" data-target="#datefilter"/>
-                        <div class="input-group-append" data-target="#datefilter" data-toggle="datetimepicker" >
-                            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                    <div class="col-lg-12">
+                      <div class="form-group row">
+                        <div class="col-sm-5 mb-2">
+                          <div class="input-group date pl-0 "  id="datefilter" data-target-input="nearest">
+                              <input value="{{date.0}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date1" data-target="#datefilter"/>
+                              <div class="input-group-append" data-target="#datefilter" data-toggle="datetimepicker" >
+                                  <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                              </div>
+                          </div>
                         </div>
-                    </div>
-                    <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
-                    <div class="input-group date pl-0" style="width: 210px;" id="datefilter1" data-target-input="nearest">
-                      <input value="{{date.1}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date2" data-target="#datefilter1"/>
-                      <div class="input-group-append" data-target="#datefilter1" data-toggle="datetimepicker" >
-                          <div class="input-group-text"><i class="fa fa-calendar"></i></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-4 float-right">
-                      <label for="Input"></label>
-                      <div class="btn-group w-100">
-                        <button type="submit" class="btn btn-success col start">
-                          <i class="fas fa-search"></i>
-                          <span>Filter</span>
-                        </button>
-                      </div>
-                    </div>
-                    <div class="col-lg-8 float-right">
-                      <label for="Input"></label>
-                      <div class="custom-control custom-checkbox">
-                        {% if date.10 == 0 %}
-                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" name="felt" value="felt">
-                        {% else %}
-                        <input class="custom-control-input" type="checkbox" id="customCheckbox1" name="felt" value="felt" checked>
-                        {% endif %}
-                        <label for="customCheckbox1" class="custom-control-label">Hanya Gempabumi Dirasakan</label>
+                        <label style="text-align: center; margin-top: 4px; margin-left: 20px;margin-right: 20px;">s/d</label>
+                        <div class="col-sm-5">
+                          <div class="input-group date pl-0"  id="datefilter1" data-target-input="nearest">
+                            <input value="{{date.1}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date2" data-target="#datefilter1"/>
+                            <div class="input-group-append" data-target="#datefilter1" data-toggle="datetimepicker" >
+                                <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2">
                   <div class="row">
                     <label class="col-12" style="text-align: center;">Kedalaman</label>
                   </div>
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="form-group row">
-                        <div class="col-sm-5">
+                        <div class="col-sm-5 mb-2">
                           <input style="text-align: center;" class="form-control" id="Input" placeholder="Min" name="depth1" value="{{date.2}}">
                         </div>
                         <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
@@ -108,14 +94,14 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2">
                   <div class="row">
                     <label class="col-12" style="text-align: center;">Magnitudo</label>
                   </div>
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="form-group row">
-                        <div class="col-sm-5">
+                        <div class="col-sm-5 mb-2">
                           <input style="text-align: center;" class="form-control" id="Input" placeholder="Min" name="mag1" value="{{date.4}}">
                         </div>
                         <label style="text-align: center; margin-top: 4px; margin-left: 8px;margin-right: 8px;">s/d</label>
@@ -128,23 +114,23 @@
                 </div>
                   
 
-                <div class="col-4">
+                <div class="col-lg-4">
                   <div class="row">
                     <label class="col-12" style="text-align: center;">Koordinat</label>
                   </div>
                   <div class="row">
                     <div class="col-sm-4"></div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 mb-2">
                       <input style="text-align: center;" class="form-control" id="Input" placeholder="Lat" name="lat1" value="{{date.6}}"/>
                     </div>
                     <div class="col-sm-4"></div>
                   </div>
                   <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 mb-2">
                       <input style="text-align: center;" class="form-control" id="Input" placeholder="Long" name="long1" value="{{date.8}}" />
                     </div>
                     <div class="col-sm-4"></div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 mb-2">
                       <input style="text-align: center;" class="form-control" id="Input" placeholder="Long" name="long2" value="{{date.9}}" />
                     </div>
                   </div>
@@ -158,6 +144,28 @@
                 </div>
                   
               </div>
+              <div class="row">
+                <div class="col-lg-2 float-right">
+                  <label for="Input"></label>
+                  <div class="btn-group w-100">
+                    <button type="submit" class="btn btn-success col start">
+                      <i class="fas fa-search"></i>
+                      <span>Filter</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-lg-4 float-right">
+                  <label for="Input"></label>
+                  <div class="custom-control custom-checkbox">
+                    {% if date.10 == 0 %}
+                    <input class="custom-control-input" type="checkbox" id="customCheckbox1" name="felt" value="felt">
+                    {% else %}
+                    <input class="custom-control-input" type="checkbox" id="customCheckbox1" name="felt" value="felt" checked>
+                    {% endif %}
+                    <label for="customCheckbox1" class="custom-control-label">Hanya Gempabumi Dirasakan</label>
+                  </div>
+                </div>
+              </div>
             </form>
           </div>
         </div>
@@ -167,7 +175,7 @@
 
 
       <div class="row">
-        <div class="col-12 col-sm-6 col-md-3">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
           <div class="info-box">
             <span class="info-box-icon bg-info elevation-1">
               <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-activity" viewBox="0 0 16 16">
@@ -185,7 +193,7 @@
           <!-- /.info-box -->
         </div>
         <!-- /.col -->
-        <div class="col-12 col-sm-6 col-md-3">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4">
           <div class="info-box mb-3">
             <span class="info-box-icon bg-danger elevation-1">
               <img width="90%" src="{{ url_for('static', filename='images/dirasakan.png') }}"  >
@@ -203,27 +211,29 @@
         </div>
         <!-- /.col -->
 
-        <!-- fix for small devices only -->
-        <div class="clearfix hidden-md-up"></div>
-
-        <div class="col-12 col-sm-6 col-md-3">
-          
-        </div>
-        <!-- /.col -->
-        <div class="col-12 col-sm-6 col-md-1"></div>
-        <div class="col-12 col-sm-6 col-md-2 float-right">
-          <div class="info-box mb-3">
-            
-
-            <div class="info-box-content">
-              <span class="info-box-text"><h5>Download<br>CSV</h5></span>
-              
+        
+        <!--
+         /.col -->
+        <div class="col-sm-12 col-md-12 col-lg-4">
+          <div class="row">
+            <div class="col">
+              <div class="float-right ">
+                <div class="info-box mb-3">
+    
+                  <div class="info-box-content">
+                    <span class="info-box-text"><h5>Download<br>CSV</h5></span>
+                    
+                  </div>
+                  <a href="/export/mingguan" type="submit" class="btn btn-navbar info-box-icon bg-warning elevation-1 ml-2"><i class="fas fa-file-download"></i>
+                  </a>
+                </div>
+                <!-- /.info-box -->
+              </div>
             </div>
-            <a href="/export/dbfilter!{{date.0}}@{{date.1}}@{{date.2}}@{{date.3}}@{{date.4}}@{{date.5}}@{{date.6}}@{{date.7}}@{{date.8}}@{{date.9}}@{{date.10}}" type="submit" class="btn btn-navbar info-box-icon bg-warning elevation-1 ml-2"><i class="fas fa-file-download"></i>
-            </a>
+            
           </div>
-          <!-- /.info-box -->
         </div>
+        
         <!-- /.col -->
       </div>
       <!-- /.row -->
@@ -245,11 +255,11 @@
             <!-- /.card-header -->
             <div class="card-body">
               <div class="row">
-                <div class="col-md-7 align-items-start">
-                  <div id="map" style="width: 500px; height: 400px;"></div>
+                <div class="col-lg-7 mb-3 align-items-start">
+                  <div id="map" style="width: 100%; height: 400px; position: relative; border-radius: 8px;"></div>
                 </div>
-                <div class="col-md-5 align-items-start">
-                  <img style="margin-left: 0px; width: 95%; border-radius: 100px;"src="{{ url_for('static', filename='seismisitas_mingguan.jpg') }}" class="img-fluid rounded " />
+                <div class="col-lg-5 align-items-start">
+                  <img style="margin-left: 0px; width: 95%; border-radius: 8px;"src="{{ url_for('static', filename='seismisitas_mingguan.jpg') }}" class="img-fluid rounded " />
                 </div>
               </div>
             </div>
