@@ -96,6 +96,7 @@ def slinktool():
 
     i = 0
     sensor = []
+    sensor_sta = []
     while i < len(baris):
         if len(baris[i]) > 0:
             
@@ -110,8 +111,14 @@ def slinktool():
             or sta=='GHMI' or sta=='LBMI' or sta=='OBMI' or sta=='SANI':
                 if comp == 'Z':
                     sensor += [baris[i]]
+                    sensor_sta += sta
+
+            
             
         i += 1
+
+    if 'GLMI' not in sensor_sta:
+        sensor += 'IA GLMI     SHZ D 2022/09/30 08:23:43.2250  -  2022/10/02 06:03:54.0000'
 
     #print(sensor)
 
@@ -119,13 +126,14 @@ def slinktool():
     today = datetime.utcnow()
     for sta in sensor:
         #print(sta)
+        #dt = '2022/10/02 06:03:54.0000'
         dt = sta[len(sta)-2:]
+        name = sta[1]
+
         dtime = dt[0]+' '+dt[1]
-        
         last_dt = datetime.strptime(dtime, '%Y/%m/%d %H:%M:%S.%f')
         delay = (today-last_dt).total_seconds()
-        
-        name = sta[1]
+
         last_data += [[name,last_dt,delay]]
     
     #print(last_data)
