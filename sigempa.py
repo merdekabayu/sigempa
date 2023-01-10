@@ -536,6 +536,7 @@ def sensor_stat():
     
     print('ini sensor/status')
     data = slinktool()
+    print('ini slibktool ok')
     last_data = data[0]
     today = data[1]
     stat = status(last_data,today)
