@@ -45,7 +45,7 @@ def map_diseminasi():
     long = baris[0].split()[1]
     mag = baris[0].split()[3]
     mags = np.arange(1,9.1,0.1)
-    indexmag = np.where(np.round(mags,2) == folat(mag))
+    indexmag = np.where(np.round(mags,2) == float(mag))
     magf = indexmag[0][0]+1
     magfile = str(magf)+'.png'
     #magfile = 'mag'+('%.0f')%(float(mag)*10)+'.png'
