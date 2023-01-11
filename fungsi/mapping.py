@@ -3,6 +3,7 @@ from flask import Flask, render_template, request, redirect
 from flask_mysqldb import MySQL
 from datetime import datetime
 from dateutil import tz
+import numpy as np
 app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
@@ -43,7 +44,11 @@ def map_diseminasi():
     lat = baris[0].split()[0]
     long = baris[0].split()[1]
     mag = baris[0].split()[3]
-    magfile = 'mag'+('%.0f')%(float(mag)*10)+'.png'
+    mags = np.arange(1,9.1,0.1)
+    indexmag = np.where(np.round(mags,2) == folat(mag))
+    magf = indexmag[0][0]+1
+    magfile = str(magf)+'.png'
+    #magfile = 'mag'+('%.0f')%(float(mag)*10)+'.png'
     opsi_map = request.form['opsi_map']
     
 
