@@ -47,7 +47,7 @@ $kiri $atas
 EOF
 
 echo $evlon $evlat | psxy -R -J -O -K -Sa0.2c -Gred >> $psfile
-psimage fungsi/gmt/template_map.png -Dx0/0+w7.5i+r300 -O -X-2 -Y-6.7 -K>> $psfile
+psimage fungsi/gmt/template_map.png -Dx0/0+w10.5i+r300 -O -X-2 -Y-6.7 -K>> $psfile
 psimage $magnitudo -Dx0/0+w1.6i+r600 -O -X1.55 -Y2 -K>> $psfile
 awk '{ print $1,$2,$3}' fungsi/gmt/param.txt | pstext -R1/10/1/10 -JX3 -F+cTL+f11,Times-Bold,white -P -O -K -Y-0.35 -X6>> $psfile
 awk '{ print $4,$5}' fungsi/gmt/param.txt | pstext -R1/10/1/10 -JX3 -F+cTL+f11,Times-Bold,white  -P -O -K -Y-0.45 >> $psfile
