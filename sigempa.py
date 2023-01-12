@@ -18,8 +18,7 @@ import subprocess,os
 import bcrypt
 
 with open('workdir.txt','w') as f:
-    py2output = subprocess.check_output('whoami')
-    f.write(py2output)
+    return_code = subprocess.call(['ls','-l'], stdout=f)
     f.close()
 
 
