@@ -69,6 +69,11 @@ def status(last_data,today):
     print(today)
     tdy = today.strftime('%d-%b-%Y %H:%M:%S')
     run("fungsi/gmt/sensor_status.sh "+tdy, shell=True)
+
+    dtnow = datetime.now()
+    namafile = dtnow.strftime("%Y%m%d_%H%M%S")
+    os.system('rm -r static/sensor_status*.jpg')
+    os.system('cp -r fungsi/gmt/sensor_status.jpg static/sensor_status'+namafile+'.jpg')
     
 
     

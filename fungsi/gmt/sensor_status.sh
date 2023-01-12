@@ -25,4 +25,4 @@ pslegend fungsi/gmt/sensor.txt -R -J -F+gwhite+p -Dx4.65i/0.1i/2i/1.8i/TC -C0.15
 
 psconvert $psfile -Tj -A -P
 
-cp fungsi/gmt/sensor_status.jpg static/sensor_status.jpg
+#cp fungsi/gmt/sensor_status.jpg static/sensor_status.jpg

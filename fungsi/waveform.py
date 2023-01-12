@@ -52,12 +52,14 @@ def waveformplot(sta):
     os.system('sshpass -p "bmkg212$" ssh -p2222 sysop@36.91.152.130 sh vps_server/run_scmssort.sh')
     os.system("sshpass -p 'bmkg212$' rsync -arvz -e 'ssh -p2222' --progress --delete sysop@36.91.152.130:vps_server/"+sta+".mseed fungsi/waveform/"+sta+".mseed")
 
-    
+    dtnow = datetime.now()
+    namafile = dtnow.strftime("%Y%m%d_%H%M%S")
+    os.system('rm -r static/waveform/waveform24h'+sta+'*.jpg')
+
     st = read('fungsi/waveform/'+sta+'.mseed')
-    #st = read(Stream)
     st.filter("bandpass", freqmin=0.7, freqmax=5, corners=2)
     st.plot(type="dayplot", interval=60, color=['b'], starttime= UTCDateTime(styes), endtime= UTCDateTime(stnow),
-            one_tick_per_line=True, outfile='static/waveform/'+sta+'.jpg', tick_format='%H:%M',size=(1600,1200),dpi=240)
+            one_tick_per_line=True, outfile='static/waveform/waveform24h'+sta+namafile+'.jpg', tick_format='%H:%M',size=(1600,1200),dpi=240)
     st.clear()
     #a = st.plot(type="dayplot", interval=60, color=['b'], outfile='static/waveform/TNTI.jpg', show=False)
 
