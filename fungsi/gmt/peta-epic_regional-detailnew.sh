@@ -56,7 +56,7 @@ awk '{ print $6,$7,$8,$9,$10}' fungsi/gmt/param.txt | pstext -R1/20/1/10 -JX5 -F
 awk '{ print $11,$12}' fungsi/gmt/param.txt | pstext -R1/20/1/10 -JX5 -F+cTL+f9.5,Bookman-Demi,white  -P -O -K -X5.27 >> $psfile
 awk '{ print $1,$2,$3,$4}' fungsi/gmt/jarak.txt | pstext -R1/20/1/10 -JX5 -F+cTL+f9.5,Bookman-Demi,white  -P -O -K -Y2.34 >> $psfile
 awk '{ print $13}' fungsi/gmt/param.txt | pstext -R1/20/1/10 -JX5 -F+cTL+f9.2,Bookman-Demi,white  -P -O -Y-0.47 -K>> $psfile
-pstext fungsi/gmt/info.txt -R1/20/1/10 -JX5 -F+cTL+f9.2,Bookman-Demi,white  -P -O -Y-3.02 -X-4.7>> $psfile
+pstext fungsi/gmt/info.txt -R1/20/1/10 -JX7 -F+cTL+f9.2,Bookman-Demi,white  -P -O -Y-3.02 -X-4.7>> $psfile
 psconvert $psfile -TG -A -P -E256
 
 cp fungsi/gmt/$9.png static/map-detail/$9.png
