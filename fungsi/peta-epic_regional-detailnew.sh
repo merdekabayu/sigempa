@@ -58,6 +58,7 @@ awk '{ print $13}' fungsi/gmt/param.txt | pstext -R1/20/1/10 -JX5 -F+cTL+f9.2,Bo
 pstext fungsi/gmt/info.txt -R1/20/1/10 -JX7 -F+cTL+f9.2,Bookman-Demi,white  -P -O -Y-3.02 -X-4.7>> $psfile
 psconvert $psfile -TG -A -P -E256
 
+
 #echo "Halo disini nilai R = $R"
 #pwd
 
