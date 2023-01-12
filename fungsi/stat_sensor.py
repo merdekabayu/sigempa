@@ -142,10 +142,11 @@ def slinktool():
         str1 = name1
         var1 = locals()
         var1[str1] = last_data1
-
+        print('inii name satuu####',name1)
         str = name
         var = locals()
         var[str] = delay
+        print('inii name ajaa####',name)
         
         if len(name) > 2:
             minv = min(name)
