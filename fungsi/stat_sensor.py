@@ -147,12 +147,13 @@ def slinktool():
         str = name
         var = locals()
         var[str] += [delay]
-        print(TNTI)
+        
         
         if len(name) > 2:
             minv = min(name)
             indexmin = name.index(minv)
             update += name1[indexmin]
+        print(update)
 
  
     return update,today
