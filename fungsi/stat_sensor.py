@@ -127,6 +127,7 @@ def slinktool():
     last_data=[]
     today = datetime.utcnow()
     TNTI,MTAI,GLMI,IHMI,JHMI,WHMI,WBMI,PMMI,GHMI,LBMI,OBMI,SANI=[],[],[],[],[],[],[],[],[],[],[],[]
+    TNTI1,MTAI1,GLMI1,IHMI1,JHMI1,WHMI1,WBMI1,PMMI1,GHMI1,LBMI1,OBMI1,SANI1=[],[],[],[],[],[],[],[],[],[],[],[]
     update = []
     for sta in sensor:
         dt = sta[len(sta)-2:]
