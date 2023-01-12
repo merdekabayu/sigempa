@@ -146,7 +146,7 @@ def slinktool():
 
         str = name
         var = locals()
-        var[str] += delay
+        var[str] += [delay]
         print(TNTI)
         
         if len(name) > 2:
