@@ -594,10 +594,11 @@ def sensor_stat():
         
     except:
         nodata = 'nodata'
+        wavf = ''
     
     filemap = subprocess.check_output('ls static/sensor_status*.jpg',shell=True)
     mapf = filemap.decode().split('\n')[0]
-
+    
     #os.system('ls static/waveform/waveform24h'+sta+'*.jpg')
     
     
