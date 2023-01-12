@@ -18,7 +18,7 @@ import subprocess,os
 import bcrypt
 
 with open('workdir.txt','w') as f:
-    filemap = subprocess.check_output("ls",shell=True)
+    filemap = subprocess.check_output('pwd',shell=True)
     mapf = filemap.decode().split('\n')[0]
     f.write(mapf)
     f.close()
