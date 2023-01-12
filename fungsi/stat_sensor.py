@@ -150,7 +150,7 @@ def slinktool():
     print('iniiii ldata #############',ldata)
         
 
-    return last_data,today
+    return ldata,today
 
 
 
