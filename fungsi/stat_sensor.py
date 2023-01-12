@@ -131,7 +131,7 @@ def slinktool():
     for sta in sensor:
         dt = sta[len(sta)-2:]
         name = sta[1]
-        name1 = sta[1]
+        name1 = sta[1]+'1'
         dtime = dt[0]+' '+dt[1]
         last_dt = datetime.strptime(dtime, '%Y/%m/%d %H:%M:%S.%f')
         delay = (today-last_dt).total_seconds()
