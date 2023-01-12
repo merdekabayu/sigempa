@@ -145,7 +145,7 @@ def slinktool():
 
     ldata = []
     for st in stat:
-        ldata += df.loc[[df.loc[df.sta == st, 'delay'].idxmin()]].values.flatten().tolist()
+        ldata += [df.loc[[df.loc[df.sta == st, 'delay'].idxmin()]].values.flatten().tolist()]
 
     print('iniiii ldata #############',ldata)
         
