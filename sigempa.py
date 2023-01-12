@@ -545,6 +545,7 @@ def sensor_stat():
     data = slinktool()
     print('ini slibktool ok')
     last_data = data[0]
+    print(last_data)
     today = data[1]
     stat = status(last_data,today)
     tabel = tabel_slinktool(last_data,today)
