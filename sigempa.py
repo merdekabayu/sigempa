@@ -140,7 +140,9 @@ def ig_mingguan():
     #print('ini histogram = #######',hist_tab)
 
     #submit_ok = True
-    return render_template('infog_mingguan.html', data=par,
+    filemap = subprocess.check_output('ls static/seismisitas*.jpg',shell=True)
+    mapf = filemap.decode().split('\n')[0]
+    return render_template('infog_mingguan.html',mapfile=mapf, data=par,
                                                 jml_gempa=jml_gempa,
                                                 jml_drskn=jml_drskn,
                                                 hist_harian=hist_harian,
@@ -176,8 +178,10 @@ def ig_bulanan():
     wilayah = stat[1][:7]
     rangedate = chart[2]
 
+    filemap = subprocess.check_output('ls static/seismisitas*.jpg',shell=True)
+    mapf = filemap.decode().split('\n')[0]
 
-    return render_template('infog_bulanan.html', data=par,
+    return render_template('infog_bulanan.html', mapfile=mapf,data=par,
                                                 jml_gempa=jml_gempa,
                                                 jml_drskn=jml_drskn,
                                                 hist_harian=hist_harian,
@@ -213,8 +217,10 @@ def customig():
             hist_tab = stat[0][6]
             wilayah = stat[1][:7]
             rangedate = chart[2]
+            filemap = subprocess.check_output('ls static/seismisitas*.jpg',shell=True)
+            mapf = filemap.decode().split('\n')[0]
 
-            return render_template('infog_custom.html', data=par,
+            return render_template('infog_custom.html',mapfile=mapf, data=par,
                                                         jml_gempa=jml_gempa,
                                                     jml_drskn=jml_drskn,
                                                     hist_harian=hist_harian,
@@ -268,8 +274,9 @@ def filterig():
         long2 = 130.00
         felt = 0
         #submit_ok = True
-        print('haloooo ini 30ago ###########',day30ago)
-        return render_template('infog_filter.html', data=par,
+        filemap = subprocess.check_output('ls static/seismisitas*.jpg',shell=True)
+        mapf = filemap.decode().split('\n')[0]
+        return render_template('infog_filter.html', mapfile=mapf,data=par,
                                                     jml_gempa=jml_gempa,
                                                     jml_drskn=jml_drskn,
                                                     hist_harian=hist_harian,
@@ -317,7 +324,9 @@ def filtered_ig():
             hist_tab = stat[0][6]
             wilayah = stat[1][:7]
             rangedate = chart[2]
-            return render_template('infog_filter.html', data=par,
+            filemap = subprocess.check_output('ls static/seismisitas*.jpg',shell=True)
+            mapf = filemap.decode().split('\n')[0]
+            return render_template('infog_filter.html',mapfile=mapf, data=par,
                                                     jml_gempa=jml_gempa,
                                                     jml_drskn=jml_drskn,
                                                     hist_harian=hist_harian,
@@ -331,8 +340,11 @@ def filtered_ig():
             today = datetime.today()
             filter = f.filter_parameter()
             today = today.strftime('%d-%m-%Y %H:%M')
+
+            filemap = subprocess.check_output('ls static/seismisitas*.jpg',shell=True)
+            mapf = filemap.decode().split('\n')[0]
             
-            return render_template('infog_filter.html',data=filter, date = [today,today])
+            return render_template('infog_filter.html',mapfile=mapf,data=filter, date = [today,today])
 
     except:
         return redirect(url_for('filterig'))

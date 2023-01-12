@@ -46,4 +46,4 @@ EOF
 
 psconvert $psfile -Tj -A -P
 
-cp fungsi/gmt/seismisitas_mingguan.jpg static/seismisitas_mingguan.jpg
+#cp fungsi/gmt/seismisitas_mingguan.jpg static/seismisitas_mingguan.jpg

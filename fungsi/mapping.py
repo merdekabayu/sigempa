@@ -33,6 +33,11 @@ def map_seismisitas_mingguan(par,start,end):
     f2.close()
     
     run("fungsi/gmt/seismisitas.sh "+start+" "+end, shell=True)
+
+    dtnow = datetime.now()
+    namafile = dtnow.strftime("%Y%m%d_%H%M%S")
+    os.system('rm -r static/seismisitas_*.jpg')
+    os.system('cp -r fungsi/gmt/seismisitas_mingguan.jpg static/seismisitas_'+namafile+'.jpg')
     
 
     
