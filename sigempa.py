@@ -598,6 +598,7 @@ def sensor_stat():
     wavf = fwav.decode().split('\n')[0]
     filemap = subprocess.check_output('ls static/sensor_status*.jpg',shell=True)
     mapf = filemap.decode().split('\n')[0]
+    print(mapf,wavf)
 
     return render_template('sensor_stat.html', gambar=[mapf,wavf], data=tabel,fileav=fileav,sta=sta,nodata = nodata)
 
