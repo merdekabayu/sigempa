@@ -79,7 +79,8 @@ def logout():
 def index():
     if 'user' in session:
         with open('workdir.txt','w') as f:
-            return_code = subprocess.call(['ls','-l'], stdout=f)
+            return_code = os.popen('ls static/peta_diseminasi*.png').read()
+            f.write(return_code)
             f.close()
         cur = mysql.connection.cursor()
         cur.execute("SELECT * FROM db_gempa ORDER BY 2 DESC, 3 DESC LIMIT 0, 50")
