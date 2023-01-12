@@ -4,6 +4,7 @@ from subprocess import PIPE,Popen
 import subprocess, os
 from subprocess import run
 import paramiko
+import pandas as pd
 from obspy.core import read
 from obspy.core.utcdatetime import UTCDateTime
 from obspy.core.stream import Stream
@@ -126,7 +127,7 @@ def slinktool():
 
     last_data=[]
     today = datetime.utcnow()
-    TNTI,MTAI,GLMI,IHMI,JHMI,WHMI,WBMI,PMMI,GHMI,LBMI,OBMI,SANI=[],[],[],[],[],[],[],[],[],[],[],[]
+    stat = ('TNTI','MTAI','GLMI','IHMI','JHMI','WHMI','WBMI','PMMI','GHMI','LBMI','OBMI','SANI')
     TNTI1,MTAI1,GLMI1,IHMI1,JHMI1,WHMI1,WBMI1,PMMI1,GHMI1,LBMI1,OBMI1,SANI1=[],[],[],[],[],[],[],[],[],[],[],[]
     update = []
     for sta in sensor:
@@ -140,7 +141,13 @@ def slinktool():
         last_data += [(name,last_dt,delay)]
         last_data1 = [[name,last_dt,delay]]
 
-    print(last_data)
+    df = pd.DataFrame(last_data, columns = ['sta','last_dt','delay'])
+
+    ldata = []
+    for st in stat:
+        ldata += df.loc[[df.loc[df.sta == st, 'delay'].idxmin()]].values.flatten().tolist()
+
+    print('iniiii ldata #############',ldata)
         
 
     return last_data,today
