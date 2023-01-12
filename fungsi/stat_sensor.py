@@ -146,6 +146,7 @@ def slinktool():
         str = name
         var = locals()
         var[str] += [delay]
+        print(TNTI)
         
         if len(name) > 2:
             minv = min(name)
