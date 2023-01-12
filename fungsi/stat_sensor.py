@@ -142,7 +142,10 @@ def slinktool():
         str1 = name1
         var1 = locals()
         var1[str1] = last_data1
-        print('inii name satuu####',name1)
+        try:
+            print(GHMI)
+        except:
+            pass
         str = name
         var = locals()
         var[str] = delay
