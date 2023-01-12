@@ -1,4 +1,4 @@
-<html><body><p>Event:
+<html><body><p>Event: 
     Public ID              bmkg2023auae
     Description
       region name: Minahassa Peninsula, Sulawesi
