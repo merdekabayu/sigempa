@@ -141,7 +141,7 @@ def slinktool():
 
         str1 = name1
         var1 = locals()
-        var1[str1] += last_data1
+        var1[str1] += [last_data1]
 
         str = name
         var = locals()
