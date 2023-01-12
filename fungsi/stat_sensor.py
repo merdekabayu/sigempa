@@ -153,7 +153,7 @@ def slinktool():
             minv = min(name)
             indexmin = name.index(minv)
             update += name1[indexmin]
-        print(update)
+        print(minv)
 
  
     return update,today
