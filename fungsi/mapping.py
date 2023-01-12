@@ -172,7 +172,7 @@ def map_detail(var):
 
     if len(info) > 3:
         with open('fungsi/gmt/info.txt','w') as f:
-            f.write(info)
+            f.write(info.split(',')[0])
             f.close()
     else:
         with open('fungsi/gmt/info.txt','w') as f:
