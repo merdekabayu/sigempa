@@ -30,28 +30,28 @@ def arrival2spk(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt):
         if eid[:3] == 'bmg' or eid[:4] == 'bmkg':
             try:
                 if sta == 'MNI':
-                    with open('arrival/esdx_arrival/mni_'+eid+'.txt','r') as f:
+                    with open('fungsi/arrival/esdx_arrival/mni_'+eid+'.txt','r') as f:
                         isi = f.read()
                     arr = isi.split('<pre>')[1].split('</pre>')[0]
                     fout.write(arr+'\n\n')
                 elif sta == 'PGN':
-                    with open('arrival/esdx_arrival/pst_'+eid+'.txt','r') as f:
+                    with open('fungsi/arrival/esdx_arrival/pst_'+eid+'.txt','r') as f:
                         isi = f.read()
                     arr = isi.split('<pre>')[1].split('</pre>')[0]
                     fout.write(arr+'\n\n')
                 elif sta == 'AAI':
-                    with open('arrival/esdx_arrival/aai_'+eid+'.txt','r') as f:
+                    with open('fungsi/arrival/esdx_arrival/aai_'+eid+'.txt','r') as f:
                         isi = f.read()
                     arr = isi.split('<pre>')[1].split('</pre>')[0]
                     fout.write(arr+'\n\n')
                 elif sta == 'GTO':
-                    with open('arrival/esdx_arrival/gto_'+eid+'.txt','r') as f:
+                    with open('fungsi/arrival/esdx_arrival/gto_'+eid+'.txt','r') as f:
                         isi = f.read()
                     arr = isi.split('<p>')[1].split('</p>')[0]
                     fout.write(arr+'\n\n')
                 elif sta == 'TNT':
                     print('ini id ev #############', id)
-                    with open('arrival/esdx_arrival/tnt_'+eid+'.txt','r') as f:
+                    with open('fungsi/arrival/esdx_arrival/tnt_'+eid+'.txt','r') as f:
                         isi = f.read()
                     arr = isi.split('<p>')[1].split('</p>')[0]
                     fout.write(arr+'\n\n')
