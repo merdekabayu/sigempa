@@ -18,7 +18,7 @@ import subprocess,os
 import bcrypt
 
 with open('workdir.txt','w') as f:
-    filemap = subprocess.check_output("ls /home/stageoftnt/sigempa_v2/sigempa/static/peta_diseminasi*.png",shell=True)
+    filemap = subprocess.check_output("ls /home/stageoftnt/sigempa_v2/sigempa/static/peta_diseminasi*.png",shell=True, stderr=subprocess.STDOUT)
     mapf = filemap.decode().split('\n')[0]
     f.write(mapf)
     f.close()
