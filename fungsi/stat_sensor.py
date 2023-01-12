@@ -145,9 +145,7 @@ def slinktool():
 
         str = name
         var = locals()
-        var[str] += delay
-        
-        
+        var[str] += [delay]
         
         if len(name) > 2:
             minv = min(name)
