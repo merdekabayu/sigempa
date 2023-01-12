@@ -521,7 +521,6 @@ def arrival_download():
             path = arrival2spk(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt)
             nfile = path.split('.')[0]
             nfile = nfile.split('/')[2]
-            print(nfile)
             namefile = nfile+'_'+date1+'_'+date2+'_'+depth1+'_'+depth2+'_'+mag1+'_'+mag2+'_'+lat1+'_'+lat2+'_'+long1+'_'+long2+'.txt'
         elif source == 'Seiscomp4 Ternate':
             path = arrivalsc4tnt(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt)

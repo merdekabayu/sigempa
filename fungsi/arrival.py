@@ -104,7 +104,7 @@ def arrivalsc4tnt(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt
         with open(list_event,'w') as fout:
             result = subprocess.run(['mysql', '-h36.91.152.130', '-usysop', '-psysop', '-P33066', '-Dseiscomp'], stdin=input_file, stdout=fout, stderr=PIPE)
             print(result)
-    nama = 'fungsi/Data Arrival-SC4.txt'
+    nama = 'fungsi/arrival/Data Arrival-SC4.txt'
     with open(nama,'w') as list_detail:
         with open(list_event,'r') as fin:
             baris = fin.readlines()
@@ -172,7 +172,7 @@ def arrivalsc3pst(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt
             output = ssh_stdout.read()
             fout.write(output.decode("utf-8")+'\n')
 
-    nama = 'fungsi/Data Arrival-RepoJkt.txt'
+    nama = 'fungsi/arrival/Data Arrival-RepoJkt.txt'
     with open(nama,'w') as list_detail:
         with open(list_event,'r') as fin:
             baris = fin.readlines()
