@@ -4,6 +4,7 @@ from flask_mysqldb import MySQL
 from datetime import datetime
 from dateutil import tz
 import numpy as np
+import os
 app = Flask(__name__)
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
@@ -51,12 +52,13 @@ def map_diseminasi():
     #magfile = 'mag'+('%.0f')%(float(mag)*10)+'.png'
     opsi_map = request.form['opsi_map']
     
+    print(opsi_map)
 
     if opsi_map=="Regional":
-        kiri=('%.2f')%(float(long)-3)
-        kanan=('%.2f')%(float(long)+3)
-        bawah=('%.2f')%(float(lat)-1.875)
-        atas=('%.2f')%(float(lat)+1.875)
+        kiri=('%.2f')%(float(long)-3.3)
+        kanan=('%.2f')%(float(long)+3.3)
+        bawah=('%.2f')%(float(lat)-1.95)
+        atas=('%.2f')%(float(lat)+1.95)
         skala =('%.2f')%(float(long)+1.8)+'/'+('%.2f')%(float(lat)-1.6)
         variabel = lat+" "+long+" "+magfile+" "+skala+" "+kiri+" "+kanan+" "+bawah+" "+atas
         run("fungsi/gmt/peta-epic_regional.sh "+variabel, shell=True)
@@ -64,10 +66,10 @@ def map_diseminasi():
     elif opsi_map=="Lokal":
         #set lebar=1.5
         #set tinggi=0.9375
-        kiri=('%.2f')%(float(long)-1.5)
-        kanan=('%.2f')%(float(long)+1.5)
-        bawah=('%.2f')%(float(lat)-0.9375)
-        atas=('%.2f')%(float(lat)+0.9375)
+        kiri=('%.2f')%(float(long)-1.65)
+        kanan=('%.2f')%(float(long)+1.65)
+        bawah=('%.2f')%(float(lat)-0.975)
+        atas=('%.2f')%(float(lat)+0.975)
         skala =('%.2f')%(float(long)+1.0)+'/'+('%.2f')%(float(lat)-0.8)
         variabel = lat+" "+long+" "+magfile+" "+skala+" "+kiri+" "+kanan+" "+bawah+" "+atas
         run("fungsi/gmt/peta-epic_lokal.sh "+variabel, shell=True)
@@ -75,15 +77,19 @@ def map_diseminasi():
     else:
         #set lebar=0.8
         #set tinggi=0.5
-        kiri=('%.2f')%(float(long)-0.8)
-        kanan=('%.2f')%(float(long)+0.8)
-        bawah=('%.2f')%(float(lat)-0.5)
-        atas=('%.2f')%(float(lat)+0.5)
+        kiri=('%.2f')%(float(long)-0.825)
+        kanan=('%.2f')%(float(long)+0.825)
+        bawah=('%.2f')%(float(lat)-0.4875)
+        atas=('%.2f')%(float(lat)+0.4875)
         skala =('%.2f')%(float(long)+0.6)+'/'+('%.2f')%(float(lat)-0.4)
         variabel = lat+" "+long+" "+magfile+" "+skala+" "+kiri+" "+kanan+" "+bawah+" "+atas
-        run("flask_app/fungsi/gmt/peta-epic_lokal1.sh "+variabel, shell=True)
+        run("fungsi/gmt/peta-epic_lokal1.sh "+variabel, shell=True)
         
         #os.system("C:\Windows\System32\cmd.exe /c gmt\peta-epic_lokal1_new.bat" + " " + lat + " " + long+ " " + magfile)
+    dtnow = datetime.now()
+    namafile = dtnow.strftime("%Y%m%d_%H%M%S")
+    os.system('rm -r static/peta_diseminasi*.png')
+    os.system('cp -r fungsi/gmt/peta_diseminasi.png static/peta_diseminasi_'+namafile+'.png')
     
     #a=subprocess.call("pwd")
     #return redirect(request.referrer)
@@ -157,23 +163,36 @@ def map_detail(var):
     fileoutput3 = 'fungsi/gmt/jarak.txt'
     file2 = open(fileoutput2, 'w')
     file3 = open(fileoutput3, 'w')
+    tgl = ('%d')%float(tgl)
     file2.write(tgl + ' ' + bulan1 + ' 20' + tahun + ' ' + waktu + ' WIT ' + ltg + ' '+ NS + ' - '
                 +bujur + ' BT ' + depth + ' Km ' + minkota)
     file3.write(min_jarak + ' Km ' + arah)
     file2.close()
     file3.close()
 
-    magfile = 'mag'+('%.0f')%(float(mag)*10)+'.png'
+    if len(info) > 3:
+        with open('fungsi/gmt/info.txt','w') as f:
+            f.write(info)
+            f.close()
+    else:
+        with open('fungsi/gmt/info.txt','w') as f:
+            f.write('')
+            f.close()
 
-    kiri=('%.2f')%(float(long)-3)
-    kanan=('%.2f')%(float(long)+3)
-    bawah=('%.2f')%(float(lat)-1.875)
-    atas=('%.2f')%(float(lat)+1.875)
+    mags = np.arange(1,9.1,0.1)
+    indexmag = np.where(np.round(mags,2) == float(mag))
+    magf = indexmag[0][0]+1
+    magfile = str(magf)+'.png'
+
+    kiri=('%.2f')%(float(long)-3.3)
+    kanan=('%.2f')%(float(long)+3.3)
+    bawah=('%.2f')%(float(lat)-1.95)
+    atas=('%.2f')%(float(lat)+1.95)
     skala =('%.2f')%(float(long)+1.8)+'/'+('%.2f')%(float(lat)-1.6)
     variabel = ('%.2f')%(float(lat))+" "+('%.2f')%(float(long))+" "+magfile+" "+skala+" "+kiri+" "+kanan+" "+bawah+" "+atas+" "+id
-    run("fungsi/gmt/peta-epic_regional-detail.sh "+variabel, shell=True)
+    run("fungsi/gmt/peta-epic_regional-detailnew.sh "+variabel, shell=True)
 
-    print(date,time,lat,long,depth,mag,ket,info)
+    print(date,time,lat,long,depth,mag,ket)
 
     cur.close()
     return par

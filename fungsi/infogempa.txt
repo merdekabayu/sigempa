@@ -1,1 +1,1 @@
-Info Gempa Mag:3.9, 07-Jan-23 15:46:54 WIT, Lok: 1.43 LU, 126.35 BT (130 km Timur BITUNG-SULUT), Kedlmn:8 Km ::BMKG-TNT
+Info Gempa Mag:3.1, 12-Jan-23 04:02:54 WIT, Lok: 0.86 LU, 127.04 BT (38 km BaratLaut TERNATE-MALUT), Kedlmn:23 Km, dirasakan III MMI di Tobelo ::BMKG-TNT

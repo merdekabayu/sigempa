@@ -1,6 +1,6 @@
 #! /bin/sh
 
-SIZE="M17.2c"
+SIZE="M17.38c"
 AXIS="a1f0.5NwsE"
 psfile="fungsi/gmt/peta_diseminasi.ps"
 evlat=$1
@@ -16,7 +16,7 @@ kota_besar_malut="fungsi/gmt/kota_besar_malut.dat"
 kota_malut="fungsi/gmt/kota_malut.dat"
 kota_sulut="fungsi/gmt/kota_sulutgto.dat"
 parameter="fungsi/gmt/parameter.dat"
-magnitudo="fungsi/gmt/mag/$magfile"
+magnitudo="fungsi/gmt/mag_new/$magfile"
 
 #echo %evlon% %evlat% > %parameter%
 grdimage fungsi/gmt/map_pgr.nc -R$REGION -J$SIZE -Cfungsi/gmt/batimetri.cpt -K -V -I+a0+nt0.5 -Y8 -P > $psfile
@@ -47,14 +47,15 @@ $kiri $atas
 EOF
 echo $evlon $evlat | psxy -R -J -O -K -Sa0.2c -Gred >> $psfile
 
-psimage fungsi/gmt/template_peta0.png -Dx0/0+w7.5i+r300 -O -X-2 -Y-6.7 -K>> $psfile
-psimage $magnitudo -Dx0/0+w1.6i+r600 -O -X1.55 -Y2 -K>> $psfile
-awk '{ print $1,$2,$3}' fungsi/gmt/param.txt | pstext -R1/10/1/10 -JX3 -F+cTL+f11,Times-Bold,white -P -O -K -Y-0.35 -X6>> $psfile
-awk '{ print $4,$5}' fungsi/gmt/param.txt | pstext -R1/10/1/10 -JX3 -F+cTL+f11,Times-Bold,white  -P -O -K -Y-0.45 >> $psfile
-awk '{ print $6,$7,$8,$9,$10}' fungsi/gmt/param.txt | pstext -R1/20/1/10 -JX5 -F+cTL+f11,Times-Bold,white  -P -O -Y-3.7 -K -X-0.05 >> $psfile
-awk '{ print $11,$12}' fungsi/gmt/param.txt | pstext -R1/20/1/10 -JX5 -F+cTL+f11,Times-Bold,white  -P -O -K -Y-0.1 -X6 >> $psfile
-awk '{ print $1,$2,$3,$4}' fungsi/gmt/jarak.txt | pstext -R1/20/1/10 -JX5 -F+cTL+f10,Times-Bold,white  -P -O -K -Y2.25 >> $psfile
-awk '{ print $13}' fungsi/gmt/param.txt | pstext -R1/20/1/10 -JX5 -F+cTL+f10,Times-Bold,white  -P -O -Y-0.43>> $psfile
+psimage fungsi/gmt/template_map.png -Dx0/0+w7.51i+r300 -O -X-1.95 -Y-7.42 -K>> $psfile
+psimage $magnitudo -Dx0/0+w1.63i+r600 -O -X2.38 -Y2.62 -K>> $psfile
+awk '{ print $1,$2,$3}' fungsi/gmt/param.txt | pstext -R1/10/1/10 -JX4 -F+cTL+f9.5,Bookman-Demi,white -P -O -K -Y-0.92 -X5.97>> $psfile
+awk '{ print $4,$5}' fungsi/gmt/param.txt | pstext -R1/10/1/10 -JX4 -F+cTL+f9.5,Bookman-Demi,white  -P -O -K -Y-0.45 >> $psfile
+awk '{ print $6,$7,$8,$9,$10}' fungsi/gmt/param.txt | pstext -R1/20/1/10 -JX5 -F+cTL+f9.3,Bookman-Demi,white  -P -O -X-0.07 -Y-2.9  -K  >> $psfile
+awk '{ print $11,$12}' fungsi/gmt/param.txt | pstext -R1/20/1/10 -JX5 -F+cTL+f9.5,Bookman-Demi,white  -P -O -K -X5.27 >> $psfile
+awk '{ print $1,$2,$3,$4}' fungsi/gmt/jarak.txt | pstext -R1/20/1/10 -JX5 -F+cTL+f9.5,Bookman-Demi,white  -P -O -K -Y2.34 >> $psfile
+awk '{ print $13}' fungsi/gmt/param.txt | pstext -R1/20/1/10 -JX5 -F+cTL+f9.2,Bookman-Demi,white  -P -O -Y-0.47 -K>> $psfile
+pstext fungsi/gmt/info.txt -R1/20/1/10 -JX5 -F+cTL+f9.2,Bookman-Demi,white  -P -O -Y-3.02 -X-4.7>> $psfile
 psconvert $psfile -TG -A -P -E256
 
 echo "Halo disini nilai R = $R"
@@ -68,4 +69,4 @@ pwd
 #echo $long $lat | psxy -R120/130/-5/5 -J -Sc0.5c -Gred -O >> $psfile
 #echo "Ini Magnitude file $mag"
 #psconvert -A -Tg $psfile
-cp fungsi/gmt/peta_diseminasi.png static/peta_diseminasi.png
+#cp fungsi/gmt/peta_diseminasi.png static/peta_diseminasi.png

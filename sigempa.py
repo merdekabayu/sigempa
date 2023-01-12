@@ -19,6 +19,7 @@ import bcrypt
 
 
 
+
 app = Flask(__name__)
 app.secret_key = "membuatLOginFlask1"
 app.config['MYSQL_HOST'] = 'localhost'
@@ -26,11 +27,14 @@ app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'sigempa2023'
 app.config['MYSQL_DB'] = 'sistem_diseminasi_test'
 app.config["UPLOAD_FOLDER"] = "static/shakemap/"
+
 mysql = MySQL(app)
 
 @app.route('/htmltes')
 def tes():
+    
     return render_template('htmltes.html')
+    
 
 @app.route('/login', methods=['GET', 'POST'])
 def login(): 
@@ -71,6 +75,7 @@ def logout():
 
 
 @app.route('/')
+
 def index():
     if 'user' in session:
         cur = mysql.connection.cursor()
@@ -88,7 +93,9 @@ def index():
         lat = baris[0].split()[0]
         long = baris[0].split()[1]
         #submit_ok = True
-        return render_template('mainpage1.html', data=parameter, infogb=info, koord =[lat,long])
+        filemap = subprocess.check_output('ls static/peta_diseminasi*.png',shell=True)
+        mapf = filemap.decode().split('\n')[0]
+        return render_template('mainpage1.html', mapfile = mapf, data=parameter, infogb=info, koord =[lat,long])
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
@@ -674,8 +681,9 @@ def inputmanual():
             out = input.inputbyid()
             fileinput = out[0]
             opsi_par = out[1]
+            info = out[2]
             try:
-                input.esdx2par(fileinput,opsi_par)
+                input.esdx2par(fileinput,opsi_par,info)
             except:
                 flash("Empty arrival data. Please enter parameters manually !!",'fail')
                 return redirect(url_for('index'))
@@ -697,7 +705,8 @@ def inputotomatis():
         out = input.inputotomatis()
         fileinput = out[0]
         opsi_par = out[1]
-        input.esdx2par(fileinput,opsi_par)
+        info = '-'
+        input.esdx2par(fileinput,opsi_par,info)
         mapping.map_diseminasi()
         flash("Input Sucess !!",'success')
         return redirect(request.referrer)

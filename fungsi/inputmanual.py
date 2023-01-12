@@ -152,7 +152,7 @@ def inputmanual():
     else:
         bulan1 = "Desember"
 
-
+    tgl = ('%d')%float(tgl)
     fileoutput1 = 'fungsi/gmt/episenter.dat'
     fileoutput2 = 'fungsi/gmt/param.txt'
     fileoutput3 = 'fungsi/gmt/jarak.txt'
@@ -170,6 +170,14 @@ def inputmanual():
     file2.close()
     file3.close()
     file4.close()
+    if len(info) > 3:
+        with open('fungsi/gmt/info.txt','w') as f:
+            f.write(info)
+            f.close()
+    else:
+        with open('fungsi/gmt/info.txt','w') as f:
+            f.write('')
+            f.close()
     
     #return redirect(request.referrer)
 def inputotomatis():
@@ -216,6 +224,8 @@ def inputbyid():
 
     opsi_par = request.form['parameter']
     id = request.form['id']
+    info = request.form['info']
+    print(info)
 
     if opsi_par == "TERNATE":
         par = 'TNT'
@@ -239,11 +249,10 @@ def inputbyid():
     idev = par+'-'+id
     fileinput = 'fungsi/arrival/esdx_arrival/'+par1+id+'.txt'
 
-    
+    return fileinput,opsi_par,info
 
-    return fileinput,opsi_par
 
-def esdx2par(fileinput,opsi_par):
+def esdx2par(fileinput,opsi_par,info):
     cur = mysql.connection.cursor()
     
     fileoutput, fileoutput1, fileoutput2, fileoutput3, legend = 'fungsi/infogempa.txt', 'fungsi/gmt/episenter.dat', 'fungsi/gmt/param.txt', 'fungsi/gmt/jarak.txt', 'fungsi/gmt/legenda.txt'
@@ -378,10 +387,19 @@ def esdx2par(fileinput,opsi_par):
                 bulan1 = "Desember"
             file.write(param)
             file1.write(lintang + ' ' + bujur + ' ' + depth + ' ' + mag)
+            tgl = ('%d')%float(tgl)
             file2.write(tgl + ' ' + bulan1 + ' 20' + tahun + ' ' + waktu + ' WIT ' + lat + ' ' + NS + ' - '
                         + bujur + ' BT ' + depth + ' Km ' + minkota)
             file3.write(min_jarak + ' Km ' + arah1)
             legenda.write('N\nT ' + param)
+            if len(info) > 3:
+                with open('fungsi/gmt/info.txt','w') as f:
+                    f.write(info)
+                    f.close()
+            else:
+                with open('fungsi/gmt/info.txt','w') as f:
+                    f.write('')
+                    f.close()
 
         i = i + 1
 
@@ -397,7 +415,8 @@ def esdx2par(fileinput,opsi_par):
     lat = lintang
     long = bujur
     ket = min_jarak + ' km ' + arah + minkota
-    info = '-'
+    info = info
+    print('sampe infoo siniii ######',info)
     if opsi_par == "TERNATE":
         par = 'TNT'
         par1 = 'tnt'
