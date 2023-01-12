@@ -141,15 +141,13 @@ def slinktool():
 
         str1 = name1
         var1 = locals()
-        var1[str1] = last_data1
-        try:
-            print(GHMI)
-        except:
-            pass
+        var1[str1] += last_data1
+
         str = name
         var = locals()
-        var[str] = delay
-        print('inii name ajaa####',name)
+        var[str] += delay
+        
+        
         
         if len(name) > 2:
             minv = min(name)
