@@ -137,26 +137,13 @@ def slinktool():
         last_dt = datetime.strptime(dtime, '%Y/%m/%d %H:%M:%S.%f')
         delay = (today-last_dt).total_seconds()
 
-        last_data += [[name,last_dt,delay]]
+        last_data += [(name,last_dt,delay)]
         last_data1 = [[name,last_dt,delay]]
 
-        str1 = name1
-        var1 = locals()
-        var1[str1] += last_data1
-
-        str = name
-        var = locals()
-        var[str] += [delay]
+    print(last_data)
         
-        
-        if len(name) > 2:
-            minv = min(name)
-            indexmin = name.index(minv)
-            update += name1[indexmin]
-        print(minv)
 
- 
-    return update,today
+    return last_data,today
 
 
 
