@@ -115,16 +115,7 @@
                             <textarea class="form-control" rows="3" id="clipboard-area" disabled>{% print(infogb[0]) %}</textarea>
                             <textarea id="content"></textarea>
                             <button onclick="copyToClipboard()">Copy</button>
-                            <script>
-                              function copyToClipboard() {
-                                var copyText = document.getElementById("content").value;
-                                navigator.clipboard.writeText(copyText).then(() => {
-                                    // Alert the user that the action took place.
-                                    // Nobody likes hidden stuff being done under the hood!
-                                    alert("Copied to clipboard");
-                                });
-                              }
-                            </script>
+                            
                           </div>
                         </div>
                         <div class="col-8"></div>
@@ -438,21 +429,14 @@
 {% block scriptmainpage %} 
 
 <script>
-  function myFunction1() {
-  // Get the text field
-  var copyText = document.getElementById("myInput1");
-
-  // Select the text field
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); // For mobile devices
-
-   // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
-
-  // Alert the copied text
-  alert("Copied the text: " + copyText.value);
-} 
-
+function copyToClipboard() {
+var copyText = document.getElementById("content").value;
+navigator.clipboard.writeText(copyText).then(() => {
+  // Alert the user that the action took place.
+  // Nobody likes hidden stuff being done under the hood!
+  alert("Copied to clipboard");
+});
+}
 </script>
 
 
