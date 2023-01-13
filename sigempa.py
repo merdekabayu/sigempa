@@ -100,7 +100,7 @@ def index():
         mapf = ''.join(name)+''.join(ext)
 
         with open('namafile.txt','w') as f:
-            f.write(images[0])
+            f.write(mapf)
             f.close()
 
         #filemap = subprocess.check_output('ls static/peta_diseminasi*.png',shell=True)
