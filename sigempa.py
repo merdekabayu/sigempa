@@ -95,8 +95,8 @@ def index():
         long = baris[0].split()[1]
         
         images = os.listdir('static/')
-        name = set(os.path.splitext(k)[0] for k in images if k[:12]=='peta_diseminasi')
-        ext = set(os.path.splitext(k)[1] for k in images if k[:12]=='peta_diseminasi')
+        name = set(os.path.splitext(k)[0] for k in images if k[:15]=='peta_diseminasi')
+        ext = set(os.path.splitext(k)[1] for k in images if k[:15]=='peta_diseminasi')
         mapf = ''.join(name)+''.join(ext)
 
         with open('namafile.txt','w') as f:
