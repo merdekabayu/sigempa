@@ -17,7 +17,7 @@ from fungsi.waveform import waveformplot, allwaveform, down_waveformbyevent
 import subprocess,os
 import bcrypt
 
-os.system('whoami')
+#os.system('whoami')
 
 
 app = Flask(__name__)
@@ -93,9 +93,14 @@ def index():
         baris = file.readlines()
         lat = baris[0].split()[0]
         long = baris[0].split()[1]
-        #submit_ok = True
-        filemap = subprocess.check_output('ls static/peta_diseminasi*.png',shell=True)
-        mapf = filemap.decode().split('\n')[0]
+        
+        images = os.listdir('static/')
+        name = set(os.path.splitext(k)[0] for k in images if k[:12]=='peta_diseminasi')
+        ext = set(os.path.splitext(k)[1] for k in images if k[:12]=='peta_diseminasi')
+        mapf = ''.join(name)+''.join(ext)
+
+        #filemap = subprocess.check_output('ls static/peta_diseminasi*.png',shell=True)
+        #mapf = filemap.decode().split('\n')[0]
         return render_template('mainpage1.html', mapfile = mapf, data=parameter, infogb=info, koord =[lat,long])
     else:
         flash("Please, Login First !!")
