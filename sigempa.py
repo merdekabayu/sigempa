@@ -105,7 +105,7 @@ def index():
 
         #filemap = subprocess.check_output('ls static/peta_diseminasi*.png',shell=True)
         #mapf = filemap.decode().split('\n')[0]
-        return render_template('mainpage1.html', mapfile = mapf, data=parameter, infogb=info, koord =[lat,long])
+        return render_template('main.html', mapfile = mapf, data=parameter, infogb=info, koord =[lat,long])
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
