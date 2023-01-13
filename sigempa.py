@@ -99,6 +99,10 @@ def index():
         ext = set(os.path.splitext(k)[1] for k in images if k[:12]=='peta_diseminasi')
         mapf = ''.join(name)+''.join(ext)
 
+        with open('namafile.txt') as f:
+            f.write(mapf)
+            f.close()
+
         #filemap = subprocess.check_output('ls static/peta_diseminasi*.png',shell=True)
         #mapf = filemap.decode().split('\n')[0]
         return render_template('mainpage1.html', mapfile = mapf, data=parameter, infogb=info, koord =[lat,long])
