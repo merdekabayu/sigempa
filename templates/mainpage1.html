@@ -118,7 +118,7 @@
                         <div class="col-8"></div>
                         <div class="col-4">
                           <div class="btn-group float-center w-100">
-                            <button type="submit" onclick="copy()" class="btn btn-primary start swalDefaultSuccess">
+                            <button onclick="handleCopyTextFromArea()" class="btn btn-primary start swalDefaultSuccess">
                               <i class="fas fa-copy"></i>
                               <span>Copy Text</span>
                             </button>
@@ -442,17 +442,12 @@
 
 
 <script>
-  function copy() {
-  // Get the text field
-  var copyText = document.getElementById("infogempa");
+  function handleCopyTextFromArea() {
+  const area = document.querySelector('#infogempa')
+  area.select();
+  document.execCommand('copy')
+}
 
-  // Select the text field
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); // For mobile devices
-
-   // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
-} 
 </script>
 
 <script>
