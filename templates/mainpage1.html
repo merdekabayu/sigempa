@@ -113,6 +113,15 @@
                             <br>
                             <label>Teks Infogempa :</label>
                             <textarea class="form-control" rows="3" id="infogempa1" disabled>{% print(infogb[0]) %}</textarea>
+                            <textarea
+                              placeholder="Write your content here and press 'Copy Text'"
+                              id="clipboard-area"
+                              cols="30"
+                              rows="2"
+                            >berhasil dicopy</textarea>
+                            <button style="width: 260px" onclick="handleCopyTextFromArea()">
+                              Copy text
+                            </button>
                           </div>
                         </div>
                         <div class="col-8"></div>
@@ -426,11 +435,12 @@
 {% block scriptmainpage %} 
 
 <script>
-function handleCopyTextFromArea() {
-const area = document.querySelector('#infogempa1')
-area.select();
-document.execCommand('copy')
+  function handleCopyTextFromArea() {
+  const area = document.querySelector('#clipboard-area')
+  area.select();
+  document.execCommand('copy')
 }
+
 </script>
 
 
