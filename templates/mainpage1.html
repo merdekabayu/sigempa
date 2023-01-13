@@ -124,6 +124,13 @@
                             </button>
                           </div>
                         </div>
+                        <script>
+                          function handleCopyTextFromArea() {
+                          const area = document.querySelector('#infogempa')
+                          area.select();
+                          document.execCommand('copy')
+                        }
+                        </script>
                       </div>
                       {% with messages = get_flashed_messages(category_filter=["fail"]) %}
                         {% if messages %}
@@ -441,14 +448,7 @@
 </script>
 
 
-<script>
-  function handleCopyTextFromArea() {
-  const area = document.querySelector('#infogempa')
-  area.select();
-  document.execCommand('copy')
-}
 
-</script>
 
 <script>
   $(function() {
