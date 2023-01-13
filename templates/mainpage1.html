@@ -113,15 +113,8 @@
                             <br>
                             <label>Teks Infogempa :</label>
                             <textarea class="form-control" rows="3" id="clipboard-area" disabled>{% print(infogb[0]) %}</textarea>
-                            <textarea
-                              placeholder="Write your content here and press 'Copy Text'"
-                              id="clipboard-area"
-                              cols="30"
-                              rows="2"
-                            >{% print(infogb[0]) %}</textarea>
-                            <button style="width: 260px" onclick="handleCopyTextFromArea()">
-                              Copy text
-                            </button>
+                            <input type="text" value="Hello World" id="myInput">
+                            <button onclick="myFunction()">Copy text</button>
                           </div>
                         </div>
                         <div class="col-8"></div>
@@ -435,11 +428,20 @@
 {% block scriptmainpage %} 
 
 <script>
-  function handleCopyTextFromArea() {
-  const area = document.querySelector('#clipboard-area')
-  area.select();
-  document.execCommand('copy')
-}
+  function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+
+  // Alert the copied text
+  alert("Copied the text: " + copyText.value);
+} 
 
 </script>
 
