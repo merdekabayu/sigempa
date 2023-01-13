@@ -17,7 +17,7 @@ from fungsi.waveform import waveformplot, allwaveform, down_waveformbyevent
 import subprocess,os
 import bcrypt
 
-os.system('ls static/peta_diseminasi*.png')
+os.system('whoami')
 
 
 app = Flask(__name__)
