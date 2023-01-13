@@ -428,10 +428,10 @@
 {% block scriptmainpage %} 
 
 <script>
-const copyBtn = document.getElementById('copyBtn1')
+const copyBtn1 = document.getElementById('copyBtn1')
 const copyText = document.getElementById('copyText1')
 
-copyBtn.onclick = () => {
+copyBtn1.onclick = () => {
   copyText.select();    // Selects the text inside the input
   //document.execCommand('copy');
   navigator.clipboard.writeText(copyText.value);  }
