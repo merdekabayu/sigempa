@@ -99,7 +99,7 @@ def index():
         ext = set(os.path.splitext(k)[1] for k in images if k[:12]=='peta_diseminasi')
         mapf = ''.join(name)+''.join(ext)
 
-        with open('namafile.txt') as f:
+        with open('namafile.txt','w') as f:
             f.write(mapf)
             f.close()
 
