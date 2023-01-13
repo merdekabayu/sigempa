@@ -17,10 +17,7 @@ from fungsi.waveform import waveformplot, allwaveform, down_waveformbyevent
 import subprocess,os
 import bcrypt
 
-with open('workdir.txt','w') as f:
-    return_code = os.popen('ls static/peta_diseminasi*.png').read()
-    f.write(return_code)
-    f.close()
+
 
 
 app = Flask(__name__)
