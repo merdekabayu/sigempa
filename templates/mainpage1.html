@@ -112,28 +112,29 @@
                           <div class="form-group">
                             <br>
                             <label>Teks Infogempa :</label>
-                            <textarea class="form-control" rows="3" id="copyText1" disabled>{% print(infogb[0]) %}</textarea>
+                            <textarea class="form-control" rows="3" id="textarea" readonly>{% print(infogb[0]) %}</textarea>
                             
                           </div>
                         </div>
                         <div class="col-8"></div>
                         <div class="col-4">
                           <div class="btn-group float-center w-100">
-                            <button id="copyBtn1" class="btn btn-primary start swalDefaultSuccess">
+                            <button onclick="copy2()" class="btn btn-primary start swalDefaultSuccess">
                               <i class="fas fa-copy"></i>
                               <span>Copy Text</span>
                             </button>
                           </div>
                         </div>
                       </div>
-                      <textarea id="textarea">halo ini copy</textarea>
-                      <br>
-                      <button onclick="copy1()">Copy</button>
+                      
                       <script>
-                        function copy1() {
+                        function copy2() {
                           let textarea = document.getElementById("textarea");
                           textarea.select();
+                          textarea.setSelectionRange(0, 99999);
                           document.execCommand("copy");
+                          document.body.removeChild(textarea);
+                          
                         }
                       </script>
                       {% with messages = get_flashed_messages(category_filter=["fail"]) %}
@@ -436,16 +437,7 @@
 
 {% block scriptmainpage %} 
 
-<script>
-const copyBtn1 = document.getElementById('copyBtn1')
-const copyText = document.getElementById('copyText1')
 
-copyBtn1.onclick = () => {
-  copyText.select();    // Selects the text inside the input
-  document.execCommand('copy');
-  //navigator.clipboard.writeText(copyText.value);  }
-}
-</script>
 
 
 <script src="{{ url_for('static', filename='plugins/sweetalert2/sweetalert2.min.js') }}"></script>
