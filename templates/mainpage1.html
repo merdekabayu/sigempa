@@ -113,8 +113,18 @@
                             <br>
                             <label>Teks Infogempa :</label>
                             <textarea class="form-control" rows="3" id="clipboard-area" disabled>{% print(infogb[0]) %}</textarea>
-                            <input type="text" value="Hello World" id="myInput1">
-                            <button onclick="myFunction1()">Copy text</button>
+                            <textarea id="content"></textarea>
+                            <button onclick="copyToClipboard()">Copy</button>
+                            <script>
+                              function copyToClipboard() {
+                                var copyText = document.getElementById("content").value;
+                                navigator.clipboard.writeText(copyText).then(() => {
+                                    // Alert the user that the action took place.
+                                    // Nobody likes hidden stuff being done under the hood!
+                                    alert("Copied to clipboard");
+                                });
+                              }
+                            </script>
                           </div>
                         </div>
                         <div class="col-8"></div>
