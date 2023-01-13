@@ -112,16 +112,8 @@
                           <div class="form-group">
                             <br>
                             <label>Teks Infogempa :</label>
-                            <textarea class="form-control" rows="3" id="infogempa1" disabled>{% print(infogb[0]) %}</textarea>
-                            <textarea
-                              placeholder="Write your content here and press 'Copy Text'"
-                              id="clipboard-area"
-                              cols="30"
-                              rows="2"
-                            >berhasil dicopy</textarea>
-                            <button style="width: 260px" onclick="handleCopyTextFromArea()">
-                              Copy text
-                            </button>
+                            <textarea class="form-control" rows="3" id="clipboard-area" disabled>{% print(infogb[0]) %}</textarea>
+                            
                           </div>
                         </div>
                         <div class="col-8"></div>
