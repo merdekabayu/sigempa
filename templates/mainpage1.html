@@ -126,7 +126,16 @@
                           </div>
                         </div>
                       </div>
-                      
+                      <textarea id="textarea">halo ini copy</textarea>
+                      <br>
+                      <button onclick="copy1()">Copy</button>
+                      <script>
+                        function copy1() {
+                          let textarea = document.getElementById("textarea");
+                          textarea.select();
+                          document.execCommand("copy");
+                        }
+                      </script>
                       {% with messages = get_flashed_messages(category_filter=["fail"]) %}
                         {% if messages %}
                           {% for message in messages %}
