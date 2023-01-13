@@ -112,7 +112,7 @@
                           <div class="form-group">
                             <br>
                             <label>Teks Infogempa :</label>
-                            <textarea class="form-control" rows="3" id="infogempa" placeholder="" disabled>{% print(infogb[0]) %}</textarea>
+                            <textarea class="form-control" rows="3" id="infogempa" disabled>{% print(infogb[0]) %}</textarea>
                           </div>
                         </div>
                         <div class="col-8"></div>
@@ -124,13 +124,6 @@
                             </button>
                           </div>
                         </div>
-                        <script>
-                          function handleCopyTextFromArea() {
-                          const area = document.querySelector('#infogempa')
-                          area.select();
-                          document.execCommand('copy')
-                        }
-                        </script>
                       </div>
                       {% with messages = get_flashed_messages(category_filter=["fail"]) %}
                         {% if messages %}
@@ -431,6 +424,14 @@
 
 
 {% block scriptmainpage %} 
+
+<script>
+function handleCopyTextFromArea() {
+const area = document.querySelector('#infogempa')
+area.select();
+document.execCommand('copy')
+}
+</script>
 
 
 <script src="{{ url_for('static', filename='plugins/sweetalert2/sweetalert2.min.js') }}"></script>
