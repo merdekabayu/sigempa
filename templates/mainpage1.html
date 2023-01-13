@@ -112,22 +112,21 @@
                           <div class="form-group">
                             <br>
                             <label>Teks Infogempa :</label>
-                            <textarea class="form-control" rows="3" id="clipboard-area" disabled>{% print(infogb[0]) %}</textarea>
-                            <textarea id="content">ini konten</textarea>
-                            <button onclick="copyToClipboard()">Copy</button>
+                            <textarea class="form-control" rows="3" id="copyText1" disabled>{% print(infogb[0]) %}</textarea>
                             
                           </div>
                         </div>
                         <div class="col-8"></div>
                         <div class="col-4">
                           <div class="btn-group float-center w-100">
-                            <button onclick="handleCopyTextFromArea()" class="btn btn-primary start swalDefaultSuccess">
+                            <button id="copyBtn1" class="btn btn-primary start swalDefaultSuccess">
                               <i class="fas fa-copy"></i>
                               <span>Copy Text</span>
                             </button>
                           </div>
                         </div>
                       </div>
+                      
                       {% with messages = get_flashed_messages(category_filter=["fail"]) %}
                         {% if messages %}
                           {% for message in messages %}
@@ -429,14 +428,13 @@
 {% block scriptmainpage %} 
 
 <script>
-function copyToClipboard() {
-var copyText = document.getElementById("content").value;
-navigator.clipboard.writeText(copyText).then(() => {
-  // Alert the user that the action took place.
-  // Nobody likes hidden stuff being done under the hood!
-  alert("Copied to clipboard");
-});
-}
+const copyBtn = document.getElementById('copyBtn1')
+const copyText = document.getElementById('copyText1')
+
+copyBtn.onclick = () => {
+  copyText.select();    // Selects the text inside the input
+  //document.execCommand('copy');
+  navigator.clipboard.writeText(copyText.value);  }
 </script>
 
 
