@@ -97,7 +97,7 @@ def index():
         images = os.listdir('static/')
         name = set(os.path.splitext(k)[0] for k in images if k[:15]=='peta_diseminasi')
         ext = set(os.path.splitext(k)[1] for k in images if k[:15]=='peta_diseminasi')
-        mapf = ''.join(name)+''.join(ext)
+        mapf = 'static/'+''.join(name)+''.join(ext)
 
         with open('namafile.txt','w') as f:
             f.write(mapf)
