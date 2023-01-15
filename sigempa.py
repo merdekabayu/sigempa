@@ -526,22 +526,33 @@ def arrival_download():
         felt = 0
         format = request.form['format_arrival']
         source = request.form['data_source']
+
+        resptnt = os.system('ping -c 1 scproc')
+        resppst=os.system("sshpass -p 'bmkg212$' ssh -t -p2222 sysop@scproc ping -c 1 172.19.3.51")
         
         if source == 'SPK':
             path = arrival2spk(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt)
             nfile = path.split('.')[0]
             nfile = nfile.split('/')[2]
             namefile = nfile+'_'+date1+'_'+date2+'_'+depth1+'_'+depth2+'_'+mag1+'_'+mag2+'_'+lat1+'_'+lat2+'_'+long1+'_'+long2+'.txt'
-        elif source == 'Seiscomp4 Ternate':
+        
+        
+        elif source == 'Seiscomp4 Ternate' and resptnt == 0:
             path = arrivalsc4tnt(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt)
             nfile = path.split('.')[0]
             nfile = nfile.split('/')[2]
             namefile = nfile+'_'+date1+'_'+date2+'_'+depth1+'_'+depth2+'_'+mag1+'_'+mag2+'_'+lat1+'_'+lat2+'_'+long1+'_'+long2+'.txt'
-        elif source == 'Repogempa PGN':
+        elif source == 'Repogempa PGN'and resptnt == 0 and resppst == 0:
             path = arrivalsc3pst(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt)
             nfile = path.split('.')[0]
             nfile = nfile.split('/')[2]
             namefile = nfile+'_'+date1+'_'+date2+'_'+depth1+'_'+depth2+'_'+mag1+'_'+mag2+'_'+lat1+'_'+lat2+'_'+long1+'_'+long2+'.txt'
+        elif resptnt != 0 or resppst != 0:
+            flash("Please Check Local Server Connection!")
+            return redirect(request.referrer)
+
+
+    
         
         if format == 'HypoDD (*.pha)':
             finp = path
