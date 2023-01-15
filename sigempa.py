@@ -630,19 +630,23 @@ def sensor_stat():
 @app.route('/sensor/allwaveform', methods=["POST","GET"])
 def downloadwaveform():
     if 'user' in session:
-        if request.method == 'GET':
-            today = datetime.today()
-            today = today.strftime('%d-%m-%Y %H:%M:%S')
-
-            return render_template('download_waveform.html', date = [today,today])
-        else:
-            try:
-                allwaveform()
-                return send_file('fungsi/waveform/waveform.mseed', as_attachment=True, attachment_filename='waveform.mseed')
-            except:
+        resptnt = os.system('ping -c 1 scproc')
+        if resptnt == 0:
+            if request.method == 'GET':
                 today = datetime.today()
                 today = today.strftime('%d-%m-%Y %H:%M:%S')
-                return render_template('download_waveform.html', date = [today,today])
+
+                return render_template('download_waveform.html', ping=resptnt, date = [today,today])
+            else:
+                try:
+                    allwaveform()
+                    return send_file('fungsi/waveform/waveform.mseed', as_attachment=True, attachment_filename='waveform.mseed')
+                except:
+                    today = datetime.today()
+                    today = today.strftime('%d-%m-%Y %H:%M:%S')
+                    return render_template('download_waveform.html',ping=resptnt, date = [today,today])
+        else:
+            return render_template('download_waveform.html',ping=resptnt)
 
     else:
         flash("Please, Login First !!")
