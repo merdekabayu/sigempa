@@ -424,10 +424,13 @@
   var map = L.map('map').setView([{{ koord[0] }},{{ koord[1] }}], 7);
   var icon_epic_last = L.icon({iconUrl: '{{ url_for('static', filename='gempa.png') }}', iconSize: [40,40]});
   var icon_epic = L.icon({iconUrl: 'http://inatews.bmkg.go.id/generate_peta/images/new/circle-red-10.png', iconSize: [15,15]});
-  L.marker([{{ koord[0] }},{{ koord[1] }}], {icon: icon_epic_last}).addTo(map);
+  var marker = L.marker([{{ koord[0] }},{{ koord[1] }}], {icon: icon_epic_last}).addTo(map).bindPopup("<p>{% print(infogb[0]) %}</p>");
+  marker.on('mouseover',function(ev) {
+    marker.openPopup();});
   L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
       attribution: '&copy; <a href="https://www.bmkg.go.id">Badan Meteorologi Klimatologi dan Geofisika</a>'
   }).addTo(map);
+
 </script>
 
 {% endblock %}
