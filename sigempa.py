@@ -548,7 +548,7 @@ def arrival_download():
             nfile = nfile.split('/')[2]
             namefile = nfile+'_'+date1+'_'+date2+'_'+depth1+'_'+depth2+'_'+mag1+'_'+mag2+'_'+lat1+'_'+lat2+'_'+long1+'_'+long2+'.txt'
         elif resptnt != 0 or resppst != 0:
-            flash("Please Check Local Server Connection!")
+            flash("Please Check Local Server Connection !!")
             return redirect(request.referrer)
 
 
