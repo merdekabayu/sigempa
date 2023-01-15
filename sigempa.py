@@ -652,43 +652,47 @@ def downloadwaveform():
 @app.route('/sensor/waveformbyevent', methods=["POST","GET"])
 def waveformbyevent():
     if 'user' in session:
-        if request.method == 'GET':
-            cur = mysql.connection.cursor()
-            cur.execute("SELECT * FROM db_gempa ORDER BY 2 DESC, 3 DESC LIMIT 0, 50")
-            parameter = cur.fetchall()
-            cur.close()
-            
-        else:
-            parameter = f.filter()
-            
-        parameter_new = []
-        for par in parameter:
-            try:
-                id = par[0]
-                s = id.split('-')[0]
-                if s == 'TNT':
-                    source = 'tnt_'
-                elif s == 'MNI':
-                    source = 'mni_'
-                elif s == 'GTO':
-                    source = 'gto_'
-                elif s == 'PGN':
-                    source = 'pst_'
-                elif s == 'AAI':
-                    source = 'aai_'
-                idpar = id.split('-')[1]
-                dataarrival = (source+idpar+'.txt')
-                if os.path.exists('fungsi/arrival/esdx_arrival/'+dataarrival):
-                    arrivalexist = 1
-                else:
+        resptnt = os.system('ping -c 1 scproc')
+        if resptnt == 0:
+            if request.method == 'GET':
+                cur = mysql.connection.cursor()
+                cur.execute("SELECT * FROM db_gempa ORDER BY 2 DESC, 3 DESC LIMIT 0, 50")
+                parameter = cur.fetchall()
+                cur.close()
+                
+            else:
+                parameter = f.filter()
+                
+            parameter_new = []
+            for par in parameter:
+                try:
+                    id = par[0]
+                    s = id.split('-')[0]
+                    if s == 'TNT':
+                        source = 'tnt_'
+                    elif s == 'MNI':
+                        source = 'mni_'
+                    elif s == 'GTO':
+                        source = 'gto_'
+                    elif s == 'PGN':
+                        source = 'pst_'
+                    elif s == 'AAI':
+                        source = 'aai_'
+                    idpar = id.split('-')[1]
+                    dataarrival = (source+idpar+'.txt')
+                    if os.path.exists('fungsi/arrival/esdx_arrival/'+dataarrival):
+                        arrivalexist = 1
+                    else:
+                        arrivalexist = 0
+                    param = (par[0],par[1],par[2],par[3],par[4],par[5],par[6],par[7],par[8],dataarrival,arrivalexist)
+                except:
+                    dataarrival = (par[0]+'.txt')
                     arrivalexist = 0
-                param = (par[0],par[1],par[2],par[3],par[4],par[5],par[6],par[7],par[8],dataarrival,arrivalexist)
-            except:
-                dataarrival = (par[0]+'.txt')
-                arrivalexist = 0
-                param = (par[0],par[1],par[2],par[3],par[4],par[5],par[6],par[7],par[8],dataarrival,arrivalexist)
-            parameter_new += [param]
-        return render_template('waveformbyevent.html', data=parameter_new)
+                    param = (par[0],par[1],par[2],par[3],par[4],par[5],par[6],par[7],par[8],dataarrival,arrivalexist)
+                parameter_new += [param]
+            return render_template('waveformbyevent.html',ping=resptnt, data=parameter_new)
+        else:
+            return render_template('waveformbyevent.html',ping=resptnt)
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))

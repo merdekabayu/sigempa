@@ -30,12 +30,12 @@
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
+
+        {% if ping == 0 %}
         <div class="row">
           <div class="col-12">
             
             <!-- /.card -->
-            
-
 
             <div class="card">
               <div class="card-header">
@@ -199,6 +199,20 @@
           <!-- /.col -->
         </div>
         <!-- /.row -->
+        {%endif%}
+
+        {% if ping != 0 %}
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+              <strong>Connection Failed !!</strong>
+              <br>Local seiscomp server off !!<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        {%endif%}
       </div>
       <!-- /.container-fluid -->
     </section>
