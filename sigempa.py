@@ -528,7 +528,7 @@ def arrival_download():
         source = request.form['data_source']
 
         resptnt = os.system('ping -c 1 scproc')
-        resppst=os.system("sshpass -p 'bmkg212$' ssh -t -p2222 sysop@36.91.152.130 ping -c 1 172.19.3.51")
+        resppst=os.system("sshpass -p 'bmkg212$' ssh -t -p2222 sysop@scproc ping -c 1 172.19.3.51")
         
         if source == 'SPK':
             path = arrival2spk(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt)
