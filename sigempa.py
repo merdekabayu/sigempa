@@ -573,53 +573,58 @@ def arrival_download():
 @app.route('/sensor/status', methods=["POST","GET"])
 def sensor_stat():
     
-    print('ini sensor/status')
-    data = slinktool()
-    print('ini slibktool ok')
-    last_data = data[0]
-    print(last_data)
-    today = data[1]
-    stat = status(last_data,today)
-    tabel = tabel_slinktool(last_data,today)
-    #waveform = 
+    resptnt = os.system('ping -c 1 scproc')
+    if resptnt == 0:
+        print('ini sensor/status')
+        data = slinktool()
+        print('ini slibktool ok')
+        last_data = data[0]
+        print(last_data)
+        today = data[1]
+        stat = status(last_data,today)
+        tabel = tabel_slinktool(last_data,today)
+        #waveform = 
 
-    utcnow = datetime.utcnow()
-    utctime = utcnow.time()
-    timerange = datetime(2023,1,1,15,0,1).time()
-    timerange1 = datetime(2023,1,1,23,55,0).time()
-    dt = datetime.utcnow()
-    yes = (dt - timedelta(days=1))
-    yest = yes.strftime('%d%m%y')
-    
-    fileav='static/availability_'+yest+'.png'
-    print('sampee siniiii ####',fileav)
-    if not os.path.exists(fileav):
-        os.system('sshpass -p "bmkg212$" ssh -p2222 sysop@36.91.152.130 sh run_availability.sh')
-        command = 'sshpass -p "bmkg212$" scp -P 2222 -r sysop@36.91.152.130:availability_new.png '+fileav
-        os.system(command)
-
-    if request.method == 'GET':
-        sta = 'TNTI'
-    else:
-        sta = request.form['station']
-    try:
-        waveformplot(sta)
-        nodata = ''
-        fwav = subprocess.check_output('ls static/waveform/waveform24h'+sta+'*.jpg',shell=True)
-        wavf = fwav.decode().split('\n')[0]
+        utcnow = datetime.utcnow()
+        utctime = utcnow.time()
+        timerange = datetime(2023,1,1,15,0,1).time()
+        timerange1 = datetime(2023,1,1,23,55,0).time()
+        dt = datetime.utcnow()
+        yes = (dt - timedelta(days=1))
+        yest = yes.strftime('%d%m%y')
         
-    except:
-        nodata = 'nodata'
-        wavf = ''
-    
-    filemap = subprocess.check_output('ls static/sensor_status*.jpg',shell=True)
-    mapf = filemap.decode().split('\n')[0]
+        fileav='static/availability_'+yest+'.png'
+        print('sampee siniiii ####',fileav)
+        if not os.path.exists(fileav):
+            os.system('sshpass -p "bmkg212$" ssh -p2222 sysop@36.91.152.130 sh run_availability.sh')
+            command = 'sshpass -p "bmkg212$" scp -P 2222 -r sysop@36.91.152.130:availability_new.png '+fileav
+            os.system(command)
+
+        if request.method == 'GET':
+            sta = 'TNTI'
+        else:
+            sta = request.form['station']
+        try:
+            waveformplot(sta)
+            nodata = ''
+            fwav = subprocess.check_output('ls static/waveform/waveform24h'+sta+'*.jpg',shell=True)
+            wavf = fwav.decode().split('\n')[0]
+            
+        except:
+            nodata = 'nodata'
+            wavf = ''
+        
+        filemap = subprocess.check_output('ls static/sensor_status*.jpg',shell=True)
+        mapf = filemap.decode().split('\n')[0]
+        return render_template('sensor_stat.html', ping=resptnt,gambar=[mapf,wavf], data=tabel,fileav=fileav,sta=sta,nodata = nodata)
+    else:
+        return render_template('sensor_stat.html', ping=resptnt)
     
     #os.system('ls static/waveform/waveform24h'+sta+'*.jpg')
     
-    
+     
 
-    return render_template('sensor_stat.html', gambar=[mapf,wavf], data=tabel,fileav=fileav,sta=sta,nodata = nodata)
+    
 
 
 @app.route('/sensor/allwaveform', methods=["POST","GET"])
