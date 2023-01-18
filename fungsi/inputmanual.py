@@ -347,15 +347,29 @@ def esdx2par(fileinput,opsi_par,info):
             else:
                 arah = 'BaratLaut '
                 arah1 = 'Barat Laut '
+        print('ini nomor iiiterasi#### = ',i)
         if len(baris[i])>1 and baris[i][1]=='Network':
             numag = baris[i][0]
-            m_ = 1
             print('sampee sininiiii ######??',numag)
-            while m_ <= float(numag):
-                linemag = baris[i+m_]
-                if 'preferred' in linemag:
-                    mag = baris[i+m_][1]
-                m_ += 1
+            m_ = 1
+            try:
+                while m_ <= float(numag):
+                    linemag = baris[i+m_]
+                    print('ini linemagggg try ###### ',m_)
+                    if 'preferred' in linemag:
+                        mag = baris[i+m_][1]
+                    m_ += 1
+                print(mag)
+            except:
+                numag = float(numag)+1
+                while m_ <= numag:
+                    linemag = baris[i+m_]
+                    print('ini linemagggg except ###### ',m_)
+                    if 'preferred' in linemag:
+                        mag = baris[i+m_][1]
+                    m_ += 1
+                print(mag)
+
             mag = ('%.1f')%float(mag)
             param = ('Info Gempa Mag:' + mag + ', ' + tgl + '-' + bulan + '-' + tahun + ' ' + waktu +
                         ' WIT, Lok: ' + lat + ' ' + NS + ', ' + bujur + ' BT (' + min_jarak + ' km ' +
@@ -485,7 +499,8 @@ def teksinfogb():
     sql = ("SELECT * FROM db_gempa WHERE `Origin Date`=%s AND `Origin Time`=%s")
     cur.execute(sql, insert)
     parameter = cur.fetchone()
-    infodir = parameter[8]
+    #infodir = parameter[8]
+    infodir = ""
     infokata = info.split()
 
     inf = info.split(" ::")
@@ -493,7 +508,7 @@ def teksinfogb():
         with open('fungsi/infogempa.txt', 'w') as f:
             f.write(inf[0]+', '+infodir+' ::'+inf[1])
             f.close()
-    print('ini p[a----------=',parameter[8])
+    #print('ini p[a----------=',parameter[8])
 
     return infodir
 
