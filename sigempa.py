@@ -87,7 +87,7 @@ def index():
         with open('fungsi/infogempa.txt') as f:
             info = f.readlines()
             f.close()
-        param = info[0]
+        print('iiniiii infoooo',info)
 
         fileinput = 'fungsi/gmt/episenter.dat'
         file = open(fileinput, 'r')
@@ -96,18 +96,24 @@ def index():
         long = baris[0].split()[1]
         koord = [lat,long]
 
-        if len(info) < 5 or len(baris) < 3:
+        if info == [] or baris == []:
+            print('sampee siniiii')
             param = input.db2infogb()[0]
-            info = param
+            info = [param]
             koord = input.db2infogb()[1]
             input.teksinfogb(param)
+        else:
+            param = info[0]
+            input.teksinfogb(param)
 
-        input.teksinfogb(param)
+        
         
         images = os.listdir('static/')
         name = set(os.path.splitext(k)[0] for k in images if k[:15]=='peta_diseminasi')
         ext = set(os.path.splitext(k)[1] for k in images if k[:15]=='peta_diseminasi')
         mapf = 'static/'+''.join(name)+''.join(ext)
+
+        print('ini infooooooo',info)
 
         
         return render_template('mainpage1.html', mapfile = mapf, data=parameter, infogb=info, koord = koord)
@@ -740,7 +746,8 @@ def inputmanual():
             opsi_par = out[1]
             info = out[2]
             try:
-                input.esdx2par(fileinput,opsi_par,info)
+                pesan = input.esdx2par(fileinput,opsi_par,info)
+                flash("",pesan)
             except:
                 flash("Empty arrival data. Please enter parameters manually !!",'fail')
                 return redirect(url_for('index'))
@@ -763,9 +770,9 @@ def inputotomatis():
         fileinput = out[0]
         opsi_par = out[1]
         info = '-'
-        input.esdx2par(fileinput,opsi_par,info)
+        pesan = input.esdx2par(fileinput,opsi_par,info)
         mapping.map_diseminasi()
-        flash("Input Sucess !!",'success')
+        flash("",pesan)
         return redirect(request.referrer)
         #return render_template('index4.html', submit=submit_ok, infogb=info)
     else:

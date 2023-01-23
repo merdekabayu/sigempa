@@ -121,11 +121,20 @@ def inputmanual():
     idev = par+'-'+id
     info = request.form['info']
     insert = (idev, date, time, lat, long, depth, mag, ket, info)
-    sql_insert = ("INSERT IGNORE INTO `db_gempa`(`Event ID`,`Origin Date`,`Origin Time`,"
-                "`Latitude`,`Longitude`,`Depth`,`Magnitude`,`Remark`,`Information`) VALUES " + str(insert))
-    a = cur.execute(sql_insert)
-    print(a)
-    mysql.connection.commit()
+    cur = mysql.connection.cursor()
+    sql = f"SELECT * FROM db_gempa WHERE `Event ID`='{idev}'"
+    a = cur.execute(sql)
+    ada = cur.fetchone()
+
+    if ada is not None:
+        pesan = 'already'
+    else:
+        sql_insert = ("INSERT INTO `db_gempa`(`Event ID`,`Origin Date`,`Origin Time`,"
+                    "`Latitude`,`Longitude`,`Depth`,`Magnitude`,`Remark`,`Information`) VALUES " + str(insert))
+        cur.execute(sql_insert)
+        mysql.connection.commit()
+        pesan = 'success'
+
 
     if bulan=="Jan":
         bulan1 = "Januari"
@@ -185,18 +194,22 @@ def db2infogb():
 
     cur = mysql.connection.cursor()
     cur.execute("SELECT * FROM db_gempa ORDER BY 2 DESC, 3 DESC LIMIT 1")
-    parameter = cur.fetchall()
+    parameter = cur.fetchone()
+
+    
+
     date = parameter[1]
-    time = parameter[2]
+    date = date.strftime("%Y-%m-%d")
+    time = str(parameter[2])
     lat = parameter[3]
     long = parameter[4]
     koord = [lat,long]
-    bujur = long
-    depth = parameter[5]
+    depth = ('%1d')%float(parameter[5])
     mag = parameter[6]
     ket = parameter[7]
+    info = parameter[8]
     if len(info)>=3:
-        info = parameter[8].split(',')[0]+' '
+        info = ', '+parameter[8].split(',')[0]+' '
     else:
         info = ""
     timeutc = date + ' ' + time
@@ -221,7 +234,7 @@ def db2infogb():
     mag = ('%.1f') % float(mag)
     
     param = ('Info Gempa Mag:' + mag + ', ' + tgl + '-' + bulan + '-' + tahun + ' ' + waktu +
-                ' WIT, Lok: ' + ltg + ' ' + NS + ', ' + bujur + ' BT (' + ket + '), Kedlmn:' + depth + ' Km '+info+'::BMKG-TNT')
+                ' WIT, Lok: ' + ltg + ' ' + NS + ', ' + long + ' BT (' + ket + '), Kedlmn:' + depth + ' Km '+info+'::BMKG-TNT')
     
     return param,koord
 
@@ -392,7 +405,6 @@ def esdx2par(fileinput,opsi_par,info):
             else:
                 arah = 'BaratLaut '
                 arah1 = 'Barat Laut '
-        print('ini nomor iiiterasi#### = ',i)
         if len(baris[i])>1 and baris[i][1]=='Network':
             numag = baris[i][0]
             print('sampee sininiiii ######??',numag)
@@ -475,7 +487,7 @@ def esdx2par(fileinput,opsi_par,info):
     long = bujur
     ket = min_jarak + ' km ' + arah + minkota
     info = info
-    print('sampe infoo siniii ######',info)
+    
     if opsi_par == "TERNATE":
         par = 'TNT'
         par1 = 'tnt'
@@ -495,18 +507,29 @@ def esdx2par(fileinput,opsi_par,info):
         par = 'TNT'
         par1 = 'tnt'
     idev = par+'-'+id
+
     
     insert = (idev, date, time, lat, long, depth, mag, ket, info)
-    #print(insert)
-    sql_insert = ("INSERT IGNORE INTO `db_gempa`(`Event ID`,`Origin Date`,`Origin Time`,"
+    
+    cur = mysql.connection.cursor()
+    sql = f"SELECT * FROM db_gempa WHERE `Event ID`='{idev}'"
+    a = cur.execute(sql)
+    ada = cur.fetchone()
+
+    if ada is not None:
+        pesan = 'already'
+    else:
+        sql_insert = ("INSERT INTO `db_gempa`(`Event ID`,`Origin Date`,`Origin Time`,"
                     "`Latitude`,`Longitude`,`Depth`,`Magnitude`,`Remark`,`Information`) VALUES " + str(insert))
-    cur.execute(sql_insert)
+        cur.execute(sql_insert)
+        mysql.connection.commit()
+        pesan = 'success'
+
+    print('iniiiiiii adalahhhh',pesan)
+
+
     
     
-    #cur.execute("INSERT INTO db_gempa('Event ID','Origin Date','Origin Time',\
-    #    'Latitude','Longitude','Depth','Magnitude','Remark','Information') VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s)",\
-    #         (id,date,time,lat,long,depth,mag,ket,info))
-    mysql.connection.commit()
     cur.close()
 
 
@@ -519,7 +542,7 @@ def esdx2par(fileinput,opsi_par,info):
         shutil.copy(source, target)
 
 
-    return "ok"
+    return pesan
 
 def teksinfogb(param):
     cur = mysql.connection.cursor()
@@ -542,8 +565,11 @@ def teksinfogb(param):
     sql = ("SELECT * FROM db_gempa WHERE `Origin Date`=%s AND `Origin Time`=%s")
     cur.execute(sql, insert)
     parameter = cur.fetchone()
-    infodir = parameter[8]
-    #infodir = ""
+    if parameter is None:
+        infodir = ""
+    else:
+        infodir = parameter[8]
+        
     infokata = info.split()
 
     inf = info.split(" ::")
