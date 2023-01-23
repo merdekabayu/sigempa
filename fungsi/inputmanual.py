@@ -180,6 +180,51 @@ def inputmanual():
             f.close()
     
     #return redirect(request.referrer)
+
+def db2infogb():
+
+    cur = mysql.connection.cursor()
+    cur.execute("SELECT * FROM db_gempa ORDER BY 2 DESC, 3 DESC LIMIT 1")
+    parameter = cur.fetchall()
+    date = parameter[1]
+    time = parameter[2]
+    lat = parameter[3]
+    long = parameter[4]
+    koord = [lat,long]
+    bujur = long
+    depth = parameter[5]
+    mag = parameter[6]
+    ket = parameter[7]
+    if len(info)>=3:
+        info = parameter[8].split(',')[0]+' '
+    else:
+        info = ""
+    timeutc = date + ' ' + time
+
+    from_zone = tz.tzutc()
+    to_zone = tz.tzlocal()
+    utc = datetime.strptime(timeutc[0:19], '%Y-%m-%d %H:%M:%S')
+    utc = utc.replace(tzinfo=from_zone)
+    ot = utc.astimezone(to_zone)
+    tgl = ot.strftime("%d")
+    bulan = ot.strftime("%b")
+    tahun = ot.strftime("%y")
+    waktu = ot.strftime("%X")
+
+    long = ('%.2f') % float(long)
+    if float(lat) > 0:
+        NS = "LU"
+        ltg = ('%.2f') % float(lat)
+    else:
+        NS = "LS"
+        ltg = ('%.2f') % abs(float(lat))
+    mag = ('%.1f') % float(mag)
+    
+    param = ('Info Gempa Mag:' + mag + ', ' + tgl + '-' + bulan + '-' + tahun + ' ' + waktu +
+                ' WIT, Lok: ' + ltg + ' ' + NS + ', ' + bujur + ' BT (' + ket + '), Kedlmn:' + depth + ' Km '+info+'::BMKG-TNT')
+    
+    return param,koord
+
 def inputotomatis():
     cur = mysql.connection.cursor()
     
@@ -476,12 +521,10 @@ def esdx2par(fileinput,opsi_par,info):
 
     return "ok"
 
-def teksinfogb():
+def teksinfogb(param):
     cur = mysql.connection.cursor()
-    with open('fungsi/infogempa.txt') as f:
-        info = f.readlines()  
-        f.close()
-    info = info[0]
+    
+    info = param
     param = info.split(", ")
     ot = param[1]
     ot = ot.split()
@@ -499,8 +542,8 @@ def teksinfogb():
     sql = ("SELECT * FROM db_gempa WHERE `Origin Date`=%s AND `Origin Time`=%s")
     cur.execute(sql, insert)
     parameter = cur.fetchone()
-    #infodir = parameter[8]
-    infodir = ""
+    infodir = parameter[8]
+    #infodir = ""
     infokata = info.split()
 
     inf = info.split(" ::")

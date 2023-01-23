@@ -85,27 +85,32 @@ def index():
         cur.close()
 
         with open('fungsi/infogempa.txt') as f:
-            info = f.readlines()  
-            f.close()  
-        input.teksinfogb()
+            info = f.readlines()
+            f.close()
+        param = info[0]
+
         fileinput = 'fungsi/gmt/episenter.dat'
         file = open(fileinput, 'r')
         baris = file.readlines()
         lat = baris[0].split()[0]
         long = baris[0].split()[1]
+        koord = [lat,long]
+
+        if len(info) < 5 or len(baris) < 3:
+            param = input.db2infogb()[0]
+            info = param
+            koord = input.db2infogb()[1]
+            input.teksinfogb(param)
+
+        input.teksinfogb(param)
         
         images = os.listdir('static/')
         name = set(os.path.splitext(k)[0] for k in images if k[:15]=='peta_diseminasi')
         ext = set(os.path.splitext(k)[1] for k in images if k[:15]=='peta_diseminasi')
         mapf = 'static/'+''.join(name)+''.join(ext)
 
-        with open('namafile.txt','w') as f:
-            f.write(mapf)
-            f.close()
-
-        #filemap = subprocess.check_output('ls static/peta_diseminasi*.png',shell=True)
-        #mapf = filemap.decode().split('\n')[0]
-        return render_template('mainpage1.html', mapfile = mapf, data=parameter, infogb=info, koord =[lat,long])
+        
+        return render_template('mainpage1.html', mapfile = mapf, data=parameter, infogb=info, koord = koord)
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
