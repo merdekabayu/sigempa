@@ -55,6 +55,8 @@ def map_seismisitas_mingguan(par,start,end):
     flegend.write(lgn)
     flegend.close()
     
+    "done"
+
     run("fungsi/gmt/seismisitas.sh "+start+" "+end, shell=True)
 
     dtnow = datetime.now()
