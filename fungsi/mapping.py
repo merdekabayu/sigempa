@@ -32,7 +32,7 @@ def map_seismisitas_mingguan(par,start,end):
     f1.close()
     f2.close()
 
-    period = start+' '+end
+    period = (start+' '+end).upper()
     flegend =  open("fungsi/gmt/legenda_1.txt", "w")
     lgn = 'V 0 1p\n\
 H 16 5 SEISMISITAS MALUKU UTARA PERIODE %s\n\
