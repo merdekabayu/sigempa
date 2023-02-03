@@ -31,6 +31,29 @@ def map_seismisitas_mingguan(par,start,end):
             f2.write(x+" "+y+" "+z+" "+mag+"\n")
     f1.close()
     f2.close()
+
+    period = start+' '+end
+    flegend =  open("fungsi/gmt/legenda_1.txt", "w")
+    lgn = 'V 0 1p\n \
+            H 16 5 SEISMISITAS MALUKU UTARA PERIODE %s\n \
+            V 0 1p\n \
+            D 0 1p\n \
+            N 3\n \
+            S 0.1i c 0.1i red 0.25p 0.2i Dangkal (0-100 km)\n \
+            S 0.1i c 0.1i yellow 0.25p 0.2i Menengah (100-300 km)\n \
+            S 0.15i c 0.1i green 0.25p 0.25i Dalam (\076 300 km)\n \
+            D 0 1p\n \
+            N 6\n \
+            V 0 1p\n \
+            S 0.1i c 0.07i - 0.25p 0.3i M 2\n \
+            S 0.1i c 0.105i - 0.25p 0.3i M 3\n \
+            S 0.1i c 0.14i - 0.25p 0.3i M 4\n \
+            S 0.1i c 0.175i - 0.25p 0.3i M 5\n \
+            S 0.1i c 0.21i - 0.25p 0.3i M 6\n \
+            S -0.05i a 0.2i red 1p 0.15i Dirasakan\n \
+            V 0 1p'%period
+    flegend.write(lgn)
+    flegend.close()
     
     run("fungsi/gmt/seismisitas.sh "+start+" "+end, shell=True)
 
