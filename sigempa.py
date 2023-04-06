@@ -92,9 +92,6 @@ def index():
         fileinput = 'fungsi/gmt/episenter.dat'
         file = open(fileinput, 'r')
         baris = file.readlines()
-        lat = baris[0].split()[0]
-        long = baris[0].split()[1]
-        koord = [lat,long]
 
         if info == [] or baris == []:
             print('sampee siniiii')
@@ -105,6 +102,9 @@ def index():
         else:
             param = info[0]
             input.teksinfogb(param)
+            lat = baris[0].split()[0]
+            long = baris[0].split()[1]
+            koord = [lat,long]
 
         
         
