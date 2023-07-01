@@ -25,7 +25,7 @@ app.secret_key = "membuatLOginFlask1"
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'sigempa2023'
-app.config['MYSQL_DB'] = 'sistem_diseminasi'
+app.config['MYSQL_DB'] = 'sistem_diseminasi_vps'
 app.config["UPLOAD_FOLDER"] = "static/shakemap/"
 
 mysql = MySQL(app)
