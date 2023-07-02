@@ -160,7 +160,7 @@ def ig_mingguan():
     #mapping.map_seismisitas_mingguan(start,end)
     #print('ini histogram = #######',hist_tab)
 
-    #submit_ok = True
+    
     filemap = subprocess.check_output('ls static/seismisitas*.jpg',shell=True)
     mapf = filemap.decode().split('\n')[1]
     return render_template('infog_mingguan.html',mapfile=mapf, data=par,
