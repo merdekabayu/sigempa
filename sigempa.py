@@ -198,7 +198,7 @@ def ig_bulanan():
     wilayah = stat[1][:7]
     rangedate = chart[2]
 
-    filemap = subprocess.check_output('ls static/seismisitas*.jpg',shell=True)
+    filemap = subprocess.check_output('ls static/seismisitas*t.jpg',shell=True)
     mapf = filemap.decode().split('\n')[1]
 
     return render_template('infog_bulanan.html', mapfile=mapf,data=par,
