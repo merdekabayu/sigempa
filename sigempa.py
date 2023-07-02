@@ -618,14 +618,14 @@ def sensor_stat():
             waveformplot(sta)
             nodata = ''
             fwav = subprocess.check_output('ls static/waveform/waveform24h'+sta+'*.jpg',shell=True)
-            wavf = fwav.decode().split('\n')[1]
+            wavf = fwav.decode().split('\n')[0]
             
         except:
             nodata = 'nodata'
             wavf = ''
         
         filemap = subprocess.check_output('ls static/sensor_status*.jpg',shell=True)
-        mapf = filemap.decode().split('\n')[1]
+        mapf = filemap.decode().split('\n')[0]
         return render_template('sensor_stat.html', ping=resptnt,gambar=[mapf,wavf], data=tabel,fileav=fileav,sta=sta,nodata = nodata)
     else:
         return render_template('sensor_stat.html', ping=resptnt)
