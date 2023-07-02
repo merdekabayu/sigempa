@@ -29,9 +29,9 @@ echo $evlon $evlat | gmt psxy -R -JM -O -K -Sc0.9i -W2,red >> $psfile
 gmt psxy $kota_malut -R -JM -O -K -Sc0.1i -G0 >> $psfile
 gmt psxy $kota_sulut -R -JM -O -K -Sc0.1i -G0 >> $psfile
 gmt psxy $kota_besar_malut -R -JM -O -K -Ss0.17i -W3,red >> $psfile
-gmt awk '{ print $1+0.08,$2,$3,$4,$5,$6,$7}' $kota_besar_malut | pstext -R -JM -O -K >> $psfile
-gmt awk '{ print $1+0.06,$2,$3-4,$4,$5,$6,$7}' $kota_malut | pstext -R -JM -O -K >> $psfile
-gmt awk '{ print $1+0.06,$2,$3-4,$4,$5,$6,$7}' $kota_sulut | pstext -R -JM -O -K >> $psfile
+awk '{ print $1+0.08,$2,$3,$4,$5,$6,$7}' $kota_besar_malut | gmt pstext -R -JM -O -K >> $psfile
+awk '{ print $1+0.06,$2,$3-4,$4,$5,$6,$7}' $kota_malut | gmt pstext -R -JM -O -K >> $psfile
+awk '{ print $1+0.06,$2,$3-4,$4,$5,$6,$7}' $kota_sulut | gmt pstext -R -JM -O -K >> $psfile
 #awk '{print $1+0.12, $2, BL, $14}' tahun_focal.txt |
 
 gmt psbasemap -J -R$REGION -B$AXIS --MAP_LABEL_OFFSET=0.2 --FONT_ANNOT_PRIMARY=9p --FONT_LABEL=11p,Heveltica --MAP_FRAME_TYPE=inside --MAP_FRAME_WIDTH=0.1p -P -K -O -V -Lf$skala/1/100+lKM  >> $psfile
