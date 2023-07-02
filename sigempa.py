@@ -238,7 +238,7 @@ def customig():
             wilayah = stat[1][:7]
             rangedate = chart[2]
             filemap = subprocess.check_output('ls static/seismisitas*.jpg',shell=True)
-            mapf = filemap.decode().split('\n')[0]
+            mapf = filemap.decode().split('\n')[1]
 
             return render_template('infog_custom.html',mapfile=mapf, data=par,
                                                         jml_gempa=jml_gempa,
@@ -295,7 +295,7 @@ def filterig():
         felt = 0
         #submit_ok = True
         filemap = subprocess.check_output('ls static/seismisitas*.jpg',shell=True)
-        mapf = filemap.decode().split('\n')[0]
+        mapf = filemap.decode().split('\n')[1]
         return render_template('infog_filter.html', mapfile=mapf,data=par,
                                                     jml_gempa=jml_gempa,
                                                     jml_drskn=jml_drskn,
@@ -345,7 +345,7 @@ def filtered_ig():
             wilayah = stat[1][:7]
             rangedate = chart[2]
             filemap = subprocess.check_output('ls static/seismisitas*.jpg',shell=True)
-            mapf = filemap.decode().split('\n')[0]
+            mapf = filemap.decode().split('\n')[1]
             return render_template('infog_filter.html',mapfile=mapf, data=par,
                                                     jml_gempa=jml_gempa,
                                                     jml_drskn=jml_drskn,
