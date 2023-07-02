@@ -25,7 +25,7 @@ app.secret_key = "membuatLOginFlask1"
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
 app.config['MYSQL_PASSWORD'] = 'sigempa2023'
-app.config['MYSQL_DB'] = 'sistem_diseminasi_vps'
+app.config['MYSQL_DB'] = 'sistem_diseminasi'
 app.config["UPLOAD_FOLDER"] = "static/shakemap/"
 
 mysql = MySQL(app)
@@ -162,7 +162,7 @@ def ig_mingguan():
 
     #submit_ok = True
     filemap = subprocess.check_output('ls static/seismisitas*.jpg',shell=True)
-    mapf = filemap.decode().split('\n')[0]
+    mapf = filemap.decode().split('\n')[1]
     return render_template('infog_mingguan.html',mapfile=mapf, data=par,
                                                 jml_gempa=jml_gempa,
                                                 jml_drskn=jml_drskn,
