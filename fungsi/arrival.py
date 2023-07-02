@@ -164,7 +164,7 @@ def arrivalsc3pst(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh.connect(host, username='sysop', password='bmkg212$', port=2222)
-    
+    print('nyampe sini###########')
     with open('fungsi/filter_sc3.sql') as input_file:
         list_event ='fungsi/list_event.txt'
         with open(list_event,'w') as fout:
