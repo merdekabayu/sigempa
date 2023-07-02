@@ -573,7 +573,7 @@ def arrival_download():
         
         print(namefile)
         #path ='fungsi/export/Data Arrival Format 2.txt'
-        return send_file(path, as_attachment=True, attachment_filename=path)
+        return send_file(path, as_attachment=True, download_name=namefile)
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
