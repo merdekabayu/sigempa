@@ -157,6 +157,7 @@ def ig_mingguan():
     rangedate = chart[2]
 
     start,end = "a","a"
+    
     #mapping.map_seismisitas_mingguan(start,end)
     
     filemap = subprocess.check_output('ls static/seismisitas*.jpg',shell=True)
