@@ -1,0 +1,48 @@
+<html><body><p>Event:
+    Public ID              bmkg2023mfia
+    Description
+      region name: Talaud Islands, Indonesia
+Origin:
+    Date                   2023-06-23
+    Time                   16:09:27.8  +/-    1.0 s
+    Latitude                 3.50 deg  +/-      6 km
+    Longitude              125.93 deg  +/-      5 km
+    Depth                      80 km   +/-   10 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.85 s
+    Azimuthal gap             122 deg
+
+2 Network magnitudes:
+    MLv       3.28 +/- 0.24   7            
+    M         3.28            7 preferred  
+
+13 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    SGSI  IA    0.4 294  P       16:09:43.0   0.5 M  1.0  SGSI 
+    SGSI  IA    0.4 294  S       16:09:53.3  -0.6 M  1.0  SGSI 
+    MGAI  IA    0.9  56  P       16:09:46.2   0.2 M  1.0  MGAI 
+    MGAI  IA    0.9  56  S       16:10:00.0   0.0 M  1.0  MGAI 
+    PSSI  IA    0.9 215  P       16:09:46.7   0.5 M  1.0  PSSI 
+    PSSI  IA    0.9 215  S       16:10:00.4  -0.0 M  1.0  PSSI 
+    MNI   IA    2.3 208  P       16:10:03.6  -0.4 M  1.0  MNI  
+    TMSI  IA    2.4 205  P       16:10:07.2   2.0 M  1.0  TMSI 
+    TMSI  IA    2.4 205  S       16:10:34.7   0.2 M  1.0  TMSI 
+    IHMI  IA    2.6 141  P       16:10:07.0  -0.2 M  1.0  IHMI 
+    MTAI  IA    2.7 119  P       16:10:08.4  -0.3 M  1.0  MTAI 
+    TNTI  IA    3.1 152  P       16:10:14.2   0.2 M  1.0  TNTI 
+    TBMCM IA    3.1 206  P       16:10:12.1  -2.1 M  1.0  TBMCM
+
+7 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    SGSI  IA    0.4 294  MLv     3.49  0.20    9.12088     
+    MGAI  IA    0.9  56  MLv     3.01 -0.28    1.02319     
+    MNI   IA    2.3 208  MLv     3.60  0.32   0.638771     
+    TMSI  IA    2.4 205  MLv     3.28 -0.00   0.270311     
+    MTAI  IA    2.7 119  MLv     3.19 -0.09   0.158948     
+    TNTI  IA    3.1 152  MLv     2.97 -0.31   0.0575505     
+    TBMCM IA    3.1 206  MLv     3.45  0.17    0.17094     
+
+stageofternate
+</p></body></html>

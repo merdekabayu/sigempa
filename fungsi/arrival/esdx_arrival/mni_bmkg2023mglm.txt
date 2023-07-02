@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2023mglm
+    Description
+      region name: Talaud Islands, Indonesia
+Origin:
+    Date                   2023-06-24
+    Time                   07:03:21.0  +/-    0.6 s
+    Latitude                 3.05 deg  +/-      3 km
+    Longitude              126.31 deg  +/-      3 km
+    Depth                      29 km   +/-   12 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.09 s
+    Azimuthal gap             138 deg
+
+33 Network magnitudes:
+    MVS       3.31            3            
+    MLv       3.26 +/- 0.31   4            
+    M         3.26            4 preferred  
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+    MVS       3.31            3            
+
+8 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    PSSI  IA    1.0 251  P       07:03:38.8   0.7 M  1.0  PSSI 
+    PSSI  IA    1.0 251  S       07:03:52.2   1.2 M  1.0  PSSI 
+    SGSI  IA    1.0 309  P       07:03:37.9  -0.9 M  1.0  SGSI 
+    SGSI  IA    1.0 309  S       07:03:50.9  -1.3 M  1.0  SGSI 
+    MGAI  IA    1.0  21  P       07:03:38.0  -1.1 M  1.0  MGAI 
+    MGAI  IA    1.0  21  S       07:03:54.6   2.0 M  1.0  MGAI 
+    MTAI  IA    2.1 113  P       07:03:55.0  -0.0 M  1.0  MTAI 
+    MTAI  IA    2.1 113  S       07:04:21.3  -0.6 M  1.0  MTAI 
+
+97 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    PSSI  IA    1.0 251  MLv     3.44  0.19    2.59354     
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    PSSI  IA    1.0 251  MVS     2.77 -0.54        N/A  N/A
+    SGSI  IA    1.0 309  MLv     3.62  0.37    3.67139     
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    SGSI  IA    1.0 309  MVS     3.17 -0.14        N/A  N/A
+    MGAI  IA    1.0  21  MLv     3.02 -0.24   0.894958     
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MGAI  IA    1.0  21  MVS     3.07 -0.24        N/A  N/A
+    MTAI  IA    2.1 113  MLv     2.99 -0.27   0.199263     
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

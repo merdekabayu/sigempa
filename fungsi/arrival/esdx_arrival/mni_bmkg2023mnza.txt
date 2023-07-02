@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2023mnza
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2023-06-28
+    Time                   09:50:06.5  +/-    1.1 s
+    Latitude                 0.39 deg  +/-      3 km
+    Longitude              126.35 deg  +/-      4 km
+    Depth                      24 km   +/-    9 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.41 s
+    Azimuthal gap             218 deg
+
+32 Network magnitudes:
+    MVS       3.18            6            
+    MLv       3.10 +/- 0.15   7            
+    M         3.10            7 preferred  
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+    MVS       3.18            6            
+
+15 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    PMMI  IA    1.1  91  P       09:50:25.7  -0.1 M  1.0  PMMI 
+    PMMI  IA    1.1  91  S       09:50:40.3   0.1 M  1.0  PMMI 
+    JHMI  IA    1.3  59  P       09:50:28.5  -0.9 M  1.0  JHMI 
+    WBMI  IA    1.5  92  P       09:50:32.9   0.7 M  1.0  WBMI 
+    WBMI  IA    1.5  92  S       09:50:52.0   0.2 M  1.0  WBMI 
+    LBMI  IA    1.5 132  P       09:50:32.7   0.3 M  1.0  LBMI 
+    LBMI  IA    1.5 132  S       09:50:51.4  -0.9 M  1.0  LBMI 
+    IHMI  IA    1.6  47  P       09:50:33.5  -0.3 M  1.0  IHMI 
+    GHMI  IA    1.7 116  P       09:50:34.8   0.2 M  1.0  GHMI 
+    GHMI  IA    1.7 116  S       09:50:56.3   0.1 M  1.0  GHMI 
+    WHMI  IA    1.9  69  P       09:50:37.7   0.2 M  1.0  WHMI 
+    WHMI  IA    1.9  69  S       09:51:01.8   0.3 M  1.0  WHMI 
+    SANI  IA    2.5 189  S       09:51:15.2   0.1 M  1.0  SANI 
+    MTAI  IA    2.6  47  P       09:50:47.7   0.2 M  1.0  MTAI 
+    MTAI  IA    2.6  47  S       09:51:19.3  -0.1 M  1.0  MTAI 
+
+185 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    PMMI  IA    1.1  91  MLv     3.28  0.18    1.56166     
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    PMMI  IA    1.1  91  MVS     2.85 -0.33        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    JHMI  IA    1.3  59  MVS     2.55 -0.63        N/A  N/A
+    WBMI  IA    1.5  92  MLv     3.18  0.08   0.688706     
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    WBMI  IA    1.5  92  MVS     2.98 -0.20        N/A  N/A
+    LBMI  IA    1.5 132  MLv     2.95 -0.15   0.397153     
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    LBMI  IA    1.5 132  MVS     2.34 -0.84        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    IHMI  IA    1.6  47  MVS     2.83 -0.35        N/A  N/A
+    GHMI  IA    1.7 116  MLv     3.05 -0.05   0.403201     
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    GHMI  IA    1.7 116  MVS     2.62 -0.56        N/A  N/A
+    WHMI  IA    1.9  69  MLv     3.03 -0.08   0.292721     
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

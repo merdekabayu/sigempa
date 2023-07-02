@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {	font-size: 24px;
+	font-weight: bold;
+}
+.style2 {	font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR AMBON </span></td>
+</tr>
+<tr>
+<td> </td>
+<td valign="top"> </td>
+</tr>
+<tr>
+<td><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top" width="48%"><img src="area_ambon.jpg"/></td>
+<td valign="top" width="52%"><pre>Event:
+    Public ID              bmkg2023mfhq
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2023-06-23
+    Time                   15:57:38.0  +/-    0.6 s
+    Latitude                -0.79 deg  +/-      5 km
+    Longitude              127.76 deg  +/-      8 km
+    Depth                      31 km   +/-    6 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.00 s
+    Azimuthal gap             175 deg
+
+5 Network magnitudes:
+    Mjma      2.79 +/- 0.27   6            
+    ML        2.30 +/- 0.11   7            
+    MLv       2.34 +/- 0.14   7 preferred  
+    Ms(BB)    2.54 +/- 0.00   1            
+    M         2.46            7            
+
+8 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    LBMI  IA    0.3 301  P       15:57:47.8   0.9 M  1.0  LBMI 
+    GHMI  IA    0.4  16  P       15:57:47.8  -1.0 M  1.0  GHMI 
+    OBMI  IA    0.6 191  P       15:57:50.1  -0.2 M  1.0  OBMI 
+    WBMI  IA    1.1   6  P       15:57:59.0   1.3 M  1.0  WBMI 
+    PMMI  IA    1.2 344  P       15:57:57.6  -1.1 M  1.0  PMMI 
+    TNTI  IA    1.6 346  P       15:58:03.0  -1.2 M  1.0  TNTI 
+    WHMI  IA    1.9  11  P       15:58:09.5   1.2 M  1.0  WHMI 
+    SANI  IA    2.2 235  P       15:58:12.0   0.0 M  1.0  SANI 
+
+15 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    LBMI  IA    0.3 301  ML      2.28 -0.02    1.43216     
+    LBMI  IA    0.3 301  MLv     2.27 -0.07     1.4025     
+    WBMI  IA    1.1   6  ML      2.33  0.03   0.158943     
+    WBMI  IA    1.1   6  MLv     2.37  0.03   0.173257     
+    WBMI  IA    1.1   6  Mjma    2.84  0.05   0.393309     
+    PMMI  IA    1.2 344  Mjma    2.93  0.14   0.433101     
+    TNTI  IA    1.6 346  ML      2.36  0.06   0.0926741     
+    TNTI  IA    1.6 346  MLv     2.20 -0.14   0.0642828     
+    TNTI  IA    1.6 346  Mjma    2.58 -0.21   0.119041     
+    WHMI  IA    1.9  11  ML      2.15 -0.15   0.0391368     
+    WHMI  IA    1.9  11  MLv     2.32 -0.02   0.057554     
+    WHMI  IA    1.9  11  Mjma    2.92  0.13   0.193915     
+    SANI  IA    2.2 235  ML      2.41  0.11   0.0502623     
+    SANI  IA    2.2 235  MLv     2.55  0.21   0.0696222     
+    SANI  IA    2.2 235  Ms(BB)  2.54  0.00   3.03587e-07 2.66
+
+Regional10Ambon
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

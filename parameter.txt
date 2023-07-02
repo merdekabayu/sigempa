@@ -1,63 +1,73 @@
-<html><body><p>Event: 
-    Public ID              bmkg2023auae
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2023mtdm
     Description
       region name: Minahassa Peninsula, Sulawesi
 Origin:
-    Date                   2023-01-11
-    Time                   22:48:17.4  +/-    0.5 s
-    Latitude                 0.02 deg  +/-      3 km
-    Longitude              124.18 deg  +/-      3 km
-    Depth                      12 km   +/-    5 km
+    Date                   2023-07-01
+    Time                   05:45:58.4  +/-    0.6 s
+    Latitude                -0.01 deg  +/-      3 km
+    Longitude              121.77 deg  +/-      4 km
+    Depth                      15 km   +/-    8 km
     Agency                 BMKG
     Mode                   manual
     Status                 confirmed
-    Residual RMS             1.14 s
-    Azimuthal gap             190 deg
+    Residual RMS             0.52 s
+    Azimuthal gap             131 deg
 
-5 Network magnitudes:
-    Mjma      3.34 +/- 0.22   7            
-    ML        3.38 +/- 0.25   7            
-    MLv       3.47 +/- 0.20   7            
-    Ms(BB)    3.35 +/- 0.00   1            
-    M         3.40            7 preferred  
+2 Network magnitudes:
+    MLv       2.89 +/- 0.68   3            
+    M         2.89            3            
 
-16 Phase arrivals:
+7 Phase arrivals:
     sta   net  dist azi  phase   time         res     wt  sta  
-    TBMCM IA    0.8  31  P       22:48:32.8  -0.3 M  1.0  TBMCM
-    TBMCM IA    0.8  31  S       22:48:43.9  -0.8 M  1.0  TBMCM
-    BGCI  IA    1.2 221  P       22:48:41.6   2.2 M  1.0  BGCI 
-    BGCI  IA    1.2 221  S       22:48:56.0   0.3 M  1.0  BGCI 
-    TGCM  IA    1.2 294  P       22:48:39.1  -0.5 M  1.0  TGCM 
-    TGCM  IA    1.2 294  S       22:48:54.3  -1.8 M  1.0  TGCM 
-    KGCM  IA    1.5 295  P       22:48:43.4   0.0 M  1.0  KGCM 
-    KGCM  IA    1.5 295  S       22:49:03.4   0.5 M  1.0  KGCM 
-    TMSI  IA    1.5  31  P       22:48:43.2  -0.2 M  1.0  TMSI 
-    TMSI  IA    1.5  31  S       22:49:03.3   0.2 M  1.0  TMSI 
-    GTOI  IA    1.5 299  P       22:48:44.7   0.8 M  1.0  GTOI 
-    GTOI  IA    1.5 299  S       22:49:04.9   0.9 M  1.0  GTOI 
-    LUWI  IA    1.8 233  P       22:48:46.4  -1.3 M  1.0  LUWI 
-    LUWI  IA    1.8 233  S       22:49:08.7  -1.9 M  1.0  LUWI 
-    SMSI  IA    2.1 298  P       22:48:54.0   2.2 M  1.0  SMSI 
-    SMSI  IA    2.1 298  S       22:49:17.9  -0.3 M  1.0  SMSI 
+    MRSI  IA    0.5  20  P       05:46:09.3  -0.0 M  1.0  MRSI 
+    APSI  IA    0.9 187  P       05:46:15.0  -0.9 M  1.0  APSI 
+    APSI  IA    0.9 187  S       05:46:29.3   0.7 M  1.0  APSI 
+    SMSI  IA    1.2  31  P       05:46:20.3   0.7 M  1.0  SMSI 
+    KGCM  IA    1.3  59  P       05:46:21.1  -0.1 M  1.0  KGCM 
+    TGCM  IA    1.4  68  P       05:46:22.9  -0.4 M  1.0  TGCM 
+    TOLI2 IA    1.5 318  S       05:46:43.9  -0.1 M  1.0  TOLI2
 
-16 Station magnitudes:
+3 Station magnitudes:
     sta   net  dist azi  type   value   res        amp  per
-    TBMCM IA    0.8  31  ML      3.22 -0.17    1.85384     
-    TBMCM IA    0.8  31  MLv     3.41 -0.06    2.90215     
-    TGCM  IA    1.2 294  ML      3.37 -0.02    1.57476     
-    TGCM  IA    1.2 294  MLv     3.31 -0.16    1.37226     
-    TGCM  IA    1.2 294  Mjma    3.20 -0.14   0.808434     
-    KGCM  IA    1.5 295  ML      3.75  0.36    2.71633     
-    KGCM  IA    1.5 295  MLv     3.72  0.25    2.55299     
-    KGCM  IA    1.5 295  Mjma    3.66  0.32    1.68626     
-    GTOI  IA    1.5 299  ML      3.13 -0.26   0.616846     
-    GTOI  IA    1.5 299  Mjma    3.20 -0.14   0.558883     
-    LUWI  IA    1.8 233  ML      3.44  0.06   0.919021     
-    LUWI  IA    1.8 233  MLv     3.57  0.10    1.24221     
-    LUWI  IA    1.8 233  Mjma    3.45  0.11   0.757093     
-    SMSI  IA    2.1 298  MLv     3.32 -0.15   0.481229     
-    SMSI  IA    2.1 298  Mjma    3.17 -0.17   0.299887     
-    SMSI  IA    2.1 298  Ms(BB)  3.35  0.00   2.12739e-06 0.22
+    APSI  IA    0.9 187  MLv     3.00  0.11   0.992561     
+    SMSI  IA    1.2  31  MLv     2.16 -0.73   0.105212     
+    KGCM  IA    1.3  59  MLv     3.50  0.61    2.00687     
 
-stageofgorontalo
-</p></body></html>
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

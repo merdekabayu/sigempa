@@ -1,0 +1,59 @@
+<html><body><p>Event:
+    Public ID              bmkg2023mfoc
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2023-06-23
+    Time                   19:14:09.1  +/-    0.3 s
+    Latitude                 2.75 deg  +/-      2 km
+    Longitude              127.22 deg  +/-      3 km
+    Depth                       8 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.58 s
+    Azimuthal gap             141 deg
+
+2 Network magnitudes:
+    MLv       3.24 +/- 0.31  10            
+    M         3.24           10 preferred  
+
+21 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    MTAI  IA    1.2 118  P       19:14:31.3   0.1 M  1.0  MTAI 
+    MTAI  IA    1.2 118  S       19:14:47.0  -0.5 M  1.0  MTAI 
+    IHMI  IA    1.3 165  P       19:14:32.3  -0.3 M  1.0  IHMI 
+    IHMI  IA    1.3 165  S       19:14:49.1  -0.9 M  1.0  IHMI 
+    MGAI  IA    1.4 336  P       19:14:34.0   0.1 M  1.0  MGAI 
+    MGAI  IA    1.4 336  S       19:14:52.1  -0.3 M  1.0  MGAI 
+    JHMI  IA    1.7 171  P       19:14:39.0   0.5 M  1.0  JHMI 
+    JHMI  IA    1.7 171  S       19:15:00.2  -0.7 M  1.0  JHMI 
+    PSSI  IA    1.8 270  P       19:14:40.5  -0.0 M  1.0  PSSI 
+    SGSI  IA    1.9 299  P       19:14:41.7  -0.6 M  1.0  SGSI 
+    SGSI  IA    1.9 299  S       19:15:07.0  -0.5 M  1.0  SGSI 
+    TNTI  IA    2.0 176  P       19:14:43.1   0.2 M  1.0  TNTI 
+    TNTI  IA    2.0 176  S       19:15:08.8   0.2 M  1.0  TNTI 
+    PMMI  IA    2.4 175  P       19:14:48.6   0.3 M  1.0  PMMI 
+    PMMI  IA    2.4 175  S       19:15:18.3  -0.2 M  1.0  PMMI 
+    WBMI  IA    2.5 165  P       19:14:50.5   0.6 M  1.0  WBMI 
+    TMSI  IA    2.7 238  P       19:14:54.4   1.4 M  1.0  TMSI 
+    TMSI  IA    2.7 238  S       19:15:26.1  -1.0 M  1.0  TMSI 
+    GHMI  IA    3.2 168  P       19:14:59.1  -0.0 M  1.0  GHMI 
+    TBMCM IA    3.3 232  P       19:15:02.2   0.8 M  1.0  TBMCM
+    LBMI  IA    3.4 175  P       19:15:02.9   0.7 M  1.0  LBMI 
+
+10 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    MTAI  IA    1.2 118  MLv     2.95 -0.30   0.609867     
+    IHMI  IA    1.3 165  MLv     3.54  0.29    2.09133     
+    JHMI  IA    1.7 171  MLv     3.04 -0.21    0.39788     
+    PSSI  IA    1.8 270  MLv     2.88 -0.37   0.232904     
+    SGSI  IA    1.9 299  MLv     3.37  0.12   0.620519     
+    TNTI  IA    2.0 176  MLv     2.63 -0.62    0.10575     
+    WBMI  IA    2.5 165  MLv     3.62  0.37   0.537155     
+    TMSI  IA    2.7 238  MLv     3.49  0.25   0.304241     
+    GHMI  IA    3.2 168  MLv     3.30  0.06   0.109102     
+    TBMCM IA    3.3 232  MLv     3.52  0.27   0.147451     
+
+stageofternate
+</p></body></html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {	font-size: 24px;
+	font-weight: bold;
+}
+.style2 {	font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR AMBON </span></td>
+</tr>
+<tr>
+<td> </td>
+<td valign="top"> </td>
+</tr>
+<tr>
+<td><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top" width="48%"><img src="area_ambon.jpg"/></td>
+<td valign="top" width="52%"><pre>Event:
+    Public ID              bmkg2023mcvk
+    Description
+      region name: Southern Molucca Sea
+Origin:
+    Date                   2023-06-22
+    Time                   07:31:11.0  +/-    0.2 s
+    Latitude                -0.92 deg  +/-      2 km
+    Longitude              124.61 deg  +/-      2 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.38 s
+    Azimuthal gap              51 deg
+
+5 Network magnitudes:
+    mb        4.81 +/- 0.17   7            
+    mB        5.04 +/- 0.10   5            
+    Mw(mB)    4.37 +/- 0.40   5            
+    MLv       4.48 +/- 0.23  25            
+    M         4.54           25 preferred  
+
+41 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    BGCI  IA    1.2 272  P       07:31:34.3   0.9 M  1.0  BGCI 
+    BBLSI IA    1.3 237  P       07:31:33.6  -1.1 M  1.0  BBLSI
+    PBCI  IA    1.4 336  P       07:31:35.8  -0.6 M  1.0  PBCI 
+    PBCI  IA    1.4 336  S       07:31:53.8  -1.6 M  1.0  PBCI 
+    TBMCM IA    1.6 359  P       07:31:38.9  -0.5 M  1.0  TBMCM
+    SANI  IA    1.8 129  P       07:31:38.7  -3.0 M  1.0  SANI 
+    TGCM  IA    2.1 313  P       07:31:45.3  -0.9 M  1.0  TGCM 
+    KGCM  IA    2.3 311  P       07:31:58.0   8.4 AX 0.0  KGCM 
+    GTOI  IA    2.4 314  P       07:31:50.2  -0.3 M  1.0  GTOI 
+    UTUSI IA    2.8 280  P       07:32:02.1   6.3 AX 0.0  UTUSI
+    LBMI  IA    2.9  84  P       07:31:56.1  -1.3 M  1.0  LBMI 
+    SMSI  IA    2.9 310  P       07:31:58.4   0.6 M  1.0  SMSI 
+    APSI  IA    3.0 270  P       07:31:57.9  -0.2 M  1.0  APSI 
+    MRSI  IA    3.0 298  P       07:31:58.5  -0.2 M  1.0  MRSI 
+    PMMI  IA    3.1  65  P       07:32:00.3   0.4 M  1.0  PMMI 
+    TNTI  IA    3.2  59  P       07:32:08.0   6.2 AX 0.0  TNTI 
+    GHMI  IA    3.3  80  P       07:32:02.0  -1.1 M  1.0  GHMI 
+    LKUCM IA    3.3 225  P       07:32:18.2  14.8 AX 0.0  LKUCM
+    BUMSI IA    3.4 252  P       07:32:05.4   0.8 A  1.0  BUMSI
+    JHMI  IA    3.5  55  P       07:32:09.1   3.6 A  1.0  JHMI 
+    WBMI  IA    3.5  69  P       07:32:13.9   8.4 AX 0.0  WBMI 
+    NBMI  IA    3.6 144  P       07:32:06.2  -0.5 M  1.0  NBMI 
+    TOCM  IA    3.6 242  P       07:32:08.0   0.7 A  1.0  TOCM 
+    IHMI  IA    3.8  51  P       07:32:11.5   1.6 A  1.0  IHMI 
+    MTCM  IA    3.9 245  P       07:32:22.7  11.5 AX 0.0  MTCM 
+    WHMI  IA    4.0  61  P       07:32:14.1   1.0 A  1.0  WHMI 
+    SRSI  IA    4.1 247  P       07:32:12.5  -0.7 M  1.0  SRSI 
+    PKCI  IA    4.1 214  P       07:32:31.0  17.3 AX 0.0  PKCI 
+    WKCM  IA    4.4 229  P       07:32:18.5   0.8 A  1.0  WKCM 
+    WWCI  IA    4.5 194  P       07:32:16.6  -2.1 M  1.0  WWCI 
+    LKCI  IA    4.5 235  P       07:32:40.0  20.6 AX 0.0  LKCI 
+    PWCM  IA    5.0 237  P       07:32:26.4   0.0 M  1.0  PWCM 
+    TTSI  IA    5.2 246  P       07:32:29.3  -0.0 M  1.0  TTSI 
+    TMTMM IA    5.5 116  P       07:32:31.9  -0.6 M  1.0  TMTMM
+    BNSI  IA    5.7 232  P       07:32:35.9   0.5 A  1.0  BNSI 
+    TBCM  IA    5.9 227  P       07:32:37.9  -0.1 A  1.0  TBCM 
+    WSTMM IA    5.9 115  P       07:32:42.3   3.1 A  1.0  WSTMM
+    BBCM  IA    6.1 228  P       07:32:42.4   0.9 A  1.0  BBCM 
+    BKSI  IA    6.3 226  P       07:32:45.4   1.9 A  1.0  BKSI 
+    TSPI  IA    7.5  94  P       07:32:58.7  -2.0 A  1.0  TSPI 
+    LMTI  IA    8.7 208  P       07:33:02.3 -14.3 AX 0.0  LMTI 
+
+33 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    BBLSI IA    1.3 237  MLv     4.38 -0.10    14.3779     
+    TBMCM IA    1.6 359  MLv     4.46 -0.02    11.2952     
+    GTOI  IA    2.4 314  MLv     4.06 -0.42    1.66223     
+    LBMI  IA    2.9  84  MLv     4.51  0.03    2.50292     
+    SMSI  IA    2.9 310  MLv     4.42 -0.06    1.94213     
+    MRSI  IA    3.0 298  MLv     4.32 -0.16    1.42146     
+    PMMI  IA    3.1  65  MLv     4.35 -0.13    1.35474     
+    GHMI  IA    3.3  80  MLv     4.59  0.11    1.76827     
+    BUMSI IA    3.4 252  MLv     4.90  0.42    3.07765     
+    NBMI  IA    3.6 144  MLv     4.24 -0.24   0.549279     
+    TOCM  IA    3.6 242  MLv     4.52  0.04     1.0249     
+    IHMI  IA    3.8  51  MLv     4.84  0.36    1.91311     
+    WHMI  IA    4.0  61  MLv     4.28 -0.20   0.464034     
+    SRSI  IA    4.1 247  MLv     4.16 -0.32    0.35371     
+    WKCM  IA    4.4 229  MLv     4.43 -0.05   0.535951     
+    WWCI  IA    4.5 194  MLv     4.16 -0.32   0.275222     
+    PWCM  IA    5.0 237  MLv     4.87  0.39    1.03564     
+    PWCM  IA    5.0 237  mb      4.82  0.02    86.7569 0.75
+    TTSI  IA    5.2 246  MLv     4.57  0.09   0.460806     
+    TTSI  IA    5.2 246  mB      5.09  0.05    1762.99     
+    TTSI  IA    5.2 246  mb      4.84  0.03    73.0322 0.64
+    TMTMM IA    5.5 116  MLv     4.71  0.23   0.556225     
+    TMTMM IA    5.5 116  mb      4.50 -0.31    36.8886 0.76
+    BNSI  IA    5.7 232  MLv     4.60  0.12   0.383273     
+    BNSI  IA    5.7 232  mB      5.02 -0.02    1343.28     
+    BNSI  IA    5.7 232  mb      5.08  0.27    108.551 0.62
+    TBCM  IA    5.9 227  MLv     4.58  0.09   0.320147     
+    TBCM  IA    5.9 227  mb      4.76 -0.04    45.7739 0.56
+    BKSI  IA    6.3 226  MLv     4.57  0.09   0.252525     
+    BKSI  IA    6.3 226  mB      4.97 -0.07    1049.04     
+    BKSI  IA    6.3 226  mb      4.92  0.11    61.9068 0.57
+    TSPI  IA    7.5  94  MLv     4.54  0.06   0.115496     
+    TSPI  IA    7.5  94  mb      4.73 -0.08    42.6388 0.74
+
+Regional10Ambon
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

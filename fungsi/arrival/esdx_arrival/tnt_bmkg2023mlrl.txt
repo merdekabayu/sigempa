@@ -1,0 +1,40 @@
+<html><body><p>Event:
+    Public ID              bmkg2023mlrl
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2023-06-27
+    Time                   03:43:51.4  +/-    0.6 s
+    Latitude                -0.66 deg  +/-      2 km
+    Longitude              127.86 deg  +/-      4 km
+    Depth                       9 km   +/-    4 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.32 s
+    Azimuthal gap             193 deg
+
+2 Network magnitudes:
+    MLv       2.18 +/- 0.29   4            
+    M         2.18            4 preferred  
+
+8 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    GHMI  IA    0.3   4  P       03:43:58.2  -0.1 M  1.0  GHMI 
+    GHMI  IA    0.3   4  S       03:44:03.5   0.1 M  1.0  GHMI 
+    LBMI  IA    0.4 274  P       03:43:59.1  -0.2 M  1.0  LBMI 
+    LBMI  IA    0.4 274  S       03:44:05.1   0.1 M  1.0  LBMI 
+    OBMI  IA    0.7 198  P       03:44:05.9   0.5 M  1.0  OBMI 
+    OBMI  IA    0.7 198  S       03:44:15.5  -0.2 M  1.0  OBMI 
+    PMMI  IA    1.1 337  P       03:44:11.8  -0.5 M  1.0  PMMI 
+    PMMI  IA    1.1 337  S       03:44:28.2   0.4 M  1.0  PMMI 
+
+4 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    GHMI  IA    0.3   4  MLv     1.95 -0.24   0.629173     
+    LBMI  IA    0.4 274  MLv     1.98 -0.20   0.485957     
+    OBMI  IA    0.7 198  MLv     2.30  0.11   0.251231     
+    PMMI  IA    1.1 337  MLv     2.59  0.41    0.29108     
+
+stageofternate
+</p></body></html>

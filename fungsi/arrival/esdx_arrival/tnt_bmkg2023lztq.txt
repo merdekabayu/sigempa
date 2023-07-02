@@ -1,0 +1,52 @@
+<html><body><p>Event:
+    Public ID              bmkg2023lztq
+    Description
+      region name: Halmahera, Indonesia
+Origin:
+    Date                   2023-06-20
+    Time                   15:13:11.4  +/-    0.7 s
+    Latitude                 1.35 deg  +/-      3 km
+    Longitude              128.65 deg  +/-      5 km
+    Depth                      10 km   +/-    4 km
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             0.55 s
+    Azimuthal gap             228 deg
+
+2 Network magnitudes:
+    MLv       3.00 +/- 0.19   7            
+    M         3.00            7 preferred  
+
+17 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    WHMI  IA    0.6 243  P       15:13:23.3   0.1 M  1.0  WHMI 
+    WHMI  IA    0.6 243  S       15:13:31.4  -0.5 M  1.0  WHMI 
+    MTAI  IA    0.9 336  P       15:13:28.1  -1.1 M  1.0  MTAI 
+    MTAI  IA    0.9 336  S       15:13:42.3   0.2 M  1.0  MTAI 
+    IHMI  IA    1.1 278  P       15:13:32.1  -0.1 M  1.0  IHMI 
+    JHMI  IA    1.2 257  P       15:13:33.9   0.3 M  1.0  JHMI 
+    JHMI  IA    1.2 257  S       15:13:50.0  -0.0 M  1.0  JHMI 
+    WBMI  IA    1.3 218  P       15:13:35.6   1.1 M  1.0  WBMI 
+    WBMI  IA    1.3 218  S       15:13:51.8  -0.0 M  1.0  WBMI 
+    TNTI  IA    1.4 246  P       15:13:37.9   1.3 M  1.0  TNTI 
+    TNTI  IA    1.4 246  S       15:13:55.6   0.2 M  1.0  TNTI 
+    PMMI  IA    1.6 232  P       15:13:39.1   0.1 M  1.0  PMMI 
+    PMMI  IA    1.6 232  S       15:13:59.6  -0.2 M  1.0  PMMI 
+    GHMI  IA    1.9 204  P       15:13:43.1  -0.1 M  1.0  GHMI 
+    GHMI  IA    1.9 204  S       15:14:06.9  -0.6 M  1.0  GHMI 
+    LBMI  IA    2.3 210  P       15:13:48.8  -0.3 M  1.0  LBMI 
+    LBMI  IA    2.3 210  S       15:14:17.9  -0.3 M  1.0  LBMI 
+
+7 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    WHMI  IA    0.6 243  MLv     3.15  0.16     2.1328     
+    MTAI  IA    0.9 336  MLv     2.66 -0.34   0.436123     
+    IHMI  IA    1.1 278  MLv     3.03  0.03   0.820641     
+    JHMI  IA    1.2 257  MLv     3.01  0.01   0.697124     
+    WBMI  IA    1.3 218  MLv     3.14  0.14   0.853507     
+    PMMI  IA    1.6 232  MLv     3.17  0.17   0.623029     
+    GHMI  IA    1.9 204  MLv     2.80 -0.20   0.181146     
+
+stageofternate
+</p></body></html>

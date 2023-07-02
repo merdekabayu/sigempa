@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {font-size: 24px;
+	font-weight: bold;
+}
+.style2 {font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2" valign="top"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR MANADO</span></td>
+</tr>
+<tr>
+<td valign="top" width="47%"> </td>
+<td valign="top" width="53%"> </td>
+</tr>
+<tr>
+<td valign="top"><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="area_manado.jpg"/></td>
+<td valign="top"><pre>Event:
+    Public ID              bmkg2023mkfr
+    Description
+      region name: Northern Molucca Sea
+Origin:
+    Date                   2023-06-26
+    Time                   08:39:18.1  +/-    0.1 s
+    Latitude                 0.56 deg  +/-      2 km
+    Longitude              126.34 deg  +/-      1 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.31 s
+    Azimuthal gap              44 deg
+
+7 Network magnitudes:
+    MLv       4.61 +/- 0.18  25            
+    M         4.53           25 preferred  
+    mb        4.63 +/- 0.17   7            
+    mB        5.01 +/- 0.48   6            
+    Mw(mB)    4.34 +/- 0.48   6            
+    Mwp       4.80 +/- 0.00   1            
+    Mw(Mwp)   4.38 +/- 0.40   1            
+
+50 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    PMMI  IA    1.1 100  P       08:39:38.4  -0.2 M  1.0  PMMI 
+    PMMI  IA    1.1 100  S       08:39:53.3  -0.3 M  1.0  PMMI 
+    JHMI  IA    1.2  65  P       08:39:40.3  -0.8 A  1.0  JHMI 
+    IHMI  IA    1.5  52  P       08:39:44.1  -1.2 M  1.0  IHMI 
+    IHMI  IA    1.5  52  S       08:40:06.1   0.3 M  1.0  IHMI 
+    WBMI  IA    1.5  98  P       08:39:45.8   0.5 M  1.0  WBMI 
+    WBMI  IA    1.5  98  S       08:40:06.7   0.8 M  1.0  WBMI 
+    TMSI  IA    1.6 297  P       08:39:44.0  -2.1 M  1.0  TMSI 
+    TMSI  IA    1.6 297  S       08:40:05.0  -2.3 M  1.0  TMSI 
+    LBMI  IA    1.7 136  P       08:39:45.8  -1.2 M  1.0  LBMI 
+    LBMI  IA    1.7 136  S       08:40:07.1  -1.9 M  1.0  LBMI 
+    MNI   IA    1.7 300  P       08:39:47.1  -1.1 M  1.0  MNI  
+    MNI   IA    1.7 300  S       08:40:11.0  -0.2 M  1.0  MNI  
+    TBMCM IA    1.8 275  P       08:39:45.3  -3.2 M  1.0  TBMCM
+    TBMCM IA    1.8 275  S       08:40:11.0  -0.7 M  1.0  TBMCM
+    GHMI  IA    1.8 121  P       08:39:48.6  -0.3 M  1.0  GHMI 
+    GHMI  IA    1.8 121  S       08:40:11.6  -0.7 M  1.0  GHMI 
+    WHMI  IA    1.9  74  P       08:39:50.0   0.0 M  1.0  WHMI 
+    WHMI  IA    1.9  74  S       08:40:14.6   0.2 M  1.0  WHMI 
+    PBMSI IA    2.1 282  P       08:39:51.8  -1.7 M  1.0  PBMSI
+    PBMSI IA    2.1 282  S       08:40:20.5  -0.1 M  1.0  PBMSI
+    OBMI  IA    2.3 145  P       08:39:55.1  -0.9 M  1.0  OBMI 
+    OBMI  IA    2.3 145  S       08:40:27.3   2.2 M  1.0  OBMI 
+    PBCI  IA    2.3 266  P       08:39:54.5  -1.8 M  1.0  PBCI 
+    PBCI  IA    2.3 266  S       08:40:26.2   0.6 M  1.0  PBCI 
+    PSSI  IA    2.4 337  P       08:39:57.0   0.1 M  1.0  PSSI 
+    PSSI  IA    2.4 337  S       08:40:29.2   2.4 M  1.0  PSSI 
+    KMSI  IA    2.4 270  P       08:39:56.6  -0.4 M  1.0  KMSI 
+    KMSI  IA    2.4 270  S       08:40:30.0   3.1 M  1.0  KMSI 
+    MTAI  IA    2.5  50  P       08:39:59.4   0.1 M  1.0  MTAI 
+    MTAI  IA    2.5  50  S       08:40:31.3   0.3 M  1.0  MTAI 
+    SANI  IA    2.6 188  P       08:39:59.3  -1.1 M  1.0  SANI 
+    SANI  IA    2.6 188  S       08:40:31.7  -1.4 M  1.0  SANI 
+    SGSI  IA    3.2 345  P       08:40:09.7   1.0 M  1.0  SGSI 
+    TGCM  IA    3.3 269  P       08:40:09.1  -0.3 M  1.0  TGCM 
+    TGCM  IA    3.3 269  S       08:40:49.5   0.2 M  1.0  TGCM 
+    BGCI  IA    3.3 244  P       08:40:10.7   1.1 M  1.0  BGCI 
+    MGAI  IA    3.4   5  P       08:40:11.3  -0.6 M  1.0  MGAI 
+    KGCM  IA    3.5 271  P       08:40:12.4  -0.1 M  1.0  KGCM 
+    LUWI  IA    3.9 246  P       08:40:21.1   2.9 M  1.0  LUWI 
+    SMSI  IA    4.0 276  P       08:40:20.0   0.4 M  1.0  SMSI 
+    MRSI  IA    4.4 269  P       08:40:26.9   1.8 M  1.0  MRSI 
+    APSI  IA    4.9 253  P       08:40:33.6   1.5 M  1.0  APSI 
+    SWI   IA    5.1 106  P       08:40:35.2   0.4 M  1.0  SWI  
+    TOLI2 IA    5.6 276  P       08:40:41.0  -0.4 M  1.0  TOLI2
+    KDI   IA    5.8 220  P       08:40:44.5  -0.1 M  1.0  KDI  
+    WWCI  IA    6.4 206  P       08:40:54.3   1.3 M  1.0  WWCI 
+    MPSI  IA    6.4 268  P       08:40:53.9   0.7 M  1.0  MPSI 
+    FAKI  IA    6.9 120  P       08:41:01.1   2.4 M  1.0  FAKI 
+    MMCI  IA    7.8 243  P       08:41:12.2   0.5 M  1.0  MMCI 
+
+35 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    PMMI  IA    1.1 100  MLv     4.63  0.02    33.7499     
+    JHMI  IA    1.2  65  MLv     4.60 -0.01    25.4674     
+    IHMI  IA    1.5  52  MLv     4.93  0.31    37.3874     
+    WBMI  IA    1.5  98  MLv     4.60 -0.02    17.3514     
+    TMSI  IA    1.6 297  MLv     4.76  0.14    23.4895     
+    LBMI  IA    1.7 136  MLv     4.42 -0.19    10.1009     
+    MNI   IA    1.7 300  MLv     4.66  0.05    15.6103     
+    GHMI  IA    1.8 121  MLv     4.56 -0.05    11.8032     
+    WHMI  IA    1.9  74  MLv     4.64  0.02     12.657     
+    PBMSI IA    2.1 282  MLv     4.83  0.22    14.3847     
+    OBMI  IA    2.3 145  MLv     4.18 -0.43    2.57446     
+    PBCI  IA    2.3 266  MLv     4.39 -0.22    4.04177     
+    PSSI  IA    2.4 337  MLv     4.43 -0.19    4.11686     
+    SGSI  IA    3.2 345  MLv     4.76  0.15    2.96925     
+    TGCM  IA    3.3 269  MLv     4.71  0.10    2.48037     
+    BGCI  IA    3.3 244  MLv     4.91  0.29    3.83939     
+    MGAI  IA    3.4   5  MLv     4.50 -0.11    1.22304     
+    LUWI  IA    3.9 246  MLv     4.94  0.33    2.30657     
+    SMSI  IA    4.0 276  MLv     4.50 -0.12   0.790064     
+    MRSI  IA    4.4 269  MLv     4.44 -0.17   0.548363     
+    SWI   IA    5.1 106  mb      4.58 -0.05    42.2761 0.66
+    TOLI2 IA    5.6 276  MLv     4.46 -0.16   0.287156     
+    TOLI2 IA    5.6 276  mB      4.67 -0.35    607.173     
+    TOLI2 IA    5.6 276  mb      4.53 -0.10    45.5592 0.90
+    KDI   IA    5.8 220  MLv     4.66  0.05   0.401975     
+    KDI   IA    5.8 220  mB      5.52  0.51    4110.12     
+    WWCI  IA    6.4 206  MLv     4.71  0.10   0.316644     
+    WWCI  IA    6.4 206  mB      4.96 -0.06    985.447     
+    WWCI  IA    6.4 206  mb      4.91  0.28    90.9175 0.88
+    FAKI  IA    6.9 120  MLv     4.48 -0.13   0.148077     
+    FAKI  IA    6.9 120  Mwp     4.80  0.00    1246.75     
+    FAKI  IA    6.9 120  mB      4.72 -0.29    535.648     
+    FAKI  IA    6.9 120  mb      4.57 -0.06    45.8636 1.05
+    MMCI  IA    7.8 243  MLv     4.63  0.01   0.119402     
+    MMCI  IA    7.8 243  mb      4.56 -0.07    38.7713 1.04
+
+Regional_8_Manado
+</pre></td>
+</tr>
+</table>
+</body>
+</html>

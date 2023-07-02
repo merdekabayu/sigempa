@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>Untitled Document</title>
+<style type="text/css">
+<!--
+.style1 {	font-size: 24px;
+	font-weight: bold;
+}
+.style2 {	font-size: 20px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td colspan="2"><span class="style1">HASIL PROSESING GEMPA BUMI DARI PGR AMBON </span></td>
+</tr>
+<tr>
+<td> </td>
+<td valign="top"> </td>
+</tr>
+<tr>
+<td><span class="style2">PETA EPISENTER:</span></td>
+<td valign="top"><strong class="style2">INFO TEKS:</strong></td>
+</tr>
+<tr>
+<td valign="top" width="48%"><img src="area_ambon.jpg"/></td>
+<td valign="top" width="52%"><pre>Event:
+    Public ID              bmkg2023mivf
+    Description
+      region name: Sulawesi, Indonesia
+Origin:
+    Date                   2023-06-25
+    Time                   14:13:42.5  +/-    0.3 s
+    Latitude                -1.06 deg  +/-      3 km
+    Longitude              123.69 deg  +/-      3 km
+    Depth                      10 km   (fixed)
+    Agency                 BMKG
+    Mode                   manual
+    Status                 confirmed
+    Residual RMS             1.52 s
+    Azimuthal gap              83 deg
+
+2 Network magnitudes:
+    MLv       3.32 +/- 0.25   8            
+    M         3.32            8 preferred  
+
+14 Phase arrivals:
+    sta   net  dist azi  phase   time         res     wt  sta  
+    BGCI  IA    0.3 300  P       14:13:48.8  -1.4 M  1.0  BGCI 
+    BBLSI IA    0.6 196  P       14:13:53.0  -1.6 M  1.0  BBLSI
+    PBCI  IA    1.5  14  P       14:14:06.8  -1.9 M  1.0  PBCI 
+    KMSI  IA    1.6  10  P       14:14:10.2  -1.1 M  1.0  KMSI 
+    TGCM  IA    1.7 339  P       14:14:10.4  -1.4 M  1.0  TGCM 
+    UTUSI IA    1.9 289  P       14:14:16.8   1.5 M  1.0  UTUSI
+    TBMCM IA    2.0  27  P       14:14:15.4  -0.6 M  1.0  TBMCM
+    GTOI  IA    2.0 336  P       14:14:15.2  -0.9 M  1.0  GTOI 
+    APSI  IA    2.0 274  P       14:14:18.4   1.5 M  1.0  APSI 
+    SMSI  IA    2.4 327  P       14:14:24.3   2.2 M  1.0  SMSI 
+    SANI  IA    2.5 113  P       14:14:24.0   0.8 M  1.0  SANI 
+    BUMSI IA    2.5 249  P       14:14:30.2   6.7 MX 0.0  BUMSI
+    TMSI  IA    2.6  28  P       14:14:28.1   2.9 M  1.0  TMSI 
+    OBMI  IA    4.0  94  P       14:14:43.4   0.0 M  1.0  OBMI 
+
+8 Station magnitudes:
+    sta   net  dist azi  type   value   res        amp  per
+    BGCI  IA    0.3 300  MLv     3.67  0.35     25.798     
+    BBLSI IA    0.6 196  MLv     3.42  0.10     3.8397     
+    TGCM  IA    1.7 339  MLv     3.21 -0.11    0.58896     
+    UTUSI IA    1.9 289  MLv     3.41  0.10   0.691666     
+    TBMCM IA    2.0  27  MLv     3.63  0.31    1.05243     
+    GTOI  IA    2.0 336  MLv     3.00 -0.32   0.245353     
+    SMSI  IA    2.4 327  MLv     3.19 -0.13   0.215961     
+    SANI  IA    2.5 113  MLv     3.03 -0.29   0.137669     
+
+Regional10Ambon
+</pre></td>
+</tr>
+</table>
+</body>
+</html>
