@@ -67,7 +67,7 @@ def filter_area(par):
     for row in par:
         lat=row[3]
         long=row[4]
-        if lat <= 10 and lat >= -2.75 and long <= 130 and long >= 124 :
+        if lat <= 3.5 and lat >= -2.75 and long <= 130 and long >= 124 :
             f_par += [row]
     return f_par
 
