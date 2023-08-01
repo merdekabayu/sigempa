@@ -155,8 +155,7 @@ def ig_mingguan():
     hist_tab = stat[0][6]
     wilayah = stat[1][:7]
     rangedate = chart[2]
-
-    start,end = "a","a"
+    
 
     #mapping.map_seismisitas_mingguan(start,end)
     
