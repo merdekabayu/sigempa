@@ -11,7 +11,7 @@ gmt pscoast -Dh -R -J -W0.6,0 -K -O -V >> $psfile
 
 
 gmt psbasemap -J -R -B$AXIS  --MAP_LABEL_OFFSET=0.1 --FONT_LABEL=17p,Heveltica --MAP_FRAME_TYPE=plain --FONT_ANNOT=16p -K -O -V >> $psfile
-awk '{print $1-0.1, $2+0.15, TR, $4}' fungsi/gmt/status.dat | gmt pstext -J -R -F+f9.5,17,red -Gwhite -O -K >> $psfile
+awk '{print $1-0.1, $2+0.2, TR, $4}' fungsi/gmt/status.dat | gmt pstext -J -R -F+f9.5,17,red -Gwhite -O -K >> $psfile
 
 gmt psxy fungsi/gmt/status.dat -J -R -O -K -St0.3i -Cfungsi/gmt/status.cpt -W0 >> $psfile
 
