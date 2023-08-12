@@ -41,7 +41,10 @@ def status(last_data,today):
         ['GHMI',127.8797,-0.35629],\
         ['LBMI',127.5008,-0.6379],\
         ['OBMI',127.6444,-1.3413],\
-        ['SANI',125.988104,-2.049695]]
+        ['SANI',125.988104,-2.049695],\
+        ['MSHHI',128.425,0.629],\
+        ['WSHHI',127.813,0.764],\
+        ['TBMUI',124.344,-1.900]]
 
     
     fout = open('fungsi/gmt/status.dat','w')
@@ -100,6 +103,7 @@ def slinktool():
             baris[i]=baris[i].split()
         fin.close()
 
+    stat = ('TNTI','MTAI','GLMI','IHMI','JHMI','WHMI','WBMI','PMMI','GHMI','LBMI','OBMI','SANI','MSHHI','WSHHI','TBMUI')
     i = 0
     sensor,sensorn,sensore, = [],[],[]
     sensor_sta = []
@@ -113,8 +117,7 @@ def slinktool():
             else:
                 comp = baris[i][2][2:]
 
-            if sta=='MTAI' or sta=='GLMI' or sta=='IHMI' or sta=='JHMI' or sta=='WHMI' or sta=='TNTI' or sta=='WBMI' or sta=='PMMI' \
-            or sta=='GHMI' or sta=='LBMI' or sta=='OBMI' or sta=='SANI':
+            if sta in stat:
                 sensor += [baris[i]]
                 sensor_sta += sta
 
@@ -132,19 +135,15 @@ def slinktool():
 
     last_data=[]
     today = datetime.utcnow()
-    stat = ('TNTI','MTAI','GLMI','IHMI','JHMI','WHMI','WBMI','PMMI','GHMI','LBMI','OBMI','SANI')
-    TNTI1,MTAI1,GLMI1,IHMI1,JHMI1,WHMI1,WBMI1,PMMI1,GHMI1,LBMI1,OBMI1,SANI1=[],[],[],[],[],[],[],[],[],[],[],[]
-    update = []
+    
     for sta in sensor:
         dt = sta[len(sta)-2:]
         name = sta[1]
-        name1 = sta[1]+'1'
         dtime = dt[0]+' '+dt[1]
         last_dt = datetime.strptime(dtime, '%Y/%m/%d %H:%M:%S.%f')
         delay = (today-last_dt).total_seconds()
 
         last_data += [(name,last_dt,delay)]
-        last_data1 = [[name,last_dt,delay]]
 
     df = pd.DataFrame(last_data, columns = ['sta','last_dt','delay'])
 
