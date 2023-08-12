@@ -1,5 +1,4 @@
 #! /bin/sh
-
 SIZE="M14c"
 AXIS="a4f2/a4f2nwse"
 psfile="fungsi/gmt/sensor_status.ps"
