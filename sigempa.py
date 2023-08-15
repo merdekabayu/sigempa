@@ -537,7 +537,7 @@ def arrival_download():
         source = request.form['data_source']
 
         resptnt = os.system('ping -c 1 scproc')
-        resppst=os.system("sshpass -p 'bmkg212$' ssh -t -p2222 sysop@scproc ping -c 1 172.19.3.51")
+        resppst=os.system("sshpass -p 'bmkg212$' ssh -t -p2222 sysop@36.91.152.130 ping -c 1 172.19.3.51")
         print('disini respon',resppst,resptnt)
         if source == 'SPK':
             path = arrival2spk(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,long2,felt)
@@ -720,7 +720,7 @@ def downloadwaveformbyevent():
             id = down_waveformbyevent()
             print(id)
             #return Response(generate(), mimetype='text/csv')
-            return send_file('fungsi/waveform/'+id+'.mseed', as_attachment=True, conditional=True, attachment_filename=id+'.mseed',cache_timeout=600)
+            return send_file('fungsi/waveform/'+id+'.mseed', as_attachment=True, conditional=True, download_name=id+'.mseed')
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
