@@ -44,7 +44,8 @@ def status(last_data,today):
         ['SANI',125.988104,-2.049695],\
         ['MSHHI',128.425,0.629],\
         ['WSHHI',127.813,0.764],\
-        ['TBMUI',124.344,-1.900]]
+        ['TBMUI',124.344,-1.900],\
+        ['BDMUI',126.362,1.322]]
 
     
     fout = open('fungsi/gmt/status.dat','w')
@@ -103,7 +104,7 @@ def slinktool():
             baris[i]=baris[i].split()
         fin.close()
 
-    stat = ('TNTI','MTAI','GLMI','IHMI','JHMI','WHMI','WBMI','PMMI','GHMI','LBMI','OBMI','SANI','MSHHI','WSHHI','TBMUI')
+    stat = ('TNTI','MTAI','GLMI','IHMI','JHMI','WHMI','WBMI','PMMI','GHMI','LBMI','OBMI','SANI','MSHHI','WSHHI','TBMUI','BDMUI')
     i = 0
     sensor,sensorn,sensore, = [],[],[]
     sensor_sta = []
