@@ -46,7 +46,7 @@ def status(last_data,today):
         ['WSHHI',127.813,0.764],\
         ['TBMUI',124.344,-1.900],\
         ['BDMUI',126.362,1.322],\
-        ['MUMUI',126.362,1.322]]
+        ['MUMUI',125.481,-1.785]]
 
     
     fout = open('fungsi/gmt/status.dat','w')
