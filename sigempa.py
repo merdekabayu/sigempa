@@ -13,7 +13,7 @@ from fungsi.statistik import hitung_wilayah, hitung_chart
 from fungsi.filter import filter_area
 from fungsi.arrival import  esdx2pha, arrival2spk, arrivalsc4tnt, arrivalsc3pst
 from fungsi.stat_sensor import status,slinktool, tabel_slinktool
-from fungsi.waveform import waveformplot, allwaveform, down_waveformbyevent
+from fungsi.waveform import *
 import subprocess,os
 import bcrypt
 
@@ -577,6 +577,44 @@ def arrival_download():
         flash("Please, Login First !!")
         return redirect(url_for('login'))
 
+
+
+@app.route('/sensor/quality', methods=["POST","GET"])
+def sensor_qual():
+    resptnt = os.system('ping -c 1 scproc')
+    print(resptnt)
+    if resptnt == 0:
+        if request.method == 'GET':
+            sta = 'TNTI'
+        else:
+            sta = request.form['station']
+        try:
+            psdplot(sta)
+            nodata = ''
+            fwav = subprocess.check_output('ls static/waveform/wform_'+sta+'_Z.jpg',shell=True)
+            fpsd = subprocess.check_output('ls static/waveform/psd_'+sta+'_Z.jpg',shell=True)
+            wavfz = fwav.decode().split('\n')[0]
+            psdz = fpsd.decode().split('\n')[0]
+            
+            fwav = subprocess.check_output('ls static/waveform/wform_'+sta+'_N.jpg',shell=True)
+            fpsd = subprocess.check_output('ls static/waveform/psd_'+sta+'_N.jpg',shell=True)
+            wavfn = fwav.decode().split('\n')[0]
+            psdn = fpsd.decode().split('\n')[0]
+
+            fwav = subprocess.check_output('ls static/waveform/wform_'+sta+'_E.jpg',shell=True)
+            fpsd = subprocess.check_output('ls static/waveform/psd_'+sta+'_E.jpg',shell=True)
+            wavfe = fwav.decode().split('\n')[0]
+            psde = fpsd.decode().split('\n')[0]
+            
+            wavf = [wavfz,wavfn,wavfe]
+            psd = [psdz,psdn,psde]
+        except:
+            nodata = 'nodata'
+            wavf = ''
+            psd = ''
+        return render_template('sensor_psd.html',gambar=[wavf,psd],sta=sta,nodata = nodata,ping=resptnt)
+    else:
+        return render_template('sensor_psd.html', ping=resptnt)
 
 
 @app.route('/sensor/status', methods=["POST","GET"])

@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+{% block judul %} Sensor Status & Availability {% endblock %}
+{% block subjudul %} Sensor Status & Availability {% endblock %}
+{% block menuopen_sensor %} menu-open {% endblock %}
+{% block mainnav_sensor %} active {% endblock %}
+{% block nav_sensorqual%} active {% endblock %}
+
+{% block content %} 
+  
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-left">
+            <li class="breadcrumb-item"><a href="/">SI-GEMPA</a></li>
+            <li class="breadcrumb-item active">Sensor Quality (PPSD) </li>
+            
+          </ol>
+        </div>
+        <div class="col-sm-6">
+          
+        </div>
+      </div>
+    </div><!-- /.container-fluid -->
+  </section>
+
+  <!-- Main content -->
+  <section class="content">
+    <div class="container-fluid">
+      {% if ping == 0 %}
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="card col-12">
+            <div class="card-header">
+              <form action="{{ url_for('sensor_qual') }}" method="POST">
+                <div class="form-group row pb-0 mb-0">
+                  <label for="input" class="col-sm-3 col-form-label">Waveform {{sta}} PPSD Plot</label>
+                  <div class="col-sm-2">
+                    <select class="form-control" name="station">
+                      <option value="">--Pilih Stasiun--</option>
+                      <option>TNTI</option>
+                      <option>SANI</option>
+                      <option>LBMI</option>
+                      <option>OBMI</option>
+                      <option>GLMI</option>
+                      <option>MTAI</option>
+                      <option>GHMI</option>
+                      <option>WHMI</option>
+                      <option>WBMI</option>
+                      <option>IHMI</option>
+                      <option>JHMI</option>
+                      <option>PMMI</option>
+                      <option>MSHHI</option>
+                      <option>WSHHI</option>
+                      <option>TBMUI</option>
+                      <option>BDMUI</option>
+                      <option>MUMUI</option>
+                    </select>
+                  </div>
+                  <div class="col-1">
+                    <div class="btn-group float-center w-100">
+                      <button type="submit" class="btn btn-primary">
+                        <span>
+                          <strong>Plot</strong>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="col-5"></div>
+                  <div class="card-tools">
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                    <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+              
+            </div>
+            <div class="card-body">
+              {% if nodata == 'nodata' %}
+              <p>No data</p>
+              {% else %}
+              <div class="row">
+                <div class="col-lg-4">
+                  <img style="margin-bottom: 10px; width: 100%; border-radius: 100px;"src="../{{gambar.0.0}}" class="img-fluid rounded " /> 
+                  <img style=" width: 100%; border-radius: 100px;"src="../{{gambar.1.0}}" class="img-fluid rounded " />
+                </div>
+                <div class="col-lg-4">
+                  <img style="margin-bottom: 10px; width: 100%; border-radius: 100px;"src="../{{gambar.0.1}}" class="img-fluid rounded " /> 
+                  <img style=" width: 100%; border-radius: 100px;"src="../{{gambar.1.1}}" class="img-fluid rounded " />
+                </div>
+                <div class="col-lg-4">
+                  <img style="margin-bottom: 10px; width: 100%; border-radius: 100px;"src="../{{gambar.0.2}}" class="img-fluid rounded " /> 
+                  <img style=" width: 100%; border-radius: 100px;"src="../{{gambar.1.2}}" class="img-fluid rounded " />
+                </div>
+              </div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+      {%endif%}
+
+
+      {% if ping != 0 %}
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Request Failed !!</strong>
+            <br>Local seiscomp server off !!<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      {%endif%}
+    </div><!--/. container-fluid -->
+  </section>
+  <!-- /.content -->
+</div>
+  <!-- /.content-wrapper -->
+{% endblock %}
+
+
+
+

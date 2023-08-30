@@ -8,10 +8,51 @@ import paramiko
 from obspy.core import read
 from obspy.core.utcdatetime import UTCDateTime
 from obspy.core.stream import Stream
+from obspy.signal import PPSD
+from obspy import read_inventory
+from obspy.imaging.cm import pqlx
+
 #from matplotlib.figure import Figure
 import matplotlib.pyplot as plt
 plt.switch_backend('agg')
 
+
+
+def psdplot(sta):
+    now = datetime.utcnow()
+    yes = (now - timedelta(days=1))
+    yeary = yes.strftime('%Y')
+    fileyes = ('%03d')%(yes.timetuple().tm_yday)
+    fseedz = "seiscomp/var/lib/archive/"+yeary+"/IA/"+sta+"/*Z*/*."+fileyes
+    fseedn = "seiscomp/var/lib/archive/"+yeary+"/IA/"+sta+"/*N*/*."+fileyes
+    fseede = "seiscomp/var/lib/archive/"+yeary+"/IA/"+sta+"/*E*/*."+fileyes
+    command = 'sshpass -p "bmkg212$" scp -P 2222 -r sysop@36.91.152.130:'+fseedz+' fungsi/waveform/psd/'+sta+'_Z.mseed'
+    os.system(command)
+    command = 'sshpass -p "bmkg212$" scp -P 2222 -r sysop@36.91.152.130:'+fseedn+' fungsi/waveform/psd/'+sta+'_N.mseed'
+    os.system(command)
+    command = 'sshpass -p "bmkg212$" scp -P 2222 -r sysop@36.91.152.130:'+fseede+' fungsi/waveform/psd/'+sta+'_E.mseed'
+    os.system(command)
+
+    st = read('fungsi/waveform/psd/'+sta+'_Z.mseed')
+    st.plot(outfile='static/waveform/wform_'+sta+'_Z.jpg',dpi=100)
+    st1 = read('fungsi/waveform/psd/'+sta+'_N.mseed')
+    st1.plot(outfile='static/waveform/wform_'+sta+'_N.jpg',dpi=100)
+    st2 = read('fungsi/waveform/psd/'+sta+'_E.mseed')
+    st2.plot(outfile='static/waveform/wform_'+sta+'_E.jpg',dpi=100)
+    inv = read_inventory("https://geof.bmkg.go.id/fdsnws/station/1/query?station="+sta+"&level=response&nodata=404")
+    ppsd = PPSD(st[0].stats, metadata=inv,ppsd_length=600,periode_limits=(0.02,100))
+    ppsd1 = PPSD(st1[0].stats, metadata=inv,ppsd_length=600,periode_limits=(0.02,100))
+    ppsd2 = PPSD(st2[0].stats, metadata=inv,ppsd_length=600,periode_limits=(0.02,100))
+    ppsd.add(st)
+    ppsd1.add(st1)
+    ppsd2.add(st2)
+    plt = ppsd.plot(cmap=pqlx, show=False)
+    plt.savefig('static/waveform/psd_'+sta+'_Z.jpg',dpi=240)
+    plt = ppsd1.plot(cmap=pqlx, show=False)
+    plt.savefig('static/waveform/psd_'+sta+'_N.jpg',dpi=240)
+    plt = ppsd2.plot(cmap=pqlx, show=False)
+    plt.savefig('static/waveform/psd_'+sta+'_E.jpg',dpi=240)
+    # st.clear()
 
 
 
