@@ -47,7 +47,7 @@ def psdplot(sta):
     client = Client('https://geof.bmkg.go.id/', user='bmkg', password='inatews2303#!3')
     st = client.get_waveforms("*",sta, "00,", "HH*,SH*", tnow-86400, tnow)
     inv = read_inventory("https://geof.bmkg.go.id/fdsnws/station/1/query?station="+sta+"&level=response&nodata=404")
-
+    
     stZ=st.select(component="Z")
     stN=st.select(component="N")
     stE=st.select(component="E")
@@ -55,9 +55,9 @@ def psdplot(sta):
     stN.plot(outfile='static/waveform/wform_'+sta+'_N.jpg',dpi=100)
     stE.plot(outfile='static/waveform/wform_'+sta+'_E.jpg',dpi=100)
 
-    ppsd = PPSD(stZ.stats, metadata=inv,ppsd_length=600,periode_limits=(0.02,100))
-    ppsd1 = PPSD(stN.stats, metadata=inv,ppsd_length=600,periode_limits=(0.02,100))
-    ppsd2 = PPSD(stE.stats, metadata=inv,ppsd_length=600,periode_limits=(0.02,100))
+    ppsd = PPSD(stZ[0].stats, metadata=inv,ppsd_length=600,periode_limits=(0.02,100))
+    ppsd1 = PPSD(stN[0].stats, metadata=inv,ppsd_length=600,periode_limits=(0.02,100))
+    ppsd2 = PPSD(stE[0].stats, metadata=inv,ppsd_length=600,periode_limits=(0.02,100))
 
     ppsd.add(stZ)
     ppsd1.add(stN)
