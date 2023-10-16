@@ -91,7 +91,8 @@ def slinktool():
     ssh = paramiko.SSHClient()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     ssh.connect(host, username='sysop', password='bmkg212$', port=2222)
-    ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command('/home/sysop/seiscomp/bin/slinktool -Q localhost | grep IA', get_pty=True)
+    #ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command('/home/sysop/seiscomp/bin/slinktool -Q localhost | grep IA', get_pty=True)
+    ssh_stdin, ssh_stdout, ssh_stderr = ssh.exec_command('/home/sysop/seiscomp/bin/slinktool -Q geof.bmkg.go.id | grep IA', get_pty=True) 
     output = ssh_stdout.read()
     #print(output)
 
