@@ -693,10 +693,10 @@ def tabel_slink():
         today = data[1]
         # stat = status(last_data,today)
         tabel = tabel_slinktool(last_data,today)
-        return render_template('slink_table.html', ping=resptnt, data=tabel)
+        return render_template('slink_table2.html', ping=resptnt, data=tabel)
 
     else:
-        return render_template('slink_table.html', ping=resptnt)
+        return render_template('slink_table2.html', ping=resptnt)
     
      
 
