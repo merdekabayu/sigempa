@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seedlink Table</title>
+</head>
+<body>
+    {% if ping == 0 %}
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+            <!-- /.<th style="width: 10px;">No</th>-->
+            <th style="width: 20px;">Station</th>
+            <th style="width: 100px;">Last Data (UTC)</th>
+            <th style="width: 10px;">Delay</th>
+            </tr>
+        </thead>
+        <tbody>
+          {% for dat in data %}
+          <tr>
+            <!-- /.<td>1</td>-->
+            <td>{{dat.0}}</td>
+            <td>{{dat.1}}</td>
+            <td>{{dat.2}}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+    </table>
+    {%endif%}
+    {% if ping != 0 %}
+    <strong>Request Failed !!</strong>
+    <br>Local seiscomp server off !!<button type="button" class="close" data-dismiss="alert" aria-label="Close"></button>
+    {%endif%}
+</body>
+</html>
