@@ -692,7 +692,7 @@ def tabel_slink():
         last_data = data[0]
         print(last_data)
         today = data[1]
-        stat = status(last_data,today)
+        # stat = status(last_data,today)
         tabel = tabel_slinktool(last_data,today)
         return render_template('slink_table.html', ping=resptnt, data=tabel)
 
