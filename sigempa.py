@@ -690,7 +690,6 @@ def tabel_slink():
     if resptnt == 0:
         data = slinktool()
         last_data = data[0]
-        print(last_data)
         today = data[1]
         # stat = status(last_data,today)
         tabel = tabel_slinktool(last_data,today)
