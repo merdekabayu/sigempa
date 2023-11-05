@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% block judul %} Seedlink Table {% endblock %}
+{% block subjudul %} Seedlink Table {% endblock %}
+{% block menuopen_sensor %} menu-open {% endblock %}
+{% block mainnav_sensor %} active {% endblock %}
+{% block nav_sensorstat%} active {% endblock %}
+
+{% block content %} 
+  
+<div class="content-wrapper">
+  <!-- Content Header (Page header) -->
+  <section class="content-header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <ol class="breadcrumb float-sm-left">
+            <li class="breadcrumb-item"><a href="/">SI-GEMPA</a></li>
+            <li class="breadcrumb-item active">Sensor Status & Availability </li>
+            
+          </ol>
+        </div>
+        <div class="col-sm-6">
+          
+        </div>
+      </div>
+    </div><!-- /.container-fluid -->
+  </section>
+
+  <!-- Main content -->
+  <section class="content">
+    <div class="container-fluid">
+      {% if ping == 0 %}
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="card col-12">
+            <div class="card-header">
+              <h3 class="card-title">Seedlink Table</h3>
+              <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                  <i class="fas fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <div class="card-body">
+              <table class="table table-bordered table-striped">
+                <thead>
+                <tr>
+                  <!-- /.<th style="width: 10px;">No</th>-->
+                  <th style="width: 20px;">Station</th>
+                  <th style="width: 100px;">Last Data (UTC)</th>
+                  <th style="width: 10px;">Delay</th>
+                </tr>
+                </thead>
+                <tbody id="histo">
+                  {% for dat in data %}
+                  <tr>
+                    <!-- /.<td>1</td>-->
+                    <td>{{dat.0}}</td>
+                    <td>{{dat.1}}</td>
+                    <td>{{dat.2}}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      {%endif%}
+
+
+      {% if ping != 0 %}
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Request Failed !!</strong>
+            <br>Local seiscomp server off !!<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      {%endif%}
+    </div><!--/. container-fluid -->
+  </section>
+  <!-- /.content -->
+</div>
+  <!-- /.content-wrapper -->
+{% endblock %}
+
+
+
+

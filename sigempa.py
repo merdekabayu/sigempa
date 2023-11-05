@@ -134,6 +134,19 @@ def tabelgempa():
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
+    
+
+@app.route('/datapga')
+def datapga():
+    if 'user' in session:
+        cur = mysql.connection.cursor()
+        cur.execute("SELECT * FROM db_gempa ORDER BY 2 DESC, 3 DESC LIMIT 0, 50")
+        parameter = cur.fetchall()
+        cur.close()
+        return render_template('tabelpga.html', data=parameter)
+    else:
+        flash("Please, Login First !!")
+        return redirect(url_for('login'))
 
 
 @app.route('/infografis/mingguan')
@@ -668,6 +681,22 @@ def sensor_stat():
         return render_template('sensor_stat.html', ping=resptnt)
     
     #os.system('ls static/waveform/waveform24h'+sta+'*.jpg')
+
+
+@app.route('/sensor/slinktable', methods=["POST","GET"])
+def tabel_slink():
+    
+    resptnt = os.system('ping -c 1 scproc')
+    if resptnt == 0:
+        data = slinktool()
+        last_data = data[0]
+        print(last_data)
+        today = data[1]
+        stat = status(last_data,today)
+        tabel = tabel_slinktool(last_data,today)
+
+    else:
+        return render_template('slink_table.html', ping=resptnt)
     
      
 
