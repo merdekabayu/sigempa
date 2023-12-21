@@ -1,0 +1,192 @@
+{% extends 'base.html' %}
+{% block judul %}V2.0{% endblock %}
+{% block mainpage_css %} 
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='dist/css/adminlte.min.css') }}">
+  <style>
+    .checkbox-lg .form-check-input{
+    top: .8rem;
+    scale: 1.4;
+    margin-right: 0.7rem;
+    }
+
+    .checkbox-lg .form-check-label {
+    padding-top: 13px;
+    }
+
+    .checkbox-xl .form-check-input {
+    top: 1.2rem;
+    scale: 1.7;
+    margin-right: 0.8rem;
+    }
+
+    .checkbox-xl .form-check-label {
+    padding-top: 19px;
+    }
+  </style>
+{% endblock %}
+{% block subjudul %} SI-GEMPA - Picking PGA {% endblock %}
+{% block menuopen_ig %} {% endblock %}
+{% block mainnav_add %} active {% endblock %}
+
+{% block content %} 
+  
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-left">
+              <li class="breadcrumb-item"><a href="/">SI-GEMPA</a></li>
+              <li class="breadcrumb-item active"><a href="{{ url_for('datapga') }}">Data Peak Ground Acceleration</a></li>
+              
+            </ol>
+          </div>
+          <div class="col-sm-6">
+            
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            
+            <!-- /.card -->
+            <form action="{{ url_for('submitpga') }}" method="POST">
+              {% for data in datapga %}
+              <div class="card">
+                <div class="card-header">
+                  <strong><h1 class="card-title">{{data.0}}</h1></strong>
+                  <div class="card-tools">
+                    <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                      <i class="fas fa-minus"></i>
+                    </button>
+                    <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+                      <i class="fas fa-times"></i>
+                    </button>
+                  </div>
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-lg-8">
+                      <img style="margin-bottom: 10px; width: 100%; border-radius: 100px;"src="../../static/waveform/wpga_{{data.0}}_{{data.1}}.jpg" class="img-fluid rounded " />
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="form-check checkbox-xl" style="margin-bottom: 50px;margin-top: -15px;">
+                        <input class="form-check-input" type="radio" id="{{data.0}}_{{data.1}}" name="{{data.0}}" value="{{data.0}}_{{data.1}}_{{data.2}}">
+                        <label class="form-check-label" for="{{data.0}}_{{data.1}}">
+                          {% if data.7 == data.1 %}
+                          <h5 style="border-radius: 5px; padding-left: 5px; padding-right: 5px;" class="bg-primary">Max Amplitude {{data.1}} : {{data.2}} m/s&#178;</h5>
+                          {% else %}
+                          <h5>Max Amplitude {{data.1}} : {{data.2}} m/s&#178;</h5>
+                          {% endif %}
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-8">
+                      <img style="margin-bottom: 10px; width: 100%; border-radius: 100px;"src="../../static/waveform/wpga_{{data.0}}_{{data.3}}.jpg" class="img-fluid rounded " />
+                      <input class="custom-control-input" type="checkbox" id="customCheckbox1" name="felt" value="felt">
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="form-check checkbox-xl" style="margin-bottom: 50px;margin-top: -15px;">
+                        <input class="form-check-input" type="radio" id="{{data.0}}_{{data.3}}" name="{{data.0}}" value="{{data.0}}_{{data.3}}_{{data.4}}">
+                        <label class="form-check-label" for="{{data.0}}_{{data.3}}">
+                          {% if data.7 == data.3 %}
+                          <h5 style="border-radius: 5px; padding-left: 5px; padding-right: 5px;" class="bg-primary">Max Amplitude {{data.3}} : {{data.4}} m/s&#178;</h5>
+                          {% else %}
+                          <h5>Max Amplitude {{data.3}} : {{data.4}} m/s&#178;</h5>
+                          {% endif %}
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-8">
+                      <img style="margin-bottom: 10px; width: 100%; border-radius: 100px;"src="../../static/waveform/wpga_{{data.0}}_{{data.5}}.jpg" class="img-fluid rounded " />
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="form-check checkbox-xl" style="margin-bottom: 20px;margin-top: -15px;">
+                        <input class="form-check-input" type="radio" id="{{data.0}}_{{data.5}}" name="{{data.0}}" value="{{data.0}}_{{data.5}}_{{data.6}}">
+                        <label class="form-check-label" for="{{data.0}}_{{data.5}}">
+                          {% if data.7 == data.5 %}
+                          <h5 style="border-radius: 5px; padding-left: 5px; padding-right: 5px;" class="bg-primary">Max Amplitude {{data.5}} : {{data.6}} m/s&#178;</h5>
+                          {% else %}
+                          <h5>Max Amplitude {{data.5}} : {{data.6}} m/s&#178;</h5>
+                          {% endif %}
+                        </label>
+                      </div>
+                      <br><br><br><br>
+                      <div class="form-check checkbox-xl">
+                        <input class="form-check-input" type="radio" id="{{data.0}}_nodata" name="{{data.0}}" value="{{data.0}}_-_-" checked>
+                        <label class="form-check-label" for="{{data.0}}_nodata">
+                          <h5>No Data</h5>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              {% endfor %}
+
+              <div class="row">
+                <div class="col-lg-10"></div>
+                <div class="col-lg-2">
+                  <p><input type = "hidden" name = "id_qc" value="{{id_qc}}"/></p>
+                  <p><input type = "hidden" name = "id_event" value="{{parameter.0}}"/></p>
+                  <p><input type = "hidden" name = "info" value="{{parameter.8}}"/></p>
+                  <div class="btn-group float-center mb-4">
+                    <button style="width: 200px;" type="submit" class="btn btn-success btn-lg">
+                      <i class="fas fa-check"></i>
+                      <span>
+                        <strong>Submit</strong>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+              <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+{% endblock %}
+
+{% block skriptabel %} 
+
+
+<script>
+  $(document).ready(function() {
+      window.setTimeout(function() {
+          $(".alert").fadeTo(500, 0).slideUp(500, function(){
+              $(this).remove();
+          });
+      }, 2000);
+  });    
+</script>
+
+
+
+
+
+
+
+{% endblock %}

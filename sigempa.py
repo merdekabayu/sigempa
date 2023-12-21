@@ -16,6 +16,9 @@ from fungsi.stat_sensor import status,slinktool, tabel_slinktool
 from fungsi.waveform import *
 import subprocess,os
 import bcrypt
+import glob
+import re
+from pathlib import Path
 
 #os.system('whoami')
 
@@ -136,18 +139,130 @@ def tabelgempa():
         return redirect(url_for('login'))
     
 
-@app.route('/datapga')
+@app.route('/datapga',methods=["POST","GET"])
 def datapga():
     if 'user' in session:
-        cur = mysql.connection.cursor()
-        cur.execute("SELECT * FROM db_gempa ORDER BY 2 DESC, 3 DESC LIMIT 0, 50")
-        parameter = cur.fetchall()
-        cur.close()
-        return render_template('tabelpga.html', data=parameter)
+        if request.method == 'GET':
+            cur = mysql.connection.cursor()
+            cur.execute("SELECT * FROM db_gempa ORDER BY 2 DESC, 3 DESC LIMIT 0, 50")
+            parameter = cur.fetchall()
+            cur.close()
+        else:
+            cur = mysql.connection.cursor()
+            date = request.form['datefilter']
+            with open("fungsi/filter.txt", "w") as file:
+                    file.write(date)
+                    file.close
+            datestart = date.split()[0]
+            dateend = date.split()[2]
+            sql_filter = "SELECT * FROM db_gempa WHERE `Origin Date` BETWEEN %s AND %s ORDER BY `Origin Date`, `Origin Time` ASC"
+            condition = (datestart,dateend)
+            cur.execute(sql_filter, condition)
+            parameter = cur.fetchall()
+            cur.close()
+        # qc_list = os.listdir('fungsi/arrival/qc_arrival/')
+        qc_list = sorted(Path('fungsi/arrival/qc_arrival/').iterdir(), key=os.path.getmtime)
+        qc_data = []
+        for qc in qc_list:
+            file = str(qc).split('/')[3]
+            name = file.split('_')
+            id = name[0]
+            ot = name[1].split('.')[0]
+            t = datetime.strptime(ot, '%Y%m%dT%H%M%S')
+            tstart = (t - timedelta(seconds=4))
+            tend = (t + timedelta(seconds=4))
+            # print(id,t,tstart,tend)
+            qc_data += [[id,t,tstart,tend,qc]]
+
+        # print(qc_data)
+
+        parameter_qc = []
+        for par in parameter:
+            date = par[1]
+            time = par[2]
+            ot=datetime.combine(date, datetime.strptime(str(time), '%H:%M:%S').time())
+            data_qc=0
+            id_qc = "-"
+            for qc in qc_data:
+                if qc[2]<ot<qc[3]:
+                    data_qc = 1
+                    id_qc = qc[0]
+
+            cur = mysql.connection.cursor()
+            sql = f"SELECT * FROM db_pga WHERE `QC ID`='{id_qc}'"
+            cur.execute(sql)
+            ada = cur.fetchone()
+            cur.close()
+            par = list(par)
+            par.append(data_qc)
+            par.append(id_qc)
+            if ada is not None:
+                pga_picked = 1
+                par.append(pga_picked)
+                d = list(ada)
+                t_qc = str(d[3])[:12]
+                d[3] = t_qc
+                ada = tuple(d)
+                par.append(ada)
+                
+            else:
+                pga_picked = 0
+                par.append(pga_picked)
+                par.append(('-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-',\
+                             '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-') )
+            # print(par,data_qc)
+            parameter_qc += [par]
+        print(parameter_qc)
+        return render_template('tabelqc.html', data=parameter_qc)
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
 
+
+
+@app.route('/pickpga/', methods=["GET","POST"])
+def pickpga():
+    if 'user' in session:
+        id_data = request.args.get('id')
+        id_qc = request.args.get('id_qc')
+        cur = mysql.connection.cursor()
+        sql = f"SELECT * FROM db_gempa WHERE `Event ID` = '{id_data}'"
+        cur.execute(sql)
+        parameter = cur.fetchone()
+        cur.close()
+
+        print(parameter)
+        id_qc = request.args.get('id_qc')
+        print('ini id qc',id_qc)
+        datapga = plotpga(parameter)
+
+        return render_template('pickpga.html', datapga=datapga,id_qc=id_qc,parameter=parameter)
+    else:
+        flash("Please, Login First !!")
+        return redirect(url_for('login'))
+    
+@app.route('/submitpga', methods=["POST"])
+def submitpga():
+    if 'user' in session:
+        
+        id_qc = request.form['id_qc']
+        id_event = request.form['id_event']
+        info = request.form['info']
+        # print('ini submitpga = ',mtai,tnti,ihmi,a_hmhn,a_mumui,id_qc)
+
+        ls = glob.glob('fungsi/arrival/qc_arrival/'+str(id_qc)+'*')
+        ls.sort(key=os.path.getmtime)
+        print(ls[len(ls)-1])
+        f_qc = ls[len(ls)-1]
+
+        data = id_event,info
+
+        input.inputpga(fileinput=f_qc,data=data)
+
+        return redirect(url_for('datapga'))
+    else:
+        flash("Please, Login First !!")
+        return redirect(url_for('login'))
 
 @app.route('/infografis/mingguan')
 def ig_mingguan():
@@ -700,9 +815,6 @@ def tabel_slink():
     
      
 
-    
-
-
 @app.route('/sensor/allwaveform', methods=["POST","GET"])
 def downloadwaveform():
     if 'user' in session:
@@ -791,6 +903,62 @@ def downloadwaveformbyevent():
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
+    
+
+@app.route('/downloadpga/', methods=["POST"])
+def datapga_download():
+    if 'user' in session:
+        date = request.form['datefilter_pga']
+        cur = mysql.connection.cursor()
+        datestart = date.split()[0]
+        dateend = date.split()[2]
+        sql_filter = "SELECT * FROM db_pga WHERE `Origin Date` BETWEEN %s AND %s ORDER BY `Origin Date`, `Origin Time` ASC"
+        condition = (datestart,dateend)
+        # print(condition)
+        cur.execute(sql_filter, condition)
+        header = [i[0] for i in cur.description]
+        print(header)
+        tabel = cur.fetchall()
+        path = 'fungsi/export/datapga.csv'
+        with open(path, 'w') as f:
+            f.write(','.join(header) +'\n')
+            for row in tabel:
+                f.write(','.join(str(r) for r in row) + '\n')
+            f.close()
+
+        print(tabel)
+        #return Response(generate(), mimetype='text/csv')
+        return send_file(path, as_attachment=True, conditional=True, download_name='PGA - '+datestart+'-'+dateend+'.csv')
+    else:
+        flash("Please, Login First !!")
+        return redirect(url_for('login'))
+    
+
+@app.route('/downloadqc/', methods=["POST"])
+def dataqc_download():
+    if 'user' in session:
+        date = request.form['datefilter_pga']
+        cur = mysql.connection.cursor()
+        datestart = date.split()[0]
+        dateend = date.split()[2]
+        sql_filter = "SELECT `QC ID` FROM db_pga WHERE `Origin Date` BETWEEN %s AND %s ORDER BY `Origin Date`, `Origin Time` ASC"
+        condition = (datestart,dateend)
+        cur.execute(sql_filter, condition)
+
+        path = 'fungsi/export/arrival_qc.txt'
+        list_id = cur.fetchall()
+        with open(path,'w', encoding='utf-8') as out:
+            for id in list_id:
+                ls = glob.glob('fungsi/arrival/qc_arrival/'+str(id[0])+'*')
+                ls.sort(key=os.path.getmtime)
+                f_qc = ls[len(ls)-1]
+                with open(f_qc, 'r', encoding='utf-8') as input_file:
+                    out.write(input_file.read())
+
+        return send_file(path, as_attachment=True, conditional=True, download_name='Arrival QC - '+datestart+'-'+dateend+'.txt')
+    else:
+        flash("Please, Login First !!")
+        return redirect(url_for('login'))
 
 
 
@@ -865,7 +1033,7 @@ def filter():
     else:
         flash("Please, Login First !!")
         return redirect(url_for('login'))
-
+    
 
 @app.route('/mapdetail/<string:var>', methods=["GET"])
 def mapdetail(var):

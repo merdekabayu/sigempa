@@ -1,0 +1,441 @@
+{% extends 'base.html' %}
+{% block judul %}V2.0{% endblock %}
+{% block mainpage_css %} 
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='dist/css/adminlte.min.css') }}">
+{% endblock %}
+{% block subjudul %} SI-GEMPA - EQ Data Quality Control {% endblock %}
+{% block menuopen_ig %} {% endblock %}
+{% block mainnav_pga %} active {% endblock %}
+
+{% block content %} 
+  
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-left">
+              <li class="breadcrumb-item"><a href="/">SI-GEMPA</a></li>
+              <li class="breadcrumb-item active"><a href="{{ url_for('datapga') }}">Data Peak Ground Acceleration</a></li>
+              
+            </ol>
+          </div>
+          <div class="col-sm-6">
+            
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            
+            <!-- /.card -->
+            
+
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Tabel PGA</h3>
+                
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <form action="{{ url_for('datapga') }}" method="POST">
+                      <div class="form-group row">
+                        <div class="input-group col-sm-7 mb-2">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="far fa-calendar-alt"></i>
+                            </span>
+                          </div>
+                          <input type="text" class="form-control float-right" id="reservation1" name="datefilter">
+                        </div>
+                        <div class="col-3">
+                          <div class="btn-group float-center">
+                            <button type="submit" class="btn btn-primary">
+                              <i class="fas fa-filter"></i>
+                              <span>
+                                <strong>Filter</strong>
+                              </span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="col-lg-3"></div>
+                  <div class="col-lg-5">
+                    <form method="POST">
+                      <div class="form-group row">
+                        <div class="input-group col-sm-6">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="far fa-calendar-alt"></i>
+                            </span>
+                          </div>
+                          <input type="text" class="form-control float-right" id="reservation_downloadpga" name="datefilter_pga">
+                        </div>
+                        <div class="btn-group float-center col-sm-6">
+                          <button type="submit" formaction="{{ url_for('dataqc_download') }}" class="btn btn-primary mr-3">
+                            <i class="fas fa-download"></i>
+                            <span>
+                              <strong>Arrival QC</strong>
+                            </span>
+                          </button>
+                          <button type="submit" formaction="{{ url_for('datapga_download') }}" class="btn btn-primary">
+                            <i class="fas fa-download"></i>
+                            <span>
+                              <strong>Data PGA</strong>
+                            </span>
+                          </button>
+                        </div>
+                        <div class="col-lg-2">
+                          
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+                <table id="example11" class="table table-bordered table-striped">
+                  <thead>
+                  <tr>
+                    <!-- /.<th style="width: 10px;">No</th>-->
+                    <th style="width: 120px;">OT (UTC)</th>
+                    <th style="width: 20px;">Lat</th>
+                    <th style="width: 20px;">Long</th>
+                    <th style="width: 20px;">Depth</th>
+                    <th style="width: 20px;">Mag</th>
+                    <th style="width: 200px;">Remark</th>
+                    <th style="width: 150px;">Info</th>
+                    <th style="width: 20px;">QC</th>
+                    <th style="width: 20px;">PGA</th>
+                    <th style="width: 20px;">Detail</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                    {% for par in data %}
+                    <tr>
+                      <!-- /.<td>1</td>-->
+                      <td>{{par.1}} {{par.2}}</td>
+                      <td>{{par.3}}</td>
+                      <td>{{par.4}}</td>
+                      <td>{{par.5}}</td>
+                      <td>{{par.6}}</td>
+                      <td>{{par.7}}</td>
+                      <td>{{par.8}}</td>
+                      <td style="align-items: center;">
+                        {% if par.9 == 1 %}
+                        <a class="btn btn-success start"> 
+                        <i class="fas fa-check"></i>
+                        {% else %}
+                        <i class="fas fa-times"></i>
+                        {% endif %}
+                      </td>
+                      <td style="align-items: center;">
+                        {% if par.11 == 1 %}
+                        <a href="/pickpga/?id={{par.0}}&id_qc={{par.10}}" class="btn btn-success start" role="button" aria-pressed="true"> 
+                          <i class="fas fa-edit"></i>
+                        </a>
+                        {% else %}
+                          {% if par.9 == 1 %}
+                        <a href="/pickpga/?id={{par.0}}&id_qc={{par.10}}" class="btn btn-danger start" role="button" aria-pressed="true"> 
+                          <i class="fas fa-edit"></i>
+                        </a>
+                          {% else %}
+                        <a  class="btn btn-danger start" role="button" aria-pressed="true"> 
+                          <i class="fas fa-edit"></i>
+                        </a>
+                          {% endif %}
+                        {% endif %}
+                      </td>
+                      <td style="align-items: center;">
+                        <a href="#!" class="btn btn-primary start" role="button" data-toggle="modal" data-target="#modaldetail{{par.0}}" aria-pressed="true"> 
+                          <i class="fas fa-eye"></i>
+                        </a>
+                      </td>
+
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+                {% for par in data %}
+                <div class="modal fade" id="modaldetail{{par.0}}">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title">Detail Parameter</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <table  class="table table-sm justify-content-center">
+                          <thead class="thead-dark">
+                            <tr>
+                              <th class="col-6" scope="col">Parameter</th>
+                              <th class="col-6" scope="col">#</th>
+                            </tr>
+                          </thead>
+                          <tbody style="line-height: 1;">
+                            <tr>
+                              <td>OT (UTC)</td>
+                              <td>{{par.12.2}} {{par.12.3}} </td>
+                            </tr>
+                            <tr>
+                              <td>Latitude</td>
+                              <td>{{par.12.4}}</td>
+                            </tr>
+                            <tr>
+                              <td>Longitude</td>
+                              <td>{{par.12.5}}</td>
+                            </tr>
+                            <tr>
+                              <td>Depth</td>
+                              <td>{{par.12.6}}</td>
+                            </tr>
+                            <tr>
+                              <td>Remark</td>
+                              <td>{{par.12.14}}</td>
+                            </tr>
+                            <tr>
+                              <td>Info</td>
+                              <td>{{par.12.15}}</td>
+                            </tr>
+                            
+                          </tbody>
+                        </table>
+                        <table class="table table-sm">
+                          <thead class="thead-dark">
+                            <tr>
+                              <th class="col-3" scope="col">Type</th>
+                              <th class="col-3" scope="col">#</th>
+                              <th class="col-3" style="border-left: 1px solid gray;" scope="col">Type</th>
+                              <th class="col-3" style="width: 10px;" scope="col">#</th>
+                            </tr>
+                          </thead>
+                          <tbody style="line-height: 1">
+                            <tr>
+                              <td>M</td>
+                              <td>{{par.12.7}}</td>
+                              <td style="border-left: 1px solid gray;">MLv</td>
+                              <td>{{par.12.8}}</td>
+                            </tr>
+                            <tr>
+                              <td>mb</td>
+                              <td>{{par.12.9}}</td>
+                              <td style="border-left: 1px solid gray;">mB</td>
+                              <td>{{par.12.10}}</td>
+                            </tr>
+                            <tr>
+                              <td>Mw(mB)</td>
+                              <td>{{par.12.11}}</td>
+                              <td style="border-left: 1px solid gray;">Mwp</td>
+                              <td>{{par.12.12}}</td>
+                            </tr>
+                            <tr>
+                              <td>Mw(Mwp)</td>
+                              <td style="border-right: 1px solid gray;">{{par.12.13}}</td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                            
+                            
+                          </tbody>
+                        </table>
+                        <table class="table table-sm">
+                          <thead class="thead-dark">
+                            <tr>
+                              <th scope="col">Station</th>
+                              <th style="border-right: 1px solid gray;" scope="col">PGA</th>
+                              <th scope="col">Station</th>
+                              <th scope="col">PGA</th>
+                            </tr>
+                          </thead>
+                          <tbody style="line-height: 1">
+                            <tr>
+                              <td>MTAI</td>
+                              <td style="border-right: 1px solid gray;">{{par.12.16}}</td>
+                              <td>IHMI</td>
+                              <td>{{par.12.18}}</td>
+                            </tr>
+                            <tr>
+                              <td>JHMI</td>
+                              <td style="border-right: 1px solid gray;">{{par.12.19}}</td>
+                              <td>WHMI</td>
+                              <td>{{par.12.20}}</td>
+                            </tr>
+                            <tr>
+                              <td>TNTI</td>
+                              <td style="border-right: 1px solid gray;">{{par.12.21}}</td>
+                              <td>PMMI</td>
+                              <td>{{par.12.22}}</td>
+                            </tr>
+                            <tr>
+                              <td>WBMI</td>
+                              <td style="border-right: 1px solid gray;">{{par.12.23}}</td>
+                              <td>GHMI</td>
+                              <td>{{par.12.24}}</td>
+                            </tr>
+                            <tr>
+                              <td>OBMI</td>
+                              <td style="border-right: 1px solid gray;">{{par.12.26}}</td>
+                              <td>SANI</td>
+                              <td>{{par.12.27}}</td>
+                            </tr>
+                            <tr>
+                              <td>WSHHI</td>
+                              <td style="border-right: 1px solid gray;">{{par.12.29}}</td>
+                              <td>MSHHI</td>
+                              <td>{{par.12.30}}</td>
+                            </tr>
+                            <tr>
+                              <td>BDMUI</td>
+                              <td style="border-right: 1px solid gray;">{{par.12.28}}</td>
+                              <td>MUMUI</td>
+                              <td>{{par.12.31}}</td>
+                            </tr>
+                            <tr>
+                              <td>TBMUI</td>
+                              <td style="border-right: 1px solid gray;">{{par.12.32}}</td>
+                              <td>TMTN</td>
+                              <td>{{par.12.33}}</td>
+                            </tr>
+                            <tr>
+                              <td>TMUN</td>
+                              <td style="border-right: 1px solid gray;">{{par.12.34}}</td>
+                              <td>HMHN</td>
+                              <td>{{par.12.35}}</td>
+                            </tr>
+                            <tr>
+                              <td>LBMI</td>
+                              <td style="border-right: 1px solid gray;">{{par.12.25}}</td>
+                              <td>GLMI</td>
+                              <td>{{par.12.17}}</td>
+                            </tr>
+                            
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="modal-footer justify-content-between">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                    <!-- /.modal-content -->
+                  </div>
+                  <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal -->
+                {% endfor %}
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+{% endblock %}
+
+{% block skriptabel %} 
+<script>
+  //Disinir
+  {% for par in data %}
+  $(document).on('click', '#retrievemap{{par.0}}', function(){
+    $.ajax({
+        url: "{{ url_for ('mapdetail', var=par.0) }}",
+        type: "GET",
+        success: function(response) {
+            $("#detailmap").attr('src', '/static/map-detail/' + response);
+        },
+        error: function(xhr) {
+          //Do Something to handle error
+       }
+       });
+       $.ajax({
+        url: "{{ url_for ('detailshake', var=par.0) }}",
+        type: "GET",
+        success: function(response) {
+            $("#detailshake").attr('src', '/static/shakemap/' + response);
+        },
+        error: function(xhr) {
+          //Do Something to handle error
+       }
+       });
+       $.ajax({
+        url: "{{ url_for ('teksparameter', var=par.0) }}",
+        type: "GET",
+        success: function(response) {
+            $("#infogempa").val(response);
+        },
+        error: function(xhr) {
+          //Do Something to handle error
+       }
+       });
+       $.ajax({
+        url: "{{ url_for ('teksnarasi', var=par.0) }}",
+        type: "GET",
+        success: function(response) {
+            $("#narasi").val(response);
+        },
+        error: function(xhr) {
+          $("#narasi").val('-');
+          //Do Something to handle error
+       }
+       });
+  });
+  
+  {% endfor %}
+</script>
+
+
+
+
+<script>
+  $(document).ready(function() {
+      window.setTimeout(function() {
+          $(".alert").fadeTo(500, 0).slideUp(500, function(){
+              $(this).remove();
+          });
+      }, 2000);
+  });    
+</script>
+
+
+
+
+<script>
+  function copy() {
+  // Get the text field
+  var copyText = document.getElementById("infogempa");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+} 
+</script>
+
+
+
+{% endblock %}

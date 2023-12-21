@@ -102,12 +102,10 @@
           <li class="nav-item">
             <a href="/" class="nav-link {% block mainnav_add %} {% endblock %}">
               <i class="nav-icon fas fa-plus-square"></i>
-              
               <p>
                 Add Data
               </p>
             </a>
-            
           </li>
           
           <li class="nav-item {% block menuopen_ig %} {% endblock %}">
@@ -200,10 +198,44 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="/sensor/quality" class="nav-link {% block nav_sensorqual %} {% endblock %}">
+                <a href="" class="nav-link {% block mainnav_qual %} {% endblock %}">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Sensor Quality (PPSD)</p>
+                  <p>Sensor Quality (PPSD)
+                    <i class="right fas fa-angle-left"></i>
+                  </p>
                 </a>
+                <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                    <div class="nav-link">
+                      <form id="ppsd" action="{{ url_for('sensor_qual') }}" method="POST">
+                        <a href="#" onclick="document.getElementById('ppsd').submit();"><i class="fas fa-play nav-icon"></i>
+                        </a>
+                        <p>
+                          <select style="width: 180px;" class="form-control" name="station">
+                            <option value="">--Pilih Stasiun--</option>
+                            <option>TNTI</option>
+                            <option>SANI</option>
+                            <option>LBMI</option>
+                            <option>OBMI</option>
+                            <option>GLMI</option>
+                            <option>MTAI</option>
+                            <option>GHMI</option>
+                            <option>WHMI</option>
+                            <option>WBMI</option>
+                            <option>IHMI</option>
+                            <option>JHMI</option>
+                            <option>PMMI</option>
+                            <option>MSHHI</option>
+                            <option>WSHHI</option>
+                            <option>TBMUI</option>
+                            <option>BDMUI</option>
+                            <option>MUMUI</option>
+                          </select>
+                        </p>
+                      </form>
+                    </div>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a href="{{ url_for('waveformbyevent') }}" class="nav-link {% block nav_waveformbyevent %} {% endblock %}">
@@ -220,29 +252,13 @@
               
             </ul>
           </li>
-          <li class="nav-item {% block menuopen_mapping %} {% endblock %}">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-map"></i>
+          <li class="nav-item">
+            <a href="/datapga" class="nav-link {% block mainnav_pga %} {% endblock %}">
+              <i class="nav-icon fas fa-check-square"></i>
               <p>
-                Mapping
-                <i class="fas fa-angle-left right"></i>
+                Data QC & PGA
               </p>
             </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="/" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>General</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="/" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Icons</p>
-                </a>
-              </li>
-              
-            </ul>
           </li>
           
           
@@ -381,6 +397,12 @@
     }).val();
 
     $('#reservation1').daterangepicker({
+      timePicker: false,
+      locale: {
+        format: 'YYYY-MM-DD'
+      }
+    }).val();
+    $('#reservation_downloadpga').daterangepicker({
       timePicker: false,
       locale: {
         format: 'YYYY-MM-DD'
