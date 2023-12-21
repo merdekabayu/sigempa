@@ -700,3 +700,167 @@ def editparameter():
 
     
     #return redirect(request.referrer)
+
+def inputpga(fileinput,data):
+    
+    file = open(fileinput, 'r')
+    baris = file.readlines()
+    for i in range(len(baris)):
+        baris[i] = baris[i].split()
+    file.close()
+    print(baris)
+    i=0
+    while i < len(baris):
+        if len(baris[i]) > 0 and baris[i][0] == 'Public':
+            id = baris[i][2]
+            reg = baris[i+2][2:]
+            ket = ' '.join(reg)
+            ket = ket.replace(',',' -')
+        if len(baris[i]) > 0 and baris[i][0] == 'Origin:':
+            date = baris[i + 1][1]
+            wkt = baris[i + 2][1]
+            # date = datetime.strptime(date, '%Y-%m-%d')
+            time = wkt
+            lintang = (('%.5f') % float(baris[i + 3][1]))
+            bujur = (('%.5f') % float(baris[i + 4][1]))
+            depth = ('%.3f') % float(baris[i + 5][1])
+            
+        if len(baris[i])>1 and baris[i][1]=='Network':
+            numag = baris[i][0]
+            m_ = 1
+            mb,mB,MwmB,MLv,Mwp,MwMwp,M='-','-','-','-','-','-','-'
+            try:
+                while m_ <= float(numag):
+                    linemag = baris[i+m_]
+                    print('ini linemagggg try ###### ',m_)
+                    if 'mb' in linemag:
+                        mb = linemag[1]
+                    if 'mB' in linemag:
+                        mB = linemag[1]
+                    if 'Mw(mB)' in linemag:
+                        MwmB = linemag[1]
+                    if 'MLv' in linemag:
+                        MLv = linemag[1]
+                    if 'Mwp' in linemag:
+                        Mwp = linemag[1]
+                    if 'Mw(Mwp)' in linemag:
+                        MwMwp = linemag[1]
+                    if 'M' in linemag:
+                        M = linemag[1]
+                    m_ += 1
+            except:
+                numag = float(numag)+1
+                while m_ <= numag:
+                    linemag = baris[i+m_]
+                    print('ini linemagggg except ###### ',m_)
+                    if 'preferred' in linemag:
+                        mag = baris[i+m_][1]
+                    m_ += 1
+                print(mag)
+        i += 1
+
+    lat = lintang
+    long = bujur
+    info = '-'
+    
+
+    a_mtai = request.form['MTAI']
+    mtai = (a_mtai.split('_')[2])
+    comp = ['_'.join(a_mtai.split('_')[0:2])]
+    a_glmi = request.form['GLMI']
+    glmi = (a_glmi.split('_')[2])
+    comp += ['_'.join(a_glmi.split('_')[0:2])]
+    a_tnti = request.form['TNTI']
+    tnti = (a_tnti.split('_')[2])
+    comp += ['_'.join(a_tnti.split('_')[0:2])]
+    a_ihmi = request.form['IHMI']
+    ihmi = (a_ihmi.split('_')[2])
+    comp += ['_'.join(a_ihmi.split('_')[0:2])]
+    a_jhmi = request.form['JHMI']
+    jhmi = (a_jhmi.split('_')[2])
+    comp += ['_'.join(a_jhmi.split('_')[0:2])]
+    a_ghmi = request.form['GHMI']
+    ghmi = (a_ghmi.split('_')[2])
+    comp += ['_'.join(a_ghmi.split('_')[0:2])]
+    a_whmi = request.form['WHMI']
+    whmi = (a_whmi.split('_')[2])
+    comp += ['_'.join(a_whmi.split('_')[0:2])]
+    a_pmmi = request.form['PMMI']
+    pmmi = (a_pmmi.split('_')[2])
+    comp += ['_'.join(a_pmmi.split('_')[0:2])]
+    a_wbmi = request.form['WBMI']
+    wbmi = (a_wbmi.split('_')[2])
+    comp += ['_'.join(a_wbmi.split('_')[0:2])]
+    a_obmi = request.form['OBMI']
+    obmi = (a_obmi.split('_')[2])
+    comp += ['_'.join(a_obmi.split('_')[0:2])]
+    a_lbmi = request.form['LBMI']
+    lbmi = (a_lbmi.split('_')[2])
+    comp += ['_'.join(a_lbmi.split('_')[0:2])]
+    a_sani = request.form['SANI']
+    sani = (a_sani.split('_')[2])
+    comp += ['_'.join(a_sani.split('_')[0:2])]
+    a_mumui = request.form['MUMUI']
+    mumui = (a_mumui.split('_')[2])
+    comp += ['_'.join(a_mumui.split('_')[0:2])]
+    a_tbmui = request.form['TBMUI']
+    tbmui = (a_tbmui.split('_')[2])
+    comp += ['_'.join(a_tbmui.split('_')[0:2])]
+    a_bdmui = request.form['BDMUI']
+    bdmui = (a_bdmui.split('_')[2])
+    comp += ['_'.join(a_bdmui.split('_')[0:2])]
+    a_wshhi = request.form['WSHHI']
+    wshhi = (a_wshhi.split('_')[2])
+    comp += ['_'.join(a_wshhi.split('_')[0:2])]
+    a_mshhi = request.form['MSHHI']
+    mshhi = (a_mshhi.split('_')[2])
+    comp += ['_'.join(a_mshhi.split('_')[0:2])]
+    a_hmhn = request.form['HMHN']
+    hmhn = (a_hmhn.split('_')[2])
+    comp += ['_'.join(a_hmhn.split('_')[0:2])]
+    a_tmun = request.form['TMUN']
+    tmun = (a_tmun.split('_')[2])
+    comp += ['_'.join(a_tmun.split('_')[0:2])]
+    a_tmtn = request.form['TMTN']
+    tmtn = (a_tmtn.split('_')[2])
+    comp += ['_'.join(a_tmtn.split('_')[0:2])]
+
+    component = ';'.join(comp)
+
+    qc_id = id
+    evid = data[0]
+    info = data[1]
+    info = info.replace(',',';')
+    
+    insert = (qc_id,evid, date, time, lat, long, depth,M,MLv,mb,mB,MwmB,Mwp,MwMwp, ket, info,\
+              mtai,glmi,ihmi,jhmi,whmi,tnti,pmmi,wbmi,ghmi,lbmi,obmi,sani,bdmui,wshhi,mshhi,mumui,tbmui,tmtn,tmun,hmhn,component)
+    update = list(insert[1:])
+    update.insert(len(insert),insert[0])
+    update = tuple(update)
+    
+    cur = mysql.connection.cursor()
+    sql = f"SELECT * FROM db_pga WHERE `QC ID`='{qc_id}'"
+    cur.execute(sql)
+    ada = cur.fetchone()
+    print('ini adaaaa============',ada)
+    print(insert)
+
+    if ada is not None:
+        # sql_update = ("UPDATE `db_pga` SET `Origin Date`=%s,`Origin Time`=%s,`Latitude`=%s,`Longitude`=%s,`Depth`=%s,"
+        #             "`Magnitude`=%s,`Remark`=%s, `Information`=%s WHERE `QC ID`=%s ")
+        sql_update = ("UPDATE `db_pga` SET `Event ID`=%s,`Origin Date`=%s,`Origin Time`=%s,"
+                    "`Latitude`=%s,`Longitude`=%s,`Depth`=%s,`M`=%s,`MLv`=%s,`mb1`=%s,`mB2`=%s,`Mw(mB)`=%s,`Mwp`=%s,`Mw(Mwp)`=%s,`Remark`=%s,`Information`=%s,"
+                    "`PGA_MTAI`=%s,`PGA_GLMI`=%s,`PGA_IHMI`=%s,`PGA_JHMI`=%s,`PGA_WHMI`=%s,`PGA_TNTI`=%s,`PGA_PMMI`=%s,`PGA_WBMI`=%s,`PGA_GHMI`=%s,`PGA_LBMI`=%s,`PGA_OBMI`=%s,"
+                    "`PGA_SANI`=%s,`PGA_BDMUI`=%s,`PGA_WSHHI`=%s,`PGA_MSHHI`=%s,`PGA_MUMUI`=%s,`PGA_TBMUI`=%s,`PGA_TMTN`=%s,`PGA_TMUN`=%s,`PGA_HMHN`=%s,`component`=%s WHERE `QC ID`=%s ")
+        print(update)
+        
+        cur.execute(sql_update,update)
+        mysql.connection.commit()
+    else:
+        sql_insert = ("INSERT INTO `db_pga`(`QC ID`,`Event ID`,`Origin Date`,`Origin Time`,"
+                    "`Latitude`,`Longitude`,`Depth`,`M`,`MLv`,`mb1`,`mB2`,`Mw(mB)`,`Mwp`,`Mw(Mwp)`,`Remark`,`Information`,"
+                    "`PGA_MTAI`,`PGA_GLMI`,`PGA_IHMI`,`PGA_JHMI`,`PGA_WHMI`,`PGA_TNTI`,`PGA_PMMI`,`PGA_WBMI`,`PGA_GHMI`,`PGA_LBMI`,`PGA_OBMI`,"
+                    "`PGA_SANI`,`PGA_BDMUI`,`PGA_WSHHI`,`PGA_MSHHI`,`PGA_MUMUI`,`PGA_TBMUI`,`PGA_TMTN`,`PGA_TMUN`,`PGA_HMHN`,`component`) VALUES " + str(insert))
+        cur.execute(sql_insert)
+        mysql.connection.commit()
+        pesan = 'success'
