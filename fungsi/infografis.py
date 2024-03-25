@@ -79,7 +79,7 @@ def infografis_parfilter(date1,date2,depth1,depth2,mag1,mag2,lat1,lat2,long1,lon
     date_list = [yest - timedelta(days=x) for x in range(hari)]
     date_list.sort()
 
-    par = filter_area(par)
+    # par = filter_area(par)
     chart = hitung_chart(par,date_list)
     wilayah = hitung_wilayah(par)
     print('Ini Jml gempa = ',chart[0])
