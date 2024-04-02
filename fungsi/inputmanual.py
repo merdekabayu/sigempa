@@ -556,11 +556,10 @@ def input_ekin(fileinput):
 
     i=0
     while i < len(baris):
-        if len(baris[i]) > 0 and baris[i][0] == 'Public':
-            id = baris[i][2]
-            ket = ' '.join(baris[i+4][2:])
-        if len(baris[i]) > 0 and baris[i][0] == 'Origin:':
-            i = i+1
+        if len(baris[i]) > 0 and baris[i][0] == 'Event:':
+            id = baris[i+1][2]
+            ket = ' '.join(baris[i+5][2:])
+            i = i+9
             date = baris[i + 1][1]
             wkt = baris[i + 2][1]
             timeutc = date + ' ' + wkt
@@ -578,15 +577,10 @@ def input_ekin(fileinput):
             stime = baris[i+10][2]+' '+baris[i+10][3]
             s_time = datetime.strptime(stime[0:19], '%Y-%m-%d %H:%M:%S')
             selisih = s_time - utc0
-            import math
-            sent_min = math.floor(selisih.seconds/60)
-            sent_sec = round((selisih.seconds-sent_min)*60)
             rms = ('%.2f') % float(baris[i + 11][2])
             azgap = ('%d') % float(baris[i + 12][2])
             sel = selisih.seconds
             t_analisa =('%.2f') % ( sel/60)
-            
-            
 
         if len(baris[i])>1 and baris[i][1]=='Network':
             numag = baris[i][0]
@@ -615,7 +609,8 @@ def input_ekin(fileinput):
 
         if len(baris[i])>1 and baris[i][1]=='Phase':
             phs = baris[i][0]
-
+        
+        i += 1
         try:
             time = utc0.strftime("%X")
             lat = lintang
@@ -626,13 +621,12 @@ def input_ekin(fileinput):
                             "`Latitude`,`Longitude`,`Depth`,`Magnitude`,`Remark`,`rms`,`az_gap`,`phase`,`sent_time`) VALUES " + str(insert))
             if sel <= 300:
                 cur.execute(sql_insert)
+                mysql.connection.commit()
                 pesan = 'OK'
                 print('iniiiiiii adalahhhh',pesan)
         except:
             print('no data')
-        i += 1
     print(i)
-    mysql.connection.commit()
     cur.close()
 
 
