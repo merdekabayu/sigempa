@@ -47,6 +47,37 @@ def filter():
     
     return tabel
 
+def filter_ekin():
+    cur = mysql.connection.cursor()
+    date = request.form['datefilter']
+    #2022-11-16 - 2022-11-16
+    datestart = date.split()[0]
+    dateend = date.split()[2]
+    sql_filter = "SELECT * FROM db_ekin WHERE `Origin Date` BETWEEN %s AND %s ORDER BY `Origin Date`, `Origin Time` ASC"
+    condition = (datestart,dateend)
+    cur.execute(sql_filter, condition)
+    tabel = cur.fetchall()
+    # print(tabel)
+    
+    return tabel
+
+def filter_tabelpga():
+    cur = mysql.connection.cursor()
+    date = request.form['datefilter']
+    with open("fungsi/filter.txt", "w") as file:
+            file.write(date)
+            file.close
+    #2022-11-16 - 2022-11-16
+    datestart = date.split()[0]
+    dateend = date.split()[2]
+    sql_filter = "SELECT * FROM db_gempa WHERE `Origin Date` BETWEEN %s AND %s ORDER BY `Origin Date`, `Origin Time` ASC"
+    condition = (datestart,dateend)
+    cur.execute(sql_filter, condition)
+    tabel = cur.fetchall()
+    print(tabel)
+    
+    return tabel
+
 def filter_edit():
     cur = mysql.connection.cursor()
     with open('fungsi/filter.txt') as f:

@@ -139,6 +139,30 @@ def tabelgempa():
         return redirect(url_for('login'))
     
 
+@app.route('/tabelgempa/ekinerja', methods=['GET', 'POST'])
+def tabel_ekin():
+    if 'user' in session:
+        
+        if request.method == 'POST':
+            tabel = f.filter_ekin()
+            return render_template('tabel_ekin.html', data=tabel)
+            
+        else:
+            os.system('sshpass -p "bmkg212$" ssh -p2222 sysop@36.91.152.130 sh vps_server/ekin_arrival/copy_arrival.sh')
+            input.input_ekin('fungsi/arrival/ekin_arrival/ekin_arrival.txt')
+            
+            cur = mysql.connection.cursor()
+            cur.execute("SELECT * FROM db_ekin ORDER BY 2 DESC, 3 DESC LIMIT 0, 100")
+            parameter = cur.fetchall()
+            cur.close()
+
+            return render_template('tabel_ekin.html', data=parameter)
+        
+    else:
+        flash("Please, Login First !!")
+        return redirect(url_for('login'))
+    
+
 @app.route('/datapga',methods=["POST","GET"])
 def datapga():
     if 'user' in session:

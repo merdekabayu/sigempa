@@ -260,6 +260,14 @@
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="/tabelgempa/ekinerja" class="nav-link {% block mainnav_ekin %} {% endblock %}">
+              <i class="nav-icon fas fa-newspaper"></i>
+              <p>
+                Data GB - eKinerja
+              </p>
+            </a>
+          </li>
           
           
         </ul>
@@ -554,6 +562,10 @@
     $("#example11").DataTable({
       "responsive": true, "lengthChange": false, "autoWidth": true, "ordering": false, "searching": false,
     }).buttons().container().appendTo('#example11_wrapper .col-md-6:eq(0)');
+    $("#example12").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": true, "ordering": false, "searching": false,"pageLength": 20,
+      "buttons": ["copy"]
+    }).buttons().container().appendTo('#example12_wrapper .col-md-6:eq(0)');
         
   });
   

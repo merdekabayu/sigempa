@@ -1,0 +1,165 @@
+{% extends 'base.html' %}
+{% block judul %}V2.0{% endblock %}
+{% block mainpage_css %} 
+
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='dist/css/adminlte.min.css') }}">
+{% endblock %}
+{% block subjudul %} SI-GEMPA V2.0 {% endblock %}
+{% block menuopen_ig %} {% endblock %}
+{% block mainnav_ekin %} active {% endblock %}
+
+{% block content %} 
+  
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-left">
+              <li class="breadcrumb-item"><a href="/">SI-GEMPA</a></li>
+              <li class="breadcrumb-item active"><a href="{{ url_for('tabelgempa') }}">Tabel Gempabumi</a></li>
+              
+            </ol>
+          </div>
+          <div class="col-sm-6">
+            
+          </div>
+        </div>
+      </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            
+            <!-- /.card -->
+            
+
+
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Tabel Gempabumi</h3>
+                
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <form action="{{ url_for('tabel_ekin') }}" method="POST">
+                  <div class="col-lg-4">
+                    <div class="form-group row">
+                      <div class="input-group col-sm-7 mb-2">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="far fa-calendar-alt"></i>
+                          </span>
+                        </div>
+                        <input type="text" class="form-control float-right" id="reservation1" name="datefilter">
+                      </div>
+                      <div class="col-3">
+                        <div class="btn-group float-center">
+                          <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-filter"></i>
+                            <span>
+                              <strong>Filter</strong>
+                            </span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+                <table id="example12" class="table table-bordered table-striped">
+                  <thead>
+                  <tr>
+                    <!-- /.<th style="width: 10px;">No</th>-->
+                    <th style="width: 100px;">Tanggal (UTC)</th>
+                    <th style="width: 80px;">Jam (UTC)</th>
+                    <th style="width: 80px;">Lintang</th>
+                    <th style="width: 80px;">Bujur</th>
+                    <th style="width: 80px;">Kedalaman</th>
+                    <th style="width: 80px;">Magnitudo</th>
+                    <th style="width: 300px;">Keterangan</th>
+                    <th style="width: 140px;">RMS</th>
+                    <th style="width: 140px;">Az. Gap</th>
+                    <th style="width: 140px;">Phase</th>
+                    <th style="width: 140px;">Sent Time (Minutes)</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                    {% for par in data %}
+                    <tr>
+                      <!-- /.<td>1</td>-->
+                      <td>{{par.1}}</td>
+                      <td>{{par.2}}</td>
+                      <td>{{par.3}}</td>
+                      <td>{{par.4}}</td>
+                      <td>{{par.5}}</td>
+                      <td>{{par.6}}</td>
+                      <td>{{par.7}}</td>
+                      <td>{{par.8}}</td>
+                      <td>{{par.9}}</td>
+                      <td>{{par.10}}</td>
+                      <td>{{par.11}}</td>
+                      
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+{% endblock %}
+
+{% block skriptabel %} 
+
+
+
+
+
+<script>
+  $(document).ready(function() {
+      window.setTimeout(function() {
+          $(".alert").fadeTo(500, 0).slideUp(500, function(){
+              $(this).remove();
+          });
+      }, 2000);
+  });    
+</script>
+
+
+
+
+<script>
+  function copy() {
+  // Get the text field
+  var copyText = document.getElementById("infogempa");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+} 
+</script>
+
+
+
+{% endblock %}

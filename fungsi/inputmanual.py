@@ -544,6 +544,102 @@ def esdx2par(fileinput,opsi_par,info):
 
     return pesan
 
+
+
+def input_ekin(fileinput):
+    cur = mysql.connection.cursor()
+    file = open(fileinput, 'r')
+    baris = file.readlines()
+    for i in range(len(baris)):
+        baris[i] = baris[i].split()
+    file.close()
+
+    i=0
+    while i < len(baris):
+        if len(baris[i]) > 0 and baris[i][0] == 'Public':
+            id = baris[i][2]
+            ket = ' '.join(baris[i+4][2:])
+        if len(baris[i]) > 0 and baris[i][0] == 'Origin:':
+            i = i+1
+            date = baris[i + 1][1]
+            wkt = baris[i + 2][1]
+            timeutc = date + ' ' + wkt
+            print(timeutc)
+            from_zone = tz.tzutc()
+            to_zone = tz.tzlocal()
+            utc0 = datetime.strptime(timeutc[0:19], '%Y-%m-%d %H:%M:%S')
+            utc = utc0.replace(tzinfo=from_zone)
+            ot = utc.astimezone(to_zone)
+            waktu = ot.strftime("%X")
+            lintang = (('%.2f') % float(baris[i + 3][1]))
+
+            bujur = (('%.2f') % float(baris[i + 4][1]))
+            depth = ('%.0f') % float(baris[i + 5][1])
+            stime = baris[i+10][2]+' '+baris[i+10][3]
+            s_time = datetime.strptime(stime[0:19], '%Y-%m-%d %H:%M:%S')
+            selisih = s_time - utc0
+            import math
+            sent_min = math.floor(selisih.seconds/60)
+            sent_sec = round((selisih.seconds-sent_min)*60)
+            rms = ('%.2f') % float(baris[i + 11][2])
+            azgap = ('%d') % float(baris[i + 12][2])
+            sel = selisih.seconds
+            t_analisa =('%.2f') % ( sel/60)
+            
+            
+
+        if len(baris[i])>1 and baris[i][1]=='Network':
+            numag = baris[i][0]
+            print('sampee sininiiii ######??',numag)
+            m_ = 1
+            try:
+                while m_ <= float(numag):
+                    linemag = baris[i+m_]
+                    print('ini linemagggg try ###### ',m_)
+                    if 'preferred' in linemag:
+                        mag = baris[i+m_][1]
+                    m_ += 1
+                print(mag)
+            except:
+                numag = float(numag)+1
+                while m_ <= numag:
+                    linemag = baris[i+m_]
+                    print('ini linemagggg except ###### ',m_)
+                    if 'preferred' in linemag:
+                        mag = baris[i+m_][1]
+                    m_ += 1
+                print(mag)
+
+            mag = ('%.1f')%float(mag)
+
+
+        if len(baris[i])>1 and baris[i][1]=='Phase':
+            phs = baris[i][0]
+
+        try:
+            time = utc0.strftime("%X")
+            lat = lintang
+            long = bujur
+            idev = id
+            insert = (idev, date, time, lat, long, depth, mag, ket, rms,azgap,phs,t_analisa)
+            sql_insert = ("INSERT IGNORE INTO `db_ekin`(`Event ID`,`Origin Date`,`Origin Time`,"
+                            "`Latitude`,`Longitude`,`Depth`,`Magnitude`,`Remark`,`rms`,`az_gap`,`phase`,`sent_time`) VALUES " + str(insert))
+            if sel <= 300:
+                cur.execute(sql_insert)
+                pesan = 'OK'
+                print('iniiiiiii adalahhhh',pesan)
+        except:
+            print('no data')
+        i += 1
+    print(i)
+    mysql.connection.commit()
+    cur.close()
+
+
+    return 'ok'
+
+
+
 def teksinfogb(param):
     cur = mysql.connection.cursor()
     
