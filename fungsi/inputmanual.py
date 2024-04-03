@@ -617,22 +617,25 @@ def input_ekin(fileinput):
             phs = baris[i][0]
             min_dist = ('%.1f')%float(baris[i+2][2])
         
+        if len(baris[i])>1 and baris[i][1]=='Station':
+            try:
+                time = utc0.strftime("%X")
+                lat = lintang
+                long = bujur
+                idev = id
+                insert = (idev, date, time, lat, long, depth, mag, ket, rms,azgap,phs,t_analisa,lat_unc,lon_unc,d_unc,min_dist)
+                sql_insert = ("INSERT IGNORE INTO `db_ekin`(`Event ID`,`Origin Date`,`Origin Time`,"
+                                "`Latitude`,`Longitude`,`Depth`,`Magnitude`,`Remark`,`rms`,`az_gap`,`phase`,`sent_time`,`lat_unc`,`lon_unc`,`d_unc`,`min_dist`) VALUES " + str(insert))
+                if sel <= 300:
+                    cur.execute(sql_insert)
+                    mysql.connection.commit()
+                    pesan = 'OK'
+                    print('iniiiiiii adalahhhh',i)
+            except:
+                print('no data')
+        
+        
         i += 1
-        try:
-            time = utc0.strftime("%X")
-            lat = lintang
-            long = bujur
-            idev = id
-            insert = (idev, date, time, lat, long, depth, mag, ket, rms,azgap,phs,t_analisa,lat_unc,lon_unc,d_unc,min_dist)
-            sql_insert = ("INSERT IGNORE INTO `db_ekin`(`Event ID`,`Origin Date`,`Origin Time`,"
-                            "`Latitude`,`Longitude`,`Depth`,`Magnitude`,`Remark`,`rms`,`az_gap`,`phase`,`sent_time`,`lat_unc`,`lon_unc`,`d_unc`,`min_dist`) VALUES " + str(insert))
-            if sel <= 300:
-                cur.execute(sql_insert)
-                mysql.connection.commit()
-                pesan = 'OK'
-                print('iniiiiiii adalahhhh',i)
-        except:
-            print('no data')
     print(i)
     cur.close()
 
