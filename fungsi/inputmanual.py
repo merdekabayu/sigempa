@@ -571,9 +571,15 @@ def input_ekin(fileinput):
             ot = utc.astimezone(to_zone)
             waktu = ot.strftime("%X")
             lintang = (('%.2f') % float(baris[i + 3][1]))
-
+            lat_unc = (('%d') % float(baris[i + 3][4]))
             bujur = (('%.2f') % float(baris[i + 4][1]))
+            lon_unc = (('%d') % float(baris[i + 4][4]))
             depth = ('%.0f') % float(baris[i + 5][1])
+            print(len(baris[i + 5]))
+            if len(baris[i + 5]) > 4:
+                d_unc = ('%d') % float(baris[i + 5][4])
+            else:
+                d_unc = '0'
             stime = baris[i+10][2]+' '+baris[i+10][3]
             s_time = datetime.strptime(stime[0:19], '%Y-%m-%d %H:%M:%S')
             selisih = s_time - utc0
@@ -609,6 +615,7 @@ def input_ekin(fileinput):
 
         if len(baris[i])>1 and baris[i][1]=='Phase':
             phs = baris[i][0]
+            min_dist = ('%.1f')%float(baris[i+2][2])
         
         i += 1
         try:
@@ -616,14 +623,14 @@ def input_ekin(fileinput):
             lat = lintang
             long = bujur
             idev = id
-            insert = (idev, date, time, lat, long, depth, mag, ket, rms,azgap,phs,t_analisa)
+            insert = (idev, date, time, lat, long, depth, mag, ket, rms,azgap,phs,t_analisa,lat_unc,lon_unc,d_unc,min_dist)
             sql_insert = ("INSERT IGNORE INTO `db_ekin`(`Event ID`,`Origin Date`,`Origin Time`,"
-                            "`Latitude`,`Longitude`,`Depth`,`Magnitude`,`Remark`,`rms`,`az_gap`,`phase`,`sent_time`) VALUES " + str(insert))
+                            "`Latitude`,`Longitude`,`Depth`,`Magnitude`,`Remark`,`rms`,`az_gap`,`phase`,`sent_time`,`lat_unc`,`lon_unc`,`d_unc`,`min_dist`) VALUES " + str(insert))
             if sel <= 300:
                 cur.execute(sql_insert)
                 mysql.connection.commit()
                 pesan = 'OK'
-                print('iniiiiiii adalahhhh',pesan)
+                print('iniiiiiii adalahhhh',i)
         except:
             print('no data')
     print(i)
