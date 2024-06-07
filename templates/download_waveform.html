@@ -15,7 +15,7 @@
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-left">
             <li class="breadcrumb-item"><a href="/">SI-GEMPA</a></li>
-            <li class="breadcrumb-item active">Download All Waveform</li>
+            <li class="breadcrumb-item active">Download Waveform</li>
             
           </ol>
         </div>
@@ -31,7 +31,7 @@
     <div class="container-fluid">
       {% if ping == 0 %}
       <div class="row">
-        <div class="card col-12">
+        <div class="card col-6">
           <div class="card-header">
             <h3 class="card-title">Download Waveform Data</h3>
             <div class="card-tools">
@@ -46,11 +46,11 @@
           <div class="card-body">
             <form action="{{ url_for('downloadwaveform') }}" method="POST">
               <div class="row">
-                <div class="col-4">
+                <div class="col-lg-12">
                   <div class="row">
                     <label class="col-12" style="text-align: center;">Waktu (UTC)</label>
                   </div>
-                  <div class="row">
+                  <div class="form-group row">
                     <div class="input-group date col-lg-5 col-12 pl-0"  id="waveformdate" data-target-input="nearest">
                         <input value="{{date.0}}" type="text" class="form-control datetimepicker-input" placeholder="yyyy-mm-dd" name="date1" data-target="#waveformdate"/>
                         <div class="input-group-append" data-target="#waveformdate" data-toggle="datetimepicker" >
@@ -64,8 +64,33 @@
                           <div class="input-group-text"><i class="fa fa-calendar"></i></div>
                       </div>
                     </div>
-                    
                   </div>
+                  
+                  <div class="form-group row">
+                    <label class="col-4" for="Input">Channel</label>
+                    <div class="col-7 ml-1">
+                      <input class="form-control" id="Input" name="network" placeholder="IA" />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-4" for="Input">Location</label>
+                    <div class="col-7 ml-1">
+                      <input class="form-control" id="Input" name="location" placeholder="00" />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-4" for="Input">Channel</label>
+                    <div class="col-7 ml-1">
+                      <input class="form-control" id="Input" name="channel" placeholder="BH?,SH*" />
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-4" for="Input">Station List</label>
+                    <div class="col-7 ml-1">
+                      <textarea class="form-control" rows="3" name="fromstalist" value="" placeholder="ex : GTOI,MRSI,SMSI,TGCM, TNTI,MNI,TBMCM | * for all station"></textarea>
+                    </div>
+                  </div>
+
                   <div class="row">
                     <div class="col-lg-5 float-right">
                       <label for="Input"></label>

@@ -285,6 +285,35 @@ def waveformplot(sta):
 
     return "ok"
 
+def waveform_fdsn():
+    date1 = request.form['date1']
+    date2 = request.form['date2']
+    date1 = datetime.strptime(date1, '%d-%m-%Y %H:%M:%S')
+    date2 = datetime.strptime(date2, '%d-%m-%Y %H:%M:%S')
+    time1 = UTCDateTime(date1)
+    time2 = UTCDateTime(date2)
+    net = request.form['network']
+    loc = request.form['location']
+    chn = request.form['channel']
+    stations = request.form['fromstalist']
+    fout = 'fungsi/waveform/'+date1.strftime('%Y%m%d%H%M%S')+'_'+date2.strftime('%Y%m%d%H%M%S')+'.mseed'
+    if net =='':
+        net = '*'
+    if loc =='':
+        loc = '*'
+    if chn =='':
+        chn = '*'
+    if stations == '':
+        stations = '*'
+    print('########',net,loc,chn)
+    download_waveform(time1,time2,stations,fout,net,loc,chn)
+    return fout
+
+def download_waveform(time1,time2,sta,fout,network,location,channel):
+    client = Client('http://36.91.152.130:8081/', user='sctnt', password='ternate97432')
+     
+    st = client.get_waveforms(network,sta, location, channel, time1, time2)
+    st.write(fout, format='MSEED', encoding='STEIM1')
 
 def allwaveform():
     date1 = request.form['date1']

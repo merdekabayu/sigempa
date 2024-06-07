@@ -688,7 +688,7 @@ def arrival_download():
         format = request.form['format_arrival']
         source = request.form['data_source']
 
-        resptnt = os.system('ping -c 1 scproc')
+        resptnt = os.system('ping -c 1 36.91.152.130')
         resppst=os.system("sshpass -p 'bmkg212$' ssh -t -p2222 sysop@36.91.152.130 ping -c 1 172.19.3.51")
         print('disini respon',resppst,resptnt)
         if source == 'SPK':
@@ -733,7 +733,7 @@ def arrival_download():
 
 @app.route('/sensor/quality', methods=["POST","GET"])
 def sensor_qual():
-    resptnt = os.system('ping -c 1 scproc')
+    resptnt = os.system('ping -c 1 36.91.152.130')
     print(resptnt)
     if resptnt == 0:
         if request.method == 'GET':
@@ -772,7 +772,7 @@ def sensor_qual():
 @app.route('/sensor/status', methods=["POST","GET"])
 def sensor_stat():
     
-    resptnt = os.system('ping -c 1 scproc')
+    resptnt = os.system('ping -c 1 36.91.152.130')
     if resptnt == 0:
         print('ini sensor/status')
         data = slinktool()
@@ -825,7 +825,7 @@ def sensor_stat():
 @app.route('/sensor/slinktable', methods=["POST","GET"])
 def tabel_slink():
     
-    resptnt = os.system('ping -c 1 scproc')
+    resptnt = os.system('ping -c 1 36.91.152.130')
     if resptnt == 0:
         data = slinktool()
         last_data = data[0]
@@ -842,7 +842,7 @@ def tabel_slink():
 @app.route('/sensor/allwaveform', methods=["POST","GET"])
 def downloadwaveform():
     if 'user' in session:
-        resptnt = os.system('ping -c 1 scproc')
+        resptnt = os.system('ping -c 1 36.91.152.130')
         if resptnt == 0:
             if request.method == 'GET':
                 today = datetime.today()
@@ -850,13 +850,22 @@ def downloadwaveform():
 
                 return render_template('download_waveform.html', ping=resptnt, date = [today,today])
             else:
-                try:
-                    allwaveform()
-                    return send_file('fungsi/waveform/waveform.mseed', as_attachment=True, attachment_filename='waveform.mseed')
-                except:
-                    today = datetime.today()
-                    today = today.strftime('%d-%m-%Y %H:%M:%S')
-                    return render_template('download_waveform.html',ping=resptnt, date = [today,today])
+
+                # try:
+                fout = waveform_fdsn()
+                return send_file(fout, as_attachment=True, conditional=True, download_name=fout.split('/')[2])
+                # except:
+                    # today = datetime.today()
+                    # today = today.strftime('%d-%m-%Y %H:%M:%S')
+                    # return render_template('download_waveform.html',ping=resptnt, date = [today,today])
+
+                # try:
+                #     allwaveform()
+                #     return send_file('fungsi/waveform/waveform.mseed', as_attachment=True, attachment_filename='waveform.mseed')
+                # except:
+                #     today = datetime.today()
+                #     today = today.strftime('%d-%m-%Y %H:%M:%S')
+                #     return render_template('download_waveform.html',ping=resptnt, date = [today,today])
         else:
             return render_template('download_waveform.html',ping=resptnt)
 
@@ -868,7 +877,7 @@ def downloadwaveform():
 @app.route('/sensor/waveformbyevent', methods=["POST","GET"])
 def waveformbyevent():
     if 'user' in session:
-        resptnt = os.system('ping -c 1 scproc')
+        resptnt = os.system('ping -c 1 36.91.152.130')
         if resptnt == 0:
             if request.method == 'GET':
                 cur = mysql.connection.cursor()
